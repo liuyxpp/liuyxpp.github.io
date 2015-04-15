@@ -52,6 +52,7 @@ permalink:   /:year/:month/:title  #/:categories/:title/
 paginate: 5
 
 kramdown:
+  input: GFM
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
