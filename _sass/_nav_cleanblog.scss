@@ -1,4 +1,11 @@
 // Navigation by Clean Blog
+
+// fix Bootstrap margin-left: -15px for site title
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+    margin-left: -8px;
+    height: 46px;
+}
+
 .navbar-custom {
 	background: white;
 	position: absolute;
@@ -9,6 +16,7 @@
 	//.sans-serif;
     font-family: $heading-font;
 	.navbar-brand {
+        font-family: $site-title-font;
         font-size: 24px;
 		font-weight: 800;
 	}
@@ -26,12 +34,30 @@
 		background: transparent;
 		border-bottom: 1px solid transparent;
 		.navbar-brand {
-			color: $nav-brand-color;
-			padding: 20px;
+			//color: $nav-brand-color;
+			//padding: 20px;
 			&:hover,
 			&:focus {
 				color: $nav-brand-faded;
 			}
+            color: #FFF;
+            background: linear-gradient(#B72F47, #A61E36) repeat scroll 0% 0% transparent;
+            font-weight: 700;
+            //font-size: 85%;
+            //text-transform: uppercase;
+            line-height: 1.0em;
+            //padding: 0.0em 0.4em;
+            margin: 5px;
+            padding-left: 8px;
+            padding-right: 8px;
+            padding-bottom: 0px;
+            padding-top: 12px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            top: 0px;
+            letter-spacing: 0px;
+            text-shadow: 0 2px 0 #A00;
+            box-shadow: 0px 3px 4px -1px rgba(0, 0, 0, 0.67);
 		}
 		.nav {
 			li {
@@ -62,8 +88,8 @@
 			/* when the user scrolls down, we hide the header right above the viewport */
 			position: fixed;
 			top: -61px;
-			background-color: rgba(white, 0.9);
-			border-bottom: 1px solid darken(white, 5%);
+			background-color: $nav-bgcolor;
+			border-bottom: 1px solid darken(white, 10%);
 			-webkit-transition: -webkit-transform 0.3s;
 			-moz-transition: -moz-transform 0.3s;
 			transition: transform 0.3s;

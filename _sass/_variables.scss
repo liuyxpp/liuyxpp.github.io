@@ -6,6 +6,7 @@ $heading-font: 'Lato', 'Open Sans', 'Helvetica Neue', Helvetica, Calibri, Arial,
 $caption-font: 'Lato', 'Open Sans', 'Helvetica Neue', Helvetica, Calibri, Arial, sans-serif;
 $code-font: "Monaco","Inconsolata","DejaVu Sans Mono","Andale Mono WT","Andale Mono","Courier New",Courier,monospace;
 $alt-font: serif;
+$site-title-font: 'Viga', $heading-font;
 
 $doc-font-size: 16;
 $doc-line-height: 26;
@@ -58,14 +59,15 @@ $warning:       $sun-flower;
 $danger	:       $alizarin;
 $info:          $peter-river;
 
-$nav-brand-color:       $success;
+$nav-brand-color:       $white;
 $nav-brand-faded:       rgba($nav-brand-color, 0.6);
-$nav-brand-fix-color:   $success;
+$nav-brand-fix-color:   $white;
 $nav-brand-fix-faded:   rgba($nav-brand-fix-color, 0.6);
 $nav-color:             $white;
 $nav-faded:             rgba($nav-color, 0.7);
 $nav-fix-color:         $primary;
 $nav-fix-faded:         rgba($nav-fix-color, 0.7);
+$nav-bgcolor:           rgba($white, 0.8);
 
 // Screen Size
 // --------------------------------------------------

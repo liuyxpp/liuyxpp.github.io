@@ -9,6 +9,7 @@ body {
 // --------------------------------------------------
 h1, h2, h3, h4, h5, h6 {
 	font-family: $heading-font;
+    font-weight: 700;
 }
 h1 {
 	@include font-rem(28);
@@ -19,22 +20,22 @@ h1 {
 
 // Links
 // --------------------------------------------------
-a { 
+a {
 	text-decoration: none;
-	color: $link-color; 
-	&:visited { 
-		color: lighten($link-color, 20); 
+	color: $link-color;
+	&:visited {
+		color: lighten($link-color, 20);
 	}
-	&:hover { 
-		color: darken($link-color, 20); 
+	&:hover {
+		//color: darken($link-color, 20);
 	}
-	&:focus { 
-		outline: thin dotted; 
-		color: darken($link-color, 20);
+	&:focus {
+		outline: thin dotted;
+		//color: darken($link-color, 20);
 	}
-	&:hover, 
-	&:active { 
-		outline: 0; 
+	&:hover,
+	&:active {
+		outline: 0;
 	}
 }
 
@@ -97,7 +98,7 @@ tt, code, kbd, samp, pre {
 	font-family: $code-font;
 }
 p,
-li { 
+li {
 	code {
 		@include font-rem(12);
 		line-height: 1.5;
@@ -110,11 +111,11 @@ li {
 	}
 }
 pre {
-	@include font-rem(12);
+	@include font-rem($doc-font-size*0.9);
 	line-height: 1.5;
 	overflow-x: auto;
 	&::-webkit-scrollbar {
-		height: 12px;
+		height: $doc-font-size*0.8;
 		background-color: #34362e;
 		border-radius: 0 0 4px 4px;
 	}

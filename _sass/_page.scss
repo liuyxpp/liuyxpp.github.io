@@ -39,13 +39,13 @@ body {
 	h1 {
 		margin: 10px 20px;
 		font-weight: 700;
-		@include font-rem(32);
-		color: lighten($base-color,20);
+		@include font-rem(24);
+		color: $secondary; //lighten($base-color,20);
 		@media #{$medium} {
-			@include font-rem(48);
+			@include font-rem(36);
 		}
 		@media #{$large} {
-			@include font-rem(60);
+			@include font-rem(45);
 		}
 	}
 	h2 {
@@ -103,9 +103,9 @@ body {
 }
 .entry-image {
 	position: relative;
-	top: -50%; 
-	left: -50%; 
-	width: 200%; 
+	top: -50%;
+	left: -50%;
+	width: 200%;
 	height: 200%;
 	min-height: 400px;
 	overflow: hidden;
@@ -119,12 +119,12 @@ body {
 		background-color: rgba($base-color,0.3);
 	}
 	img {
-		position: absolute; 
-		top: 0; 
-		left: 0; 
-		right: 0; 
-		bottom: 0; 
-		margin: auto; 
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
 		min-width: 50%;
 		min-height: 400px; // match .entry-image min-height
 	}
@@ -314,7 +314,7 @@ header .entry-meta {
 	h3 {
 		margin: 0;
 		@include font-rem(28);
-		a { 
+		a {
 			color: $text-color;
 		}
 		@media #{$medium} {
@@ -328,11 +328,11 @@ header .entry-meta {
 .list-item {
 	width: 100%;
 	text-align: left;
-	h4 { 
+	h4 {
 		@include font-rem(18);
-		margin-bottom: 0; 
+		margin-bottom: 0;
 	}
-	span { 
+	span {
 		display: block;
 		@include font-rem(14);
 		color: lighten($base-color,50);
@@ -346,7 +346,7 @@ header .entry-meta {
 	}
 }
 
-// Post Index 
+// Post Index
 // --------------------------------------------------
 #post-index {
 	#main {
@@ -415,7 +415,7 @@ header .entry-meta {
 // --------------------------------------------------
 .socialcount {
 	@include font-rem(16);
-	li { 
+	li {
 		padding-left: 10px;
 		padding-right: 10px;
 	}

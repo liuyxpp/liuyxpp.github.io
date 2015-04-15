@@ -12,32 +12,32 @@ We will verify the [PolyFTS] calculation by comparing to the [Polyorder] results
 
 ### 1.1 Common Settings
 
-```yaml
+{% highlight yaml linenos %}
 f:          0.4
 phi_h:      0.3
 xN:         18
 Lx:         64
 ds:         0.01
 stop_tol:   1e-8
-```
+{% endhighlight %}
 
 ### 1.2 Polyorder Settings
 
-```yaml
+{% highlight yaml linenos %}
 MDE solver:             ETDRK4
 SCFT updater:           Anderson mixing
 seed:                   file
 Cell size optimization: Brent
-```
+{% endhighlight %}
 
 ### 1.3 PolyFTS Settings
 
-```yaml
+{% highlight yaml linenos %}
 MDE solver:             ROS
 SCFT updater:           SIS
 seed:                   random numbers or file (for HEX)
 Cell size optimization: variable cell
-```
+{% endhighlight %}
 
 ## 2 DIS
 
@@ -92,9 +92,12 @@ PolyFTS + smear         | 4.621005  | 4.3556394360  | 6.28
 
 Software   | A                          | B
 :---------:|:--------------------------:|:-----------------:
-PolyFTS without symmetrizer  | ![]({{ site.url }}/images/20150414/fix-minorA-density1.png){:width=168px}  | ![]({{ site.url }}/images/20150414/fix-minorA-density2.png){:width=168px}
+PolyFTS without symmetrizer  | ![image1]    | ![]({{ site.url }}/images/20150414/fix-minorA-density2.png){:width=168px}
 PolyFTS with symmetrizer  | ![]({{ site.url }}/images/20150414/fix-sym-minorA-density1.png){:width=112px}  | ![]({{ site.url }}/images/20150414/fix-sym-minorA-density2.png){:width=112px}
 PolyFTS with smearing  | ![]({{ site.url }}/images/20150414/smear-fix-sym-minorA-density1.png){:width=112px}  | ![]({{ site.url }}/images/20150414/smear-fix-sym-minorA-density2.png){:width=112px}
+
+[image1]: {{ site.url }}/images/20150414/fix-minorA-density1.png
+{:width="168px"}
 
 ### 4.2 Cell Size Optimization
 
