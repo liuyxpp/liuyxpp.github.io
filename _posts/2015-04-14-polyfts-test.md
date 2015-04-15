@@ -3,7 +3,9 @@ layout: post
 title: Test PolyFTS with Polyorder
 author: Yi-Xin Liu
 create: 2015-04-10
-revision: 2015-04-14
+modified: 2015-04-14
+image:
+    feature: abstract-5.jpg
 ---
 
 We will verify the [PolyFTS] calculation by comparing to the [Polyorder] results. The SCFT model we will test is miktoarm star block copolymer and homopolymer blends (AB3 + A). The density is not smeared in both [PolyFTS] and [Polyorder].
@@ -92,12 +94,9 @@ PolyFTS + smear         | 4.621005  | 4.3556394360  | 6.28
 
 Software   | A                          | B
 :---------:|:--------------------------:|:-----------------:
-PolyFTS without symmetrizer  | ![image1]    | ![]({{ site.url }}/images/20150414/fix-minorA-density2.png){:width=168px}
-PolyFTS with symmetrizer  | ![]({{ site.url }}/images/20150414/fix-sym-minorA-density1.png){:width=112px}  | ![]({{ site.url }}/images/20150414/fix-sym-minorA-density2.png){:width=112px}
-PolyFTS with smearing  | ![]({{ site.url }}/images/20150414/smear-fix-sym-minorA-density1.png){:width=112px}  | ![]({{ site.url }}/images/20150414/smear-fix-sym-minorA-density2.png){:width=112px}
-
-[image1]: {{ site.url }}/images/20150414/fix-minorA-density1.png
-{:width="168px"}
+PolyFTS without symmetrizer  | <img src="{{ site.url }}/images/20150414/fix-minorA-density1.png" alt="" width="168px">   | <img src="{{ site.url }}/images/20150414/fix-minorA-density2.png" alt="" width="168px">
+PolyFTS with symmetrizer  | <img src="{{ site.url }}/images/20150414/fix-sym-minorA-density1.png" alt="" width="112px">  | <img src="{{ site.url }}/images/20150414/fix-sym-minorA-density2.png" alt="" width="112px">
+PolyFTS with smearing  | <img src="{{ site.url }}/images/20150414/smear-fix-sym-minorA-density1.png" alt="" width="112px">  | <img src="{{ site.url }}/images/20150414/smear-fix-sym-minorA-density2.png" alt="" width="112px">
 
 ### 4.2 Cell Size Optimization
 
@@ -118,9 +117,9 @@ PolyFTS + smear         | 4.949710  | 4.3534538770  | 1182.66
 
 Software   | A                          | B
 :---------:|:--------------------------:|:-----------------:
-PolyFTS without symmetrizer  | ![]({{ site.url }}/images/20150414/vc-minorA-density1.png){:width=168px}  | ![]({{ site.url }}/images/20150414/vc-minorA-density2.png){:width=168px}
-PolyFTS with symmetrizer  | ![]({{ site.url }}/images/20150414/vc-sym-minorA-density1.png){:width=112px}  | ![]({{ site.url }}/images/20150414/vc-sym-minorA-density2.png){:width=112px}
-PolyFTS with smearing  | ![]({{ site.url }}/images/20150414/smear-vc-sym-minorA-density1.png){:width=112px}  | ![]({{ site.url }}/images/20150414/smear-vc-sym-minorA-density2.png){:width=112px}
+PolyFTS without symmetrizer  | <img src="{{ site.url }}/images/20150414/vc-minorA-density1.png" alt="" width="168px">  | <img src="{{ site.url }}/images/20150414/vc-minorA-density2.png" alt="" width="168px">
+PolyFTS with symmetrizer  | <img src="{{ site.url }}/images/20150414/vc-sym-minorA-density1.png" alt="" width="112px">  | <img src="{{ site.url }}/images/20150414/vc-sym-minorA-density2.png" alt="" width="112px">
+PolyFTS with smearing  | <img src="{{ site.url }}/images/20150414/smear-vc-sym-minorA-density1.png" alt="" width="112px">  | <img src="{{ site.url }}/images/20150414/smear-vc-sym-minorA-density2.png" alt="" width="112px">
 
 ### 4.3 Discussion
 

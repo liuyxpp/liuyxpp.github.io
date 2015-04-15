@@ -4,8 +4,8 @@ disqus_shortname: ngpy
 reading_time:     true
 words_per_minute: 200
 url:                    # blank for local preview
-#url: http://ngpy.org   # for production
-header-img: images/about-bg.jpg
+#url: htpp://liuyxpp.github.io  # http://ngpy.org   # for production
+header-img: images/homepage.jpg
 
 # Owner/author information
 owner:
@@ -23,7 +23,7 @@ owner:
   flickr:
   tumblr:
   # google plus id, include the '+', eg +mmistakes
-  google_plus:    +liuyxpp
+  google_plus:
 
 # Background image to be tiled on all pages
 background:
@@ -50,6 +50,7 @@ permalink:   /:year/:month/:title  #/:categories/:title/
 
 # Amount of post to show on home page
 paginate: 5
+paginate_path: "blog/page:num/"
 
 kramdown:
   input: GFM

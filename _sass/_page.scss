@@ -26,6 +26,14 @@ body {
 	}
 }
 
+.entry-title {
+    a {
+        &:visited {
+            color: $link-color;
+        }
+    }
+}
+
 // Entry Header
 // --------------------------------------------------
 .entry-header {
@@ -255,6 +263,7 @@ header .entry-meta {
 }
 // Post Pagination Module
 .pagination {
+    display: block;
 	margin: 20px 10px;
 	text-align: center;
 	ul {
@@ -403,7 +412,7 @@ header .entry-meta {
 // --------------------------------------------------
 .footer-wrapper {
 	@include clearfix;
-	margin: 2em auto;
+	margin: 1em auto;
 	text-align: center;
 	color: lighten($text-color,20);
 	a {

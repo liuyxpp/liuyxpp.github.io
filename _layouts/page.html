@@ -11,18 +11,21 @@
 
 {% include browser-upgrade.html %}
 {% include nav_cleanblog.html %}
-
+{% include header.html %}
+<!--
 {% if page.image.feature %}
 <div class="entry-header">
-  {% if page.image.credit %}<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
+  {% if page.image.credit %}<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div>{% endif %}
   <div class="entry-image">
     <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
-  </div><!-- /.entry-image -->
-</div><!-- /.entry-header -->
+  </div>
+</div>
 {% endif %}
+-->
 
 <div id="main" role="main">
   <article class="hentry">
+    <!--
     <header class="header-title">
       <div class="header-title-wrap">
         <h1 class="entry-title">{{ page.title }}</h1>
@@ -31,10 +34,11 @@
           <i class="fa fa-clock-o"></i>
           {% assign readtime = content | number_of_words | divided_by:site.words_per_minute %}
           Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}
-        </p><!-- /.entry-reading-time -->
+        </p>
         {% endif %}
-      </div><!-- /.header-title-wrap -->
+      </div>
     </header>
+    -->
     <div class="entry-content">
       {{ content }}
       <footer class="entry-meta">
@@ -48,9 +52,7 @@
 </div><!-- /#main -->
 
 <div class="footer-wrapper">
-  <footer role="contentinfo">
     {% include footer.html %}
-  </footer>
 </div><!-- /.footer-wrapper -->
 
 {% include scripts.html %}
