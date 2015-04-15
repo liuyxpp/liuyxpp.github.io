@@ -1,16 +1,17 @@
-title:            Dr. Yi-Xin Liu at Fudan University
-description:      "This is the academic homepage of Dr. Yi-Xin Liu, who is a lecturer and researcher working in the field of polymer physics at Fudan University."
+title:            Yi-Xin LIU
+description:      "Dr. Yi-Xin Liu is a lecturer and researcher working in the field of polymer physics at Fudan University. He currently is working at MRL@UCSB as a visiting researcher."
 disqus_shortname: ngpy.org
 reading_time:     true
 words_per_minute: 200
 url:                    # blank for local preview
 #url: http://ngpy.org   # for production
+header-img: images/about-bg.jpg
 
 # Owner/author information
 owner:
   name:           Yi-Xin Liu
   avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
+  bio:            "Dr. Yi-Xin Liu is a lecturer and researcher working in the field of polymer physics at Fudan University. He currently is also working at MRL@UC Santa Barbara as a visiting researcher."
   email:          lyx@fudan.edu.cn
   # Social networking links used in footer. Update and remove as you like.
   twitter: lyxfudan
@@ -28,7 +29,7 @@ owner:
 background:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:
+google_analytics: liuyxpp
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:

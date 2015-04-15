@@ -33,14 +33,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- For all browsers -->
+<!-- Bootstrap Core CSS -->
+<link rel="stylesheet" href="{{ site.url }}/assets/css/bootstrap.min.css">
+<!-- Clean Blog CSS -->
+<link rel="stylesheet" href="{{ site.url }}/assets/css/clean-blog.css">
+<!-- HPSTR main CSS -->
 <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
-<!-- Webfonts -->
-<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
 
 <meta http-equiv="cleartype" content="on">
 
 <!-- Load Modernizr -->
 <script src="{{ site.url }}/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Custom Fonts -->
+<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
 <!-- Icons -->
 <!-- 16x16 -->
@@ -61,3 +70,10 @@
 {% unless background contains 'http://' or background contains 'https://' %}{% capture background %}{{ site.url }}/images/{{ background }}{% endcapture %}{% endunless %}
 <style type="text/css">body {background-image:url({{ background }});}</style>
 {% endif %}
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->

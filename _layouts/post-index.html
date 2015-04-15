@@ -7,25 +7,25 @@
 {% include head.html %}
 </head>
 
-<body id="post-index" {% if page.image.feature %}class="feature"{% endif %}>
+<body id="post-index">
 
 {% include browser-upgrade.html %}
-{% include navigation.html %}
 
-<div class="entry-header">
-  {% if page.image.credit %}<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
-  {% if page.image.feature %}
-    <div class="entry-image">
-      <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
-    </div><!-- /.entry-image -->
-  {% endif %}
-  <div class="header-title">
-    <div class="header-title-wrap">
-      <h1>{{ site.title }}</h1>
-      <h2>{{ page.title }}</h2>
-    </div><!-- /.header-title-wrap -->
-  </div><!-- /.header-title -->
-</div><!-- /.entry-header -->
+{% include nav_cleanblog.html %}
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ site.url }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading">
+                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                    <hr class="small">
+                    <span class="subheading">{{ page.description }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 
 <div id="main" role="main">
   {{ content }}
@@ -37,7 +37,7 @@
   </footer>
 </div><!-- /.footer-wrapper -->
 
-{% include scripts.html %}          
+{% include scripts.html %}
 
 </body>
 </html>

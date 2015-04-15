@@ -1,0 +1,98 @@
+// Navigation by Clean Blog
+.navbar-custom {
+	background: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 3;
+	//.sans-serif;
+    font-family: $heading-font;
+	.navbar-brand {
+        font-size: 24px;
+		font-weight: 800;
+	}
+	.nav {
+		li {
+			a {
+				text-transform: uppercase;
+				font-size: 14px;
+				font-weight: 800;
+				letter-spacing: 1px;
+			}
+		}
+	}
+	@media only screen and (min-width: 768px) {
+		background: transparent;
+		border-bottom: 1px solid transparent;
+		.navbar-brand {
+			color: $nav-brand-color;
+			padding: 20px;
+			&:hover,
+			&:focus {
+				color: $nav-brand-faded;
+			}
+		}
+		.nav {
+			li {
+				a {
+					color: $nav-color;
+					padding: 20px;
+					&:hover,
+					&:focus {
+						color: $nav-faded;
+					}
+				}
+			}
+		}
+	}
+	@media only screen and (min-width: 1170px) {
+		-webkit-transition: background-color 0.3s;
+		-moz-transition: background-color 0.3s;
+		transition: background-color 0.3s;
+		/* Force Hardware Acceleration in WebKit */
+		-webkit-transform: translate3d(0, 0, 0);
+		-moz-transform: translate3d(0, 0, 0);
+		-ms-transform: translate3d(0, 0, 0);
+		-o-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+		&.is-fixed {
+			/* when the user scrolls down, we hide the header right above the viewport */
+			position: fixed;
+			top: -61px;
+			background-color: rgba(white, 0.9);
+			border-bottom: 1px solid darken(white, 5%);
+			-webkit-transition: -webkit-transform 0.3s;
+			-moz-transition: -moz-transform 0.3s;
+			transition: transform 0.3s;
+			.navbar-brand {
+				color: $nav-brand-fix-color;
+				&:hover,
+				&:focus {
+					color: $nav-brand-fix-faded;
+				}
+			}
+			.nav {
+				li {
+					a {
+						color: $nav-fix-color;
+						&:hover,
+						&:focus {
+							color: $nav-fix-faded;
+						}
+					}
+				}
+			}
+		}
+		&.is-visible {
+			/* if the user changes the scrolling direction, we show the header */
+			-webkit-transform: translate3d(0, 100%, 0);
+			-moz-transform: translate3d(0, 100%, 0);
+			-ms-transform: translate3d(0, 100%, 0);
+			-o-transform: translate3d(0, 100%, 0);
+			transform: translate3d(0, 100%, 0);
+		}
+	}
+}

@@ -1,10 +1,10 @@
 // Typography
 // --------------------------------------------------
 
-$base-font: 'Lato', Calibri, Arial, sans-serif;
-$heading-font: $base-font;
-$caption-font: $base-font;
-$code-font: monospace;
+$base-font: 'Lora', 'Times New Roman', serif;
+$heading-font: 'Lato', 'Open Sans', 'Helvetica Neue', Helvetica, Calibri, Arial, sans-serif;
+$caption-font: 'Lato', 'Open Sans', 'Helvetica Neue', Helvetica, Calibri, Arial, sans-serif;
+$code-font: "Monaco","Inconsolata","DejaVu Sans Mono","Andale Mono WT","Andale Mono","Courier New",Courier,monospace;
 $alt-font: serif;
 
 $doc-font-size: 16;
@@ -57,6 +57,15 @@ $success:       $emerald;
 $warning:       $sun-flower;
 $danger	:       $alizarin;
 $info:          $peter-river;
+
+$nav-brand-color:       $success;
+$nav-brand-faded:       rgba($nav-brand-color, 0.6);
+$nav-brand-fix-color:   $success;
+$nav-brand-fix-faded:   rgba($nav-brand-fix-color, 0.6);
+$nav-color:             $white;
+$nav-faded:             rgba($nav-color, 0.7);
+$nav-fix-color:         $primary;
+$nav-fix-faded:         rgba($nav-fix-color, 0.7);
 
 // Screen Size
 // --------------------------------------------------
