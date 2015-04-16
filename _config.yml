@@ -4,7 +4,7 @@ disqus_shortname: ngpy
 reading_time:     true
 words_per_minute: 200
 #url:                    # blank for local preview
-url: http://liuyxpp.github.io  # http://ngpy.org   # for production
+url: http://ngpy.org   # for production
 header-img: images/homepage.jpg
 
 # Owner/author information
