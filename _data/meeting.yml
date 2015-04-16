@@ -1,0 +1,97 @@
+# Yi-Xin Liu's Publications - Meetigns, Workshops, Proceedings, Talks
+
+- title: 'Density Functional Model for Fluctuating Polymer Solutions'
+  year: 2015
+  author:
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  - given: Kris T.
+    given_initial: K. T.
+    family: Delaney
+  - given: Glenn H.
+    given_initial: G. H.
+    family: Fredrickson
+  source: 'Complex Fluid Design Consortium (CFDC) Annual Meeting'
+  city: 'Santa Barbara, CA, USA'
+
+- title: 'Polymer Self-Consistent Field Theory in Bulk and under Confinement'
+  year: 2014
+  author:
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  source: 'ASML'
+  city: 'San Jose, CA, USA'
+  fulltext: asml2014.pdf
+
+- title: 'Exponential Time Differencing Methods for Numerical Self-Consistent Field Theory'
+  year: 2014
+  author:
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  - given: Hong-Dong
+    given_initial: H. D.
+    family: Zhang
+  source: 'APS March Meeting'
+  city: 'Denver, CO, USA'
+  fulltext: denver2014.pdf
+
+- title: 'Logarithmic-Normal Size Distribution in Crystallization of Polymeric Ultrathin Films Preceded by A Metastable Phase'
+  year: 2012
+  author:
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  source: 'The 10th International Symposium on Polymer Physics'
+  city: 'Chengdu, China'
+
+- title: 'A Unified Computing Framework for Self-Consistent Field Theory: Applications in Charged Polymers'
+  year: 2012
+  author:
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  - given: Hong-Dong
+    given_initial: H. D.
+    family: Zhang
+  source: 'Theory and Simulation on the Structure and Property of Macromolecular Systems Symposium'
+  city: 'Nanjing, China'
+  fulltext: nanjing2012.pdf
+
+- title: 'Phase Selection in Crystal Monolayer of Low Molecular Weight Poly(Ethylene Oxide) On Mica Surface'
+  year: 2008
+  author:
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  - given: Dun-Shen
+    given_initial: D. S.
+    family: Zhu
+  - given: Er-Qiang
+    given_initial: E. Q.
+    family: Chen
+  source: 'The 8th International Symposium on Polymer Physics'
+  city: 'Xiamen, China'
+  fulltext: xiamen2008.pdf
+
+- title: 'Isothermal Thickening of PEO Lamellar Crystals On Mica Surface'
+  year: 2007
+  author:
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  - given: Er-Qiang
+    given_initial: E. Q.
+    family: Chen
+  source: 'Polymer Symposium of China'
+  city: 'Chengdu, China'
+  fulltext: chengdu2007.pdf

@@ -1,0 +1,39 @@
+# Yi-Xin Liu's Publications - Thesis
+
+- id: Liu2012x
+  title: 'Microphase Separation of Weakly Charged Polymers and Phase Transition Kinetics of Lamellar Crystal Monolayers'
+  page: 139
+  year: 2012
+  advisor:
+  - given: Hong-Dong
+    given_initial: H. D.
+    family: Zhang
+    role: Supervisor
+  author:
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  publisher: Fudan University
+  city: 'Shanghai, China'
+  source: Postdoctoral Research Report
+  fulltext: 'doctor2009.pdf'
+
+- id: Liu2009a
+  title: 'Phase Selection Pathways and Morphological evolution in Polymer Crystallization: An Experimental and Theoretical Study on Low Molecular Weight Poly(ethylene oxide) Fractions'
+  page: 221
+  year: 2009
+  advisor:
+  - given: Er-Qiang
+    given_initial: E. Q.
+    family: Chen
+    role: Advisor
+  author:
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  publisher: Peking University
+  city: 'Beijing, China'
+  source: Doctoral Disertation
+  fulltext: 'postdoc2012.pdf'

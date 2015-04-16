@@ -1,7 +1,19 @@
 # Menu navigation links
 
-- title: Theme Setup
-  url: /theme-setup/
+- title:    Home
+  url:      /
 
-- title: External Link
-  url: http://mademistakes.com
+- title:    Research
+  url:      /research/
+
+- title:    Publications
+  url:      /publications/
+
+- title:    Software
+  url:      /software/
+
+- title:    Blog
+  url:      /blog/
+
+- title:    About
+  url:      /about/

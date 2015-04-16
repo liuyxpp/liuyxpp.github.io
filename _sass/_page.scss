@@ -418,6 +418,9 @@ header .entry-meta {
 	color: lighten($text-color,20);
 	a {
 		color: lighten($text-color,20);
+        &:hover {
+            color: $danger;
+        }
 	}
 }
 

@@ -1,0 +1,441 @@
+# Yi-Xin Liu's Publications - Journal articles
+
+- title: 'On the Teaching of Modern Polymer Physics: I. Ginzburg Criterion'
+  volume: '1'
+  page: '73-79'
+  year: 2015
+  author:
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: 'main corr'
+  - given: Hong-Dong
+    given_initial: H. D.
+    family: Zhang
+  journal:
+    fullname: Polymer Bulletin
+    abbreviation: Polymer Bulletin
+  URL: "http://www.gfztb.com/oa/darticle.aspx?type=view&id=20150113"
+  type: article
+  DOI: 10.14028/j.cnki.1003-3726.2015.01.013
+  language: chinese
+
+- title: 'Exponential time differencing methods with Chebyshev collocation for polymers confined by interacting surfaces'
+  volume: '140'
+  issue: '22'
+  page: '224101'
+  year: 2014
+  author:
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: 'main corr'
+  - given: Hong-Dong
+    given_initial: H. D.
+    family: Zhang
+  journal:
+    abbreviation: J. Chem. Phys.
+  URL: http://dx.doi.org/10.1063/1.4881516
+  type: article
+  DOI: http://dx.doi.org/10.1063/1.4881516
+  fulltext: jcp201401.pdf
+  language: english
+
+- title: 'Phase Selection Pathways in Ultrathin Film Crystallization of a Low Molecular Weight Poly(ethylene oxide) Fraction on Mica Surfaces'
+  ISSN: '0024-9297'
+  issue: '22'
+  page: '8819-8828'
+  volume: '44'
+  year: 2011
+  month: 11
+  author:
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  - given: Lu Wei
+    given_initial: L. W.
+    family: Zhong
+  - given: Shi Zhao
+    given_initial: S. Z.
+    family: Su
+  - given: Er-Qiang
+    given_initial: E. Q.
+    family: Chen
+    role: corr
+  journal:
+    fullname: Macromolecules
+    abbreviation: Macromolecules
+  publisher: American Chemical Society
+  URL: http://dx.doi.org/10.1021/ma201885g
+  type: article
+  DOI: 10.1021/ma201885g
+  language: english
+  fulltext: ma201103.pdf
+
+- title: "Combined Main-Chain/Side-Chain Liquid Crystalline Polymer with Main-Chain On the basis of Jacketing Effect and Side-Chain Containing Azobenzene Groups"
+  ISSN: '0024-9297'
+  issue: '19'
+  page: '7600-7609'
+  volume: '44'
+  year: 2011
+  month: 9
+  author:
+  - given: He Lou
+    given_initial: H. L.
+    family: Xie
+  - given: Shao Jie
+    given_initial: S. J.
+    family: Wang
+  - given: Guan Qun
+    given_initial: G. Q.
+    family: Zhong
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  - given: Hai Liang
+    given_initial: H. L.
+    family: Zhang
+    role: corr
+  - given: Er-Qiang
+    given_initial: E. Q.
+    family: Chen
+    role: corr
+  journal:
+    fullname: Macromolecules
+    abbreviation: Macromolecules
+  publisher: American Chemical Society
+  URL: http://dx.doi.org/10.1021/ma200851v
+  type: article
+  DOI: 10.1021/ma200851v
+  fulltext: ma201102.pdf
+  language: english
+
+- title: 'Microphase Separation and Phase Diagram of Concentrated Diblock Copolyelectrolyte Solutions Studied by Self-Consistent Field Theory Calculations in Two-Dimensional Space'
+  ISSN: '0024-9297'
+  issue: '20'
+  page: '8261-8269'
+  volume: '44'
+  year: 2011
+  month: 9
+  author:
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: 'main corr'
+  - given: Hong-Dong
+    given_initial: H. D.
+    family: Zhang
+    role: corr
+  - given: Chao Hui
+    given_initial: C. H.
+    family: Tong
+  - given: Yu Liang
+    given_initial: Y. L.
+    family: Yang
+  journal:
+    fullname: Macromolecules
+    abbreviation: Macromolecules
+  publisher: American Chemical Society
+  URL: http://dx.doi.org/10.1021/ma2010266
+  type: article
+  DOI: 10.1021/ma2010266
+  language: english
+  fulltext: ma201101.pdf
+
+- title: 'Polymer crystallization of ultrathin films on solid substrates'
+  ISSN: '00108545'
+  issue: '9-10'
+  page: '1011-1037'
+  volume: '254'
+  year: 2010
+  author:
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  - given: Er-Qiang
+    given_initial: E. Q.
+    family: Chen
+    role: corr
+  journal:
+    abbreviation: Coord. Chem. Rev.
+  URL: http://dx.doi.org/10.1016/j.ccr.2010.02.017
+  type: article
+  DOI: 10.1016/j.ccr.2010.02.017
+  language: english
+  fulltext: ccr201001.pdf
+
+- title: 'Design, Synthesis, and Multiple Hierarchical Ordering of a Novel Side-Chain Liquid Crystalline-Rod Diblock Copolymer'
+  ISSN: '0024-9297'
+  issue: '22'
+  page: '8774-8780'
+  volume: '42'
+  yeal: 2009
+  month: 11
+  author:
+  - given: He Lou
+    given_initial: H. L.
+    family: Xie
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  - given: Guan Qun
+    given_initial: G. Q.
+    family: Zhong
+  - given: Hai Liang
+    given_initial: H. L.
+    family: Zhang
+    role: corr
+  - given: Er-Qiang
+    given_initial: E. Q.
+    family: Chen
+    role: corr
+  - given: Qi Feng
+    given_initial: Q. F.
+    family: Zhou
+  journal:
+    fullname: Macromolecules
+    abbreviation: Macromolecules
+  publisher: American Chemical Society
+  URL: http://dx.doi.org/10.1021/ma9017668
+  type: article
+  DOI: 10.1021/ma9017668
+  language: english
+  fulltext: ma200902.pdf
+
+- title: 'Direct Observation and Modeling of Transient Nucleation in Isothermal Thickening of Polymer Lamellar Crystal Monolayers'
+  ISSN: '0024-9297'
+  issue: '8'
+  page: '2886-2890'
+  volume: '42'
+  year: 2009
+  month: 4
+  author:
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  - given: Jian Feng
+    given_initial: J. F.
+    family: Li
+  - given: Dun Shen
+    given_initial: D. S.
+    family: Zhu
+  - given: Er-Qiang
+    given_initial: E. Q.
+    family: Chen
+    role: corr
+  - given: Hong-Dong
+    given_initial: H. D.
+    family: Zhang
+    role: corr
+  journal:
+    fullname: Macromolecules
+    abbreviation: Macromolecules
+  publisher: American Chemical Society
+  URL: http://dx.doi.org/10.1021/ma802806q
+  type: article
+  DOI: 10.1021/ma802806q
+  language: english
+  fulltext: ma200901.pdf
+
+- title: 'Molecular packing and phase transitions of side-chain liquid crystalline polymethacrylates based on p-methoxyazobenzene'
+  issue: '12-13'
+  page: '3103-3110'
+  volume: '49'
+  year: 2008
+  author:
+  - given: Xing Qi
+    given_initial: X. Q.
+    family: Zhu
+  - given: Jia Hao
+    given_initial: J. H.
+    family: Liu
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  - given: Er-Qiang
+    given_initial: E. Q.
+    family: Chen
+    role: corr
+  journal:
+    fullname: Polymer
+    abbreviation: Polymer
+  URL: http://dx.doi.org/10.1016/j.polymer.2008.04.054
+  type: article
+  language: english
+  fulltext: po200801.pdf
+
+- title: 'AFM-tip-induced crystallization of poly(ethylene oxide) melt droplets'
+  page: '174-177'
+  volume: '2'
+  year: 2007
+  author:
+  - given: Dun Shen
+    given_initial: D. S.
+    family: Zhu
+  - given: Xing Xian
+    given_initial: X. X.
+    family: Shou
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  - given: Er-Qiang
+    given_initial: E. Q.
+    family: Chen
+    role: corr
+  - given: Stephen Zheng Di
+    given_initial: S. Z. D.
+    family: Cheng
+  journal:
+    abbreviation: Front. Chem. China
+  URL: "http://dx.doi.org/10.1007/s11458-007-0035-3"
+  type: article
+  DOI: 10.1007/s11458-007-0035-3
+  language: english
+  fulltext: fcc200702.pdf
+
+- title: 'Crystal Growth Mechanism Changes in Pseudo-Dewetted Poly(ethylene oxide) Thin Layers'
+  ISSN: '0024-9297'
+  issue: '5'
+  page: '1570-1578'
+  volume: '40'
+  year: 2007
+  month: 3
+  author:
+  - given: Dun Shen
+    given_initial: D. S.
+    family: Zhu
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  - given: Er-Qiang
+    given_initial: E. Q.
+    family: Chen
+    role: corr
+  - given: Ming
+    given_initial: M.
+    family: Li
+  - given: Chao
+    given_initial: C.
+    family: Chen
+  - given: You Hai
+    given_initial: Y. H.
+    family: Sun
+  - given: An Chang
+    given_initial: A. C.
+    family: Shi
+    role: corr
+  - given: Ryan M.
+    given_initial: R. M.
+    family: Van Horn
+  - given: Stephen Zheng Di
+    given_initial: S. Z. D.
+    family: Cheng
+    role: corr
+  journal:
+    fullname: Macromolecules
+    abbreviation: Macromolecules
+  publisher: American Chemical Society
+  URL: http://dx.doi.org/10.1021/ma062542s
+  type: article
+  DOI: 10.1021/ma062542s
+  language: english
+  fulltext: ma200701
+
+- title: 'Morphology evolution in superheated crystal monolayer of low molecular weight poly(ethylene oxide) on mica surface'
+  ISSN: '00323861'
+  issue: '15'
+  page: '5239-5242'
+  volume: '47'
+  year: 2006
+  author:
+  - given: Dun Shen
+    given_initial: D. S.
+    family: Zhu
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  - given: An Chang
+    given_initial: A. C.
+    family: Shi
+  - given: Er-Qiang
+    given_initial: E. Q.
+    family: Chen
+    role: corr
+  journal:
+    fullname: Polymer
+    abbreviation: Polymer
+  URL: http://dx.doi.org/10.1016/j.polymer.2006.05.013
+  type: article
+  DOI: 10.1016/j.polymer.2006.05.013
+  language: english
+  fulltext: po200603.pdf
+
+- title: 'AFM-tip-induced crystallization of poly(ethylene oxide) melt droplets'
+  page: '553-556'
+  volume: '1'
+  year: 2006
+  author:
+  - given: Dun Shen
+    given_initial: D. S.
+    family: Zhu
+  - given: Xing Xian
+    given_initial: X. X.
+    family: Shou
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  - given: Er-Qiang
+    given_initial: E. Q.
+    family: Chen
+    role: corr
+  - given: Stephen Zheng Di
+    given_initial: S. Z. D.
+    family: Cheng
+  journal:
+    fulltext: Acta Polymerica Sinica
+    abbreviation: Acta Polym. Sin.
+  URL: "http://www.gfzxb.org/CN/abstract/abstract10702.shtml"
+  type: article
+  language: chinese
+  fulltext: aps200602.pdf
+
+- title: 'Pseudo-dewetting behavior of low molecular weight poly(ethylene oxide) melts on mica surface'
+  ISSN: '1000-3304'
+  issue: '9'
+  page: '1125-1128'
+  year: 2006
+  author:
+  - given: Dun Shen
+    given_initial: D. S.
+    family: Zhu
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  - given: Er-Qiang
+    given_initial: E. Q.
+    family: Chen
+    role: corr
+  - given: Ming
+    given_initial: M.
+    family: Li
+  - given: Stephen Zheng Di
+    given_initial: S. Z. D.
+    family: Cheng
+  journal:
+    fullname: Acta Polymerica Sinica
+    abbreviation: Acta Polym. Sin.
+  URL: "http://www.gfzxb.org/CN/abstract/abstract10391.shtml"
+  type: article
+  language: chinese
+  fulltext: aps200601.pdf
