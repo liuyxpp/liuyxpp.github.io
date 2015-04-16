@@ -28,6 +28,7 @@ a {
 	}
 	&:hover {
 		//color: darken($link-color, 20);
+        color: $link-color;
 	}
 	&:focus {
 		outline: thin dotted;
