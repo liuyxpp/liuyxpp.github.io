@@ -2,15 +2,17 @@
 layout: post
 title: Test PolyFTS with Polyorder
 author: Yi-Xin Liu
-create: 2015-04-10
-modified: 2015-04-14
+date: 2015-04-10
+modified: 2015-04-15
 image:
     feature: abstract-5.jpg
+tags: [Polyorder, SCFT, Research]
 ---
 
 We will verify the [PolyFTS] calculation by comparing to the [Polyorder] results. The SCFT model we will test is miktoarm star block copolymer and homopolymer blends (AB3 + A). The density is not smeared in both [PolyFTS] and [Polyorder].
 
-## 1 Settings
+## 1. Settings
+-----
 
 ### 1.1 Common Settings
 
@@ -41,7 +43,8 @@ seed:                   random numbers or file (for HEX)
 Cell size optimization: variable cell
 {% endhighlight %}
 
-## 2 DIS
+## 2. DIS
+-----
 
 For disordered structure, it is not necessary to optimize the unit cell size. The unit cell size can be arbitrarily chosen to be 1.0. Also, we can use only one plane wave in 1D.
 
@@ -51,7 +54,8 @@ Polyorder       | 1.0   | 4.3848        | 0.00083
 PolyFTS         | 1.0   | 4.384794      | 0.02
 PolyFTS+smear   | 1.0   | 4.3848        | 0.01
 
-## 3 LAM
+## 3. LAM
+-----
 
 ### 3.1 Single Unit Cell Size
 
@@ -75,7 +79,8 @@ Polyorder       | 3.552616  | 4.1076304682  | 0.38
 PolyFTS         | 3.556888  | 4.1076334133  | 11.24
 PolyFTS+smear   | 4.083726  | 4.3477787568  | 32.38
 
-## 4 HEX
+## 4. HEX
+-----
 
 ### 4.1 Single Unit Cell Size
 
@@ -127,13 +132,15 @@ For HEX phase, there are two kinds of structures: cylinder formed by specie A (H
 
 Using random initial fields, PolyFTS with symmetrizer can only produce HEX-B phase. To obtain HEX-A phase, one can switch the two columns corresponding to A and B fields in fields.dat and use the resulted file to initialize the PolyFTS + symmetrizer simulation.
 
-## 5 Conclusion
+## 5. Conclusion
+-----
 
 1. Polyorder and PolyFTS agree very well within an error of about 1e-6.
 2. Caution about the type A and type B phase of the HEX structure. Use corresponding field to initialize simulation.
 3. Output and input field are all `SpeciesField`.
 
 ## Reference
+-----
 
 - [Polyorder][polyorder]
 - [PolyFTS][polyfts]
