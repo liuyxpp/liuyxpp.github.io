@@ -2,7 +2,7 @@
 layout: page
 title: Research Interests
 description: "Polymer Physics &amp; Numerical Algorithms."
-header-img: images/abstract-8.jpg
+header-img: images/research-1.jpg
 comments: false
 modified: 2015-04-15
 ---
