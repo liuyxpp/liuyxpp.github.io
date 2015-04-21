@@ -29,8 +29,8 @@ owner:
 background:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics: liuyxpp
-google_verify: vCNYuIbRPqv4coJvcqQglEsd4IBd9p4cP0AdERyG86w
+google_analytics: UA-31783224-1  # Analytics Property ID
+google_verify: vCNYuIbRPqv4coJvcqQglEsd4IBd9p4cP0AdERyG86w  # Webmaster
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 
