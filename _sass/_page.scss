@@ -386,6 +386,20 @@ header .entry-meta {
 			padding: 50px 80px;
 		}
 	}
+    article.posts-list {
+        .date {
+            font-family: $code-font;
+            color: $gray;
+        }
+        ul {
+            list-style: none;
+            margin-left: 0;
+            padding-left: 0;
+        }
+        h2 {
+            margin-bottom: 1em;
+        }
+    }
 }
 .entry-image-index {
 	margin-top: -25px;
