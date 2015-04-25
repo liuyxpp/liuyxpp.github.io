@@ -11,6 +11,8 @@ tags: [Polyorder, SCFT, Research]
 
 We will verify the [PolyFTS] calculation by comparing to the [Polyorder] results. The SCFT model we will test is miktoarm star block copolymer and homopolymer blends (AB3 + A).
 
+<!--more-->
+
 ## 1. Settings
 -----
 

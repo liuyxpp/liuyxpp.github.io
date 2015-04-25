@@ -6,6 +6,7 @@ words_per_minute: 200
 #url:                    # blank for local preview
 url: http://ngpy.org   # for production
 header-img: images/homepage.jpg
+excerpt_separator: "<!--more-->"
 
 # Owner/author information
 owner:

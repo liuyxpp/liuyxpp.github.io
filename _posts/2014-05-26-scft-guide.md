@@ -17,6 +17,8 @@ The statistical field theories can be constructed from the particle-based model 
 
 The general approach for a particle-to-field transformation is to invoke formal techniques related to Hubbard-Stratonovich transformations, which have the effect of decoupling interactions among particles (or polymer segments) and replacing them with interactions between the particles and one or more auxiliary fields.
 
+<!--more-->
+
 ## 2. Continuous Gaussian Chain Model
 ----------------------------------
 
