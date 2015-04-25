@@ -6,7 +6,8 @@ create: 2014-05-26
 modified: 2014-09-11
 image:
     feature: abstract-5.jpg
-tags: [Research, SCFT]
+categories: [Research]
+tags: [SCFT, Tutorial]
 ---
 
 ## 1. Introduction

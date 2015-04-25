@@ -6,7 +6,8 @@ date: 2015-04-06
 modified: 2015-04-06
 image:
     feature: abstract-5.jpg
-tags: [Software, Polyorder, Tutorial]
+categories: [Software]
+tags: [Polyorder, Tutorial]
 ---
 
 The configuration file for [Polyorder] can be either in INI or in YAML format. Sample configuration files can be found in the `example` folder in the Polyorder project.
