@@ -1,5 +1,29 @@
 # Yi-Xin Liu's Publications - Journal articles
 
+- title: 'A Surface Interaction Model for Self-assembly of Block Copolymers under Soft Confinement'
+  volume: '145'
+  issue: '21'
+  page: '214902'
+  year: 2016
+  author:
+  - given: Jun-Qing
+    given_initial: J. Q.
+    family: Song
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: 'main corr'
+  - given: Hong-Dong
+    given_initial: H. D.
+    family: Zhang
+  journal:
+    abbreviation: J. Chem. Phys.
+  URL: http://dx.doi.org/10.1063/1.4968599
+  type: article
+  DOI: http://dx.doi.org/10.1063/1.4968599
+  fulltext: jcp201601.pdf
+  language: english
+
 - title: 'On the Teaching of Modern Polymer Physics: I. Ginzburg Criterion'
   volume: '1'
   page: '73-79'
