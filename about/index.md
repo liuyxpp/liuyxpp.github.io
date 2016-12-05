@@ -8,7 +8,7 @@ modified: 2015-04-15
 
 ## About Me
 
-**Dr. Yi-Xin Liu** is a lecturer and scientific researcher working in the field of polymer physics at Fudan University. He currently is also working at MRL in the University of California, Santa Barbara as a visiting researcher.
+**Dr. Yi-Xin Liu** is a lecturer and researcher working in the field of polymer physics at Fudan University. He previously also visited Materials Research Laboratory (MRL) in the University of California, Santa Barbara (UCSB) for two years.
 
 **Lecturer**
 Department of Macromolecular Science
@@ -17,7 +17,7 @@ Yuejin Bldg. Room 405, 220 Handan Rd.
 Shanghai, China, 200433
 Email: lyx@fudan.edu.cn
 
-**Visiting Researcher**
+**Visiting Researcher (2014.7-2016.7)**
 Materials Research Laboratory
 University of California, Santa Barbara
 MRL Bldg. Room 3104, UC Santa Barbara

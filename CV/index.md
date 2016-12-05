@@ -42,17 +42,19 @@ Advisor: Prof. Wei-Jiang He
 ### Research Experience
 -----
 
-**Visiting Researcher**, 2014 - present
-*University of California, Santa Barbara, Materials Research Laboratory*
-
-- Field-theoretic simulations of polymeric materials.
-
 **Lecturer**, 2012 - present
 *Fudan University, Department of Macromolecular Science*
 
 - Chebyshev based self-consistent field theory (SCFT) studies of polymer brushes and polymers under confinements, focusing on the effect of surface affinity. The Chebyshev based SCFT algorithm is highly efficient on non-periodic boundary condition problems.
 
 - Development of the polyorder project: a unified computing framework for conducting polymer SCFT calculations.
+
+**Visiting Researcher**, 2014 - 2016
+*University of California, Santa Barbara, Materials Research Laboratory*
+
+- Field-theoretic simulations of polymeric materials.
+
+- Developing a density functional model for polymeric systems. 
 
 **Postdoctoral Research Fellow**, 2009 - 2012
 *Fudan University, Department of Macromolecular Science*
