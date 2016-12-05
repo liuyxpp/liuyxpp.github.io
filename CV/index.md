@@ -26,19 +26,6 @@ Website: [http://www.ngpy.org](http://www.ngpy.org/)
 
 - Thin and ultrathin film polymer crystallization.
 
-### Education
------
-
-**Peking University**, Beijing, 2004 - 2009
-Ph.D. in Polymer Chemistry and Physics, Jun, 2009
-Disertation: *Phase Selection Pathways and Morphological Evolution in Polymer Crystallization: An Experimental and Theoretical Study on Low Molecular Weight Poly(ethylene oxide) Fractions*
-Advisor: Prof. Er-Qiang Chen
-
-**Nanjing University**, Nanjing, 2000 - 2004
-BS in Chemistry, Jun, 2004
-Thesis: *Synthesis and characterization of Amphiphilic Ligands and Its Complexes with Metal Ions*
-Advisor: Prof. Wei-Jiang He
-
 ### Research Experience
 -----
 
@@ -79,8 +66,23 @@ Advisor: Prof. Wei-Jiang He
 
 - Computed surface properties of supported catalysts using Gaussian 98.
 
+### Education
+-----
+
+**Peking University**, Beijing, 2004 - 2009
+Ph.D. in Polymer Chemistry and Physics, Jun, 2009
+Disertation: *Phase Selection Pathways and Morphological Evolution in Polymer Crystallization: An Experimental and Theoretical Study on Low Molecular Weight Poly(ethylene oxide) Fractions*
+Advisor: Prof. Er-Qiang Chen
+
+**Nanjing University**, Nanjing, 2000 - 2004
+BS in Chemistry, Jun, 2004
+Thesis: *Synthesis and characterization of Amphiphilic Ligands and Its Complexes with Metal Ions*
+Advisor: Prof. Wei-Jiang He
+
 ### Research Grants
 -----
+
+- The China Scholar Council (201406105018).
 
 - The National Basic Research Program of China (2011CB605701, 2013-2015).
 
@@ -91,9 +93,11 @@ Advisor: Prof. Wei-Jiang He
 ### Professional Memberships and Activities
 -----
 
-- Member, American Physical Society (2013 - present)
+- Member, American Physical Society (2013 - 2014)
 
 - Referee, Polymer (2013 - present)
+
+- Referee, Review of Scientific Instruments (2016 - present)
 
 ### Honors and Awards
 -----
