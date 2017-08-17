@@ -10,6 +10,10 @@ modified: 2015-04-15
 ## Journal Articles
 -----
 
+<div markdown="0">
+    <a href="https://scholar.google.com/citations?user=TcKXbCoAAAAJ&hl=en" class="btn btn-info">Google Scholar Profile</a>
+</div>
+
 <div class='panel-pub'>
 <ol>
 {% for article in site.data.journal %}
