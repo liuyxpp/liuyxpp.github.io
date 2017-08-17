@@ -1,5 +1,30 @@
 # Yi-Xin Liu's Publications - Journal articles
 
+- title: 'Field-Theoretic Simulations of Fluctuation-Stabilized Aperiodic Bricks-and-Mortar Mesophase in Miktoarm Star Block Copolymer/Homopolymer Blends'
+  volume: ''
+  issue: ''
+  page: ''
+  year: 2017
+  author:
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: 'main'
+  - given: Kris
+    given_initial: K. T.
+    family: Delaney
+  - given: Glenn
+    given_initial: G. H.
+    family: Fredrickson
+    role: 'corr'
+  journal:
+    abbreviation: Macromolecules
+  URL: http://pubs.acs.org/doi/abs/10.1021/acs.macromol.7b01106
+  type: article
+  DOI: 10.1021/acs.macromol.7b01106
+  fulltext: ma201701.pdf
+  language: english
+
 - title: 'A Surface Interaction Model for Self-assembly of Block Copolymers under Soft Confinement'
   volume: '145'
   issue: '21'
