@@ -53,10 +53,6 @@ The process of polymer crystallization is a transition from a randomly coiled st
 
 * Thickening behavior of thin monolayer crystals.
 
-### Research Notes
-
-* Comming soon...
-
 ## Scientific Software Development
 -----
 
@@ -73,3 +69,10 @@ As an important part of my research, I have developed several computing software
 * Off-lattice Monte-Carlo simulation of polymer crystal growth.
 
 * Phase-field simulations of thin film polymer crystal growth.
+
+### Research Notes
+
+* [Test PolyFTS with Polyorder]({% post_url 2015-04-14-polyfts-test %})
+* [Polyorder Configuration File]({% post_url 2015-04-06-polyorder-config %})
+* [Simpson's Rule and Other Fourth-Order Quadrature Formulas]({% post_url 2014-09-11-simpson %})
+* [mpltex: A Tool for Creating Publication-Quality Plots]({% post_url 2014-09-09-mpltex %})
