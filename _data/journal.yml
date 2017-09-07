@@ -1,9 +1,34 @@
 # Yi-Xin Liu's Publications - Journal articles
 
-- title: 'Field-Theoretic Simulations of Fluctuation-Stabilized Aperiodic Bricks-and-Mortar Mesophase in Miktoarm Star Block Copolymer/Homopolymer Blends'
-  volume: ''
+- title: 'An Efficient Algorithm for Self-Consistent Field Theory Calculations of Complex Self-Assembled Structures of Block Copolymer Melts'
+  volume: 'Accepted'
   issue: ''
   page: ''
+  year: 2017
+  author:
+  - given: Jun-Qing
+    given_initial: J. Q.
+    family: Song
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: 'main corr'
+  - given: Hong-Dong
+    given_initial: H. D.
+    family: Zhang
+  journal:
+    fullname: Chinese Journal of Polymer Science
+    abbreviation: Chin. J. Polym. Sci.
+  URL:
+  type: article
+  DOI:
+  fulltext:
+  language: english
+
+- title: 'Field-Theoretic Simulations of Fluctuation-Stabilized Aperiodic Bricks-and-Mortar Mesophase in Miktoarm Star Block Copolymer/Homopolymer Blends'
+  volume: '50'
+  issue: '16'
+  page: '6263–6272'
   year: 2017
   author:
   - given: Yi-Xin
@@ -18,6 +43,7 @@
     family: Fredrickson
     role: 'corr'
   journal:
+    fullname: Macromolecules
     abbreviation: Macromolecules
   URL: http://pubs.acs.org/doi/abs/10.1021/acs.macromol.7b01106
   type: article
@@ -42,6 +68,7 @@
     given_initial: H. D.
     family: Zhang
   journal:
+    fullname: The Journal of Chemical Physics
     abbreviation: J. Chem. Phys.
   URL: http://dx.doi.org/10.1063/1.4968599
   type: article
@@ -83,6 +110,7 @@
     given_initial: H. D.
     family: Zhang
   journal:
+    fullname: The Journal of Chemical Physics
     abbreviation: J. Chem. Phys.
   URL: http://dx.doi.org/10.1063/1.4881516
   type: article
@@ -209,6 +237,7 @@
     family: Chen
     role: corr
   journal:
+    fullname: Coordination Chemistry Review
     abbreviation: Coord. Chem. Rev.
   URL: http://dx.doi.org/10.1016/j.ccr.2010.02.017
   type: article

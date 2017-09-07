@@ -4,7 +4,7 @@ title: Research Interests
 description: "Polymer Physics &amp; Numerical Algorithms."
 header-img: images/research-1.jpg
 comments: false
-modified: 2015-04-15
+modified: 2017-08-18
 ---
 
 I mainly work in the field of soft matter physics, dedicating efforts to understand the physics of polymers and biological macromolecules.
