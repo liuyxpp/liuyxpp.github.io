@@ -18,7 +18,7 @@
     family: Zhang
   journal:
     fullname: Chinese Journal of Polymer Science
-    abbreviation: Chin. J. Polym. Sci.
+    abbreviation: Chinese J. Polym. Sci.
   URL:
   type: article
   DOI:
@@ -237,7 +237,7 @@
     family: Chen
     role: corr
   journal:
-    fullname: Coordination Chemistry Review
+    fullname: Coordination Chemistry Reviews
     abbreviation: Coord. Chem. Rev.
   URL: http://dx.doi.org/10.1016/j.ccr.2010.02.017
   type: article
