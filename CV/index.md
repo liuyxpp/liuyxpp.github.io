@@ -3,7 +3,7 @@ layout: page
 title: CV
 header-img: images/abstract-5.jpg
 comments: false
-modified: 2015-04-15
+modified: 2017-09-18
 ---
 
 ## Yi-Xin Liu
@@ -65,6 +65,17 @@ Website: [http://www.ngpy.org](http://www.ngpy.org/)
 - Synthesized three amphiphilic ligands and their complexes with Cu^2+.
 
 - Computed surface properties of supported catalysts using Gaussian 98.
+
+### Teaching
+-----
+
+- Introduction to Polymer Materials (Fall 2017)
+
+- Polymer Physics (Spring 2017)
+
+- Introduction to Polymer Materials (Fall 2016)
+
+- Polymer Physics (Spring 2014)
 
 ### Education
 -----
