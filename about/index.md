@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+description: A brief introdcution of Dr. Yi-Xin Liu and about the technique used by this website.
 header-img: images/about.jpg
 comments: false
 modified: 2017-08-17
