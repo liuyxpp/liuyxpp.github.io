@@ -94,6 +94,7 @@
   URL: "http://www.gfztb.com/oa/darticle.aspx?type=view&id=20150113"
   type: article
   DOI: 10.14028/j.cnki.1003-3726.2015.01.013
+  fulltext: gfztb201501.pdf
   language: chinese
 
 - title: 'Exponential time differencing methods with Chebyshev collocation for polymers confined by interacting surfaces'
@@ -425,7 +426,7 @@
   type: article
   DOI: 10.1021/ma062542s
   language: english
-  fulltext: ma200701
+  fulltext: ma200701.pdf
 
 - title: 'Morphology evolution in superheated crystal monolayer of low molecular weight poly(ethylene oxide) on mica surface'
   ISSN: '00323861'
