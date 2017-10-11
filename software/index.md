@@ -81,7 +81,7 @@ Gyroid is a python package that generates *symmetry adapted basis functions* bas
 
 - [Gyroid source code](https://bitbucket.org/liuyxpp/gyroid)
 
-- [Gyroid PyPI page](pypi.python.org/pypi/gyroid)
+- [Gyroid PyPI page](https://pypi.python.org/pypi/gyroid)
 
 - [Gyroid documentation](http://packages.python.org/gyroid/)
 
@@ -104,7 +104,7 @@ NGPy is a web application that enable online performing and analyzing Monte-Carl
 
 - [NGPy source code](https://bitbucket.org/liuyxpp/ngpy)
 
-- [NGPy PyPI page](pypi.python.org/pypi/ngpy)
+- [NGPy PyPI page](https://pypi.python.org/pypi/ngpy)
 
 - [NGPy documentation](http://pypi.python.org/pypi/ngpy)
 
