@@ -4,7 +4,7 @@ title: Software
 description: "Polyorder - Gyroid - PyDiagram - NGPy - mpltex."
 header-img: images/software-1.jpg
 comments: false
-modified: 2015-04-15
+modified: 2017-10-11
 ---
 
 Scientific software development plays a very important role in my research. Along with my research, I have developed some computing software to carry out the actual task. The software are coded in various programming languages, such as C/C++, Python, Matlab, Fortran and so on. All software listed here are open source software. They are licensed by either BSD or GPL v3.
@@ -133,4 +133,4 @@ mpltex is a python package for creating publication-quality plots using matplotl
 
 - [mpltex source code](https://github.com/liuyxpp/mpltex)
 
-- [mpltex PyPI page](http://pypi.python.org/pypi/mpltex)
+- [mpltex PyPI page](https://pypi.python.org/pypi/mpltex)
