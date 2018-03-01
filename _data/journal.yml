@@ -1,10 +1,31 @@
 # Yi-Xin Liu's Publications - Journal articles
 
+- title: 'Thickening Kinetics of Monolayer Crystals of Low Molecular Weight Poly(ethylene oxide) Fractions on Mica Surfaces'
+  volume: 'Accepted'
+  page: ''
+  year: 2018
+  author:
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: 'main corr'
+  - given: Er-Qiang
+    given_initial: E. Q.
+    family: Chen
+  journal:
+    fullname: Acta Polymerica Sinica
+    abbreviation: Acta Polym. Sin.
+  URL: "http://www.gfzxb.org/CN/10.11777/j.issn1000-3304.2017.17333"
+  type: article
+  DOI: 10.11777/j.issn1000-3304.2017.17333
+  fulltext:
+  language: chinese
+
 - title: 'Structures and Surface States of Polymer Brushes in Good Solvents: Effects of Surface Interactions'
   volume: 'Accepted'
   issue: ''
   page: ''
-  year: 2017
+  year: 2018
   author:
   - given: Yi-Xin
     given_initial: Y. X.
@@ -16,17 +37,17 @@
   journal:
     fullname: Chinese Journal of Polymer Science
     abbreviation: Chinese J. Polym. Sci.
-  URL:
+  URL: https://doi.org/10.1007/s10118-018-2100-4
   type: article
-  DOI: https://doi.org/10.1007/s10118-018-2100-4
+  DOI: 10.1007/s10118-018-2100-4
   fulltext:
   language: english
 
 - title: 'An Efficient Algorithm for Self-Consistent Field Theory Calculations of Complex Self-Assembled Structures of Block Copolymer Melts'
-  volume: 'Accepted'
+  volume: '36'
   issue: ''
-  page: ''
-  year: 2017
+  page: '488-496'
+  year: 2018
   author:
   - given: Jun-Qing
     given_initial: J. Q.
@@ -41,9 +62,9 @@
   journal:
     fullname: Chinese Journal of Polymer Science
     abbreviation: Chinese J. Polym. Sci.
-  URL:
+  URL: https://doi.org/10.1007/s10118-018-2037-7
   type: article
-  DOI:
+  DOI: 10.1007/s10118-018-2037-7
   fulltext:
   language: english
 

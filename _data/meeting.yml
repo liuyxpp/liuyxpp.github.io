@@ -1,5 +1,21 @@
 # Yi-Xin Liu's Publications - Meetigns, Workshops, Proceedings, Talks
 
+- title: 'Density Functional Model for Fluctuating Polymer Solutions: Partial Saddle Point Approximation Approach'
+  year: 2015
+  author:
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  - given: Kris T.
+    given_initial: K. T.
+    family: Delaney
+  - given: Glenn H.
+    given_initial: G. H.
+    family: Fredrickson
+  source: 'Complex Fluid Design Consortium (CFDC) Annual Meeting'
+  city: 'Santa Barbara, CA, USA'
+
 - title: 'Density Functional Model for Fluctuating Polymer Solutions'
   year: 2015
   author:
