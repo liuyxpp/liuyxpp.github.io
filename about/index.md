@@ -9,13 +9,13 @@ modified: 2017-08-17
 
 ## About Me
 
-**Dr. Yi-Xin Liu** is a lecturer and researcher working in the field of polymer physics at Fudan University. He has visited Materials Research Laboratory (MRL) in the University of California, Santa Barbara (UCSB) for two years.
+**Dr. Yi-Xin Liu** is a polymer physicist at Fudan University China since 2012. Before that, he is a postdoctoral fellow at Fudan University from 2009 to 2012. He received his Ph.D. in Polymer Physics from Peking University China in 2009 and his BS from Nanjing University China in 2004. He has Spent two years performing research, in collaboration with Prof. Glenn H. Fredrickson at MRL University of California, Santa Barbara, on the fields of computational polymer field theory and theoretical polymer physics. His research interests lie in the area of soft matter physics, ranging from polymer crystallization to self-assembly of block copolymer in bulk and under confinements, and from numerical algorithms to computational software development.
 
 **Lecturer**
 Department of Macromolecular Science
 Fudan University
-Yuejin Bldg. Room 405, 220 Handan Rd.
-Shanghai, China, 200433
+Chemistry Bldg. Room B3083, 2005 Songhu Rd.
+Shanghai, China, 200438
 Email: lyx@fudan.edu.cn
 
 **Visiting Researcher (2014.7-2016.7)**
@@ -34,6 +34,8 @@ Email: lyx@mrl.ucsb.edu
 
 ## About This Website
 
+**PLEASE DO NOT PUBLISH YOUR WEBSITE BEFORE YOU REMOVE ALL COPYRIGHT MATERIAL!**
+
 This website is Yi-Xin Liu's personal academic website. Yi-Xin Liu is the copyright holder to all the contents published on this website except the underlying theme. If you wish to use any copyright material on this website, please contact me via the Email or address listed above to obtain a permission.
 
 This website is based on the HPSTR Jekyll Theme by [Michael Rose](https://github.com/mmistakes) and the Clean Blog Theme by [David Miller](https://github.com/davidtmiller/). It has been deployed to Github Pages at [http://liuyxpp.github.io](http://liuyxpp.github.io) with custom domain at [http://ngpy.org](http://ngpy.org). If you wish to use the Jekyll theme of this website, please follow the guidelines below:
@@ -44,5 +46,3 @@ This website is based on the HPSTR Jekyll Theme by [Michael Rose](https://github
 4. Modify the configuration file `_config.yml` to add your own personal information.
 5. Add your contents.
 6. Publish your website.
-
-**PLEASE DO NOT PUBLISH YOUR WEBSITE BEFORE YOU REMOVE ALL COPYRIGHT MATERIAL!**
