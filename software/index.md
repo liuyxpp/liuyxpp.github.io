@@ -4,7 +4,7 @@ title: Software
 description: "Polyorder - Gyroid - PyDiagram - NGPy - mpltex."
 header-img: images/software-1.jpg
 comments: false
-modified: 2017-10-11
+modified: 2018-03-02
 ---
 
 Scientific software development plays a very important role in my research. Along with my research, I have developed some computing software to carry out the actual task. The software are coded in various programming languages, such as C/C++, Python, Matlab, Fortran and so on. All software listed here are open source software. They are licensed by either BSD or GPL v3.

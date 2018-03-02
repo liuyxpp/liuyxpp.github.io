@@ -4,7 +4,7 @@ title: Research Interests
 description: "Polymer Physics &amp; Numerical Algorithms."
 header-img: images/research-1.jpg
 comments: false
-modified: 2017-08-18
+modified: 2018-03-02
 ---
 
 I mainly work in the field of soft matter physics, dedicating efforts to understand the physics of polymers and biological macromolecules.
@@ -22,16 +22,14 @@ The self-consistent field theory (SCFT), as the most accurate theory at the mean
 
 ### Topics
 
-* The phase structures of weakly charged polymer solutions.
-
-* The microphase separation structures in confined polymer systems.
-
-* Beyond mean-field theory for polymer solutions and block copolymers.
+* The microphase-separated nanostructures in confined polymer systems
+* Directed self-assembly and defect removal processes.
+* Beyond mean-field theories for polymer solutions and block copolymers
+* The phase behavior of weakly charged polymer solutions
 
 ### Research Notes
 
 * [A Quick Guide to the Self-Consistent Field Theory in Polymer Physics]({% post_url 2014-05-26-scft-guide %})
-
 * [Lecture Notes in Polymer Physics]({% post_url 2014-05-26-pp-notes %})
 
 ## Ultrathin Film Polymer Crystallization
@@ -50,24 +48,29 @@ The process of polymer crystallization is a transition from a randomly coiled st
 ### Topics
 
 * Pattern formation of ultrathin film polymer crystallization.
-
 * Thickening behavior of thin monolayer crystals.
 
 ## Scientific Software Development
 -----
 
-As an important part of my research, I have developed several computing software to do the actual computational tasks. Currently, I have released three open source software: [Polyorder]({{ site.url }}/software/), [Gyroid]({{ site.url }}/software/), [NGPy]({{ site.url }}/software/).
+As an important part of my research, I have developed several computational software packages and implemented numerical algorithms to perform computational tasks encountered along research.
+
+Programming languages involved: `C/C++` and `Python`. Transition to `Julia` Planned.
+
+### Software Packages
+
+* [Polyorder]({{ site.url }}/software/)
+* [Gyroid]({{ site.url }}/software/)
+* [PyDiagram]({{ site.url }}/software/)
+* [NGPy]({{ site.url }}/software/)
+* [mpltex]({{ site.url }}/software/)
 
 ### Implemented Algorithms
 
 * Chebyshev collocation method for SCFT calculations of confined polymers.
-
 * Pseudo-spectral method for SCFT calculations.
-
 * Multigrid method for SCFT calculations of charged polymers.
-
 * Off-lattice Monte-Carlo simulation of polymer crystal growth.
-
 * Phase-field simulations of thin film polymer crystal growth.
 
 ### Research Notes
