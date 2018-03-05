@@ -65,7 +65,7 @@ Programming languages involved: `C/C++` and `Python`. Transition to `Julia` Plan
 * [NGPy]({{ site.url }}/software/)
 * [mpltex]({{ site.url }}/software/)
 
-### Implemented Algorithms
+### Numerical Algorithms
 
 * Chebyshev collocation method for SCFT calculations of confined polymers.
 * Pseudo-spectral method for SCFT calculations.
