@@ -7,7 +7,7 @@
 }
 
 .navbar-custom {
-	background: white;
+	background: $concrete; //white;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -31,7 +31,8 @@
 		}
 	}
 	@media only screen and (min-width: 768px) {
-		background: transparent;
+		// background: transparent;
+        background: $concrete;
 		border-bottom: 1px solid transparent;
 		.navbar-brand {
 			//color: $nav-brand-color;
