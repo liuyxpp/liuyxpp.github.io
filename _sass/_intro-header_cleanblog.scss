@@ -12,7 +12,7 @@
 	background-attachment: scroll;
 	@include background-cover;
 	// NOTE: Background images are set within the HTML using inline CSS!
-	margin-bottom: 10px;
+	margin-bottom: 0;
 	.site-heading,
 	.post-heading,
 	.page-heading {
