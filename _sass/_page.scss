@@ -205,10 +205,26 @@ header .entry-meta {
 		display: block;
 	}
 }
+#post {
+    .entry-content{
+        margin: 20px 2px 20px 2px;
+    }
+    @media #{$large} {
+            margin: 30px auto 30px auto;
+    }
+}
+#page {
+    .entry-content{
+        margin: 80px 2px 20px 2px;
+    }
+    @media #{$large} {
+        margin: 90px auto 30px auto;
+    }
+}
 #post,
 #page {
 	.entry-content {
-		margin: 80px 2px 20px 2px;
+		// margin: 80px 2px 20px 2px;
 		padding: 10px 15px;
 		background-color: $white;
 		box-shadow: 0 0 0 0, 0 6px 12px rgba($black,0.1);
@@ -220,7 +236,7 @@ header .entry-meta {
 		}
 		@media #{$large} {
 			max-width: 800px;
-			margin: 90px auto 30px auto;
+			// margin: 90px auto 30px auto;
 			padding: 50px 80px;
 			> p:first-child {
 				@include font-size(20);
