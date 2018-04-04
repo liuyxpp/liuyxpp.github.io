@@ -4,7 +4,7 @@ title: Teaching
 description: "Courses That I Teach"
 header-img: images/research-1.jpg
 comments: false
-modified: 2017-09-12
+modified: 2018-04-04
 ---
 
 # Teaching

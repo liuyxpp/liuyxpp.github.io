@@ -4,7 +4,7 @@ title: Software
 description: "Polyorder - Gyroid - PyDiagram - NGPy - mpltex."
 header-img: images/software-1.jpg
 comments: false
-modified: 2018-03-02
+modified: 2018-04-04
 ---
 
 # Software
