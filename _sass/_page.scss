@@ -356,6 +356,24 @@ header .entry-meta {
 	}
 }
 
+// Homepage
+// --------------------------------------------------
+#home {
+    #main {
+        margin: 2px 2px 2px 2px;
+        @media #{$medium} {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        @media #{$large} {
+            max-width: 800px;
+            margin-top: 4px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
 // Post Index
 // --------------------------------------------------
 #post-index {
