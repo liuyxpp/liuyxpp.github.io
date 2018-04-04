@@ -73,7 +73,7 @@ body {
 	position: absolute;
 	top: 0;
 	display: table;
-	margin-top: 0;
+	margin-top: $navbar-height;
 	width: 100%;
 	height: $post-header-height;
 	overflow: hidden;
