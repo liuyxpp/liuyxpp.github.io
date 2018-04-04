@@ -75,7 +75,7 @@ body {
 	display: table;
 	margin-top: 0;
 	width: 100%;
-	height: 400px;
+	height: $post-header-height;
 	overflow: hidden;
 	.header-title-wrap {
 		display: table-cell;
@@ -115,7 +115,7 @@ body {
 	left: -50%;
 	width: 200%;
 	height: 200%;
-	min-height: 200px;
+	min-height: $post-header-height;
 	overflow: hidden;
 	&:after {
 		content: '';
@@ -134,7 +134,7 @@ body {
 		bottom: 0;
 		margin: auto;
 		min-width: 50%;
-		min-height: 200px; // match .entry-image min-height
+		min-height: $post-header-height; // match .entry-image min-height
 	}
 }
 // Feature Image Caption
