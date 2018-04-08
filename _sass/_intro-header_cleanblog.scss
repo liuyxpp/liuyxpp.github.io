@@ -6,6 +6,17 @@
     -o-background-size: cover;
 }
 
+.home-header {
+    background: no-repeat center center;
+    background-color: $gray;
+    background-attachment: scroll;
+    @include background-cover;
+    // NOTE: Background images are set within the HTML using inline CSS!
+    margin-bottom: 0;
+    margin-top: 80px;
+    height: 600px;
+}
+
 .intro-header {
 	background: no-repeat center center;
 	background-color: $gray;
