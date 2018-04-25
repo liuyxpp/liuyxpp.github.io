@@ -1,5 +1,29 @@
 # Yi-Xin Liu's Publications - Journal articles
 
+- title: 'Theoretical Studies on Defect Removal in Block Copolymer Thin Film under Soft Confinement'
+  volume: 'Accepted'
+  page: ''
+  year: 2018
+  author:
+  - given: Jun-Qing
+    given_initial: J. Q.
+    family: Song
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: 'main corr'
+  - given: Hong-Dong
+    given_initial: H. D.
+    family: Zhang
+  journal:
+    fullname: Acta Polymerica Sinica
+    abbreviation: Acta Polym. Sin.
+  URL:
+  type: article
+  DOI:
+  fulltext:
+  language: chinese
+
 - title: 'Thickening Kinetics of Monolayer Crystals of Low Molecular Weight Poly(ethylene oxide) Fractions on Mica Surfaces'
   volume: 'Published Online'
   page: ''
@@ -65,7 +89,7 @@
   URL: https://doi.org/10.1007/s10118-018-2037-7
   type: article
   DOI: 10.1007/s10118-018-2037-7
-  fulltext:
+  fulltext: cjps201801
   language: english
 
 - title: 'Field-Theoretic Simulations of Fluctuation-Stabilized Aperiodic Bricks-and-Mortar Mesophase in Miktoarm Star Block Copolymer/Homopolymer Blends'
