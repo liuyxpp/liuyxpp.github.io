@@ -17,7 +17,7 @@ modified: 2018-04-04
 </div>
 
 <div class='panel-pub'>
-<ol>
+<ol reversed>
 {% for article in site.data.journal %}
     <li>
     <div class="title">
