@@ -32,7 +32,7 @@ Academic Homepage: [http://www.ngpy.org](http://www.ngpy.org/)
 **Lecturer**, 2012 - present
 *Fudan University, Department of Macromolecular Science*
 
-- Directed self-assembly of block copolymers under *soft* confinements: nanostructures design and the mechansim of defect removal.
+- Directed self-assembly of block copolymers under *soft* confinements: nanostructures design and the mechanism of defect removal.
 
 - Developing highly efficient numerical algorithms for self-assembly of block copolymers in bulk and under soft confinements.
 
@@ -87,20 +87,13 @@ Advisor: Prof. Wei-Jiang He
 ### Research Grants
 -----
 
-- Shanghai Pujiang Program (2018-2020)
+<!-- - Shanghai Pujiang Program (Principle Investigator, 2018-2020) -->
 
-- The Young Scientists Fund of the National Natural Science Foundation of China (NNSFC) (No. 21004013, 2011-2013).
+- Young Scientists Fund of the National Natural Science Foundation of China (NNSFC) (Principle Investigator, No. 21004013, 2011-2013).
 
-- The Shanghai Postdoctoral Scientific Program (No. 11R21411400, 2011-2011).
+- Shanghai Postdoctoral Scientific Program (Principle Investigator, No. 11R21411400, 2011-2011).
 
-- The National Basic Research Program of China (No. 2011CB605701, 2013-2015).
-
-### Professional Memberships and Activities
------
-
-- Member, American Physical Society (2013 - 2014)
-
-- Referee: Polymer, Review of Scientific Instruments
+- National Basic Research Program of China (No. 2011CB605701, 2013-2015).
 
 ### Honors and Awards
 -----
@@ -113,12 +106,19 @@ Advisor: Prof. Wei-Jiang He
 
 - Renming Scholarship (Nanjing University, 2000, 2001, 2002, 2003)
 
+### Professional Memberships and Activities
+-----
+
+- Referee: Polymer, Review of Scientific Instruments, Chinese Physics B
+
+- Member, American Physical Society (2013, 2014)
+
 ### Computational Experience
 -----
 
-- Programming: Python, C/C++, Parallel Programming (MPI, GPU), Matlab, HTML/CSS.
+- Programming: Python, C/C++, Parallel Programming (MPI, GPU/CUDA), Matlab, HTML/CSS, LaTeX.
 
-- Working experience with linux, tensorflow, numpy, scipy, fftw, armadillo, blitz++ and matplotlib.
+- Working experience with Linux, tensorflow, numpy/scipy, fftw, armadillo, blitz++, matplotlib.
 
 - Open source projects: [polyorder](https://github.com/liuyxpp/polyorder) - [gyroid](https://pypi.org/project/gyroid/) - [ngpy](https://pypi.org/project/ngpy/) - [chebpy](https://pypi.org/project/chebpy/) - [mpltex](https://pypi.org/project/mpltex/)
 

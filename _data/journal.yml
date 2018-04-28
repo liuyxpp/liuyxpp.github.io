@@ -95,7 +95,7 @@
 - title: 'Field-Theoretic Simulations of Fluctuation-Stabilized Aperiodic Bricks-and-Mortar Mesophase in Miktoarm Star Block Copolymer/Homopolymer Blends'
   volume: '50'
   issue: '16'
-  page: '6263–6272'
+  page: '6263-6272'
   year: 2017
   author:
   - given: Yi-Xin
@@ -186,6 +186,38 @@
   fulltext: jcp201401.pdf
   language: english
 
+- title: 'Microphase Separation and Phase Diagram of Concentrated Diblock Copolyelectrolyte Solutions Studied by Self-Consistent Field Theory Calculations in Two-Dimensional Space'
+  ISSN: '0024-9297'
+  issue: '20'
+  page: '8261-8269'
+  volume: '44'
+  year: 2011
+  month: 9
+  author:
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: 'main corr'
+  - given: Hong-Dong
+    given_initial: H. D.
+    family: Zhang
+    role: corr
+  - given: Chao Hui
+    given_initial: C. H.
+    family: Tong
+  - given: Yu Liang
+    given_initial: Y. L.
+    family: Yang
+  journal:
+    fullname: Macromolecules
+    abbreviation: Macromolecules
+  publisher: American Chemical Society
+  URL: http://dx.doi.org/10.1021/ma2010266
+  type: article
+  DOI: 10.1021/ma2010266
+  language: english
+  fulltext: ma201101.pdf
+
 - title: 'Phase Selection Pathways in Ultrathin Film Crystallization of a Low Molecular Weight Poly(ethylene oxide) Fraction on Mica Surfaces'
   ISSN: '0024-9297'
   issue: '22'
@@ -256,38 +288,6 @@
   DOI: 10.1021/ma200851v
   fulltext: ma201102.pdf
   language: english
-
-- title: 'Microphase Separation and Phase Diagram of Concentrated Diblock Copolyelectrolyte Solutions Studied by Self-Consistent Field Theory Calculations in Two-Dimensional Space'
-  ISSN: '0024-9297'
-  issue: '20'
-  page: '8261-8269'
-  volume: '44'
-  year: 2011
-  month: 9
-  author:
-  - given: Yi-Xin
-    given_initial: Y. X.
-    family: Liu
-    role: 'main corr'
-  - given: Hong-Dong
-    given_initial: H. D.
-    family: Zhang
-    role: corr
-  - given: Chao Hui
-    given_initial: C. H.
-    family: Tong
-  - given: Yu Liang
-    given_initial: Y. L.
-    family: Yang
-  journal:
-    fullname: Macromolecules
-    abbreviation: Macromolecules
-  publisher: American Chemical Society
-  URL: http://dx.doi.org/10.1021/ma2010266
-  type: article
-  DOI: 10.1021/ma2010266
-  language: english
-  fulltext: ma201101.pdf
 
 - title: 'Polymer crystallization of ultrathin films on solid substrates'
   ISSN: '00108545'
@@ -525,39 +525,10 @@
   language: english
   fulltext: po200603.pdf
 
-- title: 'AFM-tip-induced crystallization of poly(ethylene oxide) melt droplets'
-  page: '553-556'
-  volume: '1'
-  year: 2006
-  author:
-  - given: Dun Shen
-    given_initial: D. S.
-    family: Zhu
-  - given: Xing Xian
-    given_initial: X. X.
-    family: Shou
-  - given: Yi-Xin
-    given_initial: Y. X.
-    family: Liu
-    role: main
-  - given: Er-Qiang
-    given_initial: E. Q.
-    family: Chen
-    role: corr
-  - given: Stephen Zheng Di
-    given_initial: S. Z. D.
-    family: Cheng
-  journal:
-    fulltext: Acta Polymerica Sinica
-    abbreviation: Acta Polym. Sin.
-  URL: "http://www.gfzxb.org/CN/abstract/abstract10702.shtml"
-  type: article
-  language: chinese
-  fulltext: aps200602.pdf
-
 - title: 'Pseudo-dewetting behavior of low molecular weight poly(ethylene oxide) melts on mica surface'
   ISSN: '1000-3304'
   issue: '9'
+  volume: '9'
   page: '1125-1128'
   year: 2006
   author:
@@ -585,3 +556,35 @@
   type: article
   language: chinese
   fulltext: aps200601.pdf
+
+- title: 'AFM-tip-induced crystallization of poly(ethylene oxide) melt droplets'
+  page: '553-556'
+  volume: '4'
+  issue:  '4'
+  year: 2006
+  author:
+  - given: Dun Shen
+    given_initial: D. S.
+    family: Zhu
+  - given: Xing Xian
+    given_initial: X. X.
+    family: Shou
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  - given: Er-Qiang
+    given_initial: E. Q.
+    family: Chen
+    role: corr
+  - given: Stephen Zheng Di
+    given_initial: S. Z. D.
+    family: Cheng
+  journal:
+    fulltext: Acta Polymerica Sinica
+    abbreviation: Acta Polym. Sin.
+  URL: "http://www.gfzxb.org/CN/abstract/abstract10702.shtml"
+  type: article
+  language: chinese
+  fulltext: aps200602.pdf
+
