@@ -29,35 +29,35 @@ Academic Homepage: [http://www.ngpy.org](http://www.ngpy.org/)
 ### Research Experience
 -----
 
-**Lecturer**, 2012 - present
+**Lecturer**, 2012 - present  
 *Fudan University, Department of Macromolecular Science*
 
 - Directed self-assembly of block copolymers under *soft* confinements: nanostructures design and the mechanism of defect removal.
 
 - Developing highly efficient numerical algorithms for self-assembly of block copolymers in bulk and under soft confinements.
 
-**Visiting Researcher**, 2014 - 2016
+**Visiting Researcher**, 2014 - 2016  
 *University of California, Santa Barbara, Materials Research Laboratory*
 
 - Field-theoretic simulations of polymeric materials.
 
 - Developing a density functional model for polymeric systems. 
 
-**Postdoctoral Research Fellow**, 2009 - 2012
+**Postdoctoral Research Fellow**, 2009 - 2012  
 *Fudan University, Department of Macromolecular Science*
 
 - Developed high performance numerical methods for studying the equilibrium phase separation structures of *charged* block copolymers.
 
 - Monte Carlo simulations on the nucleation and growth process in thickening of monolayer PEO crystals in ultrathin films.
 
-**Ph.D. Candidate**, 2004 - 2009
+**Ph.D. Candidate**, 2004 - 2009  
 *Peking University, College of Chemistry and Molecular Engineering*
 
 - Phase field simulations on morphological evolution of monolayer poly(ethylene oxide) (PEO) crystals.
 
 - Experimental studies on the nucleation, growth, and thickening of monolayer PEO crystals in ultrathin films using in-situ atomic force microsocpy (AFM).
 
-**Undergraduate Student**, 2003 - 2004
+**Undergraduate Student**, 2003 - 2004  
 *Nanjing University, School of Chemistry and Chemical Engineering*
 
 - Synthesized three amphiphilic ligands and their complexes with Cu^2+.
@@ -87,18 +87,18 @@ Advisor: Prof. Wei-Jiang He
 ### Research Grants
 -----
 
-<!-- - Shanghai Pujiang Program (Principle Investigator, 2018-2020) -->
+<!-- - Shanghai Pujiang Program (Principle Investigator, 2018.9-2020.9) -->
 
-- Young Scientists Fund of the National Natural Science Foundation of China (NNSFC) (Principle Investigator, No. 21004013, 2011-2013).
+- Young Scientists Fund of the National Natural Science Foundation of China (NNSFC) (Principle Investigator, No. 21004013, 2011.1-2013.12).
 
-- Shanghai Postdoctoral Scientific Program (Principle Investigator, No. 11R21411400, 2011-2011).
+- Shanghai Postdoctoral Scientific Program (Principle Investigator, No. 11R21411400, 2011.1-2011.12).
 
-- National Basic Research Program of China (No. 2011CB605701, 2013-2015).
+- National Basic Research Program of China (No. 2011CB605701, 2013.1-2015.12).
 
 ### Honors and Awards
 -----
 
-- Visiting Scholar (China Scholar Council, No. 201406105018).
+- Visiting Scholar (China Scholar Council, No. 201406105018, 2014).
 
 - Dongkong Scholarship for Graduates (Peking University, 2008)
 
@@ -125,14 +125,14 @@ Advisor: Prof. Wei-Jiang He
 ### Technical Experience
 -----
 
-**TEM Administrator**, 2009 - 2012
+**TEM Administrator**, 2009 - 2012  
 *Fudan University, Department of Macromolecular Science*
 
 - Assisted the engineer from FEI company to install FEI Technai G2 20 Twin with cryo, low dose, and 3D tomography.
 
 - Wrote the lab mannual for operating TEM.
 
-**AFM Administrator**, 2006 - 2009
+**AFM Administrator**, 2006 - 2009  
 *Peking University, College of Chemistry and Molecular Engineering*
 
 - Developed a user management system for controlling AFM.
