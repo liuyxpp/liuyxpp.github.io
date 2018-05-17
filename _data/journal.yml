@@ -1,7 +1,32 @@
 # Yi-Xin Liu's Publications - Journal articles
 
+- title: 'Field-Theoretic Simulations of Fluctuation-Stabilized Aperiodic Bricks-and-Mortar Mesophase in Miktoarm Star Block Copolymer/Homopolymer Blends'
+  volume: 'Accepted:2018-05-17'
+  issue: ''
+  page: ''
+  year: 2018
+  author:
+  - given: Jun-Qing
+    given_initial: J. Q.
+    family: Song
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: 'main corr'
+  - given: Hong-Dong
+    given_initial: H. D.
+    family: Zhang
+  journal:
+    fullname: Macromolecules
+    abbreviation: Macromolecules
+  URL:
+  type: article
+  DOI:
+  fulltext:
+  language: english
+
 - title: 'Theoretical Studies on Defect Removal in Block Copolymer Thin Film under Soft Confinement'
-  volume: 'Accepted'
+  volume: 'Accepted:2018-04-24'
   page: ''
   year: 2018
   author:
