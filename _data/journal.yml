@@ -3,7 +3,7 @@
 - title: 'Removal Pathways of Out-of-plane Defects in Thin Films of Lamellar Forming Block Copolymers'
   volume: ''
   issue: ''
-  page: 'http://dx.doi.org/10.1021/acs.macromol.8b00349'
+  page: 'DOI: http://dx.doi.org/10.1021/acs.macromol.8b00349'
   year: 2018
   author:
   - given: Jun-Qing
@@ -19,9 +19,9 @@
   journal:
     fullname: Macromolecules
     abbreviation: Macromolecules
-  URL:
+  URL: http://dx.doi.org/10.1021/acs.macromol.8b00349
   type: article
-  DOI:
+  DOI: http://dx.doi.org/10.1021/acs.macromol.8b00349
   fulltext:
   language: english
 

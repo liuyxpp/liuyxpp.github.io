@@ -13,10 +13,10 @@ modified: 2018-04-04
 **Dr. Yi-Xin Liu** is a polymer physicist at Fudan University China since 2012. Before that, he is a postdoctoral fellow at Fudan University from 2009 to 2012. He received his Ph.D. in Polymer Physics from Peking University China in 2009 and his BSc from Nanjing University China in 2004. He has spent two years performing research, in collaboration with **Prof. Glenn H. Fredrickson** at Materials Research Laboratory (MRL) of University of California, Santa Barbara, on the fields of computational polymer field theory and theoretical polymer physics. His research interests lie in the area of soft matter physics, ranging from polymer crystallization to self-assembly of block copolymer in bulk and under confinements, and from numerical algorithms to computational software development.
 
 <div markdown="0">
-    <p style="color:#e74c3c;font-weight: bold;">I am looking for a Postdoc Position in the field of Polymer Physics, Computational Science, Directed Self-Assembly (DSA), etc.</p>
+    <p style="color:#e74c3c;font-weight: bold;">I am looking for a Postdoc or Research Scientist Position in the field of Polymer Physics, Computational Science, Directed Self-Assembly (DSA), etc. Welcome to contact me via Email: lyx@fudan.edu.cn and liuyxpp@gmail.com</p>
 </div>
 
-**Lecturer**  
+**Lecturer (2012.3-2018.7)**  
 Department of Macromolecular Science  
 Fudan University  
 Chemistry Bldg. Room B3083, 2005 Songhu Rd.  
