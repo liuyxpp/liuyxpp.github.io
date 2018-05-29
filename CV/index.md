@@ -11,7 +11,7 @@ modified: 2018-04-28
 Department of Macromolecular Science  
 Fudan University  
 Chemistry Bldg. Room B3083, 2005 Songhu Rd.  
-Shanghai, 200438, China  
+Shanghai 200438, China  
 Mobile: (+86) 13916819745  
 Email: lyx@fudan.edu.cn; liuyxpp@gmail.com  
 Academic Homepage: [http://www.ngpy.org](http://www.ngpy.org/)
@@ -20,9 +20,9 @@ Academic Homepage: [http://www.ngpy.org](http://www.ngpy.org/)
 ### Research Interests
 -----
 
-- Static and dynamic properties of complex fluids, e.g. biological macromolecules (DNA, protein), polyelectrolytes, block copolymers, and polymer brushes in bulk or under confinements.
+- Multiscale computer simulations and theoretical studies of complex fluids, e.g. block copolymers, polymer brushes, polyelectrolytes, and biological macromolecules in bulk and under confinements, and directed self-assembly of block copolymers (DSA).
 
-- Numerical algorithms for polymer self-consistent field theory, molecular dynamics simulation, Monte Carlo simulation, and phase field simulation.
+- Numerical algorithms for field-theoretic simulations, molecular dynamics simulations, Monte-Carlo simulations, and phase field simulations.
 
 - Thin and ultrathin film polymer crystallization.
 
@@ -32,30 +32,30 @@ Academic Homepage: [http://www.ngpy.org](http://www.ngpy.org/)
 **Lecturer**, 2012 - present  
 *Fudan University, Department of Macromolecular Science*
 
-- Directed self-assembly of block copolymers under *soft* confinements: nanostructures design and the mechanism of defect removal.
+- Directed self-assembly of block copolymers under *soft confinements*: nanostructures design and the mechanism of defect removal.
 
 - Developing highly efficient numerical algorithms for self-assembly of block copolymers in bulk and under soft confinements.
 
 **Visiting Researcher**, 2014 - 2016  
 *University of California, Santa Barbara, Materials Research Laboratory*
 
-- Field-theoretic simulations of polymeric materials.
+- Field-theoretic simulations of polymeric materials under *thermal fluctuations*.
 
-- Developing a density functional model for polymeric systems. 
+- Developing a density functional model for polymeric systems with fluctuations in consideration. 
 
 **Postdoctoral Research Fellow**, 2009 - 2012  
 *Fudan University, Department of Macromolecular Science*
 
-- Developed high performance numerical methods for studying the equilibrium phase separation structures of *charged* block copolymers.
+- Developed high performance numerical methods for studying the equilibrium phase separation structures of *charged block copolymers*.
 
-- Monte Carlo simulations on the nucleation and growth process in thickening of monolayer PEO crystals in ultrathin films.
+- Monte Carlo simulations on the nucleation and growth process in thickening of monolayer poly(ethylene oxide) (PEO) crystals in ultrathin films.
 
 **Ph.D. Candidate**, 2004 - 2009  
 *Peking University, College of Chemistry and Molecular Engineering*
 
-- Phase field simulations on morphological evolution of monolayer poly(ethylene oxide) (PEO) crystals.
+- Phase field simulations on morphological evolution of monolayer PEO crystals.
 
-- Experimental studies on the nucleation, growth, and thickening of monolayer PEO crystals in ultrathin films using in-situ atomic force microsocpy (AFM).
+- Experimental studies on the nucleation, growth, and thickening of monolayer PEO crystals in ultrathin films using in-situ atomic force microsocpy.
 
 **Undergraduate Student**, 2003 - 2004  
 *Nanjing University, School of Chemistry and Chemical Engineering*
@@ -64,12 +64,12 @@ Academic Homepage: [http://www.ngpy.org](http://www.ngpy.org/)
 
 - Computed surface properties of supported catalysts using Gaussian 98.
 
-### Teaching
+### Teaching Experience
 -----
 
-- Polymer Physics (2014, 2017, 2018)
+- Polymer Physics (Core course for undergraduate students, 2014, 2017, 2018)
 
-- Introduction to Polymeric Materials (2016, 2017)
+- Introduction to Polymeric Materials (for undergraduate students, 2016, 2017)
 
 ### Education
 -----
@@ -87,7 +87,7 @@ Advisor: Prof. Wei-Jiang He
 ### Research Grants
 -----
 
-<!-- - Shanghai Pujiang Program (Principle Investigator, 2018.9-2020.9) -->
+- Shanghai Pujiang Program (Principle Investigator, No. 18PJ1401200, 2018.9-2020.9)
 
 - Young Scientists Fund of the National Natural Science Foundation of China (NNSFC) (Principle Investigator, No. 21004013, 2011.1-2013.12).
 
