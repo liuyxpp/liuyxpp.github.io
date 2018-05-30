@@ -4,16 +4,17 @@ title: About
 description: A brief introdcution of Dr. Yi-Xin Liu and about the technique used by this website.
 header-img: images/about.jpg
 comments: false
-modified: 2018-04-04
+modified: 2018-05-30
 ---
 
 # About Me
 -----
 
-**Dr. Yi-Xin Liu** is a polymer physicist at Fudan University China since 2012. Before that, he is a postdoctoral fellow at Fudan University from 2009 to 2012. He received his Ph.D. in Polymer Physics from Peking University China in 2009 and his BSc from Nanjing University China in 2004. He has spent two years performing research, in collaboration with **Prof. Glenn H. Fredrickson** at Materials Research Laboratory (MRL) of University of California, Santa Barbara, on the fields of computational polymer field theory and theoretical polymer physics. His research interests lie in the area of soft matter physics, ranging from polymer crystallization to self-assembly of block copolymer in bulk and under confinements, and from numerical algorithms to computational software development.
+I, **Dr. Yi-Xin Liu**, am a polymer physicist in Department of Macromolecular Science at Fudan University China since 2012. Before that, I was a postdoctoral fellow at Fudan University from 2009 to 2012. I received his Ph.D. in Polymer Physics from Peking University China in 2009 and his BSc from Nanjing University China in 2004. I has spent two years (2014-2016) performing research, as a visiting researcher, in collaboration with **Prof. Glenn H. Fredrickson** in Materials Research Laboratory (MRL) at University of California, Santa Barbara, on the fields of computational polymer field theory and theoretical polymer physics. My current research interests lie in the area of soft matter physics, including polymer field theory (both mean-field and beyond mean-field) and related numerical algorithms, phase behavior and structures of block copolymers, polymer brushes and polyelectrolytes in bulk and under confinements, directed  self-assembly, and ultrathin film crystallization.
+I have published 21 research articles in peer reviewed journals including *Macromolecules*, *J. Chem. Phys.*, and *Coord. Chem. Rev.*.
 
 <div markdown="0">
-    <p style="color:#e74c3c;font-weight: bold;">I am looking for a Postdoc or Research Scientist Position in the field of Polymer Physics, Computational Science, Directed Self-Assembly (DSA), etc. Welcome to contact me via Email: lyx@fudan.edu.cn and liuyxpp@gmail.com</p>
+    <p style="color:#e74c3c;font-weight: bold;">I am looking for a Postdoc, Faculty or Research Scientist Position in the field of Polymer Physics, Computational Science, Directed Self-Assembly (DSA), etc.. Welcome to contact me via Email: lyx@fudan.edu.cn and liuyxpp@gmail.com.</p>
 </div>
 
 **Lecturer (2012.3-2018.7)**  
@@ -21,6 +22,7 @@ Department of Macromolecular Science
 Fudan University  
 Chemistry Bldg. Room B3083, 2005 Songhu Rd.  
 Shanghai 200438, China  
+Mobile: +86-13916819745  
 Email: lyx@fudan.edu.cn
 
 **Visiting Researcher (2014.7-2016.7)**  
