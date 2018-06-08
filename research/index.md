@@ -30,9 +30,9 @@ The most popular approach for solving the set of self-consistent field theory (S
 The main issue is that the non-periodic boundary conditions due to the
 constraints of the substrates impose serious difficulties during solution of
 the modified diffusion equations (MDEs) of SCFT.
-We developed an exponential time differencing method, {\bf ETDRK4}, based on Chebyshev collocation, which is specially designed to handle non-periodic boundary conditions more efficiently.
+We developed an exponential time differencing method, **ETDRK4**, based on Chebyshev collocation, which is specially designed to handle non-periodic boundary conditions more efficiently.
 It is demonstrated that this method exhibits fourth order accuracy in contour stepping and meanwhile retains the ideal exponential convergence rate in spatial dimensions.
-({\it J. Chem. Phys.}, {\bf 2014}, {\it 140}, 224101.)
+(*J. Chem. Phys.*, **2014**, *140*, 224101.)
 
 ### Polymer Brushes
 
@@ -46,7 +46,7 @@ However, both neutral and purely repulsive substrates are rare in practice.
 Owing to our newly developed numerical method, ETDRK4, we can treat polymer brushes on interacting surfaces being either attractive or repulsive to the grafting polymers.
 It is found that the brush state of the grafting polymers exists at high surface coverage for a whole range of surface interactions from complete repulsion to strong attraction.
 Three additional surfaces states were identified by a scaling analysis of the layer thickness as a function of the stretching parameter at different surface interactions.
-({\it Chinese J. Polym. Sci.}, {\bf 2018}, DOI: http://doi.org/10.1007/s10118-018-2100-4.)
+(*Chinese J. Polym. Sci.*, **2018**, DOI: http://doi.org/10.1007/s10118-018-2100-4.)
 
 ### Surface Interaction Model
 
@@ -57,7 +57,7 @@ Three additional surfaces states were identified by a scaling analysis of the la
 The surface interaction between substrates and block copolymers is one of the most important factors that control the alignment of self-assembled domains under thin film confinement.
 Most previous studies simply modeled substrates modified by grafting polymers as a hard wall with a specified surface energy, leading to an incomplete understanding of the role of grafted polymers.
 We proposed a general model of surface interactions where the role of grafted polymers is decomposed into two independent contributions: the surface softness ($\gamma$) and the surface preference ($\delta$).
-With this separation, we elucidate the connection among bare hard wall confinement (SST), hard confinement modeled by the ``masking'' technique, and soft confinement.
+With this separation, we elucidate the connection among bare hard wall confinement (SST), hard confinement modeled by the "masking" technique, and soft confinement.
 Soft confinement reduces to the mask hard confinement at large $\gamma$ and to the SST hard confinement in the limit of $\gamma\to\infty$.
 It is also possible to map the soft confinement model using ideal random copolymer-grafted substrates onto our model.
 Hence we believe that this separation of surface interactions into two independent parts are universal as long as no internal phase separation occurs across the confining wall itself.
@@ -65,7 +65,7 @@ Hence we believe that this separation of surface interactions into two independe
 Based on this model of surface interactions, we show that the homopolymer-grafted confinement is indeed a versatile platform for creating stable perpendicular lamellae that should be seriously considered in experiments and industrial applications.
 By varying the surface softness and the surface preference of the confining wall, we identify a reasonable window of perpendicular lamellae in the phase diagram of the alignment of self-assembled domains even when the confining wall is highly selective to one of blocks of the block copolymer.
 It thus brings more options in devising substrates that favor perpendicular lamellae by tweaking other properties of substrates that are hopefully easier to control such as the composition, length, and/or grafting density of grafted homopolymers.
-({\it J. Chem. Phys.}, {\bf 2016}, {\it 145}, 214902.)
+(*J. Chem. Phys.*, **2016**, *145*, 214902.)
 
 ### Directed Self-Assembly (DSA)
 
@@ -95,10 +95,10 @@ Understanding the defect removal process is crucial for fabricating defect-free 
 Grafting polymers onto substrates is a widely accepted way to control domain orientations and to fabricate surface patterns for DSA.
 However, the role of the grafted polymers on defect removal remains unclear.
 We employed the string method coupled with SCFT to explore the influence of grafted polymers on the removal of a dislocation dipole in lamellar-forming thin films assembled by AB symmetrical diblock copolymers.
-It is found that the ``immersion effect'' and the ``rearrangement effect'' of the brush layer can facilitate the hopping diffusion of block copolymer chains through reducing the effective Flory-Huggins interaction parameter, thus making the formation of the ``bridge'' structure more easier.
+It is found that the "immersion effect" and the "rearrangement effect" of the brush layer can facilitate the hopping diffusion of block copolymer chains through reducing the effective Flory-Huggins interaction parameter, thus making the formation of the "bridge" structure more easier.
 The increase of the softness (decreasing $\gamma$) of the brush layer will enhance these two effects and reduce the energy barrier of the transition state of the defect removal process.
 In the limit of extremely soft confinement, the bridge structures already exist in the dislocation dipole near the brush layer, leading to a diminishing energy barrier of the removal process.
-({\it Acta Polym. Sin.}, {\bf 2018}, Accepted)
+(*Acta Polym. Sin.*, **2018**, Accepted)
 
 Most previous studies mainly focused on the removal of in-plane dislocation and disclination defects, while out-of-plane defects receive less attention.
 We studied in detail the removal of two types of out-of-plane defects of lamellar forming block copolymer thin films, the tilted domain defect and the cross-sectional edge dislocation defect, using the string method coupled with the numerical SCFT.
@@ -108,7 +108,7 @@ For both cases, multiple removal pathways have been identified by varying the he
 Phase-diagram-like maps are constructed to show which removal pathway can occur most probably at given height and segregation strength.
 In strong segregation regime, in consistent with that found in the removal of in-plane defects, one or more bridge structures are formed, which serve as a channel for diffusion of polymer chains.
 When the segregation is weak, however, no actual bridge but only a nascent bridge structure, whose density of A components in the B domain is slightly higher than the averaging value, is observed and plays a similar role as the actual bridge.
-({\it Macromolecules}, {\bf 2018}, DOI: {\tt http://dx.doi.org/10.1021/acs.macromol.8b00349}.)
+(*Macromolecules*, **2018**, DOI: http://dx.doi.org/10.1021/acs.macromol.8b00349.)
 
 ### Research Notes
 
@@ -118,18 +118,18 @@ When the segregation is weak, however, no actual bridge but only a nascent bridg
 ## Self-Assembly of Block Copolymers in Bulk
 
 <figure class="third">
-    <img src="{{ site.url }}/images/research/bcc.png" alt="">
-    <img src="{{ site.url }}/images/research/hex.png" alt="">
-    <img src="{{ site.url }}/images/research/gyroid.png" alt="">
+    <img src="{{ site.url }}/images/research/bcc.png" alt="BCC">
+    <img src="{{ site.url }}/images/research/hex.png" alt="HEX">
+    <img src="{{ site.url }}/images/research/gyroid.png" alt="Gyroid">
 </figure>
 
 ### Methodology Development
 
 SCFT, as the state-of-the-art technique for computing the self-assembled structures of block copolymers, is attracting continuous efforts to improve its accuracy and efficiency.
 Inspired by the ETDRK4 method we developed to solve non-periodic problems (confined systems), we have extend it to the periodic problems, i.e. bulk systems.
-By making a careful comparison with currently most efficient and popular algorithms, we have shown that the {\bf periodic-ETDRK4} method significantly reduces the number of chain contour steps in solving MDEs, resulting in boost of the overall computational efficiency.
+By making a careful comparison with currently most efficient and popular algorithms, we have shown that the **periodic-ETDRK4** method significantly reduces the number of chain contour steps in solving MDEs, resulting in boost of the overall computational efficiency.
 It is the most efficient non-parallel algorithm for bulk SCFT calculations to date.
-({\it Chinese J. Polym. Sci.}, {\bf 2018}, {\it 36}, 488-496.)
+(*Chinese J. Polym. Sci.*, **2018**, *36*, 488-496.)
 
 ### Block Copolyelectrolyte Solutions
 
@@ -148,7 +148,7 @@ Meanwhile, the ODT line and the OOT line are asymmetric.
 These features of the phase diagram lead to larger parameter space for the
 hexagonal phase (HEX) near $f=0.5$, which we believe explains the recent
 experimental results.
-({\it Macromolecules}, {\bf 2011}, {\it 44}, 8261-8269.)
+(*Macromolecules*, **2011**, *44*, 8261-8269.)
 
 ### Fluctuation Stabilized Mesophase
 
@@ -156,18 +156,18 @@ experimental results.
     <img src="{{ site.url }}/images/research/BM.png" alt="">
 </figure>
 
-A new class of thermoplastic elastomers possessing unusual mechanical properties has recently been discovered in binary blends of A-{\it b}-(B-{\it b}-A')$_n$ miktoarm star block copolymers and A homopolymers that spontaneously form an unusual, thermodynamically stable, aperiodic ``bricks-and-mortar'' (B\&M) mesophase morphology.
-The B\&M mesophase is believed to be stabilized by thermal fluctuations, as in the well-known case of the bicontinuous microemulsion phase.
+A new class of thermoplastic elastomers possessing unusual mechanical properties has recently been discovered in binary blends of A-b-(B-b-A')$_n$ miktoarm star block copolymers and A homopolymers that spontaneously form an unusual, thermodynamically stable, aperiodic "bricks-and-mortar" (B&M) mesophase morphology.
+The B&M mesophase is believed to be stabilized by thermal fluctuations, as in the well-known case of the bicontinuous microemulsion phase.
 In collaboration with Prof. G. H. Fredrickson at UCSB, we investigated the equilibrium self assembly of such miktoarm polymer binary blends using two-dimensional field-theoretic simulations.
-As expected, the \bm\ is not present in the mean-field phase diagram obtained with self-consistent field theory, but complex Langevin (CL) simulations, which fully incorporate thermal fluctuation effects, reveal dramatic changes to the phase diagram.
-A region of strong fluctuations results in the emergent stabilization of the \bm\ in a broad composition channel positioned between microphase separation and macrophase separation envelopes, consistent with experimental observations.
-Our simulations clarify the topology of the blend phase diagram and suggest that the \bm, at least as observed near the order-disorder transition, has no long-range or quasi-long-range positional or orientational order.
-({\it Macromolecules}, {\bf 2017}, {\it 50}, 6263-6272.)
+As expected, the B&M mesophase is not present in the mean-field phase diagram obtained with self-consistent field theory, but complex Langevin (CL) simulations, which fully incorporate thermal fluctuation effects, reveal dramatic changes to the phase diagram.
+A region of strong fluctuations results in the emergent stabilization of the B&M mesophase in a broad composition channel positioned between microphase separation and macrophase separation envelopes, consistent with experimental observations.
+Our simulations clarify the topology of the blend phase diagram and suggest that the B&M mesophase, at least as observed near the order-disorder transition, has no long-range or quasi-long-range positional or orientational order.
+(*Macromolecules*, **2017**, *50*, 6263-6272.)
 
 ### Beyond Mean-Field Density Functional Models for Polymer Systems
 
 While SCFT achieves remarkable success in modeling self-assembly of block copolymers, it is a mean-field theory which ignores the fluctuating effects.
-Using {\bf beyond mean-field} field-theoretic simulations to study fully fluctuating polymer systems remains a big challenge.
+Using **beyond mean-field** field-theoretic simulations to study fully fluctuating polymer systems remains a big challenge.
 Current field-based approaches are highly computational demanding which renders it infeasible to tackle large-scale problems.
 In collaboration with Prof. G. H. Fredrickson at UCSB, we propose a density functional model that can incorporate thermal fluctuations to describe polymer solutions.
 Meanwhile, it can cut the number of dimensions of the computational space from 4 to 3, leading to a reduction of computational cost for about two magnitude.
@@ -183,7 +183,7 @@ The process of polymer crystallization is a transition from a randomly coiled st
 2. to provide new evidence to better understand the nature of polymer crystal-lization.
 
 Low molecular weight poly(ethylene oxide) (PEO) fractions tend to form integral folded chain [IF($n$)] monolayer crystals with $n$ the number of folds per chain on mica surfaces, which serve as a good model to study the underlying mechanism of polymer crystallization.
-({\it Coord. Chem. Rev.}, {\bf 2010}, {\it 254}, 1011-1037.)
+(*Coord. Chem. Rev.*, **2010**, *254*, 1011-1037.)
 
 ### Crystallization Kinetics
 
@@ -195,7 +195,7 @@ The phase selection pathways in crystallization of PEO monolayer on mica surface
 We focused on a temperature region where the crystallization kinetics of IF(0) and IF(1) crystals are expected to compete with each other.
 Four pathways are identified: melt$\rightarrow$IF(0) crystals (S0), melt$\rightarrow$IF(1) crystals (S1), IF(1) crystals$\rightarrow$IF(0) crystals (S10), and the composite fluctuation of the latter two (S2).
 This observation agrees with classical nucleation theory except the fact that S0 cannot occur before S1 when the undercooling exceeds some critical value, which can only be understood by introducing the Gr\'an\'asy-Oxtoby nucleation theory.
-({\it Macromolecules}, {\bf 2011}, {\it 44}, 8819-8828.)
+(*Macromolecules*, **2011**, *44*, 8819-8828.)
 
 ### Crystal Thickening Process
 
@@ -206,10 +206,10 @@ This observation agrees with classical nucleation theory except the fact that S0
 The thickening behavior of IF(1) monolayer crystals subjected to different annealing temperatures was also in situ followed by AFM and the morphological evolution was recorded sequentially.
 IF(0) crystals form via creating thickening domains within the IF(1) mother phase with an induction period.
 While the number of thickening domains increases with time, the thickness behaves a sigmoidal increase and lateral size increases linearly.
-This phenomenon highly indicates that lamellar thickening follows a nucleation and growth mechanism, which has been actually reproduced by {\bf phase field simulations}.
+This phenomenon highly indicates that lamellar thickening follows a nucleation and growth mechanism, which has been actually reproduced by **phase field simulations**.
 Combining the experimental and simulation results, we can conclude that while the longitudinal sliding diffusion within the crystalline lattice provides the manner of thickening, the fold surface free energy dominates the thickening barrier.
 As the fold surface free energy reduces with temperature (an effect has been neglected in most literatures), the thickening rate will increase.
-({\it Macromolecules}, {\bf 2009}, {\it 42}, 2886-2890; {\it Acta Polym. Sin.}, {\bf 2018}, DOI: {\tt http://dx.doi.org/10.11777/j.issn1000-3304.2017.17333}.)
+(*Macromolecules*, **2009**, *42*, 2886-2890; *Acta Polym. Sin.*, **2018**, DOI: http://dx.doi.org/10.11777/j.issn1000-3304.2017.17333.)
 
 ### Thermodynamic Behavior
 
