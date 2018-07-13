@@ -3,7 +3,7 @@ layout: page
 title: CV
 header-img: images/abstract-5.jpg
 comments: false
-modified: 2018-04-28
+modified: 2018-07-13
 ---
 
 ## Yi-Xin Liu
@@ -82,7 +82,7 @@ Advisor: Prof. Er-Qiang Chen
 ### Research Grants
 -----
 
-- **Shanghai Pujiang Program:** Exploring Novel Nanostructures Through Mircophase Separation of Block Copolymers under Soft Confinements. PI, No. 18PJ1401200, 200K RMB (30K USD), 2018.7-2020.7)
+- **Shanghai Pujiang Program:** Exploring Novel Nanostructures Through Mircophase Separation of Block Copolymers under Soft Confinements. PI, No. 18PJ1401200, 200K RMB (30K USD), 2018.7-2020.7
 
 - **Young Scientists Fund of the National Natural Science Foundation of China (NNSFC):** Computer Simulation Study of Pattern Formation in Ultrathin Film Polymer Crystallization. PI, No. 21004013, 180K RMB (28K USD) 2011.1-2013.12.
 
@@ -114,16 +114,16 @@ Please visit [my publication list]({{ site.url }}/publications/).
 ### Teaching Experience
 -----
 
-**Instructor:** Polymer Physics, 2014, 2017, 2018
-*Fudan University, Department of Macromolecular Science*
+**Instructor:** Polymer Physics, 2014, 2017, 2018  
+*Fudan University, Department of Macromolecular Science*  
 Core undergraduate course, 30+ students, 15-week, 3-credit. Co-instructors: Hong-Dong Zhang and Jian-Feng Li.
 
-**Instructor:** Introduction to Polymeric Materials, 2016, 2017
-*Fudan University, Department of Macromolecular Science*
+**Instructor:** Introduction to Polymeric Materials, 2016, 2017  
+*Fudan University, Department of Macromolecular Science*  
 Undergraduate course, 20+ students, 15-week, 2-credit. Co-instructor: Jia Guo.
 
-**Instructor:** Quantitative Chemical Analysis Experiments, 2006, 2007
-*Peking University, College of Chemistry and Moelcular Engineering*
+**Instructor:** Quantitative Chemical Analysis Experiments, 2006, 2007  
+*Peking University, College of Chemistry and Moelcular Engineering*  
 Undergraduate experimental course, 17 students, 15-week, 2-credit.
 
 ### Computational Experience
