@@ -16,6 +16,21 @@ Mobile: (+86) 13916819745
 Email: lyx@fudan.edu.cn; liuyxpp@gmail.com  
 Academic Homepage: [http://www.ngpy.org](http://www.ngpy.org/)
 
+<div markdown="0">
+    <br><br>
+    <a href="{{ site.url }}/downloads/CV.pdf" class="btn btn-success">Download PDF Version</a>
+</div>
+
+### Education
+-----
+
+**PhD in Polymer Chemistry and Physics**, 2004-2009  
+*Peking University, Beijing, China*  
+Disertation: Phase Selection Pathways and Morphological Evolution in Polymer Crystallization: An Experimental and Theoretical Study on Low Molecular Weight Poly(ethylene oxide) Fractions  
+Advisor: Prof. Er-Qiang Chen
+
+**BS in Chemistry**, 2000-2004  
+*Nanjing University, Nanjing*
 
 ### Research Interests
 -----
@@ -39,23 +54,23 @@ Academic Homepage: [http://www.ngpy.org](http://www.ngpy.org/)
 **Visiting Researcher**, 2014 - 2016  
 *University of California, Santa Barbara, Materials Research Laboratory*
 
-- Field-theoretic simulations of polymeric materials under *thermal fluctuations*.
+- Conducted complex Langevin field-theoretic simulations of polymeric materials under thermal fluctuations.
 
-- Developing a density functional model for polymeric systems with fluctuations in consideration. 
+- Developed a density functional model for polymeric systems under thermal fluctuations.
 
 **Postdoctoral Research Fellow**, 2009 - 2012  
 *Fudan University, Department of Macromolecular Science*
 
-- Developed high performance numerical methods for studying the equilibrium phase separation structures of *charged block copolymers*.
+- Developed high performance numerical methods for studying the equilibrium phase separation structures of charged block copolymers.
 
-- Monte Carlo simulations on the nucleation and growth process in thickening of monolayer poly(ethylene oxide) (PEO) crystals in ultrathin films.
+- Performed Monte Carlo simulations on the nucleation and growth process in thickening of monolayer poly(ethylene oxide) crystals in ultrathin films.
 
 **Ph.D. Candidate**, 2004 - 2009  
 *Peking University, College of Chemistry and Molecular Engineering*
 
-- Phase field simulations on morphological evolution of monolayer PEO crystals.
+- Conducted phase field simulations on morphological evolution of monolayer poly(ethylene oxide) crystals.
 
-- Experimental studies on the nucleation, growth, and thickening of monolayer PEO crystals in ultrathin films using in-situ atomic force microsocpy.
+- Carried out experimental studies on the nucleation, growth, thickening, and melting of monolayer poly(ethylene oxide) crystals in ultrathin films using in-situ atomic force microscopy.
 
 **Undergraduate Student**, 2003 - 2004  
 *Nanjing University, School of Chemistry and Chemical Engineering*
@@ -64,61 +79,59 @@ Academic Homepage: [http://www.ngpy.org](http://www.ngpy.org/)
 
 - Computed surface properties of supported catalysts using Gaussian 98.
 
-### Teaching Experience
------
-
-- Polymer Physics (Core course for undergraduate students, 2014, 2017, 2018)
-
-- Introduction to Polymeric Materials (for undergraduate students, 2016, 2017)
-
-### Education
------
-
-**Peking University**, Beijing, 2004 - 2009  
-Ph.D. in Polymer Chemistry and Physics, Jun, 2009  
-Disertation: *Phase Selection Pathways and Morphological Evolution in Polymer Crystallization: An Experimental and Theoretical Study on Low Molecular Weight Poly(ethylene oxide) Fractions*  
-Advisor: Prof. Er-Qiang Chen
-
-**Nanjing University**, Nanjing, 2000 - 2004  
-BS in Chemistry, Jun, 2004  
-Thesis: *Synthesis and characterization of Amphiphilic Ligands and Its Complexes with Metal Ions*  
-Advisor: Prof. Wei-Jiang He
-
 ### Research Grants
 -----
 
-- Shanghai Pujiang Program (Principle Investigator, No. 18PJ1401200, 2018.9-2020.9)
+- **Shanghai Pujiang Program:** Exploring Novel Nanostructures Through Mircophase Separation of Block Copolymers under Soft Confinements. PI, No. 18PJ1401200, 200K RMB (30K USD), 2018.7-2020.7)
 
-- Young Scientists Fund of the National Natural Science Foundation of China (NNSFC) (Principle Investigator, No. 21004013, 2011.1-2013.12).
+- **Young Scientists Fund of the National Natural Science Foundation of China (NNSFC):** Computer Simulation Study of Pattern Formation in Ultrathin Film Polymer Crystallization. PI, No. 21004013, 180K RMB (28K USD) 2011.1-2013.12.
 
-- Shanghai Postdoctoral Scientific Program (Principle Investigator, No. 11R21411400, 2011.1-2011.12).
+- **Shanghai Postdoctoral Scientific Program:** Computer Simulation Study of Ordered Structures Self-Assembled from Concentrated Solutions of Weakly Charged Block Copolymers. PI, No. 11R21411400, 40K (6K USD) 2011.1-2011.12.
 
-- National Basic Research Program of China (No. 2011CB605701, 2013.1-2015.12).
+### Publications
+-----
+
+Please visit [my publication list]({{ site.url }}/publications/).
 
 ### Honors and Awards
 -----
 
-- Visiting Scholar (China Scholar Council, No. 201406105018, 2014).
+- Scholarship awarded by China Scholar Council, 2014-2015
 
-- Dongkong Scholarship for Graduates (Peking University, 2008)
+- Dongkong Scholarship for Graduates, Peking University, 2008
 
-- Student Award of Merit (Peking University, 2008)
+- Student Award of Merit, Peking University, 2008
 
-- Renming Scholarship (Nanjing University, 2000, 2001, 2002, 2003)
+- Renming Scholarship, Nanjing University, 2000-2003
 
 ### Professional Memberships and Activities
 -----
 
-- Referee: Polymer, Review of Scientific Instruments, Chinese Physics B
+- Member, American Physical Society
 
-- Member, American Physical Society (2013, 2014)
+- Reviewer: Polymer, Review of Scientific Instruments, Chinese Physics B
+
+### Teaching Experience
+-----
+
+**Instructor:** Polymer Physics, 2014, 2017, 2018
+*Fudan University, Department of Macromolecular Science*
+Core undergraduate course, 30+ students, 15-week, 3-credit. Co-instructors: Hong-Dong Zhang and Jian-Feng Li.
+
+**Instructor:** Introduction to Polymeric Materials, 2016, 2017
+*Fudan University, Department of Macromolecular Science*
+Undergraduate course, 20+ students, 15-week, 2-credit. Co-instructor: Jia Guo.
+
+**Instructor:** Quantitative Chemical Analysis Experiments, 2006, 2007
+*Peking University, College of Chemistry and Moelcular Engineering*
+Undergraduate experimental course, 17 students, 15-week, 2-credit.
 
 ### Computational Experience
 -----
 
-- Programming: Python, C/C++, Parallel Programming (MPI, GPU/CUDA), Matlab, HTML/CSS, LaTeX.
+- Python, C/C++, Parallel Programming (MPI, GPU/CUDA), Matlab, HTML/CSS, LaTeX.
 
-- Working experience with Linux, tensorflow, numpy/scipy, fftw, armadillo, blitz++, matplotlib.
+- Familiar with Linux, tensorflow, numpy/scipy, fftw, armadillo, blitz++, matplotlib.
 
 - Open source projects: [polyorder](https://github.com/liuyxpp/polyorder) - [gyroid](https://pypi.org/project/gyroid/) - [ngpy](https://pypi.org/project/ngpy/) - [chebpy](https://pypi.org/project/chebpy/) - [mpltex](https://pypi.org/project/mpltex/)
 
@@ -140,14 +153,4 @@ Advisor: Prof. Wei-Jiang He
 - Developed software toolkits to analyze AFM images.
 
 - Trained more than 20 users, including faculties, staffs, and graduate students.
-
-### Publications
------
-
-Please visit [my publication list]({{ site.url }}/publications/).
-
-<div markdown="0">
-    <br><br>
-    <a href="{{ site.url }}/downloads/CV.pdf" class="btn btn-success">Download PDF Version</a>
-</div>
 
