@@ -17,11 +17,7 @@ I have spent two years (2014-2016) performing research, as a visiting researcher
 My current research interests lie in the area of soft matter physics, including polymer field theory (both mean-field and beyond mean-field) and related numerical algorithms, phase behavior and structures of block copolymers, polymer brushes and polyelectrolytes in bulk and under confinements, directed  self-assembly, and ultrathin film crystallization.
 I have published 21 research articles in peer reviewed journals including *Macromolecules*, *J. Chem. Phys.*, and *Coord. Chem. Rev.*.
 
-<div markdown="0">
-    <p style="color:#e74c3c;font-weight: bold;">I am looking for a Postdoc, Faculty or Research Scientist Position in the field of Polymer Physics, Computational Science, Directed Self-Assembly (DSA), etc.. Welcome to contact me via Email: lyx@fudan.edu.cn and liuyxpp@gmail.com.</p>
-</div>
-
-**Lecturer (2012.3-2018.7)**  
+**Lecturer (2012.3 - present)**  
 Department of Macromolecular Science  
 Fudan University  
 Chemistry Bldg. Room B3083, 2005 Songhu Rd.  
@@ -29,14 +25,12 @@ Shanghai 200438, China
 Mobile: +86-13916819745  
 Email: lyx@fudan.edu.cn
 
-**Visiting Researcher (2014.7-2016.7)**  
+**Visiting Researcher (2014.7 - 2016.7)**  
 Materials Research Laboratory  
 University of California, Santa Barbara  
 MRL Bldg. Room 3104, UC Santa Barbara  
 Santa Barbara, CA 93106, US  
 Email: lyx@mrl.ucsb.edu
-
-**CV - Resume**
 
 <div markdown="0">
     <a href="{{ site.url }}/CV/" class="btn btn-info">View HTML</a>

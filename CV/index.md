@@ -17,7 +17,6 @@ Email: lyx@fudan.edu.cn; liuyxpp@gmail.com
 Academic Homepage: [http://www.ngpy.org](http://www.ngpy.org/)
 
 <div markdown="0">
-    <br><br>
     <a href="{{ site.url }}/downloads/CV.pdf" class="btn btn-success">Download PDF Version</a>
 </div>
 
