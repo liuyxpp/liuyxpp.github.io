@@ -3,7 +3,7 @@ layout: page
 title: CV
 header-img: images/abstract-5.jpg
 comments: false
-modified: 2018-07-18
+modified: 2018-08-17
 ---
 
 ## Yi-Xin Liu
@@ -12,7 +12,8 @@ Department of Macromolecular Science
 Fudan University  
 Chemistry Bldg. Room B3083, 2005 Songhu Rd.  
 Shanghai 200438, China  
-Mobile: (+86) 13916819745  
+Office: +86-21-31242883  
+Mobile: +86-13916819745  
 Email: lyx@fudan.edu.cn; liuyxpp@gmail.com  
 Academic Homepage: [http://www.ngpy.org](http://www.ngpy.org/)
 
@@ -81,9 +82,11 @@ Advisor: Prof. Er-Qiang Chen
 ### Research Grants
 -----
 
+- **General Program of the National Natural Science Foundation of China (NSFC):** Exploration and Design of Nontrivial Mesostructures of Polymeric Materials under Complex Conditions. PI, No. 218743021, 744K RMB (110K USD) 2019.1-2022.12.
+
 - **Shanghai Pujiang Program:** Exploring Novel Nanostructures Through Mircophase Separation of Block Copolymers under Soft Confinements. PI, No. 18PJ1401200, 200K RMB (30K USD), 2018.7-2020.7
 
-- **Young Scientists Fund of the National Natural Science Foundation of China (NNSFC):** Computer Simulation Study of Pattern Formation in Ultrathin Film Polymer Crystallization. PI, No. 21004013, 180K RMB (28K USD) 2011.1-2013.12.
+- **Young Scientists Fund of the National Natural Science Foundation of China (NSFC):** Computer Simulation Study of Pattern Formation in Ultrathin Film Polymer Crystallization. PI, No. 21004013, 180K RMB (28K USD) 2011.1-2013.12.
 
 - **Shanghai Postdoctoral Scientific Program:** Computer Simulation Study of Ordered Structures Self-Assembled from Concentrated Solutions of Weakly Charged Block Copolymers. PI, No. 11R21411400, 40K (6K USD) 2011.1-2011.12.
 

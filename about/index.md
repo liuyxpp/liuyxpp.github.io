@@ -4,7 +4,7 @@ title: About
 description: A brief introdcution of Dr. Yi-Xin Liu and about the technique used by this website.
 header-img: images/about.jpg
 comments: false
-modified: 2018-05-30
+modified: 2018-08-01
 ---
 
 # About Me
@@ -22,6 +22,7 @@ Department of Macromolecular Science
 Fudan University  
 Chemistry Bldg. Room B3083, 2005 Songhu Rd.  
 Shanghai 200438, China  
+Office: +86-21-31242883  
 Mobile: +86-13916819745  
 Email: lyx@fudan.edu.cn
 

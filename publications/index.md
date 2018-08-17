@@ -4,7 +4,7 @@ title: Publications
 description: A list of my publications.
 header-img: images/publications-0.jpg
 comments: false
-modified: 2018-04-04
+modified: 2018-08-01
 ---
 
 # My Publications
