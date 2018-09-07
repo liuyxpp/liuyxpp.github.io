@@ -20,6 +20,10 @@ modified: 2018-04-04
 
 ### Introduction to Polymer Materials
 
-- *Fall 2018, Classroom: H2107, Time: Mon 11-12* (Ongoing. Welcome!)
+- *Fall 2018, Classroom: H2107, Time: Mon 11-12* **(Ongoing. Welcome!)**
 - Fall 2017, Classroom: H2107, Time: Mon 11-12
 - Fall 2016, Classroom: HGX304, Time: Mon 11-12
+
+### Principles of Polymer Processing
+
+- In preparation. Planned for Fall 2021.
