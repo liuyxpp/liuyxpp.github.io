@@ -15,7 +15,7 @@ Shanghai 200438, China
 Office: +86-21-31242883  
 Mobile: +86-13916819745  
 Email: lyx@fudan.edu.cn; liuyxpp@gmail.com  
-Academic Homepage: [http://www.ngpy.org](http://www.ngpy.org/)
+Academic Homepage: [http://www.yxliu.group](http://www.yxliu.group)
 
 <div markdown="0">
     <a href="{{ site.url }}/downloads/CV.pdf" class="btn btn-success">Download PDF Version</a>
