@@ -45,7 +45,7 @@ Email: lyx@mrl.ucsb.edu
 
 This website is Yi-Xin Liu's personal academic website. Yi-Xin Liu is the copyright holder to all the contents published on this website except the underlying theme. If you wish to use any copyright material on this website, please contact me via the Email or address listed above to obtain a permission.
 
-This website is based on the HPSTR Jekyll Theme by [Michael Rose](https://github.com/mmistakes) and the Clean Blog Theme by [David Miller](https://github.com/davidtmiller/). It has been deployed to Github Pages at [http://liuyxpp.github.io](http://liuyxpp.github.io) with custom domain at [http://ngpy.org](http://ngpy.org). If you wish to use the Jekyll theme of this website, please follow the guidelines below:
+This website is based on the HPSTR Jekyll Theme by [Michael Rose](https://github.com/mmistakes) and the Clean Blog Theme by [David Miller](https://github.com/davidtmiller/). It has been deployed to Github Pages at [http://liuyxpp.github.io](http://liuyxpp.github.io) with custom domain at [http://www.yxliu.group](http://www.yxliu.group). If you wish to use the Jekyll theme of this website, please follow the guidelines below:
 
 1. Please give credit by starring [this project](https://github.com/liuyxpp/liuyxpp.github.io) and/or display this line on your website: "This website is powered by [LYX Jekyll theme](https://github.com/liuyxpp/liuyxpp.github.io)".
 2. Remove all personal materials and personal information about me (Yi-Xin Liu).
