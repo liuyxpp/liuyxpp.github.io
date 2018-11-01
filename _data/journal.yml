@@ -26,8 +26,9 @@
   language: english
 
 - title: 'Theoretical Studies on Defect Removal in Block Copolymer Thin Films under Soft Confinement'
-  volume: 'Published Online'
-  page: ''
+  volume: '12'
+  issue: '12'
+  page: '1548-1557'
   year: 2018
   author:
   - given: Jun-Qing
@@ -51,6 +52,7 @@
 
 - title: 'Thickening Kinetics of Monolayer Crystals of Low Molecular Weight Poly(ethylene oxide) Fractions on Mica Surfaces'
   volume: '9'
+  issue: '9'
   page: '1212-1220'
   year: 2018
   author:
