@@ -18,6 +18,7 @@
   city: 'Shanghai, China'
   source: Postdoctoral Research Report
   fulltext: 'doctor2009.pdf'
+  language: chinese
 
 - id: Liu2009a
   title: 'Phase Selection Pathways and Morphological evolution in Polymer Crystallization: An Experimental and Theoretical Study on Low Molecular Weight Poly(ethylene oxide) Fractions'
@@ -37,3 +38,4 @@
   city: 'Beijing, China'
   source: Doctoral Disertation
   fulltext: 'postdoc2012.pdf'
+  language: chinese

@@ -90,7 +90,7 @@ modified: 2018-08-01
         <span class='advisor'>{{ advisor.role }}: {{ advisor.family }}, {{ advisor.given_initial }}</span>
     {% endfor %}
     <div class="pubinfo">
-    <span class="source">{{ thesis.source }} </span><span class="publisher">{{ thesis.publisher }}, </span><span class="year">{{ thesis.year }}.</span>
+    <span class="source">{{ thesis.source }} </span><span class="publisher">{{ thesis.publisher }}, </span><span class="year">{{ thesis.year }}.</span>{% if thesis.language != 'english' %}<span class="language"> (In {{ thesis.language }})</span>{% endif %}
     </div>
     </li>
 {% endfor %}
