@@ -4,7 +4,7 @@ description:      "Dr. Yi-Xin Liu is a polymer physicists at Fudan University."
 reading_time:     true
 words_per_minute: 200
 #url:                    # blank for local preview
-url: http://www.yxliu.group   # for production
+url: http://www.yxliu.group   # for production, for plugin: jekyll-sitemap
 header-img: images/homepage.jpg
 excerpt_separator: "<!--more-->"
 
@@ -35,13 +35,15 @@ google_verify: vCNYuIbRPqv4coJvcqQglEsd4IBd9p4cP0AdERyG86w  # Webmaster
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Shanghai
 future:      true
 highlighter: rouge
 markdown:    kramdown
-gems:
-  - jekyll-sitemap
 sass:
   sass_dir: _sass
   style: compressed

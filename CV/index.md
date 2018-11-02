@@ -1,6 +1,7 @@
 ---
 layout: page
 title: CV
+description: "CV, Resume of Dr. Yi-Xin Liu at Fudan University."
 header-img: images/abstract-5.jpg
 comments: false
 modified: 2018-08-17

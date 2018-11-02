@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Research Interests
-description: "Polymer Physics &amp; Numerical Algorithms."
+description: "Research interests: computational science, polymer physics, numerical algorithm, scientific software, polymer crystallization, python."
 header-img: images/research-1.jpg
 comments: false
-modified: 2018-04-04
+modified: 2018-11-02
 ---
 
 # Research Interests
@@ -46,7 +46,7 @@ However, both neutral and purely repulsive substrates are rare in practice.
 Owing to our newly developed numerical method, ETDRK4, we can treat polymer brushes on interacting surfaces being either attractive or repulsive to the grafting polymers.
 It is found that the brush state of the grafting polymers exists at high surface coverage for a whole range of surface interactions from complete repulsion to strong attraction.
 Three additional surfaces states were identified by a scaling analysis of the layer thickness as a function of the stretching parameter at different surface interactions.
-(*Chinese J. Polym. Sci.*, **2018**, DOI: http://doi.org/10.1007/s10118-018-2100-4.)
+(*Chinese J. Polym. Sci.*, **2018**, *36*, 1047-1054.)
 
 ### 1.3 Surface Interaction Model
 
@@ -98,7 +98,7 @@ We employed the string method coupled with SCFT to explore the influence of graf
 It is found that the "immersion effect" and the "rearrangement effect" of the brush layer can facilitate the hopping diffusion of block copolymer chains through reducing the effective Flory-Huggins interaction parameter, thus making the formation of the "bridge" structure more easier.
 The increase of the softness (decreasing $\gamma$) of the brush layer will enhance these two effects and reduce the energy barrier of the transition state of the defect removal process.
 In the limit of extremely soft confinement, the bridge structures already exist in the dislocation dipole near the brush layer, leading to a diminishing energy barrier of the removal process.
-(*Acta Polym. Sin.*, **2018**, Accepted)
+(*Acta Polym. Sin.*, **2018**, *12*, 1548-1557.)
 
 Most previous studies mainly focused on the removal of in-plane dislocation and disclination defects, while out-of-plane defects receive less attention.
 We studied in detail the removal of two types of out-of-plane defects of lamellar forming block copolymer thin films, the tilted domain defect and the cross-sectional edge dislocation defect, using the string method coupled with the numerical SCFT.
@@ -108,7 +108,7 @@ For both cases, multiple removal pathways have been identified by varying the he
 Phase-diagram-like maps are constructed to show which removal pathway can occur most probably at given height and segregation strength.
 In strong segregation regime, in consistent with that found in the removal of in-plane defects, one or more bridge structures are formed, which serve as a channel for diffusion of polymer chains.
 When the segregation is weak, however, no actual bridge but only a nascent bridge structure, whose density of A components in the B domain is slightly higher than the averaging value, is observed and plays a similar role as the actual bridge.
-(*Macromolecules*, **2018**, DOI: http://dx.doi.org/10.1021/acs.macromol.8b00349.)
+(*Macromolecules*, **2018**, *51*, 4201-4212.)
 
 ### 1.7 Research Notes
 
@@ -209,7 +209,7 @@ While the number of thickening domains increases with time, the thickness behave
 This phenomenon highly indicates that lamellar thickening follows a nucleation and growth mechanism, which has been actually reproduced by **phase field simulations**.
 Combining the experimental and simulation results, we can conclude that while the longitudinal sliding diffusion within the crystalline lattice provides the manner of thickening, the fold surface free energy dominates the thickening barrier.
 As the fold surface free energy reduces with temperature (an effect has been neglected in most literatures), the thickening rate will increase.
-(*Macromolecules*, **2009**, *42*, 2886-2890; *Acta Polym. Sin.*, **2018**, DOI: http://dx.doi.org/10.11777/j.issn1000-3304.2017.17333.)
+(*Macromolecules*, **2009**, *42*, 2886-2890; *Acta Polym. Sin.*, **2018**, *9*, 1212-1220.)
 
 ### 3.3 Thermodynamic Behavior
 
@@ -228,11 +228,11 @@ Programming languages involved: `C/C++`, `Matlab`, and `Python`. Transition to `
 
 ### 4.1 Software Packages
 
-* [Polyorder]({{ site.url }}/software/)
-* [Gyroid]({{ site.url }}/software/)
-* [PyDiagram]({{ site.url }}/software/)
-* [NGPy]({{ site.url }}/software/)
-* [mpltex]({{ site.url }}/software/)
+* [Polyorder]({{ site.url }}/software/#polyorder)
+* [Gyroid]({{ site.url }}/software/#gyroid)
+* [PyDiagram]({{ site.url }}/software/#pydiagram)
+* [NGPy]({{ site.url }}/software/#ngpy)
+* [mpltex]({{ site.url }}/software/#mpltex)
 
 ### 4.2 Numerical Algorithms
 
