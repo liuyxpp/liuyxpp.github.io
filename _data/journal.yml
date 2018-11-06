@@ -26,23 +26,37 @@
   language: english
 
 - title: 'Theoretical Studies on Defect Removal in Block Copolymer Thin Films under Soft Confinement'
+  title_alt: '软受限条件下嵌段共聚物薄膜缺陷消除的理论研究'
   volume: '12'
   issue: '12'
   page: '1548-1557'
   year: 2018
   author:
   - given: Jun-Qing
+    given_alt: 俊清
     given_initial: J. Q.
     family: Song
+    family_alt: 宋
+    name: Jun-Qing Song
+    name_alt: 宋俊清
   - given: Yi-Xin
+    given_alt: 一新
     given_initial: Y. X.
     family: Liu
+    family_alt: 刘
+    name: Yi-Xin Liu
+    name_alt: 刘一新
     role: 'main corr'
   - given: Hong-Dong
+    given_alt: 红东
     given_initial: H. D.
     family: Zhang
+    family_alt: 张
+    name: Hong-Dong Zhang
+    name_alt: 张红东
   journal:
     fullname: Acta Polymerica Sinica
+    fullname_alt: 高分子学报
     abbreviation: Acta Polym. Sin.
   URL: "http://www.gfzxb.org/article/doi/10.11777/j.issn1000-3304.2018.18097"
   type: article
@@ -51,20 +65,30 @@
   language: chinese
 
 - title: 'Thickening Kinetics of Monolayer Crystals of Low Molecular Weight Poly(ethylene oxide) Fractions on Mica Surfaces'
+  title_alt: '云母表面低分子量聚氧乙烯单层片晶等温增厚动力学'
   volume: '9'
   issue: '9'
   page: '1212-1220'
   year: 2018
   author:
   - given: Yi-Xin
+    given_alt: 一新
     given_initial: Y. X.
     family: Liu
+    family_alt: 刘
     role: 'main corr'
+    name: Yi-Xin Liu
+    name_alt: 刘一新
   - given: Er-Qiang
+    given_alt: 尔强
     given_initial: E. Q.
     family: Chen
+    family_alt: 陈
+    name: Er-Qiang Chen
+    name_alt: 刘一新
   journal:
     fullname: Acta Polymerica Sinica
+    fullname_alt: 高分子学报
     abbreviation: Acta Polym. Sin.
   URL: "http://www.gfzxb.org/article/doi/10.11777/j.issn1000-3304.2017.17333"
   type: article
@@ -171,19 +195,29 @@
   language: english
 
 - title: 'On the Teaching of Modern Polymer Physics: I. Ginzburg Criterion'
+  title_alt: '现代高分子物理课程系列漫谈I: 金兹堡判据'
   volume: '1'
   page: '73-79'
   year: 2015
   author:
   - given: Yi-Xin
+    given_alt: 一新
     given_initial: Y. X.
     family: Liu
+    family_alt: 刘
+    name: Yi-Xin Liu
+    name_alt: 刘一新
     role: 'main corr'
   - given: Hong-Dong
+    given_alt: 红东
     given_initial: H. D.
     family: Zhang
+    family_alt: 张
+    name: Hong-Dong Zhang
+    name_alt: 张红东
   journal:
     fullname: Polymer Bulletin
+    fullname_alt: 高分子通报
     abbreviation: Polymer Bulletin
   URL: "http://www.gfztb.com/oa/darticle.aspx?type=view&id=20150113"
   type: article
@@ -553,6 +587,7 @@
   fulltext: po200603.pdf
 
 - title: 'Pseudo-dewetting behavior of low molecular weight poly(ethylene oxide) melts on mica surface'
+  title_alt: '云母表面上低分子量聚氧乙烯熔体的“假不浸润”行为'
   ISSN: '1000-3304'
   issue: '9'
   volume: '9'
@@ -560,24 +595,45 @@
   year: 2006
   author:
   - given: Dun Shen
+    given_alt: 敦深
     given_initial: D. S.
     family: Zhu
+    family_alt: 朱
+    name: Dun Shen Zhu
+    name_alt: 朱敦深
   - given: Yi-Xin
+    given_alt: 一新
     given_initial: Y. X.
     family: Liu
+    family_alt: 刘
+    name: Yi-Xin Liu
+    name_alt: 刘一新
     role: main
   - given: Er-Qiang
+    given_alt: 尔强
     given_initial: E. Q.
     family: Chen
+    family_alt: 陈
+    name: Er-Qiang Chen
+    name_alt: 陈尔强
     role: corr
   - given: Ming
+    given_alt: 明
     given_initial: M.
     family: Li
+    family_alt: 李
+    name: Ming Li
+    name_alt: 李明
   - given: Stephen Zheng Di
+    given_alt: 正迪
     given_initial: S. Z. D.
     family: Cheng
+    family_alt: 程
+    name: Stephen Zheng Di Cheng
+    name_alt: 程正迪
   journal:
     fullname: Acta Polymerica Sinica
+    fullname_alt: 高分子学报
     abbreviation: Acta Polym. Sin.
   URL: "http://www.gfzxb.org/CN/abstract/abstract10391.shtml"
   type: article
@@ -585,30 +641,52 @@
   fulltext: gfzxb200601.pdf
 
 - title: 'AFM-tip-induced crystallization of poly(ethylene oxide) melt droplets'
+  title_alt: '原子力显微镜针尖诱导聚氧乙烯熔体结晶的研究'
   page: '553-556'
   volume: '4'
   issue:  '4'
   year: 2006
   author:
   - given: Dun Shen
+    given_alt: 敦深
     given_initial: D. S.
     family: Zhu
+    family_alt: 朱
+    name: Dun Shen Zhu
+    name_alt: 朱敦深
   - given: Xing Xian
+    given_alt: 兴贤
     given_initial: X. X.
     family: Shou
+    family_alt: 寿
+    name: Xing Xian Shou
+    name_alt: 寿兴贤
   - given: Yi-Xin
+    given_alt: 一新
     given_initial: Y. X.
     family: Liu
+    family_alt: 刘
+    name: Yi-Xin Liu
+    name_alt: 刘一新
     role: main
   - given: Er-Qiang
+    given_alt: 尔强
     given_initial: E. Q.
     family: Chen
+    family_alt: 陈
+    name: Er-Qiang
+    name_alt: 陈尔强
     role: corr
   - given: Stephen Zheng Di
+    given_alt: 正迪
     given_initial: S. Z. D.
     family: Cheng
+    family_alt: 程
+    name: Stephen Zheng Di Cheng
+    name_alt: 程正迪
   journal:
-    fulltext: Acta Polymerica Sinica
+    fullname: Acta Polymerica Sinica
+    fullname_alt: 高分子学报
     abbreviation: Acta Polym. Sin.
   URL: "http://www.gfzxb.org/CN/abstract/abstract10702.shtml"
   type: article
