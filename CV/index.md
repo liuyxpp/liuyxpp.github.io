@@ -4,7 +4,7 @@ title: CV
 description: "CV, Resume of Dr. Yi-Xin Liu at Fudan University."
 header-img: images/abstract-5.jpg
 comments: false
-modified: 2018-08-17
+modified: 2018-11-22
 ---
 
 ## Yi-Xin Liu
@@ -14,7 +14,7 @@ Fudan University
 Chemistry Bldg. Room B3083, 2005 Songhu Rd.  
 Shanghai 200438, China  
 Office: +86-21-31242883  
-Mobile: +86-13916819745  
+Mobile: +86-18117210989  
 Email: lyx@fudan.edu.cn; liuyxpp@gmail.com  
 Academic Homepage: [http://www.yxliu.group](http://www.yxliu.group)
 
@@ -110,7 +110,7 @@ Please visit [my publication list]({{ site.url }}/publications/).
 ### Professional Memberships and Activities
 -----
 
-- Member, American Physical Society
+- Member: American Physical Society
 
 - Reviewer: Polymer, Review of Scientific Instruments, Chinese Physics B
 
