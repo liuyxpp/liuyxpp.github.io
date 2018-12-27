@@ -1,21 +1,21 @@
 ---
 layout: page
 title: About
-description: A brief introdcution of Dr. Yi-Xin Liu and about the technique used by this website.
+description: A brief introdcution of Dr. Yi-Xin Liu and this website.
 header-img: images/about.jpg
 comments: false
-modified: 2018-08-01
+modified: 2018-11-29
 ---
 
 # About Me
 -----
 
-I, Dr. Yi-Xin Liu, am a polymer physicist in Department of Macromolecular Science at Fudan University China since 2012.
+I am a polymer physicist at Department of Macromolecular Science of Fudan University since 2012.
 Before that, I was a Postdoctoral Research Fellow at Fudan University from 2009 to 2012.
 I received my PhD in Polymer Physics from Peking University China in 2009 and my BSc from Nanjing University China in 2004.
-I have spent two years (2014-2016) performing research, as a visiting researcher, in collaboration with Prof. Glenn H. Fredrickson in Materials Research Laboratory (MRL) at University of California, Santa Barbara, on the fields of computational polymer field theory and theoretical polymer physics.
+I have spent two years (07/2014 - 07/2016) performing research, as a visiting researcher, in collaboration with Prof. Glenn H. Fredrickson in Materials Research Laboratory (MRL) at University of California, Santa Barbara, on the fields of computational polymer field theory and theoretical polymer physics.
 My current research interests lie in the area of soft matter physics, including polymer field theory (both mean-field and beyond mean-field) and related numerical algorithms, phase behavior and structures of block copolymers, polymer brushes and polyelectrolytes in bulk and under confinements, directed  self-assembly, and ultrathin film crystallization.
-I have published 21 research articles in peer reviewed journals including *Macromolecules*, *J. Chem. Phys.*, and *Coord. Chem. Rev.*.
+I have published 21 research papers in peer reviewed journals including *Macromolecules* and *J. Chem. Phys.*.
 
 **Lecturer (2012.3 - present)**  
 Department of Macromolecular Science  

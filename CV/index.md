@@ -4,7 +4,7 @@ title: CV
 description: "CV, Resume of Dr. Yi-Xin Liu at Fudan University."
 header-img: images/abstract-5.jpg
 comments: false
-modified: 2018-11-22
+modified: 2018-11-27
 ---
 
 ## Yi-Xin Liu
@@ -15,7 +15,7 @@ Chemistry Bldg. Room B3083, 2005 Songhu Rd.
 Shanghai 200438, China  
 Office: +86-21-31242883  
 Mobile: +86-18117210989  
-Email: lyx@fudan.edu.cn; liuyxpp@gmail.com  
+Email: lyx@fudan.edu.cn  
 Academic Homepage: [http://www.yxliu.group](http://www.yxliu.group)
 
 <div markdown="0">
@@ -134,7 +134,7 @@ Undergraduate experimental course, 17 students, 15-week, 2-credit.
 
 - Python, C/C++, Parallel Programming (MPI, GPU/CUDA), Matlab, HTML/CSS, LaTeX.
 
-- Familiar with Linux, tensorflow, numpy/scipy, fftw, armadillo, blitz++, matplotlib.
+- Familiar with Linux, Hoomd-blue, Tensorflow, Numpy/Scipy, FFTW, Armadillo, blitz++.
 
 - Open source projects: [polyorder](https://github.com/liuyxpp/polyorder) - [gyroid](https://pypi.org/project/gyroid/) - [ngpy](https://pypi.org/project/ngpy/) - [chebpy](https://pypi.org/project/chebpy/) - [mpltex](https://pypi.org/project/mpltex/)
 

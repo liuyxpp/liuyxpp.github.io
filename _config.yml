@@ -2,7 +2,7 @@ title:            Yi-Xin Liu
 description:      "Dr. Yi-Xin Liu is a polymer physicists at Fudan University."
 #disqus_shortname: ngpy
 reading_time:     true
-words_per_minute: 200
+words_per_minute: 100
 #url:                    # blank for local preview
 url: http://www.yxliu.group   # for production, for plugin: jekyll-sitemap
 header-img: images/homepage.jpg
