@@ -27,17 +27,27 @@
 <!-- Math equation support by MathJax -->
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
+        showProcessingMessages: false,
+        messageStyle: 'none',
+        tex2jax: {
+            inlineMath: [['$','$']],
+            displayMath: [['$$','$$']],
+            processEnvironments: false
+        },
+        // show equation numbers
         TeX: {
-            equationNumbers: { autoNumber: "all" },
-            inlineMath: [['$','$'],['\\(','\\)']],
+            equationNumbers: { autoNumber: "AMS" },
+            inlineMath: [['$','$'],['\\(','\\)']]
         },
         "HTML-CSS": {
             availableFonts: ["TeX"],
             preferredFont: "TeX",
+            imageFont: null
         },
     });
 </script>
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+
 <!--
 {% if page.comments != false %}{% include disqus_comments.html %}{% endif %}
 -->
