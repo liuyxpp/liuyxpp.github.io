@@ -4,7 +4,7 @@ title: CV
 description: "CV, Resume of Dr. Yi-Xin Liu at Fudan University."
 header-img: images/abstract-5.jpg
 comments: false
-modified: 2018-11-27
+modified: 2019-03-13
 ---
 
 ## Yi-Xin Liu
@@ -45,7 +45,8 @@ Advisor: Prof. Er-Qiang Chen
 ### Research Experience
 -----
 
-**Lecturer**, 2012 - present  
+**Associate Professor**, 2019 - present  
+**Lecturer**, 2012 - 2019  
 *Fudan University, Department of Macromolecular Science*
 
 - Directed self-assembly of block copolymers under *soft confinements*: nanostructures design and the mechanism of defect removal.

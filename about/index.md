@@ -4,7 +4,7 @@ title: About
 description: A brief introdcution of Dr. Yi-Xin Liu and this website.
 header-img: images/about.jpg
 comments: false
-modified: 2018-11-29
+modified: 2019-03-13
 ---
 
 # About Me
@@ -17,13 +17,14 @@ I have spent two years (07/2014 - 07/2016) performing research, as a visiting re
 My current research interests lie in the area of soft matter physics, including polymer field theory (both mean-field and beyond mean-field) and related numerical algorithms, phase behavior and structures of block copolymers, polymer brushes and polyelectrolytes in bulk and under confinements, directed  self-assembly, and ultrathin film crystallization.
 I have published 21 research papers in peer reviewed journals including *Macromolecules* and *J. Chem. Phys.*.
 
-**Lecturer (2012.3 - present)**  
+**Associate Professor (2019.3 - present)**  
+**Lecturer (2012.3 - 2019.2)**  
 Department of Macromolecular Science  
 Fudan University  
 Chemistry Bldg. Room B3083, 2005 Songhu Rd.  
 Shanghai 200438, China  
 Office: +86-21-31242883  
-Mobile: +86-13916819745  
+Mobile: +86-18117210989  
 Email: lyx@fudan.edu.cn
 
 **Visiting Researcher (2014.7 - 2016.7)**  
