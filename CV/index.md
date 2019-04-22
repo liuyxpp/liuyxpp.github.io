@@ -46,7 +46,7 @@ Advisor: Prof. Er-Qiang Chen
 -----
 
 **Associate Professor**, 2019 - present  
-**Lecturer**, 2012 - 2019  
+**Lecturer**, 2012 - 2018  
 *Fudan University, Department of Macromolecular Science*
 
 - Directed self-assembly of block copolymers under *soft confinements*: nanostructures design and the mechanism of defect removal.

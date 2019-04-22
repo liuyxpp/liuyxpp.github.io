@@ -15,10 +15,10 @@ Before that, I was a Postdoctoral Research Fellow at Fudan University from 2009 
 I received my PhD in Polymer Physics from Peking University China in 2009 and my BSc from Nanjing University China in 2004.
 I have spent two years (07/2014 - 07/2016) performing research, as a visiting researcher, in collaboration with Prof. Glenn H. Fredrickson in Materials Research Laboratory (MRL) at University of California, Santa Barbara, on the fields of computational polymer field theory and theoretical polymer physics.
 My current research interests lie in the area of soft matter physics, including polymer field theory (both mean-field and beyond mean-field) and related numerical algorithms, phase behavior and structures of block copolymers, polymer brushes and polyelectrolytes in bulk and under confinements, directed  self-assembly, and ultrathin film crystallization.
-I have published 21 research papers in peer reviewed journals including *Macromolecules* and *J. Chem. Phys.*.
+I have published 21 research papers in peer reviewed journals.
 
-**Associate Professor (2019.3 - present)**  
-**Lecturer (2012.3 - 2019.2)**  
+**Associate Professor (2019.1 - present)**  
+**Lecturer (2012.3 - 2018.12)**  
 Department of Macromolecular Science  
 Fudan University  
 Chemistry Bldg. Room B3083, 2005 Songhu Rd.  
