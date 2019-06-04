@@ -12,6 +12,7 @@ modified: 2018-09-14
 ## Polymer Physics (MACR130002, Undergraduate)
 -----
 
+- Spring 2019, Classroom: HGX303, Time: Odd Week Tues 1-2, Thur 3-4, Even Week Thur 3-4
 - Spring 2018, Classroom: H6305, Time: Odd Week Tues 1-2, Thur 3-4, Even Week Thur 3-4
 - Spring 2017, Classroom: HGX503, Time: Odd Week Tues 1-2, Thur 3-4, Even Week Thur 3-4
 - Spring 2014, Classroom: H4303, Time: Odd Week Tues 1-2, Thur 3-4, Even Week Thur 3-4
