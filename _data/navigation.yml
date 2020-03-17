@@ -18,5 +18,8 @@
 - title:    Blog
   url:      /blog/
 
+- title:    Archive
+  url:      /posts/
+
 - title:    About
   url:      /about/

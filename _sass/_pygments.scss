@@ -1,16 +1,17 @@
 .highlight {
-	margin-bottom: 1.5em;
+	margin-bottom: 0em;
 	@include font($doc-font-size);
 	color: #d0d0d0;
-	border: none;  /*1px solid #E1E4E5;  darken($body-color, 5);*/
-	background-color: #FBFBF9;
-	@include rounded(3px);
 	pre{
 		position: relative;
+        background-color: #F9F9F8;
 		margin: 0;
-		padding: 1em;
+		padding: 0;
+        border: none;
 	}
-	.lineno { padding-right: 24px; color: #A9D9B9;}
+    .table {margin-bottom: 0px;}
+    .table>tbody>tr>td {border: none;}
+	.lineno { padding-right: 0; color: #A9D9B9;}
 	/* Solarized Light theme from pygments-style-solarized package */
     /* Created by following command */
     /* pygmentize -S solarizedlight -f html > pygments.css */

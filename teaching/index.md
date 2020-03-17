@@ -17,7 +17,7 @@ modified: 2019-09-06
 - Spring 2017, Classroom: HGX503, Time: Odd Week Tues 1-2, Thur 3-4, Even Week Thur 3-4
 - Spring 2014, Classroom: H4303, Time: Odd Week Tues 1-2, Thur 3-4, Even Week Thur 3-4
 
-Note 1: With Prof. Hong-Dong Zhang and Prof. Jian-Feng Li
+Note 1: With Prof. Hong-Dong Zhang and Prof. Jian-Feng Li  
 Note 2: Course time (1-2) corresponds to (8:00 - 9:40), (3-4) corresponds to (9:55 - 11:35).
 
 ## Introduction to Polymeric Materials (MACR110003, Undergraduate)
