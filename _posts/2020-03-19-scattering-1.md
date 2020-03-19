@@ -97,7 +97,7 @@ The function $L(x)$ is a function which mimics the shape of scattering peaks. Si
 Other quantities,$\beta(q)$ and $G(q)$ accounts for the effect of size distribution of scatterers and encodes fluctuations of the scatterer positions, respectively. They will be our topics after the computation of $F(\vq)$, $P(q)$ and $Z_0(q)$ is implemented.
 
 ## Why Julia
-I ran into Julia about five years ago. Back to those days, I was in love with Python which greatly increased my coding productivity. However, I was suffering from its slowness. Before Python, I developed scientific software using C++ which is fast but it is too complicated and sometimes it made me crazy to implement a specific numerical algorithm. You can check out those software packages I have developed [here](/software). I was wondering then if there was a programming language which combines the performance of C++ and productivity of Python. I tried to search terms like "speed and scripting programming language" in google and I found Julia, which was in its very early stage but showed its great potential. After that, I payed special attention on it. Now Julia is in version 1.3. After ten years intensive developing, it become a stable language. Therefore I decide to give it a try. `Scattering.jl` is my first package written in Julia.
+I ran into Julia about five years ago. Back to those days, I was in love with Python which greatly increased my coding productivity. However, I was suffering from its slowness. Before Python, I developed scientific software using C++ which is fast but it is too complicated and sometimes it made me crazy to implement a specific numerical algorithm. You can check out those software packages I have developed [here](/software). I was wondering then if there was a programming language which combines the performance of C++ and productivity of Python. I tried to search terms like "speed and scripting programming language" in google and I found Julia, which was in its very early stage but showed its great potential. After that, I payed special attention on it. Now Julia is in version 1.3. After ten years intensive developing, it matures into a stable language. Therefore I decide to give it a try. `Scattering.jl` is my first package written in Julia.
 
 Besides its speed (check out a comparison of performance of various popular programming language [here](https://julialang.org/benchmarks/)), what attracts me most are list below:
 
@@ -126,7 +126,7 @@ def C(r)
     return 2*np.pi*r
 {% endhighlight %}
 
-Now it is time to get our hands dirty! See you in the [next post]({% post_url 2020-03-20-scattering-2 %}).
+Now it is time to get our hands dirty! See you in the next post.
 
 ## Acknowledgements
 This work is partially supported by the General Program of the National Natural Science Foundation of China (No. 21873021).
