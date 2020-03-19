@@ -2,6 +2,7 @@ title:            Yi-Xin Liu
 description:      "Prof. Yi-Xin Liu@Fudan University's research group website."
 #disqus_shortname: ngpy
 reading_time:     true
+word_count: true
 words_per_minute: 100
 url: http://www.yxliu.group
 header-img: images/homepage.jpg
