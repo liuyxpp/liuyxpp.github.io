@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-description: A brief introdcution of Dr. Yi-Xin Liu and this website.
+description: A brief introdcution of Prof. Yi-Xin Liu and this website.
 header-img: images/about.jpg
 comments: false
 modified: 2019-03-13
