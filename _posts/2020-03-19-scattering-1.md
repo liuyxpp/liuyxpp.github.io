@@ -4,7 +4,7 @@ title: "Julia in Practice: Building Scattering.jl from Scratch (1)"
 description: The first blog post for a series of articles on an effort to demonstrate how to develop a package from scratch for computing scattering and diffraction curves of individual or self-assembled nanoparticles, polymers as well as biological materials using Julia programming language.
 author: Yi-Xin Liu
 date: 2020-03-19
-modified: 2019-03-19
+modified: 2019-03-23
 image:
     feature: abstract-3.jpg
 categories: [Research, Software]
@@ -73,7 +73,7 @@ $$
 Clearly, we have four quantities in total to compute: $P(q)$, $Z_0(q)$, $\beta(q)$, and $G(q)$.
 
 $P(q)$ is the form factor of the periodic lattice, which is simply a sum over the form factor of all motifs in the unit cell when the interparticle correlation is ignored.
-    
+
 $$
 \begin{equation}
     P(q) = \sum_{j}P_j(q) = \sum_j \ensemble{\abs{F_j(\vq)}^2}_{od}
@@ -99,7 +99,7 @@ Other quantities,$\beta(q)$ and $G(q)$ accounts for the effect of size distribut
 ## Why Julia
 I ran into Julia about five years ago. Back to those days, I was in love with Python which greatly increased my coding productivity. However, I was suffering from its slowness. Before Python, I developed scientific software using C++ which is fast but it is too complicated and sometimes it made me crazy to implement a specific numerical algorithm. You can check out those software packages I have developed [here](/software). I was wondering then if there was a programming language which combines the performance of C++ and productivity of Python. I tried to search terms like "speed and scripting programming language" in google and I found Julia, which was in its very early stage but showed its great potential. After that, I payed special attention on it. Now Julia is in version 1.3. After ten years intensive developing, it matures into a stable language. Therefore I decide to give it a try. `Scattering.jl` is my first package written in Julia.
 
-Besides its speed (check out a comparison of performance of various popular programming language [here](https://julialang.org/benchmarks/)), what attracts me most are list below:
+Besides its speed (check out a comparison of performance of various popular programming languages [here](https://julialang.org/benchmarks/)), what attracts me most are listed below:
 
 - The syntax is even more clean and concise than Python.
 - Julia’s mathematical syntax makes it an ideal way to express algorithms just as they are written in papers, owing to the support of Unicode characters and other syntax sugar added by the language. This drastically increase the readability and maintainability of the code.
@@ -126,7 +126,7 @@ def C(r)
     return 2*np.pi*r
 {% endhighlight %}
 
-Now it is time to get our hands dirty! See you in the next post.
+Now it is time to get our hands dirty! See you in the [next post]({% post_url 2020-03-23-scattering-2 %}).
 
 ## Acknowledgements
 This work is partially supported by the General Program of the National Natural Science Foundation of China (No. 21873021).

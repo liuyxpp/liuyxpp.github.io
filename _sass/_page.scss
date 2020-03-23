@@ -207,6 +207,29 @@ header .entry-meta {
 	}
 }
 #post {
+    figure.image{
+        // background-color: #E9F9E9;
+        display: block;
+        width: 50%;
+        min-width: 500px;
+        text-align: center;
+        font-style: italic;
+        font-size: smaller;
+        text-indent: 0;
+        // border: thin silver solid;
+        margin-left: auto;
+        margin-right: auto;
+        // margin: 0.5em;
+        // padding: 0.5em;
+    }
+    img.displayed{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    img.scaled {
+        width: 100%;
+    }
     .entry-content {
         margin: 10px 2px 20px 2px;
         padding: 10px 15px;
