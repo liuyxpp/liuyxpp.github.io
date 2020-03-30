@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Julia in Practice: Building Scattering.jl from Scratch (2)"
-description: In this post we implment a submodule peak.jl to model the shape of the scattering peaks.
+description: In this post we implement a submodule peak.jl to model the shape of the scattering peaks.
 author: Yi-Xin Liu
 date: 2020-03-23
 modified: 2019-03-23
@@ -32,7 +32,7 @@ $
 $
 </div>
 
-In this post we will implment a submodule, `peak.jl`, to model the shape of scattering peaks. Essential Julia language features will be introduced along the development of the submodule. You shall learn types, constructors, functions, methods, functors, modules, testing, and benchmarking after reading this post.
+In this post we will implement a submodule, `peak.jl`, to model the shape of scattering peaks. Essential Julia language features will be introduced along the development of the submodule. You shall learn types, constructors, functions, methods, functors, modules, testing, and benchmarking after reading this post.
 
 <!--more-->
 

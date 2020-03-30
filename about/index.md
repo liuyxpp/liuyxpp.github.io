@@ -10,7 +10,7 @@ modified: 2019-03-13
 # About Me
 -----
 
-I am a polymer physicist at Department of Macromolecular Science of Fudan University since 2012.
+I (刘一新, Yi-Xin Liu) am a [polymer physicist at Department of Macromolecular Science of Fudan University](http://polymer.fudan.edu.cn/Data/View/1660) since 2012.
 Before that, I was a Postdoctoral Research Fellow at Fudan University from 2009 to 2012.
 I received my PhD in Polymer Physics from Peking University China in 2009 and my BSc from Nanjing University China in 2004.
 I have spent two years (07/2014 - 07/2016) performing research, as a visiting researcher, in collaboration with Prof. Glenn H. Fredrickson in Materials Research Laboratory (MRL) at University of California, Santa Barbara, on the fields of computational polymer field theory and theoretical polymer physics.
@@ -25,14 +25,15 @@ Chemistry Bldg. Room B3083, 2005 Songhu Rd.
 Shanghai 200438, China  
 Office: +86-21-31242883  
 Mobile: +86-18117210989  
-Email: lyx@fudan.edu.cn
+Email: lyx@fudan.edu.cn  
+Department profile: [English](http://polymer.fudan.edu.cn/En/Data/View/3193) [中文版](http://polymer.fudan.edu.cn/Data/View/1660)  
 
 **Visiting Researcher (2014.7 - 2016.7)**  
 Materials Research Laboratory  
 University of California, Santa Barbara  
 MRL Bldg. Room 3104, UC Santa Barbara  
 Santa Barbara, CA 93106, US  
-Email: lyx@mrl.ucsb.edu
+Email: lyx@mrl.ucsb.edu  
 
 <div markdown="0">
     <a href="{{ site.url }}/CV/" class="btn btn-info">View HTML</a>
