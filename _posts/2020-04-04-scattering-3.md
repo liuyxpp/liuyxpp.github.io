@@ -7,6 +7,7 @@ date: 2020-04-04
 modified: 2019-04-04
 image:
     feature: abstract-2.jpg
+    twitter: scattering3/translation.png
 categories: [Research, Software]
 tags: [Julia, Scattering.jl, Scattering Theory]
 ---

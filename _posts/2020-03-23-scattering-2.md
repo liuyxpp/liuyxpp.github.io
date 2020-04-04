@@ -4,9 +4,10 @@ title: "Julia in Practice: Building Scattering.jl from Scratch (2)"
 description: In this post we implement a submodule peak.jl to model the shape of the scattering peaks.
 author: Yi-Xin Liu
 date: 2020-03-23
-modified: 2019-03-23
+modified: 2019-04-04
 image:
     feature: abstract-1.jpg
+    twitter: scattering2/all-L.svg
 categories: [Research, Software]
 tags: [Julia, Scattering.jl, Scattering Theory]
 ---
@@ -48,7 +49,7 @@ $$
 where $N$ is number of unit cells which also determines the grain size of a single crystal. As the number of unit cells increases, more cells interfere constructively and the scattering peak becomes sharper. The trend has been shown in Figure 1. Note that we have shifted the peak position to $x=2$ since in scattering the peak position is always positive.
 
 <figure class="image">
-    <img src="{{ site.url }}/images/20200323/raw-L.svg" alt="The shape of the scattering peak." width="500px">
+    <img src="{{ site.url }}/images/scattering2/raw-L.svg" alt="The shape of the scattering peak." width="500px">
     <figcaption>Figure 1. The shape of the scattering peak described by Eq.\eqref{eq:L-raw}.</figcaption>
 </figure>
 
@@ -258,7 +259,7 @@ The Julia compiler first deduces the type of instance `p`, which is `Generalized
 We can compare these types of scattering peaks by plotting them together as shown in Figure 2.
 
 <figure class="image">
-    <img src="{{ site.url }}/images/20200323/all-L.svg" alt="" width="500px">
+    <img src="{{ site.url }}/images/scattering2/all-L.svg" alt="" width="500px">
     <figcaption>Figure 2. A comparison of various scattering peaks.</figcaption>
 </figure>
 

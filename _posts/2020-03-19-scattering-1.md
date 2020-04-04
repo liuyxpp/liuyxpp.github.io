@@ -7,6 +7,7 @@ date: 2020-03-19
 modified: 2019-04-04
 image:
     feature: abstract-3.jpg
+    twitter: scattering1/structure.png
 categories: [Research, Software]
 tags: [Julia, Scattering.jl, Scattering Theory]
 ---
@@ -58,7 +59,7 @@ The total number of elementary scatterers is $N$. $\rho_n$ is the scattering con
 The summation in the above equation can be split into multiple summation by decomposing the position vector into a sum of several relative vectors, each of which shall represent a conceptual or realistic objects. For example (see the following figure), a periodic lattice of particles can be first divided into unit cells. Each unit cell consists of several motifs. Lastly each motifs may consist of a bunch of elementary scatterers.
 
 <figure>
-    <img src="{{ site.url }}/images/20200318/structure.png" alt="Summary of the formalism of the scattering theory for a periodic lattice.">
+    <img src="{{ site.url }}/images/scattering1/structure.png" alt="Summary of the formalism of the scattering theory for a periodic lattice.">
     <figcaption>Figure is adopted from Ref[1].</figcaption>
 </figure>
 
