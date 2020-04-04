@@ -4,7 +4,7 @@ title: About
 description: A brief introdcution of Prof. Yi-Xin Liu and this website.
 header-img: images/about.jpg
 comments: false
-modified: 2019-03-13
+modified: 2020-03-30
 ---
 
 # About Me

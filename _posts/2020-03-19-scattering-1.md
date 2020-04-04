@@ -4,7 +4,7 @@ title: "Julia in Practice: Building Scattering.jl from Scratch (1)"
 description: The first blog post for a series of articles on an effort to demonstrate how to develop a package from scratch for computing scattering and diffraction curves of individual or self-assembled nanoparticles, polymers as well as biological materials using Julia programming language.
 author: Yi-Xin Liu
 date: 2020-03-19
-modified: 2019-03-30
+modified: 2019-04-04
 image:
     feature: abstract-3.jpg
 categories: [Research, Software]
@@ -32,7 +32,7 @@ $
 $
 </div>
 
-This is the first post of a series of blog posts published in [Yi-Xin Liu's research group website]({{ site.url }}/blog) on an effort to demonstrate how to develop a software package for computing scattering and diffraction curves of individual or self-assembled nanoparticles, polymers as well as biological materials using Julia programming language.
+This is the first post of a series of blog posts published in [Yi-Xin Liu's research group website]({{ site.url }}/blog) on an effort to demonstrate how to develop a software package for computing scattering and diffraction curves of individual or self-assembled nanoparticles, polymers as well as biological materials using Julia programming language. The purpose of this series of blog posts is in three folds: (1) to provide a source of concise understanding of the scattering theory especially for small angle X-ray scattering (SAXS); (2) to demonstrate the power of the Julia programming language in scientific computing; and (3) to serve as a detailed documentation for the `Scattering.jl` software package.
 
 <!--more-->
 
@@ -94,7 +94,7 @@ The equation above seems scary. But don't panic, we will dive into every details
 
 The function $L(x)$ is a function which mimics the shape of scattering peaks. Since this function is less involved in the whole theory, it serves as a good starting point of the development of our package. The best way to learn is PRACTICE, PRACTICE, PRACTICE! (Important things shall echo three times.) Thus the next post of this series will be dedicated to developing a submodule of the `Scattering.jl` that computes $L(x)$.
 
-Other quantities,$\beta(q)$ and $G(q)$ accounts for the effect of size distribution of scatterers and encodes fluctuations of the scatterer positions, respectively. They will be our topics after the computation of $F(\vq)$, $P(q)$ and $Z_0(q)$ is implemented.
+Other quantities, $\beta(q)$ and $G(q)$, account for the effect of size distribution of scatterers and encodes fluctuations of the scatterer positions, respectively. They will be our topics after the computation of $F(\vq)$, $P(q)$ and $Z_0(q)$ is implemented.
 
 ## Why Julia
 I ran into Julia about five years ago. Back to those days, I was in love with Python which greatly increased my coding productivity. However, I was suffering from its slowness. Before Python, I developed scientific software using C++ which is fast but it is too complicated and sometimes it made me crazy to implement a specific numerical algorithm. You can check out those software packages I have developed [here](/software). I was wondering then if there was a programming language which combines the performance of C++ and productivity of Python. I tried to search terms like "speed and scripting programming language" in Google and I found Julia, which was in its very early stage but showed its great potential. After that, I payed special attention on it. Now Julia is in version 1.3. After ten years intensive developing, it matures into a stable language. Therefore I decide to give it a try. `Scattering.jl` is my first package written in Julia.
