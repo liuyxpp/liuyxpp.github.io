@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Julia in Practice: Building Scattering.jl from Scratch (3)"
-description: In this post we will implement a submodule translation.jl to perform transformation of a vector in the reference coordinate to the internal coordinate of a scatterer.
+description: In this post we will implement a submodule translation.jl to perform transformation of a vector in the reference coordinate to the internal coordinate of a scatterer. The internal coordinate system is obtained by translating the origin of the reference coordinate system to scatterer's center of mass.
 author: Yi-Xin Liu
 date: 2020-04-04
-modified: 2019-04-04
+modified: 2019-04-06
 image:
     feature: abstract-2.jpg
     twitter: scattering3/translation.png
@@ -36,7 +36,7 @@ $
 $
 </div>
 
-In this post we will implement a submodule translation.jl to perform transformation of a vector in the reference coordinate to the internal coordinate of a scatterer. Translation and coordinate transformation will be discussed in detail.
+In this post we will implement a submodule `translation.jl` to perform transformation of a vector in the reference coordinate to the internal coordinate of a scatterer. Translation and coordinate transformation will be discussed in detail.
 
 <!--more-->
 
@@ -274,7 +274,7 @@ Translation(x::Real, y::Real, z::Real) = Translation([promote(x,y,z)...])
 
 The `promote` method is provided by the Julia `Base`. It ensures the input `x,y,z` have same type which is required by the default constructor.
 
-The **chaining operator** `|>` is extremely useful to increase the readability of the code. The output of the left operand of `|>` will be sent to the right operand as its input arguments. We can chain as many as methods together.
+The **chaining operator** `|>` is extremely useful to increase the readability of the code. The output of the left operand of `|>` will be sent to the right operand as its input arguments. We can chain as many methods as possible together.
 
 ### Conversion
 A `Translation` instance is merely a three-component column vector. Thus it is sensible to convert any three-component column (or row) vector into a `Translation` instance. Julia provides a consistent way to deal with such situation. What we do is to provide additional `convert` method to the Julia `Base`:
@@ -318,8 +318,7 @@ $$
     T_2T_1\vr &= T_2(\vr-T_1) \\
               &= (\vr - T_1) - T_2 \\
               &= \vr - (T_1 + T_2) \\
-              &= \vr - T_3 \\
-              &= T_3\vr
+              &= (T_1 + T_2)\vr
 \end{split}
 \end{equation}\label{eq:chain_translation}
 $$
@@ -328,7 +327,7 @@ Therefore, we have
 
 $$
 \begin{equation}
-    T_3 = T_2T_1
+    T_2T_1 = T_1 + T_2
 \end{equation}\label{eq:chain_translation2}
 $$
 
