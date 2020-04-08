@@ -207,6 +207,11 @@ header .entry-meta {
 	}
 }
 #post {
+    div.highlighter-rouge {
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
     figure.image{
         // background-color: #E9F9E9;
         display: block;

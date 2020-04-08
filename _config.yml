@@ -54,6 +54,11 @@ paginate_path: "blog/page:num/"
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    formatter: Rouge::Formatters::HTMLLineTable
+    line_numbers: true
+    # line_table: true
+    default_lang: julia
   hard_wrap: false
   auto_ids: true
   footnote_nr: 1

@@ -11,7 +11,14 @@
 	}
     .table {margin-bottom: 0px;}
     .table>tbody>tr>td {border: none;}
+    /* tweak line numbers */
 	.lineno { padding-right: 0; color: #A9D9B9;}
+    .rouge-table { border-collapse: collapse }
+    .rouge-table tr > td { padding: 0 5px }
+    .rouge-table .rouge-gutter { text-align: right; vertical-align: top }
+    .rouge-table .rouge-gutter pre { margin: 0 }
+    .rouge-table .gutter { text-align: right; vertical-align: top }
+    .rouge-table .gutter pre { margin: 0 }
 	/* Solarized Light theme from pygments-style-solarized package */
     /* Created by following command */
     /* pygmentize -S solarizedlight -f html > pygments.css */
@@ -34,8 +41,8 @@
     .gr { color: #657b83 } /* Generic.Error */
     .gh { color: #657b83 } /* Generic.Heading */
     .gi { color: #657b83 } /* Generic.Inserted */
-    .go { color: #657b83 } /* Generic.Output */
-    .gp { color: #657b83 } /* Generic.Prompt */
+    .go { color: #93a1a1 } /* Generic.Output */
+    .gp { color: #21be21 } /* Generic.Prompt */
     .gs { color: #657b83 } /* Generic.Strong */
     .gu { color: #657b83 } /* Generic.Subheading */
     .gt { color: #657b83 } /* Generic.Traceback */

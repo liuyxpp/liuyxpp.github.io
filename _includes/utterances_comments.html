@@ -1,7 +1,9 @@
+{% if site.utterances %}
 <script src="https://utteranc.es/client.js"
-    repo="liuyxpp/liuyxpp.github.io"
+    repo="{{ site.utterances }}"
     issue-term="pathname"
     theme="github-light"
     crossorigin="anonymous"
     async>
 </script>
+{% endif %}
