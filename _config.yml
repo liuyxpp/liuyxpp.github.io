@@ -56,8 +56,12 @@ kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     formatter: Rouge::Formatters::HTMLLineTable
-    line_numbers: true
+    # line_numbers: true # this will make inline code broken
     # line_table: true
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
     default_lang: julia
   hard_wrap: false
   auto_ids: true

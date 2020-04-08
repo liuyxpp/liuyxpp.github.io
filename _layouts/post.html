@@ -49,6 +49,9 @@
       </div>
     </header>
     <div class="entry-content">
+      {% if page.math != false %}
+            {% include latex_commands.html %}
+      {% endif %}
       {{ content }}
       {% if page.comments != false %}
             {% include utterances_comments.html %}
