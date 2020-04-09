@@ -17,22 +17,22 @@ I have spent two years (07/2014 - 07/2016) performing research, as a visiting re
 My current research interests lie in the area of soft matter physics, including polymer field theory (both mean-field and beyond mean-field) and related numerical algorithms, phase behavior and structures of block copolymers, polymer brushes and polyelectrolytes in bulk and under confinements, directed  self-assembly, and ultrathin film crystallization.
 I have published 21 research papers in peer reviewed journals.
 
-**Associate Professor (2019.1 - present)**
-**Lecturer (2012.3 - 2018.12)**
-Department of Macromolecular Science
-Fudan University
-Chemistry Bldg. Room B3083, 2005 Songhu Rd.
-Shanghai 200438, China
-Office: +86-21-31242883
-Mobile: +86-18117210989
-Email: lyx@fudan.edu.cn
+**Associate Professor (2019.1 - present)**<br>
+**Lecturer (2012.3 - 2018.12)**<br>
+Department of Macromolecular Science<br>
+Fudan University<br>
+Chemistry Bldg. Room B3083, 2005 Songhu Rd.<br>
+Shanghai 200438, China<br>
+Office: +86-21-31242883<br>
+Mobile: +86-18117210989<br>
+Email: lyx@fudan.edu.cn<br>
 Department profile: [English](http://polymer.fudan.edu.cn/En/Data/View/3193) [中文版](http://polymer.fudan.edu.cn/Data/View/1660)
 
-**Visiting Researcher (2014.7 - 2016.7)**
-Materials Research Laboratory
-University of California, Santa Barbara
-MRL Bldg. Room 3104, UC Santa Barbara
-Santa Barbara, CA 93106, US
+**Visiting Researcher (2014.7 - 2016.7)**<br>
+Materials Research Laboratory<br>
+University of California, Santa Barbara<br>
+MRL Bldg. Room 3104, UC Santa Barbara<br>
+Santa Barbara, CA 93106, US<br>
 Email: lyx@mrl.ucsb.edu
 
 <div markdown="0">
