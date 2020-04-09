@@ -222,6 +222,24 @@ header .entry-meta {
             color: lighten($link-color, 10);
         }
     }
+    div.read-more {
+        h3 a{
+            border-bottom: none;
+            &:hover {
+                border-bottom: none;
+                text-decoration: none;
+                color: lighten($text-color, 20);
+            }
+        }
+        h4 a{
+            border-bottom: none;
+            &:hover {
+                border-bottom: none;
+                text-decoration: none;
+                color: lighten($link-color, 10);
+            }
+        }
+    }
     div.highlighter-rouge {
         margin: 0;
         padding-top: 10px;
@@ -311,23 +329,6 @@ header .entry-meta {
 			}
 		}
 	}
-	#disqus_thread {
-		margin: 40px 2px 20px 2px;
-		padding: 10px 15px;
-		background-color: $white;
-		box-shadow: 0 0 0 1px rgba($border-color,0.1), 0 6px 12px rgba($black,0.1);
-		@include rounded(3px);
-		@media #{$medium} {
-			margin-left: 10px;
-			margin-right: 10px;
-			padding: 20px 30px;
-		}
-		@media #{$large} {
-			max-width: 960px;
-			padding: 30px 50px;
-			margin: 0 auto 30px auto;
-		}
-	}
 	.entry-meta {
 		margin: 50px 30px 30px;
 		text-align: center;
@@ -397,14 +398,6 @@ header .entry-meta {
 }
 .read-more-content {
 	@include font-size(16);
-	// Dotted line underlines for links
-	p > a,
-	li > a {
-		border-bottom: 1px dotted lighten($link-color, 50);
-		&:hover {
-			border-bottom-style: solid;
-		}
-	}
 	h3 {
 		margin: 0;
 		@include font-rem(28);
