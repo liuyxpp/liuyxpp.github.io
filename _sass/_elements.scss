@@ -19,6 +19,14 @@ hr.small {
 
 // Figures and images
 // --------------------------------------------------
+img.alignleft,
+img.left        { float: left; margin:5px 15px 5px 0; }
+img.alignright,
+img.right       { float: right; margin:5px 0 5px 15px; }
+img.aligncenter,
+img.center      { display: block; margin:0 auto 10px; }
+img.light-bg    { background: rgba(255,255,255,.6); padding: 10px; }
+
 figure {
   margin: 0;
   padding-top: 10px;
@@ -168,4 +176,122 @@ svg:not(:root) {
   padding: 20px;
   border: 1px solid $comp-color;
   @include rounded(4px);
+}
+
+/* Table of Contents (Index) by TWiStErRob
+------------------------------------------------------------------- */
+
+ul#markdown-toc {
+  list-style: none;
+  margin-left: 0;
+  ul,
+  ul ul,
+  ul ul ul {
+      list-style: none;
+      margin-left: 30px;
+  }
+  a {
+    font-weight: normal;
+    border: none;
+  }
+}
+
+
+/* Panel by TWiStErRob
+------------------------------------------------------------------- */
+
+.border-dotted {
+  border: 1px dotted $grey-5;
+  padding: rem-calc(20);
+  border-radius: $global-radius;
+}
+
+
+
+/* Shadows by TWiStErRob
+------------------------------------------------------------------- */
+
+.shadow-no      {text-shadow: rgba(0, 0, 0, 0) 0 0 0;}
+.shadow-black   {text-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 2px;}
+.shadow-white   {text-shadow: rgba(255, 255, 255, 0.498039) 0px 1px 2px;}
+
+
+
+/* Alerts by TWiStErRob
+------------------------------------------------------------------- */
+
+.alert-box {
+  font-family: $font-family-sans-serif;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.9);
+  p:first-child {
+    // let the icon wrap nicely
+    display: inline;
+  }
+    > {
+        // some blocks shouldn't have a bottom margin, it puts too much space at the end inside the box
+        p:last-child,
+        ul:last-child,
+        .highlighter-rouge:last-child > .highlight > pre {
+            margin-bottom: 0;
+        }
+    }
+  a {
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+    border-bottom: 1px dotted #fff;
+  }
+  a:hover {
+    border-bottom: 1px solid #fff;
+  }
+  &.terminal {
+    @include alert-style($terminal-color);
+    font-family: $font-family-monospace;
+  }
+  &.text {
+    @include alert-style($grey-2);
+    text-shadow: none;
+  }
+  &.tip {
+    @include alert-style($info-color);
+  }
+  &.todo {
+    @include alert-style($todo-color);
+    text-shadow: none;
+  }
+
+  &::before {
+    margin-right: rem-calc(6);
+    font-size: rem-calc(22);
+  }
+  &.terminal::before {
+    content: "$";
+    color: $ci-6;
+  }
+  $alert-icon-opacity: 1;
+  &.alert::before {
+    @extend .icon-alarm, :before;
+    color: opacify($alert-color, $alert-icon-opacity);
+  }
+  &.warning::before {
+    @extend .icon-cone, :before;
+    color: opacify($warning-color, $alert-icon-opacity);
+  }
+  &.info::before {
+    @extend .icon-info, :before;
+    color: opacify($info-color, $alert-icon-opacity);
+  }
+  &.success::before {
+    @extend .icon-right, :before;
+    color: opacify($success-color, $alert-icon-opacity);
+  }
+  &.tip::before {
+    @extend .icon-light-bulb, :before;
+    color: opacify($info-color, $alert-icon-opacity);
+  }
+  &.todo::before {
+    @extend .icon-lab-flask, :before;
+  }
+
+  @media print {
+    border: 3px solid $aluminum !important;
+  }
 }

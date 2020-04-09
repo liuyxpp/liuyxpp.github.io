@@ -372,12 +372,12 @@ Currently, only the `Peak` submodule is included and exported.
 ## Usage
 Now we can generate a peak using the `Scattering.jl` package as follows
 
-{% highlight julia linenos %}
+```console?lang=julia
 julia> using Scattering
 julia> p = peak(0.1, 1.0);
 julia> qs = collect(0.001:0.001:4.0) .- 2.0
 julia> p(qs) # peak is generated here
-{% endhighlight %}
+```
 
 ## Acknowledgements
 This work is partially supported by the General Program of the National Natural Science Foundation of China (No. 21873021).

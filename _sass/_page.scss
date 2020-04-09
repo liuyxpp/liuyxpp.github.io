@@ -456,9 +456,10 @@ header .entry-meta {
 		}
 		@media #{$large} {
 			max-width: 960px;
-			margin-top: 90px;
+			margin-top: auto; // edit by lyx 2020-04-09
 			margin-left: auto;
 			margin-right: auto;
+            padding-top: 90px;
 		}
 	}
 	article {

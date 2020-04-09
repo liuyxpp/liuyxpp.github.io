@@ -14,7 +14,11 @@
 {% include nav_cleanblog.html %}
 
 <div id="main" role="main">
-  {{ content }}
+  <article class="hentry">
+    <div class="entry-content">
+        {{ content }}
+    </div><!-- /.entry-content -->
+  </article>
 </div><!-- /#main -->
 
 <div class="footer-wrapper">

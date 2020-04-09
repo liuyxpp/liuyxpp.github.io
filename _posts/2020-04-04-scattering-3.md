@@ -350,26 +350,26 @@ The implementation of the `translation.jl` module is done. And it is less than 2
 ### Usage
 Now we can perform translation operations using the `Scattering.jl` package in the Julia REPL as follows
 
-{% highlight julia linenos %}
+```console?lang=julia
 julia> using Scattering
 julia> using Test
 julia> t = Vector3D(1.0, 2, 3);
 julia> T1 = Translation(t) # create a translation operator from a vector
-# Translation{Float64}([1.0, 2.0, 3.0])
+Translation{Float64}([1.0, 2.0, 3.0])
 julia> inv(T1) # inversing an operator
-# Translation{Float64}([-1.0, -2.0, -3.0])
+Translation{Float64}([-1.0, -2.0, -3.0])
 julia> v = Vector3D(1.0, 1, 1);
 julia> @test one(T1) * v == v # unit operator do nothing
-# Test Passed
+Test Passed
 julia> T1 * v # transform v to T1's internal coordinate
-# [0.0, -1.0, -2.0]
+[0.0, -1.0, -2.0]
 julia> @test one(T1) * T1 == T1 # unit operator do nothing
-# Test Passed
+Test Passed
 julia> T2 = Translation(1.0, 1.0, 1.0) # create operator from three numbers
-# Translation{Float64}([1.0, 1.0, 1.0])
+Translation{Float64}([1.0, 1.0, 1.0])
 julia> T2 * T1 * v # apply composite operators on a vector
-# [-1.0, -2.0, -3.0]
-{% endhighlight %}
+[-1.0, -2.0, -3.0]
+```
 
 ## Acknowledgements
 This work is partially supported by the General Program of the National Natural Science Foundation of China (No. 21873021).
