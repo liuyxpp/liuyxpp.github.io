@@ -12,30 +12,11 @@ categories: [Research, Software]
 tags: [Julia, Scattering.jl, Scattering Theory]
 ---
 
-<div style="display:none">
-$
-\newcommand\vr{\mathbf{r}}
-\newcommand\vx{\mathbf{x}}
-\newcommand\vy{\mathbf{y}}
-\newcommand\vz{\mathbf{z}}
-\newcommand\va{\mathbf{a}}
-\newcommand\vb{\mathbf{b}}
-\newcommand\vc{\mathbf{c}}
-\newcommand{\vk}{\mathbf{k}}
-\newcommand{\vq}{\mathbf{q}}
-\newcommand{\vzero}{\mathbf{0}}
-\newcommand{\mI}{\mathbf{I}}
-\newcommand{\mM}{\mathbf{M}}
-\newcommand{\mR}{\mathbf{R}}
-\newcommand{\mW}{\mathbf{W}}
-\newcommand{\abs}[1]{\left\lvert {#1} \right\rvert}
-\newcommand{\ensemble}[1]{\left\langle {#1} \right\rangle}
-$
-</div>
-
 In this post we will implement a submodule, `peak.jl`, to model the shape of scattering peaks. Essential Julia language features will be introduced along the development of the submodule. You shall learn types, constructors, functions, methods, functors, modules, testing, and benchmarking after reading this post.
 
 <!--more-->
+
+{% include toc.md panel=true %}
 
 ## Shape of the Scattering Peak
 For a perfect periodic lattice, *i.e.* a single crystal, as will be derived in later posts, the shape of the scattering peak has the form

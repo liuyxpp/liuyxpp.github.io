@@ -12,30 +12,11 @@ categories: [Research, Software]
 tags: [Julia, Scattering.jl, Scattering Theory]
 ---
 
-<div style="display:none">
-$
-\newcommand\vr{\mathbf{r}}
-\newcommand\vx{\mathbf{x}}
-\newcommand\vy{\mathbf{y}}
-\newcommand\vz{\mathbf{z}}
-\newcommand\va{\mathbf{a}}
-\newcommand\vb{\mathbf{b}}
-\newcommand\vc{\mathbf{c}}
-\newcommand{\vk}{\mathbf{k}}
-\newcommand{\vq}{\mathbf{q}}
-\newcommand{\vzero}{\mathbf{0}}
-\newcommand{\mI}{\mathbf{I}}
-\newcommand{\mM}{\mathbf{M}}
-\newcommand{\mR}{\mathbf{R}}
-\newcommand{\mW}{\mathbf{W}}
-\newcommand{\abs}[1]{\left\lvert {#1} \right\rvert}
-\newcommand{\ensemble}[1]{\left\langle {#1} \right\rangle}
-$
-</div>
-
 This is the first post of a series of blog posts published in [Yi-Xin Liu's research group website]({{ site.url }}/blog) on an effort to demonstrate how to develop a software package for computing scattering and diffraction curves of individual or self-assembled nanoparticles, polymers as well as biological materials using Julia programming language. The purpose of this series of blog posts is in three folds: (1) to provide a source of concise understanding of the scattering theory especially for small angle X-ray scattering (SAXS); (2) to demonstrate the power of the Julia programming language in scientific computing; and (3) to serve as a detailed documentation for the `Scattering.jl` software package.
 
 <!--more-->
+
+{% include toc.md panel=true %}
 
 ## Scattering Theory
 Characterization tools based on the scattering theory are one of the most important techniques that provide the structural information of materials in various length scales from angstrom to micrometer. Typical scattering techniques are light scattering (LS), wide angle and small angle X-ray scattering (WAXS, SAXS), electron diffraction (ED), and neutron scattering (NS), depending on which type of the source of the incident beam has been utilized. Unlike imaging (real space) techniques, such as transmission electron microscope (TEM) and atomic force microscope (AFM), scattering techniques collect data in reciprocal space. Here "Reciprocal" means the information of *large* length scale (either feature size or distance) will be encoded in the *small* angle (*low* $q$) end of the scattering data. Thus the wavelength of different source beams determines its ability to detect objects in different length scales.

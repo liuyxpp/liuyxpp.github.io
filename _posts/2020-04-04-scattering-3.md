@@ -12,33 +12,11 @@ categories: [Research, Software]
 tags: [Julia, Scattering.jl, Scattering Theory]
 ---
 
-<div style="display:none">
-$
-\newcommand\vv{\mathbf{v}}
-\newcommand\vo{\mathbf{o}}
-\newcommand\vr{\mathbf{r}}
-\newcommand\vt{\mathbf{t}}
-\newcommand\vx{\mathbf{x}}
-\newcommand\vy{\mathbf{y}}
-\newcommand\vz{\mathbf{z}}
-\newcommand\va{\mathbf{a}}
-\newcommand\vb{\mathbf{b}}
-\newcommand\vc{\mathbf{c}}
-\newcommand{\vk}{\mathbf{k}}
-\newcommand{\vq}{\mathbf{q}}
-\newcommand{\vzero}{\mathbf{0}}
-\newcommand{\mI}{\mathbf{I}}
-\newcommand{\mM}{\mathbf{M}}
-\newcommand{\mR}{\mathbf{R}}
-\newcommand{\mW}{\mathbf{W}}
-\newcommand{\abs}[1]{\left\lvert {#1} \right\rvert}
-\newcommand{\ensemble}[1]{\left\langle {#1} \right\rangle}
-$
-</div>
-
 In this post we will implement a submodule `translation.jl` to perform transformation of a vector in the reference coordinate to the internal coordinate of a scatterer. Translation and coordinate transformation will be discussed in detail.
 
 <!--more-->
+
+{% include toc.md panel=true %}
 
 ## Translation and Coordinate Transformation
 The core functionality of `Scattering.jl` is to compute the form factor of an arbitrary scatter. It is convenient to model any scatter as a type which contains all the physical parameters necessary for the form factor computation. The most essential quantities are the **position**, **shape** (characteristic lengths for an object with known shape), and the **orientation** of the object if it is anisotropic. The shape depend on specific object we are actually looking at. Positions and orientations, however, are independent of the type of a scatterer. Therefore, it is possible to develop a general description for them.
