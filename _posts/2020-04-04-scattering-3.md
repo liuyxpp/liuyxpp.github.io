@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Julia in Practice: Building Scattering.jl from Scratch (3)"
-description: In this post we will implement a submodule translation.jl to perform transformation of a vector in the reference coordinate to the internal coordinate of a scatterer. The internal coordinate system is obtained by translating the origin of the reference coordinate system to scatterer's center of mass.
+subheadline: "Translations and coordinate transformation"
+description: "In this post we will implement a submodule translation.jl to perform transformation of a vector in the reference coordinate to the internal coordinate of a scatterer. The internal coordinate system is obtained by translating the origin of the reference coordinate system to scatterer's center of mass."
 author: Yi-Xin Liu
 date: 2020-04-04
-modified: 2019-04-06
+modified: 2019-04-09
 image:
     feature: abstract-2.jpg
     twitter: scattering3/translation.png
@@ -325,7 +326,7 @@ The `≈` operator is an synonym for `Base.isapprox` method.
 
 The implementation of the `translation.jl` module is done. And it is less than 20 lines of codes which is amazing!
 
-### Usage
+## Usage
 Now we can perform translation operations using the `Scattering.jl` package in the Julia REPL as follows
 
 ```console?lang=julia
