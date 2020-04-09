@@ -29,10 +29,11 @@ a {
 	text-decoration: none;
 	color: $link-color;
 	&:visited {
-		color: lighten($link-color, 20);
+		// color: lighten($link-color, 10);
+        border-bottom: $gray-dark;
 	}
 	&:hover {
-		//color: darken($link-color, 20);
+		color: lighten($link-color, 10);
         color: $link-color;
 	}
 	&:focus {
@@ -43,6 +44,11 @@ a {
 	&:active {
 		outline: 0;
 	}
+}
+
+.no-adorn, .no-adorn:hover, .no-adorn:visited {
+    border: 0;
+    text-decoration: none;
 }
 
 .link-arrow {
