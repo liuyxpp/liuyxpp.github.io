@@ -44,7 +44,7 @@ Email: lyx@mrl.ucsb.edu
 -----
 
 {% include alert alert='Alert:
-    PLEASE DO NOT PUBLISH YOUR WEBSITE BEFORE YOU REMOVE ALL COPYRIGHT MATERIAL!' %}
+    please DO NOT publish your website before you remove all copyright materials!' %}
 
 This website is the homepage of Yi-Xin Liu's research group. **Yi-Xin Liu** is the copyright holder to all the contents published on this website except the underlying theme. If you wish to use any copyright material on this website, please contact me via the Email or address listed above to obtain a permission.
 

@@ -211,9 +211,9 @@ ul#markdown-toc {
 /* Shadows by TWiStErRob
 ------------------------------------------------------------------- */
 
-.shadow-no      {text-shadow: rgba(0, 0, 0, 0) 0 0 0;}
-.shadow-black   {text-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 2px;}
-.shadow-white   {text-shadow: rgba(255, 255, 255, 0.498039) 0px 1px 2px;}
+//.shadow-no      {text-shadow: rgba(0, 0, 0, 0) 0 0 0;}
+//.shadow-black   {text-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 2px;}
+//.shadow-white   {text-shadow: rgba(255, 255, 255, 0.498039) 0px 1px 2px;}
 
 
 
@@ -257,7 +257,11 @@ ul#markdown-toc {
     @include alert-style($todo-color);
     text-shadow: none;
   }
-
+  &.alert {
+    font-size: rem-calc(18);
+    //color: $grey-0; //rgba($alert-color, 0.6);
+    // text-shadow: none;
+  }
   &::before {
     margin-right: rem-calc(6);
     font-size: rem-calc(22);
@@ -269,7 +273,8 @@ ul#markdown-toc {
   $alert-icon-opacity: 1;
   &.alert::before {
     @extend .icon-alarm, :before;
-    color: opacify($alert-color, $alert-icon-opacity);
+    color: opacify($grey-0, $alert-icon-opacity);
+    //color: opacify($alert-color, $alert-icon-opacity);
   }
   &.warning::before {
     @extend .icon-cone, :before;
