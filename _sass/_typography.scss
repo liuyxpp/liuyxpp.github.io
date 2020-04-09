@@ -136,3 +136,33 @@ pre {
 		@include rounded(4px);
 	}
 }
+
+/* Typography for Articles by TWiStErRob
+------------------------------------------------------------------- */
+
+.subheadline {
+    font-size: rem-calc(16);
+    margin: 0;
+    text-transform: uppercase;
+}
+.teaser {
+    font-size: rem-calc(20);
+}
+.big-teaser {
+    font-style: italic; font-weight: 300;
+}
+.big-teaser a {
+    font-style: italic; font-weight: 400;
+}
+
+/* Smaller Fontsize for Bigteaser on small devices */
+@media only screen {
+    .big-teaser {
+        font-size: rem-calc(20);
+    }
+}
+@media only screen and (min-width: 40.063em) {
+    .big-teaser         {
+        font-size: rem-calc(29);
+    }
+}

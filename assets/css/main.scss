@@ -16,8 +16,12 @@ $environment: '{{ jekyll.environment }}';
 }
 @import "twisterrob_colors";
 @import "twisterrob_typography";
+@import "twisterrob_layout";
 @import "components/alert-boxes";
 @import "components/panels";
+@import "components/grid";
+@import "components/side-nav";
+// @import "components/from";
 
 /*
  *

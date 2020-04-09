@@ -92,7 +92,7 @@ svg:not(:root) {
 // --------------------------------------------------
 .btn {
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   padding: 8px 20px;
   @include font-rem(14);
   background-color: $primary;
@@ -300,3 +300,35 @@ ul#markdown-toc {
     border: 3px solid $aluminum !important;
   }
 }
+
+/* Frontpage Widget
+------------------------------------------------------------------- */
+.frontpage-widget img {
+  transition-duration: .5s;
+  transition-property: all;
+  transform-origin: 50% 50%;
+  &:hover {
+    transform: scale(1.1) rotate(2deg) translateZ(0);
+    position: relative;
+    z-index: 1;
+  }
+}
+
+/* Side-Nav
+------------------------------------------------------------------- */
+
+.side-nav li.title { text-transform: uppercase;}
+.side-nav li { border-top: 1px solid $grey-3;}
+.side-nav li a:not(.button) {
+    border-bottom: 0;
+    padding: 0.4375rem 0rem;
+    color: $link-color;
+    &:hover,
+    &:focus {
+        background: none;
+        color: lighten($link-color, 20%);
+    }
+}
+//.side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus { background: darken($primary-color, 50%); }
+
+.homepage p { margin: 0; padding: 0; color: $grey-10; }

@@ -5,6 +5,7 @@ reading_time: true
 word_count: true
 words_per_minute: 100
 url: http://www.yxliu.group
+urlimg: '/images/'
 header-img: images/homepage.jpg
 excerpt_separator: "<!--more-->"
 

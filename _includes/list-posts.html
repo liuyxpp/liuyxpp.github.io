@@ -1,0 +1,54 @@
+{% comment %}
+*   
+*   Possible parameter for this loop:
+*   
+*    › entries
+*    › offset
+*    › category
+*    › tag
+*   
+*   Example for Category: {% include list-posts.html entries='3' offset='1' category='design' %}
+*   
+*   Example for Tag: {% include list-posts.html entries='5' tag='terminal' %}
+*   
+*   
+*   This loop works like this:
+*   
+*   1. First we check if there was given a category for filtering › if include.categories == NULL
+*   2. If no category is given for filtering do a general loop.
+*   3. If a category/tag was given, assign category/tag to the variable category/tag › assign category = include.category
+*   
+{% endcomment %}
+
+{% assign category = include.category %}
+{% assign tag = include.tag %}
+{% assign posts = ',' | split: ',' %}
+
+{% if category == NULL and tag == NULL %}
+	{% assign moreLink = site.baseurl | append: '/blog/archive/' %}
+	{% for post in site.posts                limit:include.entries offset:include.offset %}
+		{% assign posts = posts | push: post %}
+	{% endfor %}
+{% elsif category %}
+	{% assign moreLink = site.baseurl | append: '/blog/category/' %}
+	{% for post in site.categories[category] limit:include.entries offset:include.offset %}
+		{% assign posts = posts | push: post %}
+	{% endfor %}
+{% elsif tag %}
+	{% assign moreLink = site.baseurl | append: '/blog/tag/' %}
+	{% for post in site.tags[tag]            limit:include.entries offset:include.offset %}
+		{% assign posts = posts | push: post %}
+	{% endfor %}
+{% endif %}
+{% if include.more %}
+	{% assign moreLink = include.more %}
+{% endif %}
+
+<ul class="side-nav">
+	{% for post in posts %}
+		<li>{% include snippets/post_link.html post=post showSub=true %}</li>
+	{% endfor %}
+	{% unless moreLink == blank %}
+		<li class="text-right"><a href="{{ moreLink }}"><strong>{{ site.data.language.more }}</strong></a></li>
+	{% endunless %}
+</ul>
