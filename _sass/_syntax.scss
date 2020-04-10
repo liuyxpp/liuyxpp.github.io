@@ -161,6 +161,14 @@ div.language-cpp {
     }
 }
 
+/* Hack: mobile browser no border */
+@media #{$small} {
+    .table-responsive {
+        border: none;
+        margin-bottom: 0;
+    }
+}
+
 .highlight {
 	margin-bottom: 0em;
 	@include font($doc-font-size);
