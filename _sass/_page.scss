@@ -219,7 +219,7 @@ header .entry-meta {
     div#toc a {
         border-bottom: none;
         &:hover {
-            color: lighten($link-color, 10);
+            color: $link-color-hover;
         }
     }
     a.btn {
@@ -243,7 +243,7 @@ header .entry-meta {
             &:hover {
                 border-bottom: none;
                 text-decoration: none;
-                color: lighten($link-color, 10);
+                color: $link-color-hover;
             }
         }
     }
@@ -313,7 +313,7 @@ header .entry-meta {
     div#toc a {
         border-bottom: none;
         &:hover {
-            color: lighten($link-color, 10);
+            color: $link-color-hover;
         }
     }
     a.btn {
@@ -470,6 +470,12 @@ header .entry-meta {
         h2 {
             margin-top: 10px;
         }
+        a {
+            text-decoration: none;
+            &:hover {
+                color: $link-color-hover;
+            }
+        }
     }
     div.widget,
     div.homepage {
@@ -494,7 +500,7 @@ header .entry-meta {
     h1 a {
         border-bottom: none;
         &:hover {
-            color: lighten($link-color, 10);
+            color: $link-color-hover;
             border-bottom: none;
             text-decoration: none;
         }
