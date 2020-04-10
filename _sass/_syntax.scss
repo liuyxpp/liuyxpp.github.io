@@ -1,29 +1,18 @@
-/* syntax highlighting (base16) */
-$base00: #263238 !default;
-$base01: #2e3c43 !default;
-$base02: #314549 !default;
-$base03: #546e7a !default;
-$base04: #b2ccd6 !default;
-$base05: #eeffff !default;
-$base06: #eeffff !default;
-$base07: #ffffff !default;
-$base08: #f07178 !default;
-$base09: #f78c6c !default;
-$base0a: #ffcb6b !default;
-$base0b: #c3e88d !default;
-$base0c: #89ddff !default;
-$base0d: #82aaff !default;
-$base0e: #c792ea !default;
-$base0f: #ff5370 !default;
+/**
+ * Syntax highlighting
+/**
 
+
+/*
+ * Code snippets from mmistakes
+ * source: https://github.com/mmistakes/minimal-mistakes
+ * file: _sass/minimal-mistakes/_syntax.scss
+ * Fix line numbers column abnormally widen when code is short.
+*/
 div.highlighter-rouge,
 figure.highlight {
   position: relative;
   margin-bottom: 1em;
-  //background: $base00;
-  //color: $base05;
-  //font-family: $monospace;
-  //font-size: $type-size-6;
   line-height: 1.8;
   border-radius: 3;
 
@@ -31,6 +20,17 @@ figure.highlight {
   pre.highlight {
     margin: 0;
     padding: 1em;
+    code {
+        /* Display language name */
+        &[data-lang]::before {
+            content: attr(data-lang);
+            position: absolute;
+            top: 3px;
+            right: 10px;
+            color: $lang-color;
+            font-size: 12px;
+        }
+    }
   }
 }
 
@@ -49,8 +49,7 @@ figure.highlight {
     &.rouge-gutter {
       padding-right: 1em;
       width: 1em;
-      //color: $base04;
-      border-right: 1px solid $base04;
+      border-right: 1px solid $gray-light;
       text-align: right;
     }
 
@@ -65,9 +64,101 @@ figure.highlight {
     margin: 0;
   }
 }
+/** end of tweaks from mmistakes **/
 
-.highlight pre {
-  width: 100%;
+/*
+ * Display language name
+ * Hacks for Kramdown fenced code blocks
+ * which lacks of a data-lang attribute.
+**/
+div.language-julia {
+    position: relative;
+    pre.highlight {
+        padding: 14px;
+        &::before {
+            content: "julia";
+            position: absolute;
+            top: 2px;
+            right: 10px;
+            color: $lang-color;
+            font-size: 12px;
+        }
+    }
+}
+
+div.language-console {
+    position: relative;
+    pre.highlight {
+        padding: 14px;
+        &::before {
+            content: "console";
+            position: absolute;
+            top: 2px;
+            right: 10px;
+            color: $lang-color;
+            font-size: 12px;
+        }
+    }
+}
+
+div.language-markdown {
+    position: relative;
+    pre.highlight {
+        padding: 14px;
+        &::before {
+            content: "markdown";
+            position: absolute;
+            top: 2px;
+            right: 10px;
+            color: $lang-color;
+            font-size: 12px;
+        }
+    }
+}
+
+div.language-python {
+    position: relative;
+    pre.highlight {
+        padding: 14px;
+        &::before {
+            content: "python";
+            position: absolute;
+            top: 2px;
+            right: 10px;
+            color: $lang-color;
+            font-size: 12px;
+        }
+    }
+}
+
+div.language-c {
+    position: relative;
+    pre.highlight {
+        padding: 14px;
+        &::before {
+            content: "c";
+            position: absolute;
+            top: 2px;
+            right: 10px;
+            color: $lang-color;
+            font-size: 12px;
+        }
+    }
+}
+
+div.language-cpp {
+    position: relative;
+    pre.highlight {
+        padding: 14px;
+        &::before {
+            content: "cpp";
+            position: absolute;
+            top: 2px;
+            right: 10px;
+            color: $lang-color;
+            font-size: 12px;
+        }
+    }
 }
 
 .highlight {
@@ -80,6 +171,7 @@ figure.highlight {
 		margin: 0;
 		padding: 0;
         border: none;
+        width: 100%;
 	}
     // disable table top border
     .table>tbody>tr>td {border-top: none;}

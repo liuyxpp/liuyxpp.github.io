@@ -63,6 +63,9 @@ $warning:       $sun-flower;
 $danger	:       $alizarin;
 $info:          $peter-river;
 
+/* syntax highlighting */
+$lang-color: $gray;
+
 /* links */
 // $link-color: $info !default;
 $link-color: mix(#000, $info, 15%) !default;
