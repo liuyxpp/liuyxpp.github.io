@@ -70,6 +70,7 @@ kramdown:
     formatter: Rouge::Formatters::HTMLLineTable
     # line_numbers: true # this will make inline code broken
     # line_table: true
+    css_class: ''
     span:
       line_numbers: false
     block:
