@@ -1,3 +1,75 @@
+/* syntax highlighting (base16) */
+$base00: #263238 !default;
+$base01: #2e3c43 !default;
+$base02: #314549 !default;
+$base03: #546e7a !default;
+$base04: #b2ccd6 !default;
+$base05: #eeffff !default;
+$base06: #eeffff !default;
+$base07: #ffffff !default;
+$base08: #f07178 !default;
+$base09: #f78c6c !default;
+$base0a: #ffcb6b !default;
+$base0b: #c3e88d !default;
+$base0c: #89ddff !default;
+$base0d: #82aaff !default;
+$base0e: #c792ea !default;
+$base0f: #ff5370 !default;
+
+div.highlighter-rouge,
+figure.highlight {
+  position: relative;
+  margin-bottom: 1em;
+  //background: $base00;
+  //color: $base05;
+  //font-family: $monospace;
+  //font-size: $type-size-6;
+  line-height: 1.8;
+  border-radius: 3;
+
+  > pre,
+  pre.highlight {
+    margin: 0;
+    padding: 1em;
+  }
+}
+
+.highlight table {
+  margin-bottom: 0;
+  font-size: 1em;
+  border: 0;
+
+  td {
+    padding: 0;
+    width: calc(100% - 1em);
+    border: 0;
+
+    /* line numbers*/
+    &.gutter,
+    &.rouge-gutter {
+      padding-right: 1em;
+      width: 1em;
+      //color: $base04;
+      border-right: 1px solid $base04;
+      text-align: right;
+    }
+
+    /* code */
+    &.code,
+    &.rouge-code {
+      padding-left: 1em;
+    }
+  }
+
+  pre {
+    margin: 0;
+  }
+}
+
+.highlight pre {
+  width: 100%;
+}
+
 .highlight {
 	margin-bottom: 0em;
 	@include font($doc-font-size);
@@ -9,16 +81,10 @@
 		padding: 0;
         border: none;
 	}
-    .table {margin-bottom: 0px;}
-    .table>tbody>tr>td {border: none;}
+    // disable table top border
+    .table>tbody>tr>td {border-top: none;}
     /* tweak line numbers */
 	.lineno { padding-right: 0; color: #A9D9B9;}
-    .rouge-table { border-collapse: collapse }
-    .rouge-table tr > td { padding: 0 5px }
-    .rouge-table .rouge-gutter { text-align: right; vertical-align: top }
-    .rouge-table .rouge-gutter pre { margin: 0 }
-    .rouge-table .gutter { text-align: right; vertical-align: top }
-    .rouge-table .gutter pre { margin: 0 }
 	/* Solarized Light theme from pygments-style-solarized package */
     /* Created by following command */
     /* pygmentize -S solarizedlight -f html > pygments.css */
