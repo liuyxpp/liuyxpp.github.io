@@ -1,0 +1,17 @@
+{% capture site_tags %}{% for tag in site.tags %}{{ tag | first | downcase }}&#x1F;{{ tag | first }}{% unless forloop.last %}&#x1E;{% endunless %}{% endfor %}{% endcapture %}
+{% assign site_tags = site_tags | split: '&#x1E;' | sort %}
+{% capture site_tags %}{% for tag in site_tags %}{{ tag | split: '&#x1F;' | last }}{% unless forloop.last %}&#x1E;{% endunless %}{% endfor %}{% endcapture %}
+{% assign site_tags = site_tags | split: '&#x1E;' %}
+
+{% assign post_count = site.posts | size %}
+{% capture tag_counts %}{% for tag in site_tags %}{{site.tags[tag] | size | times: 10 | plus: post_count | minus: 1 | divided_by: post_count }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign tag_counts = tag_counts | split: ',' %}
+
+<ul class="tags quick-links">
+{% for tag in site_tags %}
+	{% assign tag_data = site.data.tags[tag] %}
+	{% capture tag_classes %}tag tag-size-{{ tag_counts[forloop.index0] }} tag-{{ tag | slugify }}{% endcapture %}
+	{% capture tag_name %}{% if tag_data.title %}{{ tag_data.title }}{% else %}{{ tag }}{% endif %}{% endcapture %}
+	<li><a href="{{ include.baseurl }}#{{ tag | slugify }}" class="{{ tag_classes }}">{{ tag_name }}<span class="count">{{ site.tags[tag] | size }}</span></a></li>
+{% endfor %}
+</ul>

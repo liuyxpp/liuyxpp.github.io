@@ -1,0 +1,11 @@
+{% for category in include.categories %}{% capture ignore %}
+	{% for page in site.pages %}{% if page.category == category %}{% assign category_page = page %}{% break %}{% endif %}{% endfor %}
+	{% endcapture %}<a
+			href="{{ site.baseurl }}/blog/category/{% unless category_page %}#{% endunless %}{{ category | slugify }}"
+		>{% if category_page %}{{ category_page.title }}{% else %}{{ category | capitalize }}{% endif %}</a>
+        {% if include.show %}
+            {% assign posts = site.categories[category] %}
+            {% include snippets/article_count.html list=posts %}
+        {% endif %}
+	{% unless forloop.last %}&middot;{% endunless %}
+{% endfor %}

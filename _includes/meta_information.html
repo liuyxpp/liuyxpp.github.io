@@ -1,0 +1,30 @@
+{% assign author = site.data.authors[page.author] %}
+{% if author or page.date or page.categories != empty or page.tags != empty %}
+<div id="page-meta">
+	<p>
+		{% if author %}
+			<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+				<a href="{{ author.url }}" itemprop="name" class="icon-edit" target="_blank">{{ author.name }}</a>
+			</span>
+		{% endif %}
+		{% if page.date %}
+			<a href="{{ site.baseurl }}/blog/archive/#{{ page.date | date: "%Y-%m" }}">
+				<time class="icon-alias-archive" datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ page.date | date: "%Y-%m-%d" }}</time>
+			</a>
+		{% endif %}
+		{% if page.categories != empty %}
+			<span class="icon-alias-category">{% include page_categories.html categories=page.categories %}</span>
+		{% endif %}
+
+		{% if page.tags != empty %}
+			<span class="meta-tags">
+				{% for tag in page.tags %}
+					{% capture tag_url %}{{ site.baseurl }}/blog/tags/#{{ tag | slugify }}{% endcapture %}
+					{% capture tag_name %}{% if site.data.tags[tag].title %}{{ site.data.tags[tag].title }}{% else %}{{ tag }}{% endif %}{% endcapture %}
+					<a href="{{ tag_url }}" class="icon-price-tag tag-{{ tag | slugify }}">{{ tag_name }}</a>
+				{% endfor %}
+			</span>
+		{% endif %}
+	</p>
+</div>
+{% endif %}

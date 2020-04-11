@@ -1,0 +1,49 @@
+{% for tag in site.data.tags %}
+	$tag_id: {{ tag[0] | slugify }};
+	/* {{ tag[0] | slugify }}: title={{ tag[1].title }}, color={{ tag[1].color }} */
+	{% if tag[1].color %}
+		$tag_color: {{ tag[1].color }};
+		.tag-#{$tag_id} {
+			&.tag {
+				border: 2px solid $tag_color;
+				&:hover {
+					color: if(lightness( $tag_color ) < 70%, $label-font-color-alt, $label-font-color);
+					background-color: $tag_color;
+					$tag_shadow: if(lightness( $tag_color ) >= 70%, $label-font-color-alt, $label-font-color) 0px 0px 2px;
+					text-shadow: $tag_shadow;
+					text-shadow: $tag_shadow, $tag_shadow;
+				}
+			}
+			&::before {
+				color: $tag_color;
+				$tag_shadow: black 0px 0px 2px;
+				text-shadow: $tag_shadow;
+				text-shadow: $tag_shadow, $tag_shadow;
+			}
+		}
+	{% endif %}
+{% endfor %}
+{% comment %}
+{% for tag in site.tags %}
+	{% unless site.data.tags[tag[0]] %}
+		$tag_id: {{ tag[0] | slugify }};
+		.tag-#{$tag_id} {
+			&::before {
+				color: $grey-4;
+				text-shadow: black 0px 0px 2px;
+			}
+		}
+	{% endunless %}
+{% endfor %}
+{% endcomment %}
+
+{% for sharer in site.data.share %}
+	.share-block .share-link.share-{{ sharer[0] }} {
+		background-color: {{ sharer[1].color }};
+		color: white;
+		&:hover {
+			//background-color: darken({{ sharer[1].color }}, 5%);
+			color: lighten({{ sharer[1].color }}, 40%);
+		}
+	}
+{% endfor %}

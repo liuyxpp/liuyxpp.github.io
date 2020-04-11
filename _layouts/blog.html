@@ -7,30 +7,20 @@
 {% include head.html %}
 </head>
 
-<body id="post-index">
+<body id="home" class="blog-index">
 
 {% include browser-upgrade.html %}
 
 {% include nav_cleanblog.html %}
 
+{% include header-home.html %}
+
 <div id="main" role="main">
-  <article class="hentry">
-    <span itemprop="name">
-        {% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
-        <h1>{{ page.title }}</h1>
-    </span>
-    {% if page.teaser %}
-        <p class="teaser" itemprop="description">
-        {{ page.teaser }}
-        </p>
-    {% endif %}
-    {% if page.show_meta.info %}
-        {% include meta_information.html %}
-    {% endif %}
-    <div class="entry-content">
-        {{ content }}
-    </div><!-- /.entry-content -->
-  </article>
+
+<div class="row">
+    {{ content }}
+</div>
+
 </div><!-- /#main -->
 
 <div class="footer-wrapper">

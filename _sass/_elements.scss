@@ -314,6 +314,22 @@ ul#markdown-toc {
   }
 }
 
+/* Button
+------------------------------------------------------------------- */
+
+button, .button {
+  letter-spacing: 1px;
+  &.grey {
+    background: $grey-10;
+    &:hover, &:focus {
+      background-color: $grey-16;
+    }
+  }
+  &.prev, &.next {
+    width: 100%;
+  }
+}
+
 /* Side-Nav
 ------------------------------------------------------------------- */
 
@@ -332,3 +348,82 @@ ul#markdown-toc {
 //.side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus { background: darken($primary-color, 50%); }
 
 .homepage p { margin: 0; padding: 0; color: $grey-10; }
+
+/* Tags
+------------------------------------------------------------------- */
+.quick-links > li > * {
+  display: initial;
+}
+.icon-alias-category::before {
+  @extend .icon-archive, :before;
+  color: $grey-4;
+  $tag_shadow: black 0px 0px 2px;
+  text-shadow: $tag_shadow;
+  text-shadow: $tag_shadow, $tag_shadow;
+}
+.icon-alias-archive::before {
+  @extend .icon-calendar, :before;
+  color: $grey-4;
+  $tag_shadow: black 0px 0px 2px;
+  text-shadow: $tag_shadow;
+  text-shadow: $tag_shadow, $tag_shadow;
+}
+.icon-alias-tag::before {
+  @extend .icon-price-tag, :before;
+  color: $grey-4;
+  $tag_shadow: black 0px 0px 2px;
+  text-shadow: $tag_shadow;
+  text-shadow: $tag_shadow, $tag_shadow;
+}
+.tag {
+  $tag-size-base: 12;
+  $tag-size-count: 10;
+  $tag-size-height-max: $tag-size-base + $tag-size-count * $tag-size-count / $tag-size-count;
+  @include label($bg: $grey-11, $radius: true);
+  font-weight: bold;
+  font-size: rem-calc($tag-size-base + 0 * 0 / $tag-size-count);
+  margin-top: rem-calc(($tag-size-height-max - $tag-size-base) / 2);
+  margin-bottom: rem-calc(($tag-size-height-max - $tag-size-base) / 2);
+  background-color: $body-bg;
+  color: $text-color;
+  border: 2px solid $grey-11;
+  &:visited {
+      border: 2px solid $grey-11;
+  }
+  &:hover {
+    background-color: $grey-11;
+    color: white;
+  }
+  &:before {
+    @extend .icon-alias-tag, ::before;
+    padding-right: rem-calc(4);
+  }
+
+  .count {
+    font-size: .83em;
+    vertical-align: sub;
+    &:before {
+      content: '\a0';
+    }
+  }
+
+  @for $i from 1 through $tag-size-count {
+    &.tag-size-#{$i} {
+      $tag-size-height: $tag-size-base + $i * $i / $tag-size-count;
+      font-size: rem-calc($tag-size-height);
+      margin-top: rem-calc( ( $tag-size-height-max - $tag-size-height) / 2);
+      margin-bottom: rem-calc( ( $tag-size-height-max - $tag-size-height) / 2);
+    }
+  }
+}
+
+.tags {
+    //width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    li {
+        height: rem-calc(36);
+        display: inline-block;
+    }
+}
