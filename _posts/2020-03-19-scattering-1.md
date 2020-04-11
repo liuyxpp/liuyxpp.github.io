@@ -5,7 +5,7 @@ subheadline: "Brief introduction to the scattering theory and the Julia programm
 description: "The first blog post for a series of articles on an effort to demonstrate how to develop a package from scratch for computing scattering and diffraction curves of individual or self-assembled nanoparticles, polymers as well as biological materials using Julia programming language."
 author: Yi-Xin Liu
 date: 2020-03-19
-modified: 2019-04-09
+modified: 2019-04-10
 image:
     feature: abstract-3.jpg
     twitter: scattering1/structure.png
@@ -13,7 +13,7 @@ categories: [Research, Software]
 tags: [Julia, Scattering.jl, Scattering Theory]
 ---
 
-This is the first post of a series of blog posts published in [Yi-Xin Liu's research group website]({{ site.url }}/blog) on an effort to demonstrate how to develop a software package for computing scattering and diffraction curves of individual or self-assembled nanoparticles, polymers as well as biological materials using Julia programming language. The purpose of this series of blog posts is in three folds: (1) to provide a source of concise understanding of the scattering theory especially for small angle X-ray scattering (SAXS); (2) to demonstrate the power of the Julia programming language in scientific computing; and (3) to serve as a detailed documentation for the `Scattering.jl` software package.
+This is the first post of a series of blog posts published in [Yi-Xin Liu's research group website]({{ site.url }}) on an effort to demonstrate how to develop a software package for computing scattering and diffraction curves of individual or self-assembled nanoparticles, polymers as well as biological materials using Julia programming language. The purpose of this series of blog posts is in three folds: (1) to provide a source of concise understanding of the scattering theory especially for small angle X-ray scattering (SAXS); (2) to demonstrate the power of the Julia programming language in scientific computing; and (3) to serve as a detailed documentation for the `Scattering.jl` software package.
 
 <!--more-->
 

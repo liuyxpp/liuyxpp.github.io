@@ -4,19 +4,19 @@ title: CV
 description: "CV, Resume of Dr. Yi-Xin Liu at Fudan University."
 header-img: images/abstract-5.jpg
 comments: false
-modified: 2019-03-13
+modified: 2020-04-11
 ---
 
 ## Yi-Xin Liu
 
-Department of Macromolecular Science  
-Fudan University  
-Chemistry Bldg. Room B3083, 2005 Songhu Rd.  
-Shanghai 200438, China  
-Office: +86-21-31242883  
-Mobile: +86-18117210989  
-Email: lyx@fudan.edu.cn  
-Academic Homepage: [http://www.yxliu.group](http://www.yxliu.group)
+Department of Macromolecular Science<br>
+Fudan University<br>
+Chemistry Bldg. Room B3083, 2005 Songhu Rd.<br>
+Shanghai 200438, China<br>
+Office: +86-21-31242883<br>
+Mobile: +86-18117210989<br>
+Email: lyx@fudan.edu.cn<br>
+Research Group Homepage: [http://www.yxliu.group](http://www.yxliu.group)
 
 <div markdown="0">
     <a href="{{ site.url }}/downloads/CV.pdf" class="btn btn-success">Download PDF Version</a>
@@ -25,12 +25,12 @@ Academic Homepage: [http://www.yxliu.group](http://www.yxliu.group)
 ### Education
 -----
 
-**PhD in Polymer Chemistry and Physics**, 2004-2009  
-*Peking University, Beijing, China*  
-Disertation: Phase Selection Pathways and Morphological Evolution in Polymer Crystallization: An Experimental and Theoretical Study on Low Molecular Weight Poly(ethylene oxide) Fractions  
+**PhD in Polymer Chemistry and Physics**, 2004-2009<br>
+*Peking University, Beijing, China*<br>
+Disertation: Phase Selection Pathways and Morphological Evolution in Polymer Crystallization: An Experimental and Theoretical Study on Low Molecular Weight Poly(ethylene oxide) Fractions<br>
 Advisor: Prof. Er-Qiang Chen
 
-**BS in Chemistry**, 2000-2004  
+**BS in Chemistry**, 2000-2004<br>
 *Nanjing University, Nanjing*
 
 ### Research Interests
@@ -45,36 +45,36 @@ Advisor: Prof. Er-Qiang Chen
 ### Research Experience
 -----
 
-**Associate Professor**, 2019 - present  
-**Lecturer**, 2012 - 2018  
+**Associate Professor**, 2019 - present<br>
+**Lecturer**, 2012 - 2018<br>
 *Fudan University, Department of Macromolecular Science*
 
 - Directed self-assembly of block copolymers under *soft confinements*: nanostructures design and the mechanism of defect removal.
 
 - Developing highly efficient numerical algorithms for self-assembly of block copolymers in bulk and under soft confinements.
 
-**Visiting Researcher**, 2014 - 2016  
+**Visiting Researcher**, 2014 - 2016<br>
 *University of California, Santa Barbara, Materials Research Laboratory*
 
 - Conducted complex Langevin field-theoretic simulations of polymeric materials under thermal fluctuations.
 
 - Developed a density functional model for polymeric systems under thermal fluctuations.
 
-**Postdoctoral Research Fellow**, 2009 - 2012  
+**Postdoctoral Research Fellow**, 2009 - 2012<br>
 *Fudan University, Department of Macromolecular Science*
 
 - Developed high performance numerical methods for studying the equilibrium phase separation structures of charged block copolymers.
 
 - Performed Monte Carlo simulations on the nucleation and growth process in thickening of monolayer poly(ethylene oxide) crystals in ultrathin films.
 
-**Ph.D. Candidate**, 2004 - 2009  
+**Ph.D. Candidate**, 2004 - 2009<br>
 *Peking University, College of Chemistry and Molecular Engineering*
 
 - Conducted phase field simulations on morphological evolution of monolayer poly(ethylene oxide) crystals.
 
 - Carried out experimental studies on the nucleation, growth, thickening, and melting of monolayer poly(ethylene oxide) crystals in ultrathin films using in-situ atomic force microscopy.
 
-**Undergraduate Student**, 2003 - 2004  
+**Undergraduate Student**, 2003 - 2004<br>
 *Nanjing University, School of Chemistry and Chemical Engineering*
 
 - Synthesized three amphiphilic ligands and their complexes with Cu^2+.
@@ -118,38 +118,45 @@ Please visit [my publication list]({{ site.url }}/publications/).
 ### Teaching Experience
 -----
 
-**Instructor:** Polymer Physics, 2014, 2017, 2018  
-*Fudan University, Department of Macromolecular Science*  
-Core undergraduate course, 30+ students, 15-week, 3-credit. Co-instructors: Hong-Dong Zhang and Jian-Feng Li.
+**Instructor:** Polymer Physics, 2014, 2017, 2018, 2019<br>
+*Fudan University, Department of Macromolecular Science*<br>
+Core undergraduate course, 30+ students, 15-week, 3-credit. Co-instructors: Prof. Hong-Dong Zhang and Prof. Jian-Feng Li.
 
-**Instructor:** Introduction to Polymeric Materials, 2016, 2017  
-*Fudan University, Department of Macromolecular Science*  
-Undergraduate course, 20+ students, 15-week, 2-credit. Co-instructor: Jia Guo.
+**Instructor:** Introduction to Polymeric Materials, 2016, 2017, 2018, 2019<br>
+*Fudan University, Department of Macromolecular Science*<br>
+Undergraduate course, 20+ students, 15-week, 2-credit. Co-instructor: Prof. Jia Guo.
 
-**Instructor:** Quantitative Chemical Analysis Experiments, 2006, 2007  
-*Peking University, College of Chemistry and Moelcular Engineering*  
+**Instructor:** Quantitative Chemical Analysis Experiments, 2006, 2007<br>
+*Peking University, College of Chemistry and Moelcular Engineering*<br>
 Undergraduate experimental course, 17 students, 15-week, 2-credit.
 
 ### Computational Experience
 -----
 
-- Python, C/C++, Parallel Programming (MPI, GPU/CUDA), Matlab, HTML/CSS, LaTeX.
+- Julia, Python, C/C++, Parallel Programming (MPI, GPU/CUDA), Matlab, HTML/CSS, LaTeX.
 
-- Familiar with Linux, Hoomd-blue, Tensorflow, Numpy/Scipy, FFTW, Armadillo, blitz++.
+- Familiar with Linux, Hoomd-blue, FluxML, SciML, Tensorflow, Numpy/Scipy, FFTW, Armadillo, blitz++.
 
 - Open source projects: [polyorder](https://github.com/liuyxpp/polyorder) - [gyroid](https://pypi.org/project/gyroid/) - [ngpy](https://pypi.org/project/ngpy/) - [chebpy](https://pypi.org/project/chebpy/) - [mpltex](https://pypi.org/project/mpltex/)
 
 ### Technical Experience
 -----
 
-**TEM Administrator**, 2009 - 2012  
+**TEM Administrator**, 2009 - 2012<br>
 *Fudan University, Department of Macromolecular Science*
 
-- Assisted the engineer from FEI company to install FEI Technai G2 20 Twin with cryo, low dose, and 3D tomography.
+- Assisted the engineer from FEI company to install and test FEI Technai G2 20 Twin with cryo, low dose, and 3D tomography.
 
-- Wrote the lab mannual for operating TEM.
+- Wrote the lab manual for operating TEM.
 
-**AFM Administrator**, 2006 - 2009  
+**SAXS Administrator**, 2008 - 2009<br>
+*Peking University, College of Chemistry and Molecular Engineering*
+
+- Assisted the engineer from Anton Paar company to install and test SAXSess.
+
+- Developed software toolkits to analyze SAXS curves.
+
+**AFM Administrator**, 2006 - 2009<br>
 *Peking University, College of Chemistry and Molecular Engineering*
 
 - Developed a user management system for controlling AFM.
