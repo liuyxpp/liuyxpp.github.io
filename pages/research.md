@@ -1,10 +1,11 @@
 ---
+permalink: /research/
 layout: page
 title: Research Interests
 description: "Research interests: computational science, polymer physics, numerical algorithm, scientific software, polymer crystallization, python."
 header-img: images/research-1.jpg
 comments: false
-modified: 2018-11-02
+modified: 2020-04-11
 ---
 
 # Research Interests
@@ -244,7 +245,8 @@ Programming languages involved: `C/C++`, `Matlab`, and `Python`. Transition to `
 
 ### 4.3 Research Notes
 
-* [Test PolyFTS with Polyorder]({% post_url 2015-04-14-polyfts-test %})
-* [Polyorder Configuration File]({% post_url 2015-04-06-polyorder-config %})
+* [Julia in Practice: Building Scattering.jl from Scratch (1)]({% post_url 2020-03-19-scattering-1 %})
+* [Weak Inhomogeneity Expansion in Polymer Field Theory]({% post_url 2019-01-03-lyx-tr-2015-02 %})
 * [Simpson's Rule and Other Fourth-Order Quadrature Formulas]({% post_url 2014-09-11-simpson %})
 * [mpltex: A Tool for Creating Publication-Quality Plots]({% post_url 2014-09-09-mpltex %})
+* [Full list of Research Notes]({{site.url}}/blog/category/research/)

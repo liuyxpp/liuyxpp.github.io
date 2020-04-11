@@ -1,4 +1,5 @@
 ---
+permalink: /software/
 layout: page
 title: Software
 description: "A set of open source projects developed by Yi-Xin Liu research group."

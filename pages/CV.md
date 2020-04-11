@@ -1,4 +1,5 @@
 ---
+permalink: /cv/
 layout: page
 title: CV
 description: "CV, Resume of Dr. Yi-Xin Liu at Fudan University."

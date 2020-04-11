@@ -1,4 +1,5 @@
 ---
+permalink: /about/
 layout: page
 title: About
 description: A brief introdcution of Prof. Yi-Xin Liu and this website.

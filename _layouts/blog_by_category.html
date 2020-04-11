@@ -1,0 +1,42 @@
+---
+layout: post-index
+subheadline: 'Articles in Category'
+---
+{{ content }}
+
+{% assign category_posts = site.categories[page.category] %}
+{% if category_posts %}
+	{% for post in category_posts %}
+		{% capture post_year %}{{ post.date | date: '%Y' }}{% endcapture %}
+		{% if forloop.first %}
+			<h2 id="{{post_year}}">{{ post_year }}</h2><ul>
+		{% else %}
+			{% assign previous_index = forloop.index0 | minus: 1 %}
+			{% capture previous_post_year %}{{ category_posts[previous_index].date | date: '%Y' }}{% endcapture %}
+			{% if post_year != previous_post_year %}
+				</ul><h2 id="{{post_year}}">{{ post_year }}</h2><ul>
+			{% endif %}
+		{% endif %}
+		<li>{% include snippets/post_link.html post=post %}</li>
+
+		{% if forloop.last %}
+			</ul>
+		{% endif %}
+	{% endfor %}
+{% else %}
+	<p>There are no posts in this category.</p>
+{% endif %}
+
+<h2 id="other">Other categories</h2>
+<ul class="quick-links">
+{% for other_category in site.pages %}
+	{% if other_category.category and other_category.category != page.category %}
+		<li>
+			<a href="{{ site.baseurl }}/blog/category/{{ other_category.category | slugify }}">{{ other_category.title }}</a>
+			{% assign posts = site.categories[other_category.category] %}
+			{% include snippets/article_count.html list=posts %}
+		</li>
+	{% endif %}
+{% endfor %}
+</ul>
+<a href="{{ site.baseurl }}/blog/category/">See all posts in all categories</a>

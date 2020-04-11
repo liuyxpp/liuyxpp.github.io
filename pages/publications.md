@@ -1,4 +1,5 @@
 ---
+permalink: /publications/
 layout: page
 title: Publications
 description: "A list of my publications: journal articles, presentations, posters, and thesis."

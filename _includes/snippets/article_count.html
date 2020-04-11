@@ -1,0 +1,5 @@
+{% assign article_count = 0 %}
+{% if include.list %}{% assign article_count = include.list.size | times: 1 %}{% endif %}
+{% if include.count %}{% assign article_count = include.count | times: 1 %}{% endif %}
+{% unless article_count %}{% assign article_count = 0 %}{% endunless %}
+({{ article_count }}&nbsp;article{% unless article_count == 1 %}s{% endunless %})

@@ -1,10 +1,11 @@
 ---
+permalink: /teaching/
 layout: page
 title: Teaching
 description: "Undergraduate courses: Polymer Physics, Introduction to Polymeric Materials."
 header-img: images/research-1.jpg
 comments: false
-modified: 2019-09-06
+modified: 2020-04-11
 ---
 
 # Courses
@@ -12,6 +13,7 @@ modified: 2019-09-06
 ## Polymer Physics (MACR130002, Undergraduate)
 -----
 
+- Spring 2020, Classroom: Online, Time: Odd Week Tues 1-2, Thur 3-4, Even Week Thur 3-4
 - Spring 2019, Classroom: HGX303, Time: Odd Week Tues 1-2, Thur 3-4, Even Week Thur 3-4
 - Spring 2018, Classroom: H6305, Time: Odd Week Tues 1-2, Thur 3-4, Even Week Thur 3-4
 - Spring 2017, Classroom: HGX503, Time: Odd Week Tues 1-2, Thur 3-4, Even Week Thur 3-4

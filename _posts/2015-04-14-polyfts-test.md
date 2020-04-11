@@ -7,7 +7,7 @@ date: 2015-04-10
 modified: 2015-04-17
 image:
     feature: abstract-5.jpg
-categories: [Research, Software]
+categories: [Software]
 tags: [SCFT, Numerical Accuracy, Numerical Efficiency]
 ---
 
