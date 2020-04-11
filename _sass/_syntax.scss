@@ -156,7 +156,22 @@ div.language-cpp {
     pre.highlight {
         padding: 14px;
         &::before {
-            content: "cpp";
+            content: "c++";
+            position: absolute;
+            top: 2px;
+            right: 10px;
+            color: $lang-color;
+            font-size: 12px;
+        }
+    }
+}
+
+div.language-matlab {
+    position: relative;
+    pre.highlight {
+        padding: 14px;
+        &::before {
+            content: "matlab";
             position: absolute;
             top: 2px;
             right: 10px;
