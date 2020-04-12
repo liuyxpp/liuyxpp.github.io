@@ -1,0 +1,32 @@
+# Each link may contain one or more <title> and <link> placeholders.
+
+twitter:
+  # https://dev.twitter.com/web/tweet-button/web-intent
+  name: "Twitter"
+  color: '#00aced'
+  title: "Tweet on Twitter"
+  link: 'https://twitter.com/intent/tweet?text=<title>&url=<link>&via=lyxfudan'
+email:
+  name: "E-mail"
+  color: '#777777'
+  title: "Send via E-mail"
+  link: 'mailto:?subject=<title>&body=<link>'
+googleplus:
+  # https://developers.google.com/+/web/share/
+  name: "Google+"
+  color: '#d34836'
+  title: "Post on Google+"
+  image: 'https://www.gstatic.com/images/icons/gplus-16.png'
+  link: 'https://plus.google.com/share?url=<link>'
+facebook:
+  # https://developers.facebook.com/docs/plugins/share-button
+  # https://developers.facebook.com/docs/sharing/reference/share-dialog
+  name: "Facebook"
+  color: '#3B5998'
+  title: "Share on Facebook"
+  link: 'https://www.facebook.com/sharer/sharer.php?u=<link>'
+#linkedin:
+#  name: "LinkedIn"
+#  color: '#0077B5'
+#  title: "Share on LinkedIn"
+#  link: 'http://www.linkedin.com/shareArticle?mini=true&url=<link>'

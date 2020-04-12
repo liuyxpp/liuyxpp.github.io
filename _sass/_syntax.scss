@@ -2,7 +2,6 @@
  * Syntax highlighting
 /**
 
-
 /*
  * Code snippets from mmistakes
  * source: https://github.com/mmistakes/minimal-mistakes
@@ -200,6 +199,9 @@ div.language-matlab {
 		padding: 0;
         border: none;
         width: 100%;
+        code {
+            border: none;
+        }
 	}
     // disable table top border
     .table>tbody>tr>td {border-top: none;}

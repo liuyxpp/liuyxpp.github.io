@@ -170,13 +170,29 @@ body {
 	@include font-rem(12);
 	text-transform: uppercase;
 	color: lighten($base-color,60);
+    margin: 50px 30px 0px 30px;
 	a {
 		color: lighten($base-color,60);
+        border-bottom: none;
+        &:hover {
+            color: $link-color-hover;
+            border-bottom: none;
+        }
 	}
+    .center {
+        margin: auto;
+    }
+    .inline-list {
+        display: inline-block;
+        float: none;
+        margin: auto;
+    }
 	.vcard {
 		&:before {
 			content: " by ";
 		}
+        border: none;
+        margin-bottom: 0;
 	}
 	.tag {
 		display: inline-block;
@@ -200,13 +216,21 @@ body {
 		float: right;
 	}
 }
+
 header .entry-meta {
 	display: none; // hide header meta on small screens
 	@media #{$medium} {
 		display: block;
 	}
 }
+
 #post {
+    a.tag {
+        border-bottom: 2px solid;
+        &:hover {
+            border-bottom: 2px solid;
+        }
+    }
     p a,
     article a {
         font-weight: bold;
@@ -296,8 +320,13 @@ header .entry-meta {
         }
     }
     .entry-meta {
-        margin: 50px 30px 30px;
         text-align: center;
+        a {
+            border-bottom: none;
+            &:hover {
+                border-bottom: none;
+            }
+        }
     }
 }
 #page {
@@ -354,8 +383,13 @@ header .entry-meta {
         }
 	}
 	.entry-meta {
-		margin: 50px 30px 30px;
 		text-align: center;
+        a {
+            border-bottom: none;
+            &:hover {
+                border-bottom: none;
+            }
+        }
 	}
 }
 .entry-tags {
