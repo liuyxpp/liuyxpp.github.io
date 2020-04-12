@@ -7,10 +7,12 @@ author: Yi-Xin Liu
 date: 2020-04-04
 modified: 2019-04-09
 image:
-    feature: abstract-2.jpg
+    feature: false
     twitter: scattering3/translation.png
 categories: [Research, Software]
 tags: [Julia, Scattering.jl, Scattering Theory]
+show_meta:
+    info: true
 ---
 
 In this post we will implement a submodule `translation.jl` to perform transformation of a vector in the reference coordinate to the internal coordinate of a scatterer. Translation and coordinate transformation will be discussed in detail.

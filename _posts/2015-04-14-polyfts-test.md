@@ -6,9 +6,11 @@ author: Yi-Xin Liu
 date: 2015-04-10
 modified: 2015-04-17
 image:
-    feature: abstract-5.jpg
+    feature: false
 categories: [Software]
 tags: [SCFT, Numerical Accuracy, Numerical Efficiency]
+show_meta:
+    info: true
 ---
 
 We will verify the [PolyFTS] calculation by comparing to the [Polyorder] results. The SCFT model we will test is miktoarm star block copolymer and homopolymer blends (AB3 + A).

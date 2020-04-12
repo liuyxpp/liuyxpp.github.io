@@ -15,6 +15,7 @@
 	z-index: 3;
 	//.sans-serif;
     font-family: $heading-font;
+    border-bottom: 1px solid transparent;
 	.navbar-brand {
         font-family: $site-title-font;
         font-size: 24px;
@@ -106,6 +107,7 @@
 		}
 	}
 	@media #{$large} {
+        border-bottom: 1px solid transparent;
 		-webkit-transition: background-color 0.3s;
 		-moz-transition: background-color 0.3s;
 		transition: background-color 0.3s;
@@ -154,4 +156,61 @@
 			transform: translate3d(0, 100%, 0);
 		}
 	}
+}
+
+// Fix Bootstrap issue: stack menubar items in multiline
+@media (max-width: 992px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .navbar-custom .nav li a {
+    padding: 10px 20px;
+  }
+  .collapse.in{
+      display:block!important;
+  }
+  .navbar-collapse.collapse.in {
+    display: block!important;
+  }
+  .collapsing {
+    overflow: hidden!important;
+  }
+  .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
 }

@@ -93,7 +93,7 @@ body {
 	top: 0;
 	display: table;
 	//margin-top: 0;
-    margin-top: 30px;
+    margin-top: $navbar-actual-height;
 	width: 100%;
 	height: $post-header-height;
 	overflow: hidden;
@@ -317,6 +317,13 @@ header .entry-meta {
     }
     img.scaled {
         width: 100%;
+    }
+    article {
+        header.post-header {
+            //display: block;
+            border-bottom: 2px solid $header-underline-color;
+            margin-bottom: 20px;
+        }
     }
     .entry-content {
         margin: 0px 2px 20px;

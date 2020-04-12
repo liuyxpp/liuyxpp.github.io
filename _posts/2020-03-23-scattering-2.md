@@ -7,10 +7,12 @@ author: Yi-Xin Liu
 date: 2020-03-23
 modified: 2019-04-09
 image:
-    feature: abstract-1.jpg
+    feature: false
     twitter: scattering2/all-L.svg
 categories: [Research, Software]
 tags: [Julia, Scattering.jl, Scattering Theory]
+show_meta:
+    info: true
 ---
 
 In this post we will implement a submodule, `peak.jl`, to model the shape of scattering peaks. Essential Julia language features will be introduced along the development of the submodule. You shall learn types, constructors, functions, methods, functors, modules, testing, and benchmarking after reading this post.

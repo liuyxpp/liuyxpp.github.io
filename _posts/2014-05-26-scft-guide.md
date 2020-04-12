@@ -6,9 +6,11 @@ author: Yi-Xin Liu
 create: 2014-05-26
 modified: 2020-04-11
 image:
-    feature: abstract-5.jpg
+    feature: false
 categories: [Research]
 tags: [SCFT, Tutorial]
+show_meta:
+    info: true
 ---
 
 In this post I will present an detailed (informal) derivation of the self-consistent field theory (SCFT) for many-chain polymer systems. I start from the continuous Gaussian chain model. Then the Gaussian chain in an external field is described. After that, a system of multiple two-bead chains as a simplified model for many-chain model is examined. Then this approach is extended to many-chain A-B block copolymer system. Finally, as an application of this derivation, we derive SCFT for many-chain A-B diblock copolyelectrolyte solutions.
