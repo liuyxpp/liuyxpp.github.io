@@ -8,7 +8,7 @@ comments: false
 modified: 2020-04-11
 ---
 
-# Courses
+{% include toc.md panel=true %}
 
 ## Polymer Physics (MACR130002, Undergraduate)
 -----

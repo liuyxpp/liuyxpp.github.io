@@ -15,6 +15,20 @@
 <div id="main" role="main">
   <article class="hentry">
     <div class="entry-content">
+      <header class="post-index-header">
+        <span itemprop="name">
+            {% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
+            <h1>{{ page.title }}</h1>
+        </span>
+        {% if page.teaser %}
+            <p class="teaser" itemprop="description">
+            {{ page.teaser }}
+            </p>
+        {% endif %}
+        {% if page.show_meta.info %}
+            {% include meta_information.html %}
+        {% endif %}
+      </header>
       {{ content }}
       <footer class="entry-meta">
         {% if page.modified %}<span>Updated on <span class="entry-date date published updated"><time datetime="{{ page.modified }}">{{ page.modified | date: "%B %d, %Y" }}</time></span></span>

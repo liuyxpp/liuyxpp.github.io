@@ -1,14 +1,14 @@
 ---
 permalink: /publications/
 layout: page
-title: Publications
+title: My Publications
 description: "A list of my publications: journal articles, presentations, posters, and thesis."
 header-img: images/publications-0.jpg
 comments: false
 modified: 2018-08-01
 ---
 
-# My Publications
+{% include toc.md panel=true %}
 
 ## Journal Articles
 -----

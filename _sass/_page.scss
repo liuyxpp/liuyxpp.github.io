@@ -323,6 +323,13 @@ header .entry-meta {
             text-decoration: none;
         }
     }
+    article {
+        header.post-index-header {
+            //display: block;
+            border-bottom: 2px solid $header-underline-color;
+            margin-bottom: 20px;
+        }
+    }
 	.entry-content {
 		margin: 80px 2px 20px 2px;
 		padding: 10px 15px;
@@ -342,6 +349,9 @@ header .entry-meta {
 				@include font-size(20);
 			}
 		}
+        h2 {
+            font-size: 1.8rem;
+        }
 	}
 	.entry-meta {
 		margin: 50px 30px 30px;

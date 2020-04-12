@@ -1,17 +1,17 @@
 ---
 permalink: /research/
 layout: page
-title: Research Interests
+title: Research Projects
 description: "Research interests: computational science, polymer physics, numerical algorithm, scientific software, polymer crystallization, python."
 header-img: images/research-1.jpg
 comments: false
 modified: 2020-04-11
 ---
 
-# Research Interests
-
 My current research interests focus on developing theoretical and numerical methods for understanding the phase behavior and structures of block copolymers, polymer brushes and polyelectrolytes both in bulk and under geometrical confinements.
 During the PhD period, my research focus was conducting both experimental and theoretical studies to elucidate the fundamental mechanism of polymer crystallization, using monolayer crystals of low molecular weight poly(ethylene oxide) (PEO) fractions as a model system.
+
+{% include toc.md panel=true %}
 
 ## 1. Self-Assembly of Block Copolymers Under Soft Confinements
 -----

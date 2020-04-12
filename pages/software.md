@@ -8,8 +8,6 @@ comments: false
 modified: 2020-03-31
 ---
 
-# Software
-
 Scientific software development plays a central role in my research. Along with my research, I have developed various scientific computing software to carry out the actual task. The software are coded in various programming languages, such as C/C++, Julia, Python, Matlab, and Fortran. Most software listed here are open source software.
 
 <div markdown="0">
