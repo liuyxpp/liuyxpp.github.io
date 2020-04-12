@@ -6,7 +6,22 @@ body {
 }
 
 .breadcrumbs {
-    // padding: 0;
+    background-color: lighten($primary, 15%);
+    border: lighten($primary, 15%);
+    border-radius: 0;
+    a {
+        color: lighten($nav-color, 20%);
+        &:hover {
+            text-decoration: none;
+            color: lighten($nav-faded, 10%);
+        }
+    }
+    >.current {
+        color: lighten($nav-faded, 10%);
+        &:hover {
+            color: lighten($nav-faded, 10%);
+        }
+    }
 }
 
 // Main
@@ -626,6 +641,8 @@ header .entry-meta {
         }
 	}
     article.posts-list {
+        padding-top: 10px;
+        padding-bottom: 10px;
         ul {
             list-style: none;
             margin-left: 0;

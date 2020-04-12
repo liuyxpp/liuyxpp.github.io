@@ -301,7 +301,7 @@ ul#markdown-toc {
   }
 }
 
-/* Frontpage Widget
+/* Frontpage Widget by TWiStErRob
 ------------------------------------------------------------------- */
 .frontpage-widget img {
   transition-duration: .5s;
@@ -314,7 +314,7 @@ ul#markdown-toc {
   }
 }
 
-/* Button
+/* Button by TWiStErRob
 ------------------------------------------------------------------- */
 
 button, .button {
@@ -330,7 +330,7 @@ button, .button {
   }
 }
 
-/* Side-Nav
+/* Side-Nav by TWiStErRob
 ------------------------------------------------------------------- */
 
 .side-nav li.title { text-transform: uppercase;}
@@ -349,7 +349,7 @@ button, .button {
 
 .homepage p { margin: 0; padding: 0; color: $grey-10; }
 
-/* Tags
+/* Tags by TWiStErRob
 ------------------------------------------------------------------- */
 .quick-links > li > * {
   display: initial;
@@ -428,13 +428,13 @@ button, .button {
     }
 }
 
-/* Breadcrumb
+/* Breadcrumb by TWiStErRob
 ------------------------------------------------------------------- */
 
 #breadcrumb {
-    background: scale-color($grey-1, $lightness: 55%);
-    border-top: 1px solid scale-color($grey-1, $lightness: 45%);
-    border-bottom: 1px solid scale-color($grey-1, $lightness: 45%);
+    background: scale-color($gray, $lightness: 55%);
+    border-top: 1px solid scale-color($gray, $lightness: 45%);
+    border-bottom: 1px solid scale-color($gray, $lightness: 45%);
 }
 .breadcrumbs>.current {
   font-weight: bold;
