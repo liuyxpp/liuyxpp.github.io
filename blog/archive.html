@@ -3,15 +3,26 @@ permalink: /blog/archive/
 redirect_from:
     - /blog/archive.html
 layout: post-index
-title: All Posts
+title: "Articles by Date"
 description: "An archive of posts."
 comments: false
 ---
 
+<ul class="inline-list quick-links">
+{% assign lastyear = '' %}
+{% for post in site.posts reversed %}
+    {% assign currentyear = post.date | date: '%Y' %}
+    {% if currentyear != lastyear %}
+        <li><a href="#{{ currentyear }}-ref" class="dotted">{{ currentyear }}</a></li>
+        {% assign lastyear = currentyear %}
+    {% endif %}
+{% endfor %}
+</ul>
+
 {% for post in site.posts %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
-    {% capture the_date %}{{ post.date | date: "%Y-%m-%d" }}{% endcapture %}
+    {% capture the_date %}{{ post.date | date: "%m-%d" }}{% endcapture %}
 
     {% if forloop.first %}
     <article class="posts-list">

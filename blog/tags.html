@@ -3,24 +3,40 @@ permalink: /blog/tags/
 redirect_from:
     - /blog/tags.html
 layout: post-index
-title: Tag Archive
+title: "Articles by Tags"
 description: "An archive of posts sorted by tag."
 comments: false
 ---
 
 {% include tag_cloud.html %}
 
-<!--
+{% capture site_tags %}{% for tag in site.tags %}{{ tag | first | downcase }}&#x1F;{{ tag | first }}{% unless forloop.last %}&#x1E;{% endunless %}{% endfor %}{% endcapture %}
+{% assign site_tags = site_tags | split:'&#x1E;' | sort %}
+{% capture site_tags %}{% for tag in site_tags %}{{ tag | split: '&#x1F;' | last }}{% unless forloop.last %}&#x1E;{% endunless %}{% endfor %}{% endcapture %}
+{% assign site_tags = site_tags | split: '&#x1E;' %}
+
+{% for tag_key in site_tags %}
+    {% assign tag = site.data.tags[tag_key] %}
+    {% assign posts = site.tags[tag_key] %}
+    {% unless posts %}{% continue %}{% endunless %}
+    <h2 id="{{ tag_key | slugify }}" class="tag-heading icon-alias-tag tag-{{ tag_key | slugify }}">
+        {% if tag.title %}{{ tag.title }}{% else %}{{ tag_key }}{% endif %}
+        {% include snippets/article_count.html list=posts %}
+    </h2>
+    {% if 0 < posts.size %}
+        <ul class="no-bullet">
+        {% for post in posts %}
+            <li><span class="date">{{ post.date | date: "%Y-%m-%d" }}</span> &raquo; {% include snippets/post_link.html post=post %}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        There are no posts in this category.
+    {% endif %}
+{% endfor %}
+
+{% comment %}
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign tags_list = site_tags | split:',' | sort %}
-
-<ul class="entry-meta inline-list">
-  {% for item in (0..site.tags.size) %}{% unless forloop.last %}
-    {% capture this_word %}{{ tags_list[item] | strip_newlines | slugify }}{% endcapture %}
-  	<li><a href="#{{ this_word }}" class="tag"><span class="term">{{ this_word }}</span> <span class="count">{{ site.tags[this_word].size }}</span></a></li>
-  {% endunless %}{% endfor %}
-</ul>
--->
 
 {% for item in (0..site.tags.size) %}{% unless forloop.last %}
   {% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
@@ -29,8 +45,9 @@ comments: false
 	<h2 id="{{ slug_word }}" class="tag-heading">{{ this_word }}</h2>
 		<ul>
     {% for post in site.tags[this_word] %}{% if post.title != null %}
-      <li class="entry-title"><span class="date">{{ post.date | date: "%Y-%m-%d" }}</span> &raquo; <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+      <li class="entry-title"><span class="date">{{ post.date | date: "%Y-%m-%d" }}</span> &raquo; <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}" class="post-list-item">{{ post.title }}</a></li>
     {% endif %}{% endfor %}
 		</ul>
 	</article><!-- /.hentry -->
 {% endunless %}{% endfor %}
+{% endcomment %}

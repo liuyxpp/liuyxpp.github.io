@@ -1,10 +1,17 @@
 ---
 permalink: /blog/category/
 layout: post-index
-title: Category Archive
+title: "Articles by Category"
 description: "An archive of posts sorted by category."
 comments: false
 ---
+
+<ul class="inline-list quick-links">
+{% for category in site.categories %}
+    {% assign category_key = category[0] %}
+        <li><a href="#{{ category_key }}" class="dotted">{{ category_key | capitalize }}</a></li>
+{% endfor %}
+</ul>
 
 {% capture site_categories %}{% for category in site.categories %}{{ category | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign categories_list = site_categories | split:',' | sort %}
@@ -12,9 +19,14 @@ comments: false
 {% for item in (0..site.categories.size) %}{% unless forloop.last %}
   {% capture this_word %}{{ categories_list[item] | strip_newlines }}{% endcapture %}
   {% assign show_this_word = this_word | split:' ' %}
+  {% assign posts = site.categories[this_word] %}
 
 	<article class="posts-list">
-	<h2 id="{{ this_word }}" class="tag-heading">{% for word in show_this_word %}{{ word | capitalize | replace: 'The','the' }}&nbsp;{% endfor %}</h2>
+	<h2 id="{{ this_word }}" class="tag-heading">
+        <a href="{{ site.baseurl }}/blog/category/{{ this_word | slugify }}/" class="icon-alias-category">
+        {% for word in show_this_word %}{{ word | capitalize | replace: 'The','the' }}&nbsp;{% endfor %}</a>
+        {% include snippets/article_count.html list=posts %}
+    </h2>
 		<ul>
     {% for post in site.categories[this_word] %}{% if post.title != null %}
       <li class="entry-title"><span class="date">{{ post.date | date: "%Y-%m-%d" }}</span> &raquo; <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>

@@ -49,13 +49,6 @@ $gray-dark:     lighten($wet-asphalt, 35%);
 $gray-darker:   lighten($wet-asphalt, 20%);
 $inverse:       white;
 
-$base-color:    $black-almost;
-$body-color:    $white-almost;
-$text-color:    $black-almost;
-$comp-color:    complement(#222);
-$border-color:  lighten($base-color,60);
-$feature-title-color:  $white;
-
 $primary:       $wet-asphalt;
 $secondary:     $turquoise;
 $success:       $emerald;
@@ -65,6 +58,14 @@ $info:          $peter-river;
 
 /* syntax highlighting */
 $lang-color: $gray;
+
+$base-color:    $black-almost;
+$body-color:    $white-almost;
+$text-color:    $black-almost;
+$comp-color:    complement(#222);
+$border-color:  lighten($base-color,60);
+$feature-title-color:  $white;
+$header-underline-color: $gray-darker;
 
 /* links */
 // $link-color: $info !default;

@@ -15,18 +15,20 @@
 
 <div id="main" role="main">
   <article class="hentry">
-    <span itemprop="name">
-        {% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
-        <h1>{{ page.title }}</h1>
-    </span>
-    {% if page.teaser %}
-        <p class="teaser" itemprop="description">
-        {{ page.teaser }}
-        </p>
-    {% endif %}
-    {% if page.show_meta.info %}
-        {% include meta_information.html %}
-    {% endif %}
+    <header class="post-index-header">
+        <span itemprop="name">
+            {% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
+            <h1>{{ page.title }}</h1>
+        </span>
+        {% if page.teaser %}
+            <p class="teaser" itemprop="description">
+            {{ page.teaser }}
+            </p>
+        {% endif %}
+        {% if page.show_meta.info %}
+            {% include meta_information.html %}
+        {% endif %}
+    </header>
     <div class="entry-content">
         {{ content }}
     </div><!-- /.entry-content -->

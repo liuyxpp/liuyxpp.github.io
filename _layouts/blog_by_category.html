@@ -9,15 +9,15 @@ subheadline: 'Articles in Category'
 	{% for post in category_posts %}
 		{% capture post_year %}{{ post.date | date: '%Y' }}{% endcapture %}
 		{% if forloop.first %}
-			<h2 id="{{post_year}}">{{ post_year }}</h2><ul>
+			<h2 id="{{post_year}}">{{ post_year }}</h2><ul class="no-bullet">
 		{% else %}
 			{% assign previous_index = forloop.index0 | minus: 1 %}
 			{% capture previous_post_year %}{{ category_posts[previous_index].date | date: '%Y' }}{% endcapture %}
 			{% if post_year != previous_post_year %}
-				</ul><h2 id="{{post_year}}">{{ post_year }}</h2><ul>
+				</ul><h2 id="{{post_year}}">{{ post_year }}</h2><ul class="no-bullet">
 			{% endif %}
 		{% endif %}
-		<li>{% include snippets/post_link.html post=post %}</li>
+		<li><span class="date">{{ post.date | date: "%m-%d" }}</span> &raquo; {% include snippets/post_link.html post=post %}</li>
 
 		{% if forloop.last %}
 			</ul>
@@ -39,4 +39,4 @@ subheadline: 'Articles in Category'
 	{% endif %}
 {% endfor %}
 </ul>
-<a href="{{ site.baseurl }}/blog/category/">See all posts in all categories</a>
+<a href="{{ site.baseurl }}/blog/category/" class="dotted">See all posts in all categories</a>

@@ -485,16 +485,35 @@ header .entry-meta {
     }
 }
 
+// Homepage
+// --------------------------------------------------
+.blog-index {
+    a.button, a.tag {
+        text-decoration: none;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    h2 a {
+        text-decoration: none;
+        &:hover {
+            color: $link-color-hover;
+        }
+    }
+}
+
 // Post Index
 // --------------------------------------------------
 #post-index {
-    p a,
-    article a {
-        font-weight: bold;
-        border-bottom: none;
+    a.dotted {
+        border-bottom: 1px dotted;
+    }
+    a.tag {
+        text-decoration: none;
+        border-bottom: 2px solid;
         &:hover {
-            border-bottom: 2px solid;
             text-decoration: none;
+            border-bottom: 2px solid #4B4B4B;
         }
     }
     h1 a {
@@ -541,12 +560,35 @@ header .entry-meta {
 			margin-bottom: 30px;
 			padding: 50px 80px;
 		}
-	}
-    article.posts-list {
         .date {
             font-family: $code-font;
             color: $gray;
         }
+        a {
+            font-weight: bold;
+            border-bottom: none;
+            &:hover {
+                border-bottom: 2px solid;
+                text-decoration: none;
+            }
+        }
+        header.post-index-header {
+            display: block;
+            border-bottom: 2px solid $header-underline-color;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 1.8rem;
+        }
+        h2 a {
+            border-bottom: none;
+            &:hover {
+                color: $link-color-hover;
+                border-bottom: none;
+            }
+        }
+	}
+    article.posts-list {
         ul {
             list-style: none;
             margin-left: 0;
