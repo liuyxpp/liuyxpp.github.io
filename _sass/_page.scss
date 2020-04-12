@@ -1,8 +1,12 @@
 body {
 	margin: 0;
-	padding: 0;
+	padding: $navbar-actual-height 0 0 0;
 	width: 100%;
 	background-color: $body-color;
+}
+
+.breadcrumbs {
+    // padding: 0;
 }
 
 // Main
@@ -300,19 +304,18 @@ header .entry-meta {
         width: 100%;
     }
     .entry-content {
-        margin: 10px 2px 20px 2px;
-        padding: 10px 15px;
+        margin: 0px 2px 20px;
+        padding: 15px 15px;
         background-color: $white;
         box-shadow: 0 0 0 0, 0 6px 12px rgba($black,0.1);
         @include rounded(3px);
         @media #{$medium} {
-            margin-left: 10px;
-            margin-right: 10px;
+            margin: 20px auto 30px;
             padding: 20px 30px;
         }
         @media #{$large} {
             max-width: 960px;
-            margin: 10px auto 30px auto;
+            margin: 20px auto 30px;
             padding: 30px 80px;
             > p:first-child {
                 @include font-size(20);
@@ -360,19 +363,18 @@ header .entry-meta {
         }
     }
 	.entry-content {
-		margin: 80px 2px 20px 2px;
-		padding: 10px 15px;
+		margin: 0px 2px 20px;
+		padding: 15px 15px;
 		background-color: $white;
 		box-shadow: 0 0 0 0, 0 6px 12px rgba($black,0.1);
 		@include rounded(3px);
 		@media #{$medium} {
-			margin-left: 10px;
-			margin-right: 10px;
+            margin: 20px auto 30px;
 			padding: 20px 30px;
 		}
 		@media #{$large} {
 			max-width: 960px;
-			margin: 90px auto 30px auto;
+			margin: 20px auto 30px;
 			padding: 30px 80px;
 			> p:first-child {
 				@include font-size(20);
@@ -427,19 +429,19 @@ header .entry-meta {
 // Read More Module
 .read-more {
 	position: relative;
-	margin: 40px 2px 20px 2px;
+	margin: 40px 2px 0 2px;
 	padding: 40px 15px 25px;
 	background-color: $white;
 	box-shadow: 0 0 0 1px rgba($border-color,0.1), 0 6px 12px rgba($black,0.1);
 	@include rounded(3px);
 	@media #{$medium} {
-		margin: 50px 10px 20px 10px;
+		margin: 40px 10px 0 10px;
 		padding: 50px 40px 25px;
 	}
 	@media #{$large} {
 		max-width: 800px;
 		padding: 50px 80px;
-		margin: 60px auto;
+		margin: 40px auto 0;
 	}
 	text-align: center;
 	@include clearfix;
@@ -570,25 +572,16 @@ header .entry-meta {
     }
 
 	#main {
-		margin: 0px 2px 20px 2px;
-        @media #{$small} {
-            margin-top: auto; //edit lyx
-            margin-left: 10px; //20px;
-            margin-right: 10px; //20px;
-            padding-top: 90px; //edit lyx
-        }
+		margin: 0px auto 20px;
+        padding: 15px auto;
 		@media #{$medium} {
-            margin-top: auto; //edit lyx
-			margin-left: 10px; //20px;
-			margin-right: 10px; //20px;
-            padding-top: 180px; //edit lyx
+            margin: 20px auto 30px;
+            padding: 20px auto;
 		}
 		@media #{$large} {
 			max-width: 960px;
-			margin-top: auto; // edit by lyx 2020-04-09
-			margin-left: auto;
-			margin-right: auto;
-            padding-top: 90px;
+            margin: 20px auto 30px;
+            padding: 30px auto;
 		}
 	}
 	article {

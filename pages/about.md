@@ -6,6 +6,7 @@ description: A brief introdcution of Prof. Yi-Xin Liu and this website.
 header-img: images/about.jpg
 comments: false
 modified: 2020-04-09
+breadcrumbs: true
 ---
 
 I (刘一新, Yi-Xin Liu) am a [polymer physicist at Department of Macromolecular Science of Fudan University](http://polymer.fudan.edu.cn/Data/View/1660) since 2012.

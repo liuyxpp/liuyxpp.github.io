@@ -427,3 +427,15 @@ button, .button {
         display: inline-block;
     }
 }
+
+/* Breadcrumb
+------------------------------------------------------------------- */
+
+#breadcrumb {
+    background: scale-color($grey-1, $lightness: 55%);
+    border-top: 1px solid scale-color($grey-1, $lightness: 45%);
+    border-bottom: 1px solid scale-color($grey-1, $lightness: 45%);
+}
+.breadcrumbs>.current {
+  font-weight: bold;
+}

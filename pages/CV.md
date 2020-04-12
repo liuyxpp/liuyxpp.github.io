@@ -6,6 +6,7 @@ description: "CV, Resume of Dr. Yi-Xin Liu at Fudan University."
 header-img: images/abstract-5.jpg
 comments: false
 modified: 2020-04-11
+breadcrumbs: true
 ---
 
 Department of Macromolecular Science<br>

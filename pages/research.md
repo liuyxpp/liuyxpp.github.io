@@ -6,6 +6,7 @@ description: "Research interests: computational science, polymer physics, numeri
 header-img: images/research-1.jpg
 comments: false
 modified: 2020-04-11
+breadcrumbs: true
 ---
 
 My current research interests focus on developing theoretical and numerical methods for understanding the phase behavior and structures of block copolymers, polymer brushes and polyelectrolytes both in bulk and under geometrical confinements.

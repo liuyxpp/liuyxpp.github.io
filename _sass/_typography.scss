@@ -170,3 +170,7 @@ pre {
 .no-bullet {
     list-style: none;
 }
+
+.breadcrumbs > *:before {
+    top: -1px !important;
+}

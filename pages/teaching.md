@@ -6,6 +6,7 @@ description: "Undergraduate courses: Polymer Physics, Introduction to Polymeric 
 header-img: images/research-1.jpg
 comments: false
 modified: 2020-04-11
+breadcrumbs: true
 ---
 
 {% include toc.md panel=true %}

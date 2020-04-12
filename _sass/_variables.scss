@@ -12,17 +12,18 @@ $site-title-font: 'Viga', $heading-font;
 $doc-font-size: 14;
 $doc-line-height: 26;
 
+// Navigation bar height set by Bootstrap 3.3 50px plus 1px border
+$navbar-height:         51px;
+$navbar-actual-height:  62px;
+// Post header size
+$post-header-height:    320px;
 
 // set-up the body font-size / line-height
 body {
-	margin-top: 0px + $doc-line-height;
-	font-size: 0px + $doc-font-size;
+    // margin-top: 0px + $doc-line-height;
+    padding: $navbar-actual-height 0 0 0;
+    font-size: 0px + $doc-font-size;
 }
-
-// Post header size
-$navbar-height:         46px;
-$post-header-height:    320px;
-
 
 // Colors
 // --------------------------------------------------
@@ -115,15 +116,9 @@ $xing-color: #006567 !default;
 // Screen Size
 // --------------------------------------------------
 
-$small               : "only screen and (min-width: 30em)";
-$medium              : "only screen and (min-width: 48em)";
-$large               : "only screen and (min-width: 62.5em)";
-
-/* defined by mmistakes
-$small: 600px !default;
-$medium: 768px !default;
-$medium-wide: 900px !default;
-$large: 1024px !default;
-$x-large: 1280px !default;
-$max-width: $x-large !default;
-*/
+$small               : "only screen and (min-width: 576px)" !default;
+$medium              : "only screen and (min-width: 768px)" !default;
+// $medium-wide         : "only screen and (min-width: 900px)" !default;
+$large               : "only screen and (min-width: 992px)" !default;
+$x-large             : "only screen and (min-width: 1200px)" !default;
+$max-width           : $x-large !default;

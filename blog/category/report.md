@@ -5,4 +5,5 @@ redirect_from:
 layout: blog_by_category
 category: "Technical Reports"
 title: "Technical Reports"
+breadcrumbs: true
 ---

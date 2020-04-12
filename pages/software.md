@@ -6,6 +6,7 @@ description: "A set of open source projects developed by Yi-Xin Liu research gro
 header-img: images/software-1.jpg
 comments: false
 modified: 2020-03-31
+breadcrumbs: true
 ---
 
 Scientific software development plays a central role in my research. Along with my research, I have developed various scientific computing software to carry out the actual task. The software are coded in various programming languages, such as C/C++, Julia, Python, Matlab, and Fortran. Most software listed here are open source software.

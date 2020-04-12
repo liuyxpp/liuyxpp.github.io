@@ -5,4 +5,5 @@ redirect_from:
 layout: blog_by_category
 category: "Software"
 title: "Software"
+breadcrumbs: true
 ---

@@ -10,8 +10,10 @@
 <body id="post-index">
 
 {% include browser-upgrade.html %}
-
 {% include nav_cleanblog.html %}
+{% if page.breadcrumbs == true %}
+    {% include masthead-breadcrumbs.html %}
+{% endif %}
 
 <div id="main" role="main">
   <article class="hentry">

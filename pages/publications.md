@@ -6,6 +6,7 @@ description: "A list of my publications: journal articles, presentations, poster
 header-img: images/publications-0.jpg
 comments: false
 modified: 2018-08-01
+breadcrumbs: true
 ---
 
 {% include toc.md panel=true %}
