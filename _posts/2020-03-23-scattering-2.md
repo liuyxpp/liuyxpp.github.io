@@ -8,7 +8,7 @@ date: 2020-03-23
 modified: 2019-04-09
 image:
     feature: false
-    twitter: scattering2/all-L.svg
+    twitter: scattering2/all-L.png
 categories: [Research, Software]
 tags: [Julia, Scattering.jl, Scattering Theory]
 show_meta:

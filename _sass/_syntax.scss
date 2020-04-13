@@ -180,6 +180,36 @@ div.language-matlab {
     }
 }
 
+div.language-liquid {
+    position: relative;
+    pre.highlight {
+        padding: 14px;
+        &::before {
+            content: "liquid";
+            position: absolute;
+            top: 2px;
+            right: 10px;
+            color: $lang-color;
+            font-size: 12px;
+        }
+    }
+}
+
+div.language-yaml {
+    position: relative;
+    pre.highlight {
+        padding: 14px;
+        &::before {
+            content: "yaml";
+            position: absolute;
+            top: 2px;
+            right: 10px;
+            color: $lang-color;
+            font-size: 12px;
+        }
+    }
+}
+
 /* Hack: mobile browser no border */
 @media #{$small} {
     .table-responsive {
