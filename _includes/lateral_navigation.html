@@ -1,0 +1,19 @@
+<nav id="post-nav" class="row">
+	<div class="medium-5 columns text-left">
+		{% if include.previous.url %}
+			<a href="{{ site.baseurl }}{{ include.previous.url }}">&laquo; {{ include.previous.title }}</a>
+		{%else%}
+			&nbsp;
+		{% endif %}
+	</div>
+	<div class="medium-2 columns text-center">
+		<a href="{{ site.baseurl }}{{ include.up_url }}">{{ include.up_title }}</a>
+	</div>
+	<div class="medium-5 columns text-right">
+		{% if include.next.url %}
+			<a href="{{ site.baseurl }}{{ include.next.url }}">{{ include.next.title }} &raquo;</a>
+		{%else%}
+			&nbsp;
+		{% endif %}
+	</div>
+</nav>

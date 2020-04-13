@@ -344,7 +344,20 @@ header .entry-meta {
             }
         }
     }
+    /* should be put outside of .entry-meta */
+    #post-nav {
+        margin-top: 30px;
+        a {
+            border-bottom: none;
+            &:hover {
+                border-bottom: none;
+                color: $link-color-hover;
+            }
+        }
+    }
     .entry-meta {
+        margin-top: 25px;
+        border-top: 1px solid $concrete;
         text-align: center;
         a {
             border-bottom: none;
