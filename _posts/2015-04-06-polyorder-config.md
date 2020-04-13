@@ -7,8 +7,8 @@ date: 2015-04-06
 modified: 2015-04-06
 image:
     feature: false
-categories: [Software]
-tags: [Polyorder, Tutorial]
+categories: [Software, Tutorial]
+tags: [Polyorder]
 show_meta:
     info: true
 ---

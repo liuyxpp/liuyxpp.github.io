@@ -7,8 +7,8 @@ create: 2014-05-26
 modified: 2020-04-11
 image:
     feature: false
-categories: [Research]
-tags: [SCFT, Tutorial]
+categories: [Research, Tutorial]
+tags: [SCFT]
 show_meta:
     info: true
 ---

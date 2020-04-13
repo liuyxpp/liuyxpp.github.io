@@ -9,7 +9,7 @@ modified: 2019-04-10
 image:
     feature: false
     twitter: scattering1/structure.png
-categories: [Research, Software]
+categories: [Research, Software, Tutorial]
 tags: [Julia, Scattering.jl, Scattering Theory]
 show_meta:
     info: true
