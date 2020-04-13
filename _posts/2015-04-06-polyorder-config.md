@@ -2,7 +2,7 @@
 layout: post
 title: Polyorder Configuration File
 description: A brief introduction to the format of the configuration file for Polyorder. Polyorder is a C++ software for computing complex self-assemble structures of block copolymers using self-consistent field theory (SCFT) methods.
-author: Yi-Xin Liu
+author: lyx
 date: 2015-04-06
 modified: 2015-04-06
 image:

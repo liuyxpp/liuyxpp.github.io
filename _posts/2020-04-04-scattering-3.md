@@ -3,7 +3,7 @@ layout: post
 title: "Julia in Practice: Building Scattering.jl from Scratch (3)"
 subheadline: "Translations and coordinate transformation"
 description: "In this post we will implement a submodule translation.jl to perform transformation of a vector in the reference coordinate to the internal coordinate of a scatterer. The internal coordinate system is obtained by translating the origin of the reference coordinate system to scatterer's center of mass."
-author: Yi-Xin Liu
+author: lyx
 date: 2020-04-04
 modified: 2019-04-09
 image:

@@ -3,7 +3,7 @@ layout: post
 title: "Julia in Practice: Building Scattering.jl from Scratch (2)"
 subheadline: "The shape of scattering peaks and essential Julia language features"
 description: "In this post we implement a submodule peak.jl to model the shape of the scattering peaks."
-author: Yi-Xin Liu
+author: lyx
 date: 2020-03-23
 modified: 2019-04-09
 image:

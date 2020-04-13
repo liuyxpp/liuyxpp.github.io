@@ -3,7 +3,7 @@ layout: post
 title: "Julia in Practice: Building Scattering.jl from Scratch (1)"
 subheadline: "Brief introduction to the scattering theory and the Julia programming language"
 description: "The first blog post for a series of articles on an effort to demonstrate how to develop a package from scratch for computing scattering and diffraction curves of individual or self-assembled nanoparticles, polymers as well as biological materials using Julia programming language."
-author: Yi-Xin Liu
+author: lyx
 date: 2020-03-19
 modified: 2019-04-10
 image:

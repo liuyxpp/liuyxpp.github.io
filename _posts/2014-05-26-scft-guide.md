@@ -2,7 +2,7 @@
 layout: post
 title: A Quick Guide to the Self-Consistent Field Theory in Polymer Physics
 description: "The self-consistent field theory (SCFT) is a mean-field theory which decouples interactions among polymer segments and replacing them with interactions between each segment and auxiliary fields."
-author: Yi-Xin Liu
+author: lyx
 create: 2014-05-26
 modified: 2020-04-11
 image:

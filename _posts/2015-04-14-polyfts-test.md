@@ -2,7 +2,7 @@
 layout: post
 title: Test PolyFTS with Polyorder
 description: A comparison of two polymer SCFT software, PolyFTS and Polyorder, by computing a blend of miktoarm star block copolymers and homopolymers.
-author: Yi-Xin Liu
+author: lyx
 date: 2015-04-10
 modified: 2015-04-17
 image:
