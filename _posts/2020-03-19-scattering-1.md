@@ -22,6 +22,7 @@ This is the first post of a series of blog posts published in [Yi-Xin Liu's rese
 {% include toc.md panel=true %}
 
 ## Scattering Theory
+
 Characterization tools based on the scattering theory are one of the most important techniques that provide the structural information of materials in various length scales from angstrom to micrometer. Typical scattering techniques are light scattering (LS), wide angle and small angle X-ray scattering (WAXS, SAXS), electron diffraction (ED), and neutron scattering (NS), depending on which type of the source of the incident beam has been utilized. Unlike imaging (real space) techniques, such as transmission electron microscope (TEM) and atomic force microscope (AFM), scattering techniques collect data in reciprocal space. Here "Reciprocal" means the information of *large* length scale (either feature size or distance) will be encoded in the *small* angle (*low* $q$) end of the scattering data. Thus the wavelength of different source beams determines its ability to detect objects in different length scales.
 
 Imaging techniques typically will focus on a small region of a sample and only selected images are reported. Thus the data are always biased. As compared to imaging techniques, an important advantage of the reciprocal tools is that they gather the structural information in a sense of ensemble average (both time and space) of the entire volume of the sample. Other advantages include non-destructive measurements, ease to conduct in-situ measurements and measuring samples in their native states.
@@ -82,6 +83,7 @@ The function $L(x)$ is a function which mimics the shape of scattering peaks. Si
 Other quantities, $\beta(q)$ and $G(q)$, account for the effect of size distribution of scatterers and encodes fluctuations of the scatterer positions, respectively. They will be our topics after the computation of $F(\vq)$, $P(q)$ and $Z_0(q)$ is implemented.
 
 ## Why Julia
+
 I ran into Julia about five years ago. Back to those days, I was in love with Python which greatly increased my coding productivity. However, I was suffering from its slowness. Before Python, I developed scientific software using C++ which is fast but it is too complicated and sometimes it made me crazy to implement a specific numerical algorithm. You can check out those software packages I have developed [here](/software). I was wondering then if there was a programming language which combines the performance of C++ and productivity of Python. I tried to search terms like "speed and scripting programming language" in Google and I found Julia, which was in its very early stage but showed its great potential. After that, I payed special attention on it. Now Julia is in version 1.3. After ten years intensive developing, it matures into a stable language. Therefore I decide to give it a try. `Scattering.jl` is my first package written in Julia.
 
 Besides its speed (check out a comparison of performance of various popular programming languages [here](https://julialang.org/benchmarks/)), what attracts me most are listed below:
@@ -114,9 +116,11 @@ def C(r)
 Now it is time to get our hands dirty! See you in the [next post]({% post_url 2020-03-23-scattering-2 %}).
 
 ## Acknowledgements
+
 This work is partially supported by the General Program of the National Natural Science Foundation of China (No. 21873021).
 
 ## References
+
 [^Senesi2016]: Li, T.; Senesi, A. J.; Lee, B. Small Angle X-Ray Scattering for Nanoparticle Research. *Chem. Rev.* **2016**, *116*, 11128–11180.
 [^Senesi2015]: Senesi, A. J.; Lee, B. Small-Angle Scattering of Particle Assemblies. *J. Appl. Crystallogr.* **2015**, *48*, 1172–1182.
 [^Yager2013]: Yager, K. G.; Zhang, Y.; Lu, F.; Gang, O. Periodic Lattices of Arbitrary Nano-Objects: Modeling and Applications for Self-Assembled Systems. *J. Appl. Crystallogr.* **2013**, *47*, 118–129.

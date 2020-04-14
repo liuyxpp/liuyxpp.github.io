@@ -210,6 +210,21 @@ div.language-yaml {
     }
 }
 
+div.language-text {
+    position: relative;
+    pre.highlight {
+        padding: 14px;
+        &::before {
+            content: "text";
+            position: absolute;
+            top: 2px;
+            right: 10px;
+            color: $lang-color;
+            font-size: 12px;
+        }
+    }
+}
+
 /* Hack: mobile browser no border */
 @media #{$small} {
     .table-responsive {

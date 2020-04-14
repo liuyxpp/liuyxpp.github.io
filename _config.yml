@@ -76,7 +76,7 @@ kramdown:
     block:
       line_numbers: true
       output: markdown
-    default_lang: julia
+    default_lang: text
   hard_wrap: false
   auto_ids: true
   footnote_nr: 1

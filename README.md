@@ -1,4 +1,4 @@
-# Homepage of Yi-Xin Liu's Reasearch Group
+# Homepage of Yi-Xin Liu's Research Group
 
 This website is the homepage of Yi-Xin Liu's research group. **Yi-Xin Liu** is the copyright holder to all the contents published on this website except the underlying theme. If you wish to use any copyright material on this website, please contact me via the Email or address listed above to obtain a permission.
 
@@ -19,6 +19,7 @@ This website is designed for **math** and **code** intensive blogging, particula
 It has been deployed to Github Pages at [http://liuyxpp.github.io](http://liuyxpp.github.io) with custom domain at [http://www.yxliu.group](http://www.yxliu.group).
 
 This website adopts features from
+
 * The HPSTR Jekyll Theme by [Michael Rose](https://github.com/mmistakes)
 * The Clean Blog Theme by [David Miller](https://github.com/davidtmiller/).
 * The [TWiStErRob Blog](http://www.twisterrob.net) Theme by [Róbert Sándor Papp](https://github.com/TWiStErRob/twisterrob.github.io).
