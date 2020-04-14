@@ -174,3 +174,11 @@ pre {
 .breadcrumbs > *:before {
     top: -1px !important;
 }
+
+mark {
+    background: invert($body-bg);
+    color: $body-bg;
+    font-weight: bold;
+    font-size: 0.9em;
+    padding: 2px;
+}

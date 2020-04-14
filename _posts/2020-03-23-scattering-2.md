@@ -5,7 +5,7 @@ subheadline: "The shape of scattering peaks and essential Julia language feature
 description: "In this post we implement a submodule peak.jl to model the shape of the scattering peaks."
 author: lyx
 date: 2020-03-23
-modified: 2019-04-09
+modified: 2020-04-09
 image:
     feature: false
     twitter: scattering2/all-L.png

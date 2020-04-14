@@ -22,9 +22,11 @@ An abstract or a summary of the blog post should be put here. This paragraph, be
 {% include toc.md panel=true %}
 
 ## Heading
-Headings starts from `##` instead of common `#`, which is reserved for the title of the blog post.
+
+Headings starts from `##` instead of common `#`, which is reserved for the title of the blog post. All headings can be linked via their short name (spaces replaced by hypens `-`): [Math Equations](#math-equations).
 
 ## Front Matter
+
 The front matter of a post page source file is a collection of `YAML` options enclosed by `--`. The front matter controls how Jekyll builds this current post. Available options are:
 
 * `layout`: should always be `post` for publishing a blog post.
@@ -44,6 +46,7 @@ The front matter of a post page source file is a collection of `YAML` options en
 * `math`: include a list of user defined LaTeX commands/macros by default. To disable, set `math: false`.
 
 ## TOC
+
 Table of contents can be displayed by adding the following line to the blog post:
 
 {% highlight liquid linenos %}
@@ -51,6 +54,7 @@ Table of contents can be displayed by adding the following line to the blog post
 {% endhighlight %}
 
 ## Math Equations
+
 Math equations is rendered by `MathJax`. Here is an example of inline math equation $\pi^2/6 = \sum_{n=1}^{\infty} 1/n^2$. And display math equation is written as
 
 $$
@@ -86,6 +90,7 @@ Above equations use some user defined `LaTeX` commands. To disable it, add `math
 ## Codes
 
 ### Code blocks
+
 There are two kinds of code blocks:
 
 * Kramdown fencing code blocks enclosed by <code>```</code>.
@@ -132,7 +137,7 @@ end
 
 `Output` as `Markdown` syntax highlighting using fencing blocks:
 
-{% highlight julia linenos %}
+{% highlight markdown linenos %}
 Translation{Float64}([1.0, 2.0, 3.0])
 {% endhighlight %}
 
@@ -160,11 +165,11 @@ Note that since we can not set the `lang=julia` as in fencing code blocks, the L
 
 ### Inline codes
 
- * File extensions with `<code>`: `.css`, `.js`, `.html`
- * Paths and file names with `<samp>`: <samp>lib/code/path/file.name</samp>
- * Liquid-like code may need some escaping: {%raw%}`{{tag}}`{%endraw%}
- * Fencing code blocks' ticks can be output like this: ````<code>```</code>```` &rarr; <code>```</code>.
- * Don't be lazy with `alternative`/`code`/`formatting`.
+* File extensions with `<code>`: `.css`, `.js`, `.html`
+* Paths and file names with `<samp>`: <samp>lib/code/path/file.name</samp>
+* Liquid-like code may need some escaping: {%raw%}`{{tag}}`{%endraw%}
+* Fencing code blocks' ticks can be output like this: ````<code>```</code>```` &rarr; <code>```</code>.
+* Don't be lazy with `alternative`/`code`/`formatting`.
 
 ## Images
 
@@ -187,15 +192,19 @@ Here's a <q>short quotation</q> which is in the middle of a sentence.
   **strong**, *em*, _em_, ***strong em***, <b>html bold</b>, `code`, <kbd>kbd</kbd>, <samp>samp</samp>, <ins>ins</ins>, <del>del</del>
   <cite>TWiStErRob</cite>
 
+Another block quotes:
+
 > <samp>Program output text</samp> <cite>output from [file.name](http://sources.com/path/to/file.name#line=123) in [library](http://library.com/)</cite>
 
 ## Alert Boxes
+
 All `alert`s support markdown and their names are all lowercase, because they're used as CSS classes, for example TODO is `alert todo=`. The <q>TODO:</q> prefix is not automatically inserted, it's for name calling only here.
+
 {% include alert alert='Alert:
     This is like any normal markdown, even when used from non-markdown context:
     **strong**, *em*, _em_, ***strong em***, <b>html bold</b>, `code`, <kbd>kbd</kbd>, <samp>samp</samp>, <ins>ins</ins>, <del>del</del>.' %}
 
-{% include alert warning='Warning: call out a caveat that\'s easy to trigger
+{% include alert warning='Warning: call out a caveat that is easy to trigger
     This is like any normal markdown, even when used from non-markdown context:
     **strong**, *em*, _em_, ***strong em***, <b>html bold</b>, `code`, <kbd>kbd</kbd>, <samp>samp</samp>, <ins>ins</ins>, <del>del</del>.' %}
 
@@ -224,19 +233,22 @@ All `alert`s support markdown and their names are all lowercase, because they're
     **strong**, *em*, _em_, ***strong em***, <b>html bold</b>, `code`, <kbd>kbd</kbd>, <samp>samp</samp>, <ins>ins</ins>, <del>del</del>.' %}
 
 ## Formatting
+
 *[abbr]: abbreviation
 
- * Belonging words should have `&nbsp;` between to prevent wrapping: Papp&nbsp;Róbert.
- * Long list of alternatives should have `<wbr>` between them to allow wrapping: this&nbsp;one<wbr>/that&nbsp;one<wbr>/other&nbsp;thing
- * Use `<samp>` for sample output: <samp>Exit code: 1</samp>.
- * Use `<samp>` for math: <samp>4&nbsp;people &times; 5&nbsp;days = 20&nbsp;man hours</samp>.
- * Use `<var>` for something representing a number: <var>your age</var> times.
- * Use `<mark>` for callout <mark>Grammar&nbsp;Nazis</mark>
- * Use `<mark>` for UI elements: Press <mark>Next</mark> to proceed.
- * Use `<abbr>` to show an abbreviation: <abbr title="shortended text">shot</abbr>, but it's not necessary if the abbr is defined in markdown
- * Custom colors when referencing something highlighted on an image: <span style="color:cyan">Save button</span>.
+* Belonging words should have `&nbsp;` between to prevent wrapping: Yi-Xin&nbsp;Liu.
+* Long list of alternatives should have `<wbr>` between them to allow wrapping: this&nbsp;one<wbr>/that&nbsp;one<wbr>/other&nbsp;thing.
+* Use `<del>` to <del>strike text out</del>.
+* Use `<samp>` for sample output: <samp>Exit code: 1</samp>.
+* Use `<samp>` for math: <samp>4&nbsp;people &times; 5&nbsp;days = 20&nbsp;man hours</samp>.
+* Use `<var>` for something representing a number: <var>your age</var> times.
+* Use `<mark>` for callout <mark>Grammar&nbsp;Nazis</mark>.
+* Use `<mark>` for UI elements: Press <mark>Next</mark> to proceed.
+* Use `<abbr>` to show an abbreviation: <abbr title="shortended text">shot</abbr>, but it's not necessary if the abbr is defined in markdown.
+* Custom colors using `<span style="color:orange">colored content</span>` when referencing something highlighted on an image: <span style="color:orange">Save button</span>.
 
 ## Acknowledgements
+
 The LYX Jekyll theme adopts features from
 
 * The HPSTR Jekyll Theme by [Michael Rose](https://github.com/mmistakes)
