@@ -30,10 +30,13 @@ If you wish to use the Jekyll theme of this website, please follow the guideline
 
 1. Please give credit by starring [this project](https://github.com/liuyxpp/liuyxpp.github.io) and/or display this line on your website: <q>This website is powered by [LYX Jekyll theme](https://github.com/liuyxpp/liuyxpp.github.io)</q>.
 2. Remove all personal materials and personal information about me (Yi-Xin Liu).
-3. Remove all the contents in the following directories: `_posts`, `_drafts`, `_data`, `_site`, `CV`, `downloads`, `images`, `publications`, `research`, and `software`.
+3. Remove all the contents in the following directories: `_posts`, `_drafts`, `_data`, `_site`, `downloads`, `images`, and `pages`.
 4. Modify the configuration file `_config.yml` to add your own personal information.
 5. Add your contents.
-6. Publish your website.
+6. You can add your own per category page at `blog/category` by editing the sample pages. Just remove all `.md` files if you don't want any per category page.
+7. Publish your website.
+
+A Sample blog post/template can be found at `_posts/2020-04-13-post-template.md`. It also includes some guidelines to write blog posts with this Jekyll theme. You can read it [here]({% post_url 2020-04-13-post-template.md %}).
 
 ## Important Notice
 

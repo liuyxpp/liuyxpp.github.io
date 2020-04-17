@@ -5,7 +5,7 @@
 $base-font: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 $heading-font: 'Lato','Open Sans','Helvetica Neue',Helvetica,Calibri,Arial,sans-serif;
 $caption-font: 'Lato','Open Sans','Helvetica Neue',Helvetica,Calibri,Arial,sans-serif;
-$code-font: "Monaco","Inconsolata","DejaVu Sans Mono","Andale Mono WT","Andale Mono","Courier New",Courier,monospace;
+$code-font: "Roboto Mono","Monaco","Inconsolata","DejaVu Sans Mono","Andale Mono WT","Andale Mono","Courier New",Courier,monospace;
 $alt-font: serif;
 $site-title-font: 'Viga', $heading-font;
 
@@ -58,7 +58,10 @@ $danger	:       $alizarin;
 $info:          $peter-river;
 
 /* syntax highlighting */
+// for display language name on the upper right corner of the code block panel
 $lang-color: $gray;
+// only for language text/plaintext, background color of the code block panel
+$text-lang-bg-color: lighten($wet-asphalt, 66%);
 
 $base-color:    $black-almost;
 $body-color:    $white-almost;

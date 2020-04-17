@@ -135,13 +135,21 @@ struct GeneralizedPeak <: ScatteringPeak
 end
 {% endhighlight %}
 
-`Output` as `Markdown` syntax highlighting using fencing blocks:
+The output by running previous code block is formatted as language `text` whose syntax highlighting using fencing blocks:
 
-{% highlight markdown linenos %}
+```
+Translation{Float64}([1.0, 2.0, 3.0])
+```
+
+The output syntax highlighting using Liquid fencing blocks:
+
+{% highlight text linenos %}
 Translation{Float64}([1.0, 2.0, 3.0])
 {% endhighlight %}
 
-`Console` syntax highlighting using fencing code blocks
+Note that the appearance is different from fencing blocks because `<pre>` is the parent of `<code data-lang=text>`. We can not select the `<pre>` to markup using `CSS` rules.
+
+`Console` syntax highlighting using fencing code blocks:
 
 ```console?lang=julia
 julia> f(x, y) = x + y
@@ -151,7 +159,7 @@ julia> f(3, 4)
 7
 ```
 
-`Console` syntax highlighting using Liquid code blocks
+`Console` syntax highlighting using Liquid code blocks:
 
 {% highlight console linenos %}
 julia> f(x, y) = x + y
@@ -170,6 +178,13 @@ Note that since we can not set the `lang=julia` as in fencing code blocks, the L
 * Liquid-like code may need some escaping: {%raw%}`{{tag}}`{%endraw%}
 * Fencing code blocks' ticks can be output like this: ````<code>```</code>```` &rarr; <code>```</code>.
 * Don't be lazy with `alternative`/`code`/`formatting`.
+
+## Links
+
+* External links: the [github](https://github.com).
+* Internal pages: the [Research page](/research/).
+* Internal blog posts: [Julia in Practice: Building Scattering.jl from Scratch (1)]({% post_url 2020-03-19-scattering-1 %}).
+* In-page links: [Heading](#heading)
 
 ## Images
 
