@@ -13,14 +13,38 @@ h1, h2, h3, h4, h5, h6 {
     color: $primary;
 }
 h1 {
-	@include font-rem(28);
+	@include font-rem(30);
 	@media #{$medium} {
-		@include font-rem(32);
+		@include font-rem(34);
+	}
+}
+
+h2 {
+	@include font-rem(23);
+	@media #{$medium} {
+		@include font-rem(27);
 	}
 }
 
 h3 {
-    font-size: 20px;
+	@include font-rem(18);
+	@media #{$medium} {
+		@include font-rem(22);
+	}
+}
+
+h4 {
+	@include font-rem(14);
+	@media #{$medium} {
+		@include font-rem(18);
+	}
+}
+
+h5 {
+	@include font-rem(12);
+	@media #{$medium} {
+		@include font-rem(16);
+	}
 }
 
 // Links

@@ -34,7 +34,7 @@ body {
 	}
 }
 .entry-content {
-	@include font-size(16);
+	@include font-size($doc-font-size);
 	// Dotted line underlines for links
 	p > a,
 	li > a {
@@ -299,7 +299,7 @@ header .entry-meta {
         // background-color: #E9F9E9;
         display: block;
         width: 50%;
-        min-width: 500px;
+        min-width: 400px;
         text-align: center;
         font-style: italic;
         font-size: smaller;
@@ -415,9 +415,6 @@ header .entry-meta {
 				@include font-size(20);
 			}
 		}
-        h2 {
-            font-size: 1.8rem;
-        }
 	}
 	.entry-meta {
 		text-align: center;
@@ -649,9 +646,9 @@ header .entry-meta {
             border-bottom: 2px solid $header-underline-color;
             margin-bottom: 20px;
         }
-        h2 {
-            font-size: 1.8rem;
-        }
+        // h2 {
+        //     font-size: 1.8rem;
+        // }
         h2 a {
             border-bottom: none;
             &:hover {
