@@ -5,7 +5,7 @@ subheadline: "Write beautiful math and code intensive blog posts"
 description: Code blocks, math equations, images, TOC, Alert boxes, etc.
 author: lyx
 date: 2020-04-13
-modified: 2020-04-13
+modified: 2020-04-17
 image:
     feature: false
     twitter: 20200413/twitter.png
@@ -63,7 +63,13 @@ $$
 \end{equation}
 $$
 
-All display math equations are numbered automatically. Adding `\label{a_label_describes_this_equation}` to the end of the math block to be cited later, such as
+All display math equations are numbered automatically by enclosing the equation with `\begin{equation}` and `\end{equation}`. Otherwise, it will not be numbered:
+
+$$
+    V = \frac{4}{3}\pi R^3
+$$
+
+Adding `\label{a_label_describes_this_equation}` to the end of the math block to be cited later, such as
 
 $$
 \begin{equation}
