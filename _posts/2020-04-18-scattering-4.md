@@ -5,7 +5,7 @@ subheadline: "Rotations and their representations"
 description: "In this post we implement submodules rotation.jl to rotate a vector in the reference coordinate system to the internal coordinate system of the scatterer."
 author: lyx
 date: 2020-04-18
-modified: 2020-04-18
+modified: 2020-04-19
 image:
     feature: false
     twitter: scattering4/rotation.png
@@ -15,7 +15,7 @@ show_meta:
     info: true
 ---
 
-In this post we implement submodules rotation.jl to rotate a vector in the reference coordinate system to the internal coordinate system of the scatterer. Three representations of a rotaion operation are discussed and implemented. The conversion among and math operations on these representations are also implemented.
+In this post we implement submodules `rotation.jl` of `Scattering.jl` to rotate a vector in the reference coordinate system to the internal coordinate system of the scatterer. Three representations of a rotaion operation are discussed and implemented. The conversion among and math operations on these representations are also implemented.
 
 <!--more-->
 
@@ -23,7 +23,7 @@ In this post we implement submodules rotation.jl to rotate a vector in the refer
 
 ## Rotations
 
-Rotations are another type of isometric transformation which preserve distances and angles. As stated in the [previous post]({% post_url 2020-04-04-scattering-3 %}), we will adopt the convention of *alias* transformation. Therefore, a rotation operation is applied to the coordinates. It will rotate the reference coordinates to the internal coordinates of a scatterer. It thus natural to choose the rotation to represent the orientation of a scatterer, as shown in Figure 1. In the following, we will briefly review three popular represenations of a rotation. For a more comprehensive introduction, especially in the context of crystallography, please consult these references[^Wondratschek1997][^Evans2001]. A series of Wiki pages about rotations are also good sources to learn:
+Rotations are another type of isometric transformation which preserve distances and angles. As stated in the [previous post]({% post_url 2020-04-04-scattering-3 %}), we will adopt the convention of *alias* transformation. Therefore, a rotation operation is applied to the coordinates. It will rotate the reference coordinates to the internal coordinates of a scatterer. It thus natural to choose a rotation to represent the orientation of a scatterer, as shown in Figure 1. In the following, we will briefly review three popular represenations of a rotation. For a more comprehensive introduction, especially in the context of crystallography, please consult these references[^Wondratschek1997][^Evans2001]. A series of Wiki pages about rotations in a general sense are also good sources to learn:
 
 * [Rotation formalisms in three dimensions](https://en.wikipedia.org/wiki/Rotation_formalisms_in_three_dimensions)
 * [Rotation matrix](https://en.wikipedia.org/wiki/Rotation_matrix)
@@ -69,7 +69,7 @@ $$
 \end{equation}
 $$
 
-The term in the right side of the above equation is just an identity matrix $\mI$. In convention, we will write the matrix $[\vu\;\vv\;\vw]$ as $\mP$. Obviously, $\mP$ is an orthonormal matrix because its three column vectors are just three basis vectors of a coordinate system which are unit vectors and orthogonal to each other. As long as we know all the components of the three basis vectors of the internal coordinate in the reference coordinate system, we can easily construct $mP$ and the rotation matrix can be obtained by inverse the above equation:
+The term in the right hand side of the above equation is just an identity matrix $\mI$. In convention, we will write the matrix $[\vu\;\vv\;\vw]$ as $\mP$. Obviously, $\mP$ is an orthonormal matrix because its three column vectors are just three basis vectors of a coordinate system which are unit vectors and orthogonal to each other. As long as we know all the components of the three basis vectors of the internal coordinate system in the reference coordinate system, we can easily construct $mP$ and the rotation matrix can be obtained by inverse the above equation:
 
 $$
     \mR = \mP^{-1}
@@ -100,7 +100,7 @@ $$
 \end{equation}
 $$
 
-It is now clear that $\mP$ is also a rotation matrix which transform a vector in the internal coordinate system to the reference coordinate system. All rotation matrices should have following properties:
+It is now clear that $\mP$ is also a rotation matrix which transforms a vector in the internal coordinate system to the reference coordinate system. All rotation matrices should have following properties:
 
 * $\mR^{-1} = \mR^T$
 * $\det(\mR) = \pm 1$ since $1=\det(I)=\det(\mR^T\mR)=\det(\mR^T)\det(\mR)=\det(\mR)^2$
@@ -162,10 +162,10 @@ $$
     \va \times \vb = [\va]_{\times}\vb.
 $$
 
-Since the cross product of any vector with itself is equal to 0, eq.\eqref{eq:skewsym} implies that $\mR - \mR^T$ is actually
+Since the cross product of any vector with itself is equal to 0, eq.\eqref{eq:skewsym} implies that $\mR - \mR^T$ is actually the cross product matrix of vector $\vr$,
 
 $$
-    \mR - \mR^T = [\vr]_{\times}
+    \mR - \mR^T = [\vr]_{\times}.
 $$
 
 By writing out $\mR - \mR^T$ explicitly as
@@ -196,13 +196,17 @@ Note that $\vomega$ computed by eq.\eqref{eq:vomega} becomes a zero vector when 
 
 #### Rotation angle
 
-Once the rotation axis is known, the angle of rotation $\theta$ is the angle between a vector $\vr$ which is perpendicular to $\vomega$ and the vector $\mR\vr$. However, a more straightforward way to find $\theta$ is to compute the trace of the rotation matrix and invoke the relation
+Once the rotation axis is known, the angle of rotation $\theta$ is the angle between two vectors $\va$ and $\mR\va$, where $\va$ can be any vector that is *perpendicular to* $\vomega$.
+
+However, a more straightforward way to find $\theta$ is to compute the trace of the rotation matrix and invoke the relation[^Evans2001]
 
 $$
-    \Tr(\mR) = 1 + 2\cos(\theta)
+\begin{equation}
+    \Tr(\mR) = 1 + 2\cos\theta
+\end{equation}\label{eq:trR}
 $$
 
-It follows that the angle of rotation is computed via
+It follows that the angle of rotation can be computed via
 
 $$
 \begin{equation}
@@ -242,7 +246,7 @@ The above equation can be derived in a [Lie-algebraic way](https://en.wikipedia.
 
 ### Euler angles
 
-Another popular way to describe a rotation is using [Euler angles](https://en.wikipedia.org/wiki/Euler_angles). It is demonstrated by Leonhard Euler that it is sufficient to rotate a reference coordinate system by **three angles** around three axes of a coordinate system to reach any target frame. The rotation around an axis of a coordinate system is called an **elemental rotation**. Albeit its popularity, the Euler angles representation of a rotation causes many confusions and it has a serious artifact known as the [Gimbal lock](https://en.wikipedia.org/wiki/Gimbal_lock). There exist twelve possible sequences of rotation axes, leading to twelve conventions. Different fields usually choose a particular convention. In this project, we will choose the Z1Y2Z3 convention according to the Wiki page [Euler angles](https://en.wikipedia.org/wiki/Euler_angles).
+Another popular description of a rotation is using [Euler angles](https://en.wikipedia.org/wiki/Euler_angles). It is demonstrated by Leonhard Euler that it is sufficient to rotate a reference coordinate system by **three angles** around three axes of a coordinate system to reach any target frame. The rotation around an axis of a coordinate system is called an [elemental/basic rotation](https://en.wikipedia.org/wiki/Rotation_matrix). Albeit its popularity, the Euler angles representation of a rotation causes many confusions and it has a serious artifact known as the [Gimbal lock](https://en.wikipedia.org/wiki/Gimbal_lock). There exist twelve possible sequences of rotation axes, leading to twelve conventions. Different fields usually choose a particular convention. In this project, we will choose the Z1Y2Z3 convention according to the Wiki page [Euler angles](https://en.wikipedia.org/wiki/Euler_angles).
 
 #### Convert Euler angles to the rotation matrix
 
@@ -278,7 +282,7 @@ $$
 \end{equation}\label{eq:mat2euler}
 $$
 
-where $\arctan(a, b)$ is a specialized arctan function which takes into account the quadrant that the point $(b, a)$ is in. Note that eq.\eqref{eq:mat2euler} is valid for $\theta$ in the range $(0, \pi]$. When $\beta=0$ or $R_{33}=1$, $\alpha$ and $\gamma$ has infinite many solutions which satisfy
+where $\arctan(a, b)$ is a specialized version of the `arctan` function which takes into account the quadrant that the point $(b, a)$ is in. Note that eq.\eqref{eq:mat2euler} is valid for $\theta$ in the range $(0, \pi]$. When $\beta=0$ or $R_{33}=1$, $\alpha$ and $\gamma$ has infinite many solutions which satisfy
 
 $$
     \tan(\alpha+\gamma) = \frac{R_{21}}{R_{11}}
@@ -290,7 +294,7 @@ $$
     \alpha + \gamma = \arctan(R_{21}, R_{11})
 $$
 
-*In this project, we fix $\gamma=0$ when $\beta=0$.*
+In this project, **we fix $\gamma=0$ when $\beta=0$.**
 
 ## Implementation
 
@@ -342,7 +346,7 @@ struct EulerAxisAngle{T<:Real} <: AbstractRotation
 end
 {% endhighlight %}
 
-Note that the cross product matrix is also stored. We also need an internal constructor which ensures the rotation axis vector is a unit vector
+Note that the cross product matrix $\mK$ is also stored. We also need an internal constructor which ensures the rotation axis vector is a unit vector
 
 {% highlight julia linenos %}
 function EulerAxisAngle(ω::RVector{T}, θ::T) where {T<:Real}
@@ -440,14 +444,14 @@ end
 
 where eq.\eqref{eq:mat2euler} is used.
 
-The conversions between Euler angles and Euler axis angle are implemented by converting to the rotation matrix first:
+The conversions between Euler angles and Euler axis angle are implemented by converting them to rotation matrices first:
 
 {% highlight julia linenos %}
 EulerAxisAngle(euler::EulerAngle) = RotationMatrix(euler) |> EulerAxisAngle
 EulerAngle(axisangle::EulerAxisAngle) = RotationMatrix(axisangle) |> EulerAngle
 {% endhighlight %}
 
-Strictly follow our convention developed in this post, the conversions among these three representations are lostless. Thus it is reasonable to define a set of conversion rules follow the [Julia guidelines](https://docs.julialang.org/en/v1/manual/conversion-and-promotion/#):
+Strictly follow our convention developed in this post, the conversions among these three representations are lostless. Thus it is reasonable to define a set of conversion rules following the [Julia guidelines](https://docs.julialang.org/en/v1/manual/conversion-and-promotion/#):
 
 {% highlight julia linenos %}
 convert(::Type{T}, x::AbstractRotation) where {T<:AbstractRotation} = T(x)
@@ -468,7 +472,7 @@ promote_rule(::Type{T}, ::Type{S}) where {T<:AbstractRotation, S<:AbstractRotati
 
 which promotes two rotations of **different** types to the `RotationMatrix` type. However, when two rotations are of same type, Julia implicitly does nothing and this behavior can not be overridden at present. For example, if two rotations are of type `EulerAngle`, the return type will be `EulerAngle` instead of `RotationMatrix`. It is important to bare this in mind when implement `==` and `*` later.
 
-It is also convenient to implement a `promote` method which takes a single argument and promotes all rotations to the `RotationMatrix` type. Note that one-argument `promote` is not supported by `Julia.Base`.
+It is also convenient to implement a `promote` method which takes a single argument and promotes all rotations to the `RotationMatrix` type. Note that one-argument `promote` is not supported by Julia `Base`.
 
 {% highlight julia linenos %}
 promote(rot::RotationMatrix) = rot
@@ -486,9 +490,22 @@ inv(rot::T) where {T<:AbstractRotation} = inv(promote(rot)) |> T.name.wrapper
 
 In the above implementation, we utilized the relation $\mR^{-1} = \mR^T$.
 
+### Comparison
+
+It is meaningful to check whether two rotations are identical. So we have extended the `==` operator defined in Julia `Base`:
+
+{% highlight julia linenos %}
+==(rot1::RotationMatrix, rot2::RotationMatrix) = rot1.R ≈ rot2.R
+==(rot1::EulerAngle, rot2::EulerAngle) = RotationMatrix(rot1) == RotationMatrix(rot2)
+==(rot1::EulerAxisAngle, rot2::EulerAxisAngle) = RotationMatrix(rot1) == RotationMatrix(rot2)
+==(rot1::AbstractRotation, rot2::AbstractRotation) = ==(promote(rot1,rot2)...)
+{% endhighlight %}
+
+Note how poromtion rules defined previously has been used.
+
 ### Multiplication of two rotation operations
 
-Since any rotation operation can be expressed as a matrix, it means that we can multiply them. Mulitiplication of two rotations of any type is implemented by first promoting them to the `RotationMatrix` type:
+Since any rotation operation can be expressed as a matrix, it means that we can multiply them together to obtain another rotation. Mulitiplication of two rotations of any type is implemented by first promoting them to the `RotationMatrix` type:
 
 {% highlight julia linenos %}
 *(rot1::RotationMatrix, rot2::RotationMatrix) = RotationMatrix(rot1.R * rot2.R)
@@ -497,7 +514,7 @@ Since any rotation operation can be expressed as a matrix, it means that we can 
 *(rot1::AbstractRotation, rot2::AbstractRotation) = *(promote(rot1,rot2)...)
 {% endhighlight %}
 
-Note that the result of a multiplication is always of type `RotationMatrix`. As mentioned earlier, promotion of two rotations of an identical type returns this type other than `RotationMatrix`. Therefore, it is required to explicitly write the first three lines.
+Note that the result of a multiplication is always of type `RotationMatrix`. As mentioned earlier, promotion of two rotations of an identical type returns this type other than `RotationMatrix`. Therefore, it is required to explicitly add the first three lines.
 
 ### Power of a rotation operation
 
@@ -534,19 +551,26 @@ function ^(rot::AbstractRotation, n::Integer)
 end
 {% endhighlight %}
 
+where we have utilized a *unit rotation* which is simply a do-nothing rotation. It is implemented as follows:
+
+{% highlight julia linenos %}
+one(rot::RotationMatrix{T}) where {T<:Real} = one(rot.R) |> RotationMatrix
+one(rot::T) where {T<:AbstractRotation} = one(promote(rot)) |> T.name.wrapper
+{% endhighlight %}
+
 Using `BechmarkTools`, we can compare these two methods as
 
 ```console?lang=julia
 julia> using BenchmarkTools
 julia> using Scattering
 julia> # construct euler ...
-julia> @btime @btime pow1($euler, 1000)
+julia> @btime pow1($euler, 1000)
 142.561 μs (3004 allocations: 172.31 KiB)
 julia> @btime $euler^1000
 2.327 μs (49 allocations: 3.02 KiB)
 ```
 
-We can see that the optimized version is nearly $70\times$ faster than the naive version.
+We can see that the optimized version is nearly $70\times$ faster than the naive version when $n=1000$.
 
 ### Transformation of a position vector
 
@@ -557,6 +581,10 @@ Transformation of a position vector with components expressed in the reference c
 {% endhighlight %}
 
 As can be seen, the actual computation is carried out by a matrix-vector product.
+
+## Usage
+
+Due to the length of this blog post, the usage as well as the test of `rotation.jl` is presented in a following blog post.
 
 ## Acknowledgements
 
