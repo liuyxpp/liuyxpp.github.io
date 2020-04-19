@@ -584,7 +584,7 @@ As can be seen, the actual computation is carried out by a matrix-vector product
 
 ## Usage
 
-Due to the length of this blog post, the usage as well as the test of `rotation.jl` is presented in a following blog post.
+Due to the length of this blog post, the usage as well as the test of `rotation.jl` is presented in a separate [blog post]({% post_url 2020-04-19-rotation-test %}).
 
 ## Acknowledgements
 
