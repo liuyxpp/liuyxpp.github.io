@@ -10,7 +10,7 @@ image:
     feature: false
     twitter: scattering3/translation.png
 categories: [Research, Software, Tutorial]
-tags: [Julia, Scattering.jl, Scattering Theory]
+tags: [Julia, Scattering.jl, scattering theory]
 show_meta:
     info: true
 ---
