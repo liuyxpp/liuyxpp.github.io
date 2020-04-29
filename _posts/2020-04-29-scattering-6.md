@@ -4,8 +4,8 @@ title: "Julia in Practice: Building Scattering.jl from Scratch (6)"
 subheadline: "Form factor of a homogeneous sphere"
 description: "In this post we will first coin the term form factor for arbitrary particles by generalizing the idea of the atomic form factor. We then derive an analytical expression for the form factor of a homogeneous sphere. The functionality is implemented in two submodules: scatterer.jl and formfactor.jl."
 author: lyx
-date: 2020-04-24
-modified: 2020-04-24
+date: 2020-04-29
+modified: 2020-04-29
 image:
     feature: false
     twitter: scattering6/Iq_sphere_ylog.png
@@ -113,9 +113,9 @@ $$
 
 By viewing eq.\eqref{eq:I}, we conclude that the **form factor** is the most fundamental quantity in scattering experiments, while the **structure factor** is a derived quantity from the form factor.
 
-Note that, in some cases, such as polymers, the building blocks are highly correlated. Time average or ensemble average should be performed to obtain the scattering intensity. In these cases, the scattering density is proportional to the Fourier transform of the correlation function $\ensemble{n(\vr)n(\vr')}$, just as in the case of polymeric systems. Therefore, eq.\eqref{eq:I} is not applicable in these situations.
+Note that, in some cases, such as polymers, the building blocks are highly correlated. Time average or ensemble average should be performed to obtain the scattering intensity. In these cases, the scattering intensity is proportional to the Fourier transform of the correlation function $\ensemble{n(\vr)n(\vr')}$, just as in the case of polymeric systems. Therefore, eq.\eqref{eq:I} is not applicable in these situations.
 
-Also note that, in the polymer community, due to the fact mentioned above, the term *form factor* is commonly referred to the **square** of the normalized amplitude, which is proportional to the scattering density.
+Also note that, in the polymer community, due to the fact mentioned above, the term *form factor* is commonly referred to the **square** of the normalized amplitude, which is proportional to the scattering intensity.
 
 ### Form factor of a homogeneous sphere
 
@@ -155,7 +155,7 @@ $$
     j_1(z) = \frac{\sin z - z\cos z}{z^2}
 $$
 
-Inserting it into eq.\eqref{eq:sphere}, we have
+Inserting it into eq.\eqref{eq:Fsphere}, we have
 
 $$
 \begin{equation}
@@ -200,7 +200,7 @@ abstract type AbstractSample <: AbstractScatterer end
 abstract type AbstractParticle <: AbstractScatterer end
 ```
 
-According to our previous discussion, the particle is further categorized into following two types. The way of compuating the form factor of these two types of particles are quite different.
+According to our previous discussion, the particle is further categorized into following two types. The way of computing the form factors of these two types of particles are quite different.
 
 ```julia
 abstract type SimpleParticle <: AbstractParticle end
