@@ -643,7 +643,9 @@ $$
 or
 
 $$
+\begin{equation}
     f(q) = 4\pi\int_0^{\infty}dr\; n_e(r)r^2\frac{\sin(qr)}{qr}
+\end{equation}
 $$
 
 where we have chosen the polar axis of the spherical coordinate system to coincide with the direction of $\vq$, and the origin at the atom center.
