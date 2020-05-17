@@ -775,7 +775,7 @@ Clearly the *scattering length distribution of the sample* $\rho(\vr)$ is a sum 
 
 ## Generalization to Arbitrary Particles
 
-The strategy described in the [Multiple atoms](#multiple-atoms) section can be generalized to arbitrary *particles* consisting of any type of building blocks, such as electrons, atoms, molecules, complexes, polymers, nanoparticles, *etc.*, as long as they can be viewed as basic building blocks of the sample. Such generalization will eventually lead to the concept of *form factor*, which we will pursue further in the next post.
+The strategy described in the [Multiple atoms](#multiple-atoms) section can be generalized to arbitrary *particles* consisting of any type of building blocks, such as electrons, atoms, molecules, complexes, polymers, nanoparticles, *etc.*, as long as they can be viewed as basic building blocks of the sample. Such generalization will eventually lead to the concept of *form factor*, which we will pursue further in [the next post]({% post_url 2020-04-29-scattering-6 %}).
 
 ## Acknowledgements
 

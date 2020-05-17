@@ -3,7 +3,6 @@ permalink: /teaching/
 layout: page
 title: Teaching
 description: "Undergraduate courses: Polymer Physics, Introduction to Polymeric Materials."
-header-img: images/research-1.jpg
 comments: false
 modified: 2020-04-11
 breadcrumbs: true

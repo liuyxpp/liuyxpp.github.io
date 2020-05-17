@@ -5,7 +5,7 @@ subheadline: "Brief introduction to the scattering theory and the Julia programm
 description: "The first blog post for a series of articles on an effort to demonstrate how to develop a package from scratch for computing scattering and diffraction curves of individual or self-assembled nanoparticles, polymers as well as biological materials using Julia programming language."
 author: lyx
 date: 2020-03-19
-modified: 2019-04-10
+modified: 2019-05-17
 image:
     feature: false
     twitter: scattering1/structure.png
@@ -99,7 +99,7 @@ Besides its speed (check out a comparison of performance of various popular prog
 Let's get a little bit of taste of Julia:
 
 {% highlight julia linenos %}
-P(x, μ, σ) = 1/(√2π*σ) * exp(-(x-μ)^2/(2σ^2)) # Gaussian distribution
+P(x, μ, σ) = 1/(√(2π)*σ) * exp(-(x-μ)^2/(2σ^2)) # Gaussian distribution
 C(r) = 2π*r # compute circumference of a circle
 {% endhighlight %}
 
