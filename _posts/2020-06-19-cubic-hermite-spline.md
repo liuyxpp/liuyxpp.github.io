@@ -96,8 +96,6 @@ b = 2.5
 x_exact = range(a, b, step=0.01);
 y_exact = f.(x_exact);
 k_exact = df.(x_exact);
-
-plot(x_exact, y_exact)
 ```
 
 The exact cubic polynomial is plotted.
