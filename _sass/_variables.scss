@@ -71,7 +71,8 @@ $lang-color: $gray;
 $text-lang-bg-color: lighten($wet-asphalt, 66%);
 
 $base-color:    $black-almost;
-$body-color:    $white-almost;
+// $body-color:    $white-almost;
+$body-color:    #f1f8ff; //#fafbfc;
 $text-color:    $black-almost;
 $comp-color:    complement(#222);
 $border-color:  lighten($base-color,60);
