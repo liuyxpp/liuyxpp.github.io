@@ -318,6 +318,12 @@ spl(x; grad=true)
 grad(spl, x)
 ```
 
+## Contribute
+
+- Star the package on [github.com](https://github.com/liuyxpp/CubicHermiteSpline.jl).
+- File an issue or make a pull request on [github.com](https://github.com/liuyxpp/CubicHermiteSpline.jl).
+- Contact me via email <lyx@fudan.edu.cn>.
+
 ## Acknowledgements
 
 - This work is partially supported by the General Program of the National Natural Science Foundation of China (No. 21873021) and Shanghai Pujiang Program (No. 18PJ1401200).
