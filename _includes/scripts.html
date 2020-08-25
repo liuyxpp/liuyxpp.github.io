@@ -38,14 +38,15 @@
         showProcessingMessages: false,
         messageStyle: 'none',
         tex2jax: {
-            inlineMath: [['$','$']],
-            displayMath: [['$$','$$']],
+            inlineMath: [['$','$'],['\\(','\\)']],
+            displayMath: [['$$','$$'],['\\[','\\]']],
             processEnvironments: false
         },
         // show equation numbers
         TeX: {
             equationNumbers: { autoNumber: "AMS" },
-            inlineMath: [['$','$'],['\\(','\\)']]
+            inlineMath: [['$','$'],['\\(','\\)']],
+            displayMath: [['$$','$$'],['\\[','\\]']]
         },
         "HTML-CSS": {
             availableFonts: ["TeX"],

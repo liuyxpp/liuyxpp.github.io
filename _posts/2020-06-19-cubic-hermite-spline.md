@@ -293,11 +293,11 @@ k_interp = spl(x_interp; grad=true);
 Plots.scatter(x_input, k_input, xlabel=xlabel, ylabel=L"g'(x)", label="input data", legend=:topright)
 plot!(x_exact, k_exact, label="exact")
 plot!(x_interp, k_interp, label="interpolated")
+```
 
 <figure class="image">
     <img src="{{ site.url }}/images/CubicHermiteSpline/output_36_0.svg" alt="Interpolated gradients on uneven grid." width="600px">
 </figure>
-```
 
 Note that the accuracy of the interpolation degrades near the extrema of the function if there is no input data point near that region.
 
