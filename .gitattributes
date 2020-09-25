@@ -1,3 +1,6 @@
 *.css linguist-detectable=false
+*.scss linguist-detectable=false
+*.js linguist-detectable=false
+*.md linguist-detectable=false
 *.html linguist-detectable=true
 *.htm linguist-detectable=true
