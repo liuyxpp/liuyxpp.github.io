@@ -19,7 +19,7 @@ breadcrumbs: true
 - Spring 2017, Classroom: HGX503, Time: Odd Week Tues 1-2, Thur 3-4, Even Week Thur 3-4
 - Spring 2014, Classroom: H4303, Time: Odd Week Tues 1-2, Thur 3-4, Even Week Thur 3-4
 
-Note 1: With Prof. Hong-Dong Zhang and Prof. Jian-Feng Li<br>
+Note 1: With Prof. Hong-Dong Zhang and Prof. Jian-Feng Li.<br>
 Note 2: Course time (1-2) corresponds to (8:00 - 9:40), (3-4) corresponds to (9:55 - 11:35).
 
 ## Introduction to Polymeric Materials (MACR110003, Undergraduate)
@@ -31,12 +31,10 @@ Note 2: Course time (1-2) corresponds to (8:00 - 9:40), (3-4) corresponds to (9:
 - Fall 2017, Classroom: H2107, Time: Mon 11-12
 - Fall 2016, Classroom: HGX304, Time: Mon 11-12
 
-Note 1: With Prof. Jia Guo<br>
+Note 1: With Prof. Jia Guo.<br>
 Note 2: Course time (11-12) corresponds to 18:30 - 20:10.
 
-## Principles of Polymer Processing (MACR130032, Undergraduate)
+## Principles of Polymer Processing (MACR130032, Undergraduate & Graduate)
 -----
 
-- In preparation. Planned for Fall 2021.
-
-Note 1: With Prof. Xiu-Yuan Ni
+- Planned for Fall 2021.
