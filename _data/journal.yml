@@ -1,10 +1,10 @@
 # Yi-Xin Liu's Publications - Journal articles
 
 - title: 'Simplicity in Mean-field Phase Behavior of Two-component Miktoarm Star Copolymers'
-  volume: ''
-  issue: ''
-  page: 'Accepted'
-  year: 2020
+  volume: '154'
+  issue: '1'
+  page: '014903'
+  year: 2021
   author:
   - given: Wei
     given_initial: W.
@@ -17,10 +17,10 @@
   journal:
     fullname: The Journal of Chemical Physics
     abbreviation: J. Chem. Phys.
-  URL:
+  URL: https://doi.org/10.1063/5.0037979
   type: article
-  DOI:
-  fulltext:
+  DOI: https://doi.org/10.1063/5.0037979
+  fulltext: jcp202101.pdf
   language: english
 
 - title: 'Removal Pathways of Out-of-plane Defects in Thin Films of Lamellar Forming Block Copolymers'
