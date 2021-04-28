@@ -118,11 +118,11 @@ Please visit [my publication list]({{ site.url }}/publications/).
 ### Teaching Experience
 -----
 
-**Instructor:** Polymer Physics, 2014, 2017, 2018, 2019<br>
+**Instructor:** Polymer Physics, 2014, 2017, 2018, 2019, 2020<br>
 *Fudan University, Department of Macromolecular Science*<br>
 Core undergraduate course, 30+ students, 15-week, 3-credit. Co-instructors: Prof. Hong-Dong Zhang and Prof. Jian-Feng Li.
 
-**Instructor:** Introduction to Polymeric Materials, 2016, 2017, 2018, 2019<br>
+**Instructor:** Introduction to Polymeric Materials, 2016, 2017, 2018, 2019, 2020<br>
 *Fudan University, Department of Macromolecular Science*<br>
 Undergraduate course, 20+ students, 15-week, 2-credit. Co-instructor: Prof. Jia Guo.
 
@@ -135,9 +135,9 @@ Undergraduate experimental course, 17 students, 15-week, 2-credit.
 
 - Julia, Python, C/C++, Parallel Programming (MPI, GPU/CUDA), Matlab, HTML/CSS, LaTeX.
 
-- Familiar with Linux, Hoomd-blue, FluxML, SciML, Tensorflow, Numpy/Scipy, FFTW, Armadillo, blitz++.
+- Familiar with Linux, FluxML, SciML, Tensorflow, Numpy/Scipy, FFTW, Armadillo, blitz++.
 
-- Open source projects: [polyorder](https://github.com/liuyxpp/polyorder) - [gyroid](https://pypi.org/project/gyroid/) - [ngpy](https://pypi.org/project/ngpy/) - [chebpy](https://pypi.org/project/chebpy/) - [mpltex](https://pypi.org/project/mpltex/)
+- Open source projects: Please visit [my publication list]({{ site.url }}/software/).
 
 ### Technical Experience
 -----
