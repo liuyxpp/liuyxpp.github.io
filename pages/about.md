@@ -5,7 +5,7 @@ title: About Me
 description: A brief introdcution of Prof. Yi-Xin Liu and this website.
 header-img: images/about.jpg
 comments: false
-modified: 2020-04-09
+modified: 2021-04-28
 breadcrumbs: true
 ---
 
@@ -37,7 +37,7 @@ Santa Barbara, CA 93106, US<br>
 Email: lyx@mrl.ucsb.edu
 
 <div markdown="0">
-    <a href="{{ site.url }}/CV/" class="btn btn-info">View HTML</a>
+    <a href="{{ site.url }}/cv/" class="btn btn-info">View HTML</a>
     <a href="{{ site.url }}/downloads/CV.pdf" class="btn btn-success">Download PDF</a>
 </div>
 
