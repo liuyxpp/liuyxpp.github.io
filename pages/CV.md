@@ -118,7 +118,7 @@ Please visit [my publication list]({{ site.url }}/publications/).
 ### Teaching Experience
 -----
 
-**Instructor:** Polymer Physics, 2014, 2017, 2018, 2019, 2020<br>
+**Instructor:** Polymer Physics, 2014, 2017, 2018, 2019, 2020, 2021<br>
 *Fudan University, Department of Macromolecular Science*<br>
 Core undergraduate course, 30+ students, 15-week, 3-credit. Co-instructors: Prof. Hong-Dong Zhang and Prof. Jian-Feng Li.
 
