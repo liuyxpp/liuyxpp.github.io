@@ -44,9 +44,5 @@ Yu-Chen Zhang is working on the same project as Xu-Chen Gan.
 ## Alumni
 -----
 
-<figure class="third">
-    <img src="{{ site.url }}/images/avatar.jpg" alt="">
-</figure>
-
 #### Dr. Jun-Qing Song
 Dr. Jun-Qing Song is graduated at 2018. He is working in a government department at Guangxi Province.
