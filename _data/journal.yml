@@ -3,7 +3,7 @@
 - title: 'Folded Chain Lamellae of Dynamic Helical Poly-(phenylacetylene) in Hexagonal Columnar Phase'
   volume: ''
   issue: ''
-  page: 'Accepted'
+  page: 'ASAP'
   year: 2021
   author:
   - given: Yan-Fang
@@ -39,9 +39,9 @@
   journal:
     fullname: Macromolecules
     abbreviation: Macromolecules
-  URL: 
+  URL: https://doi.org/10.1021/acs.macromol.1c00818
   type: article
-  DOI: 
+  DOI: 10.1021/acs.macromol.1c00818
   fulltext: 
   language: english
 
@@ -104,7 +104,7 @@
     abbreviation: J. Chem. Phys.
   URL: https://doi.org/10.1063/5.0037979
   type: article
-  DOI: https://doi.org/10.1063/5.0037979
+  DOI: 10.1063/5.0037979
   fulltext: jcp202101.pdf
   language: english
 
@@ -129,7 +129,7 @@
     abbreviation: Macromolecules
   URL: http://dx.doi.org/10.1021/acs.macromol.8b00349
   type: article
-  DOI: http://dx.doi.org/10.1021/acs.macromol.8b00349
+  DOI: 10.1021/acs.macromol.8b00349
   fulltext: ma201801.pdf
   language: english
 
@@ -298,7 +298,7 @@
     abbreviation: J. Chem. Phys.
   URL: http://dx.doi.org/10.1063/1.4968599
   type: article
-  DOI: http://dx.doi.org/10.1063/1.4968599
+  DOI: 10.1063/1.4968599
   fulltext: jcp201601.pdf
   language: english
 
@@ -351,7 +351,7 @@
     abbreviation: J. Chem. Phys.
   URL: http://dx.doi.org/10.1063/1.4881516
   type: article
-  DOI: http://dx.doi.org/10.1063/1.4881516
+  DOI: 10.1063/1.4881516
   fulltext: jcp201401.pdf
   language: english
 

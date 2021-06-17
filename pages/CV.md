@@ -137,7 +137,7 @@ Undergraduate experimental course, 17 students, 15-week, 2-credit.
 
 - Familiar with Linux, FluxML, SciML, Tensorflow, Numpy/Scipy, FFTW, Armadillo, blitz++.
 
-- Open source projects: Please visit [my publication list]({{ site.url }}/software/).
+- Open source projects: Please visit [the software list]({{ site.url }}/software/).
 
 ### Technical Experience
 -----
