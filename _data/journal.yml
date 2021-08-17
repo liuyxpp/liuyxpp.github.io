@@ -1,9 +1,9 @@
 # Yi-Xin Liu's Publications - Journal articles
 
 - title: 'Folded Chain Lamellae of Dynamic Helical Poly-(phenylacetylene) in Hexagonal Columnar Phase'
-  volume: ''
-  issue: ''
-  page: 'ASAP'
+  volume: '54'
+  issue: '13'
+  page: '6038-6044'
   year: 2021
   author:
   - given: Yan-Fang
@@ -42,7 +42,7 @@
   URL: https://doi.org/10.1021/acs.macromol.1c00818
   type: article
   DOI: 10.1021/acs.macromol.1c00818
-  fulltext: 
+  fulltext: ma202101.pdf
   language: english
 
 - title: 'On the Teaching of Modern Polymer Physics: II. Free Energy of A Single Polymer Chain in Polymer Solutions'

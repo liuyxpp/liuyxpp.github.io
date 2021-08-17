@@ -14,6 +14,8 @@ breadcrumbs: true
 ## Journal Articles
 -----
 
+<div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0001-9374-5981" href="https://orcid.org/0000-0001-9374-5981" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0001-9374-5981</a></div>
+
 <div markdown="0">
     <a href="https://scholar.google.com/citations?user=TcKXbCoAAAAJ&hl=en" class="btn btn-info">Google Scholar Profile</a>
 </div>
