@@ -27,7 +27,7 @@ Shanghai 200438, China<br>
 Office: +86-21-31242883<br>
 Mobile: +86-18117210989<br>
 Email: lyx@fudan.edu.cn<br>
-Department profile: [English](http://polymer.fudan.edu.cn/En/Data/View/3193) [中文版](http://polymer.fudan.edu.cn/Data/View/1660)
+Department profile: [English](https://polymer.fudan.edu.cn/polymeren/da/17/c31607a383511/page.htm) [中文版](https://polymer.fudan.edu.cn/e1/db/c31500a385499/page.htm)
 
 **Visiting Researcher (2014.7 - 2016.7)**<br>
 Materials Research Laboratory<br>
