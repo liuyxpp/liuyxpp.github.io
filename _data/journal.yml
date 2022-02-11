@@ -1,5 +1,45 @@
 # Yi-Xin Liu's Publications - Journal articles
 
+- title: 'On the Teaching of Modern Polymer Physics: Free Energy of A Single Polymer Chain in Polymer Solutions'
+  title_alt: '现代高分子物理漫谈--溶液中高分子单链自由能'
+  volume: '37'
+  issue: '1'
+  page: '2103041'
+  year: 2022
+  author:
+  - given: Yi-Xin
+    given_alt: 一新
+    given_initial: Y. X.
+    family: Liu
+    family_alt: 刘
+    name: Yi-Xin Liu
+    name_alt: 刘一新
+    role: 'main'
+  - given: Jian-Feng
+    given_alt: 剑锋
+    given_initial: J. F.
+    family: Li
+    family_alt: 李
+    name: Jian-Feng Li
+    name_alt: 李剑锋
+    role: 'corr'
+  - given: Hong-Dong
+    given_alt: 红东
+    given_initial: H. D.
+    family: Zhang
+    family_alt: 张
+    name: Hong-Dong Zhang
+    name_alt: 张红东
+  journal:
+    fullname: University Chemistry
+    fullname_alt: 大学化学
+    abbreviation: Univ. Chem.
+  URL: ""
+  type: article
+  DOI: https://doi.org/10.3866/PKU.DXHX202103041
+  fulltext: uc202201.pdf
+  language: chinese
+
 - title: 'Folded Chain Lamellae of Dynamic Helical Poly-(phenylacetylene) in Hexagonal Columnar Phase'
   volume: '54'
   issue: '13'
@@ -44,46 +84,6 @@
   DOI: 10.1021/acs.macromol.1c00818
   fulltext: ma202101.pdf
   language: english
-
-- title: 'On the Teaching of Modern Polymer Physics: II. Free Energy of A Single Polymer Chain in Polymer Solutions'
-  title_alt: '现代高分子物理漫谈：II. 溶液中高分子单链自由能'
-  volume: ''
-  issue: ''
-  page: 'Accepted'
-  year: 2021
-  author:
-  - given: Yi-Xin
-    given_alt: 一新
-    given_initial: Y. X.
-    family: Liu
-    family_alt: 刘
-    name: Yi-Xin Liu
-    name_alt: 刘一新
-    role: 'main'
-  - given: Jian-Feng
-    given_alt: 剑锋
-    given_initial: J. F.
-    family: Li
-    family_alt: 李
-    name: Jian-Feng Li
-    name_alt: 李剑锋
-    role: 'corr'
-  - given: Hong-Dong
-    given_alt: 红东
-    given_initial: H. D.
-    family: Zhang
-    family_alt: 张
-    name: Hong-Dong Zhang
-    name_alt: 张红东
-  journal:
-    fullname: University Chemistry
-    fullname_alt: 大学化学
-    abbreviation: Univ. Chem.
-  URL: ""
-  type: article
-  DOI: 
-  fulltext: 
-  language: chinese
 
 - title: 'Simplicity in Mean-field Phase Behavior of Two-component Miktoarm Star Copolymers'
   volume: '154'
