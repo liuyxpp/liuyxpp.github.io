@@ -2,7 +2,7 @@
 layout: post
 title: "Julia in Practice: Building Scattering.jl from Scratch (5)"
 subheadline: "Fundamentals of X-Ray Scattering"
-description: "In this post we will present a concise review of the fundamental theory of X-ray Scattering. Although the speicific properties of X-rays are used, the derivation is applicable to other incident beams, such as neutrons. The derivation presented here is different from most of literature with an emphasis on a consistent treatment on the wave nature of the incident beam."
+description: "In this post we will present a concise review of the fundamental theory of X-ray Scattering. Although the specific properties of X-rays are used, the derivation is applicable to other incident beams, such as neutrons. The derivation presented here is different from most of literature with an emphasis on a consistent treatment on the wave nature of the incident beam."
 author: lyx
 date: 2020-04-23
 modified: 2020-04-23
@@ -15,7 +15,7 @@ show_meta:
     info: true
 ---
 
-In this post we will present a concise review of the fundamental theory of X-ray scattering, including electromagnetic waves, flux and intensity, scattering cross section and scattering length, sacttering by an electron, interference, and atomic form factor. Although the speicific properties of X-rays are used, the derivation is applicable to other incident beams, such as neutrons. The derivation presented here is different from most of literature with an emphasis on a consistent treatment on the wave nature of the incident beam. The notations used in this post mostly follow the book by Roe[^Roe2001].
+In this post we will present a concise review of the fundamental theory of X-ray scattering, including electromagnetic waves, flux and intensity, scattering cross section and scattering length, scattering by an electron, interference, and atomic form factor. Although the specific properties of X-rays are used, the derivation is applicable to other incident beams, such as neutrons. The derivation presented here is different from most of literature with an emphasis on a consistent treatment on the wave nature of the incident beam. The notations used in this post mostly follow the book by Roe[^Roe2001].
 
 <!--more-->
 
@@ -185,7 +185,7 @@ $$
     \Omega = 2\pi(1-\cos\theta).
 $$
 
-The flux of a sphercial wave is invariant only when it passing through a solid angle. It can be easily seen by considering the beam as a steam of photons. Obviously, the number of photons emanating from a point source is a constant passing through a solid angle. Thus the flux in the unit of solid angle is
+The flux of a spherical wave is invariant only when it passing through a solid angle. It can be easily seen by considering the beam as a steam of photons. Obviously, the number of photons emanating from a point source is a constant passing through a solid angle. Thus the flux in the unit of solid angle is
 
 $$
 \begin{equation}
@@ -207,7 +207,7 @@ $$
 \end{equation}\label{eq:JOmegaJ}
 $$
 
-Note that, for a spherical wave, the relation between flux and the maximum magnitude of a plane wave in eq.\eqref{eq:JAA} should be rewriten as
+Note that, for a spherical wave, the relation between flux and the maximum magnitude of a plane wave in eq.\eqref{eq:JAA} should be rewritten as
 
 $$
 \begin{equation}
@@ -236,7 +236,7 @@ $$
 \end{equation}\label{eq:Ez}
 $$
 
-where $e$ and $m$ are the charge and mass of an elctron, respectively.
+where $e$ and $m$ are the charge and mass of an electron, respectively.
 
 Next, Let's consider a incident beam with its electric field vector pointing to the $y$ direction. In this case, the oscillation of the electron is no longer perpendicular to the line OP. Thus the electric field vector $\vE_y$ is the projection of the vector $\vE_{0y}$ on to the line perpendicular to both $z$ axis and the line OP. From Figure 2, it is easily seen that the angle between the vector $\vE_{0y}$ and $\vE_y$ is $2\theta$, thus the magnitude of $\vE_y$ is
 
@@ -334,7 +334,7 @@ $$
 \end{equation}\label{eq:be}
 $$
 
-In fact, the above derivation is applicable to any charged particles, such as necleus. However, as the scattering length $b_e$ is proportional to $1/m^2$, the scattering by necleus is negligible because the mass of a necleon is much higher than the electron. *Thus the scattering of x-rays from matter results entirely from the presense of electrons around atomic centers.*
+In fact, the above derivation is applicable to any charged particles, such as nucleus. However, as the scattering length $b_e$ is proportional to $1/m^2$, the scattering by nucleus is negligible because the mass of a nucleon is much higher than the electron. *Thus the scattering of x-rays from matter results entirely from the presence of electrons around atomic centers.*
 
 By comparing eq.\eqref{eq:JOmega_electron} to eq.\eqref{eq:JOmegaAA}, we find the maximum magnitude of a scattering wave is given by
 
@@ -348,7 +348,7 @@ where $A_0$ is defined in eq.\eqref{eq:A0}.
 
 ### Phase of the scattering wave
 
-Figure 3 shows the paths travelled by the incident beam and the scattering wave at scattering angle $2\theta$. The phase difference between the wave at position Q and at the postion of the beam source P is given by
+Figure 3 shows the paths travelled by the incident beam and the scattering wave at scattering angle $2\theta$. The phase difference between the wave at position Q and at the position of the beam source P is given by
 
 $$
     \Delta\phi_1 = \vk_0\cdot(\vr - \vr_0),
@@ -378,7 +378,7 @@ $$
 \end{equation}\label{eq:Deltaphi}
 $$
 
-The last line of the above equation tells us that the total phase difference consists of two parts: the first part is indpendent of the position of the electron (scatterer) and the second part is a function of $\vr$. It is common to define a *scattering vector*
+The last line of the above equation tells us that the total phase difference consists of two parts: the first part is independent of the position of the electron (scatterer) and the second part is a function of $\vr$. It is common to define a *scattering vector*
 
 $$
 \begin{equation}
@@ -429,9 +429,9 @@ $$
 
 ## Interference
 
-When a beam of x-rays irradiates a sample, it usually results in two different phenomena: (1) scattering of x-rays by a single electron which is described in the previous section, and (2) interference among the waves scattered by these primary events. This interference essentially leads to the variation of the fluxes of the waves scattered in different directions. In experiments, we measure the flux as a function of the scattering direction and the relative placement of electons or atoms in the sample are readily deduced from the collected data.
+When a beam of x-rays irradiates a sample, it usually results in two different phenomena: (1) scattering of x-rays by a single electron which is described in the previous section, and (2) interference among the waves scattered by these primary events. This interference essentially leads to the variation of the fluxes of the waves scattered in different directions. In experiments, we measure the flux as a function of the scattering direction and the relative placement of electrons or atoms in the sample are readily deduced from the collected data.
 
-Strictly speaking, the term *scattering* should refer only to phenomenon (1) above, whereas the term *diffraction* refers to the combination of phenomena (1) and (2). However, this distinction is seldom followed and these two terms are often used interchangably. In practice, the term *diffraction* is used only for crystalline samples or when the structure of the sample is sufficiently regular to exhibit sharp peaks in the scattering curve. When the scattering pattern is diffuse, and especially when the pattern of interest is mainly in the small-angle region, the term *scattering* is almost exclusively used although the phenomenon (2) inevitably presented.
+Strictly speaking, the term *scattering* should refer only to phenomenon (1) above, whereas the term *diffraction* refers to the combination of phenomena (1) and (2). However, this distinction is seldom followed and these two terms are often used interchangeably. In practice, the term *diffraction* is used only for crystalline samples or when the structure of the sample is sufficiently regular to exhibit sharp peaks in the scattering curve. When the scattering pattern is diffuse, and especially when the pattern of interest is mainly in the small-angle region, the term *scattering* is almost exclusively used although the phenomenon (2) inevitably presented.
 
 In this section, we shall develop a formalism for treatment of phenomenon (2). A derivation different from most of literature is presented first. The classical derivation is also discussed for the sake of completeness.
 
@@ -514,7 +514,7 @@ $$
 \end{equation}\label{eq:Aintegral}
 $$
 
-where $V$ denotes that the integration to be performed over the *scattering volume*. *This equation shows that the wave amplitude $A(\vq)$ is proportional to the 3D Fourier transform of the number density $n_e(\vr)$ of the electons.* The Fourier transform plays a central role in the interpretation of scattering and diffraction phenomena.
+where $V$ denotes that the integration to be performed over the *scattering volume*. *This equation shows that the wave amplitude $A(\vq)$ is proportional to the 3D Fourier transform of the number density $n_e(\vr)$ of the electrons.* The Fourier transform plays a central role in the interpretation of scattering and diffraction phenomena.
 
 ### Classical derivation
 
@@ -598,7 +598,7 @@ $$
 
 which is exactly the same as eq.\eqref{eq:ANelectrons}. In the above equation, $\vr_n$ denotes the position of electron $n$ relative to an arbitrary origin. When eq.\eqref{eq:Aclassical} was derived, the origin was placed at one of the electrons, but that was not necessary. What really matters is only the relative difference in the path length between the rays scattered at different electrons. Any effect of the change in the origin would have simply canceled out when the flux was evaluated by taking the absolute square of the amplitude.
 
-It can be seen that the classical derivation is not as clear as our single electron scattering based derivation. For example, the amplitdue expressions presented in eq.\eqref{eq:AO} and related are implicitly assumed without any proof. By comparing to eq.\eqref{eq:amplitude}, we know that $x$ in eq.\eqref{eq:AO} has a much deeper meaning than it seems.
+It can be seen that the classical derivation is not as clear as our single electron scattering based derivation. For example, the amplitude expressions presented in eq.\eqref{eq:AO} and related are implicitly assumed without any proof. By comparing to eq.\eqref{eq:amplitude}, we know that $x$ in eq.\eqref{eq:AO} has a much deeper meaning than it seems.
 
 In the previous derivation, it is assumed that the incident beam and the vector $\vr$ forms an arbitrary angle $\alpha$, shown in Figure 5. In the derivation of the Bragg's law in the crystallographic community, a specific $\alpha=\pi/2 + \theta$ is assumed as shown in Figure 6, which simplifies the calculation of the path difference. It should be bared in mind, however, that such setup is not general. Another popular setup to develop the scattering theory is shown in Figure 7, where $\alpha$ is chosen to be $\pi/2$ which is another special case of the setup shown in Figure 5.
 
@@ -626,7 +626,7 @@ $$
 \end{equation}\label{eq:atom}
 $$
 
-where $n_e(\vr)$ is the time-averaged electron density distribution of the atom, and $\vr$ is defined by puting the origin of the reference coordinate system on the center of the atom. For a free atom, $n_e(\vr)$ bares spherical symmetry. Consequently, the atomic form factor only depends on the magnitude of the scattering vector. By expressing eq.\eqref{eq:atom} in a spherical coordinate system and performing integration over inclination and azimuth, we find
+where $n_e(\vr)$ is the time-averaged electron density distribution of the atom, and $\vr$ is defined by putting the origin of the reference coordinate system on the center of the atom. For a free atom, $n_e(\vr)$ bares spherical symmetry. Consequently, the atomic form factor only depends on the magnitude of the scattering vector. By expressing eq.\eqref{eq:atom} in a spherical coordinate system and performing integration over inclination and azimuth, we find
 
 $$
 \begin{split}
@@ -652,13 +652,13 @@ where we have chosen the polar axis of the spherical coordinate system to coinci
 
 ### Multiple atoms
 
-For x-ray scattering by multiple atoms, it is convenient to regroup electrons according to atoms to which they blong to. As shown in Figure 8, the postion vector $\vr_{jn}$ of any electron can be decomposed into two parts:
+For x-ray scattering by multiple atoms, it is convenient to regroup electrons according to atoms to which they belong to. As shown in Figure 8, the position vector $\vr_{jn}$ of any electron can be decomposed into two parts:
 
 $$
     \vr_{jn} = \vr_j + \vr_n
 $$
 
-where $\vr_j$ is the postion vector of the center of $j$th atom ($j=1, 2, \dots, N_a$), and $\vr_n$ denotes the relative position of $jn$th electron ($n=1, 2, \dots, Z_j$) with respect to the center of $j$th atom.
+where $\vr_j$ is the position vector of the center of $j$th atom ($j=1, 2, \dots, N_a$), and $\vr_n$ denotes the relative position of $jn$th electron ($n=1, 2, \dots, Z_j$) with respect to the center of $j$th atom.
 
 <figure class="image">
     <img src="{{ site.url }}/images/scattering5/atom.png" width="400px">
@@ -675,7 +675,7 @@ $$
 \end{split}
 $$
 
-The quantity in the parenthesses in the third line of above equation, *when averaged over time*, is in effect the same as the integral presented in eq.\eqref{eq:atom}. Therefore, we can write the above equation as
+The quantity in the parentheses in the third line of above equation, *when averaged over time*, is in effect the same as the integral presented in eq.\eqref{eq:atom}. Therefore, we can write the above equation as
 
 $$
 \begin{equation}
@@ -739,7 +739,7 @@ $$
 \end{equation}\label{eq:finalsameatoms}
 $$
 
-If there are $M$ types of atoms, each has $N_{a\alpha}$ atoms with $\alpha=1, 2, \dots, M$. Each atom of type $\alpha$ has $Z_\alpha$ electrons. Thus the total number of electons in the sample is
+If there are $M$ types of atoms, each has $N_{a\alpha}$ atoms with $\alpha=1, 2, \dots, M$. Each atom of type $\alpha$ has $Z_\alpha$ electrons. Thus the total number of electrons in the sample is
 
 $$
     N = Z_\alpha \sum_{\alpha=1}^{M} N_{a\alpha}
@@ -771,7 +771,7 @@ $$
 \end{split}
 $$
 
-Clearly the *scattering length distribution of the sample* $\rho(\vr)$ is a sum of the products of the scattering length of an elctron $b_e$, the atomic form factor $f_\alpha(\vq)$, and the number density of the atom $n_{a\alpha}(\vr)$, for each type of atom.
+Clearly the *scattering length distribution of the sample* $\rho(\vr)$ is a sum of the products of the scattering length of an electron $b_e$, the atomic form factor $f_\alpha(\vq)$, and the number density of the atom $n_{a\alpha}(\vr)$, for each type of atom.
 
 ## Generalization to Arbitrary Particles
 

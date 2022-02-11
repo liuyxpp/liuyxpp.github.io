@@ -9,3 +9,4 @@ Gemfile.lock
 backup
 _backup
 _drafts
+.vscode
