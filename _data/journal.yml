@@ -34,9 +34,9 @@
     fullname: University Chemistry
     fullname_alt: 大学化学
     abbreviation: Univ. Chem.
-  URL: ""
+  URL: https://doi.org/10.3866/PKU.DXHX202103041
   type: article
-  DOI: https://doi.org/10.3866/PKU.DXHX202103041
+  DOI: 10.3866/PKU.DXHX202103041
   fulltext: uc202201.pdf
   language: chinese
 
