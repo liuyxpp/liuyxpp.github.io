@@ -5,7 +5,7 @@ title: My Publications
 description: "A list of my publications: journal articles, presentations, posters, and thesis."
 header-img: images/publications-0.jpg
 comments: false
-modified: 2020-02-12
+modified: 2022-02-12
 breadcrumbs: true
 ---
 
