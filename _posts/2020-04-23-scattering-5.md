@@ -5,7 +5,7 @@ subheadline: "Fundamentals of X-Ray Scattering"
 description: "In this post we will present a concise review of the fundamental theory of X-ray Scattering. Although the specific properties of X-rays are used, the derivation is applicable to other incident beams, such as neutrons. The derivation presented here is different from most of literature with an emphasis on a consistent treatment on the wave nature of the incident beam."
 author: lyx
 date: 2020-04-23
-modified: 2020-04-23
+modified: 2022-02-12
 image:
     feature: false
     twitter: scattering5/path0.png
