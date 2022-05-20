@@ -5,7 +5,7 @@ title: Research Projects
 description: "Research interests: computational science, polymer physics, numerical algorithm, scientific software, polymer crystallization, python."
 header-img: images/research-1.jpg
 comments: false
-modified: 2020-04-11
+modified: 2022-05-20
 breadcrumbs: true
 ---
 
@@ -120,9 +120,9 @@ When the segregation is weak, however, no actual bridge but only a nascent bridg
 ## 2. Self-Assembly of Block Copolymers in Bulk
 
 <figure class="third">
-    <img src="{{ site.url }}/images/research/bcc.png" alt="BCC">
-    <img src="{{ site.url }}/images/research/hex.png" alt="HEX">
     <img src="{{ site.url }}/images/research/gyroid.png" alt="Gyroid">
+    <img src="{{ site.url }}/images/research/hex.png" alt="HEX">
+    <img src="{{ site.url }}/images/research/bcc.png" alt="BCC">
 </figure>
 
 ### 2.1 Methodology Development
