@@ -5,7 +5,7 @@ title: Group Members
 description: "Group members: a list of current group members and alumni."
 header-img: images/research-1.jpg
 comments: false
-modified: 2021-06-17
+modified: 2022-06-24
 breadcrumbs: true
 ---
 
@@ -22,7 +22,7 @@ Dr. Yi-Xin Liu is currently an associated professor at Fudan University. See his
 ## Graduate Students
 -----
 
-*PhD positions are open for application!*
+*Master, PhD, and postdoc positions are open for application!*
 
 ## Undergraduate Students
 -----
@@ -39,7 +39,7 @@ Xu-Chen Gan ([github](https://github.com/vvmbvy)) is working on a *Xi-Yuan Proje
 </figure>
 
 #### Mr. Yu-Chen Zhang
-Yu-Chen Zhang is working on the same project as Xu-Chen Gan.
+Yu-Chen Zhang is working on developing novel algorithms for computing scattering behaviors of polymer assemblies and nanoparticle clusters.
 
 ## Alumni
 -----
