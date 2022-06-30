@@ -5,7 +5,7 @@ title: Software
 description: "A set of open source projects developed by Yi-Xin Liu research group."
 header-img: images/software-1.jpg
 comments: false
-modified: 2020-03-31
+modified: 2022-06-30
 breadcrumbs: true
 ---
 
@@ -45,9 +45,11 @@ Scientific software development plays a central role in my research. Along with 
 * [Introduction to the PolyOrder project]({{ site.url }}/downloads/polyorder20120628.pdf)
 * [Configuration file format]({% post_url 2015-04-06-polyorder-config %})
 
+<!--
 ### Links
 
 * [PolyOrder source code](https://github.com/liuyxpp/polyorder)
+-->
 
 ## cheb++
 -----
@@ -112,10 +114,12 @@ Scientific software development plays a central role in my research. Along with 
 * Analyzer: the trend of the free energy, stretch-free cell size, and accuracy.
 * A project configuration file provides full control of the processor, plotter, and analyzer.
 
+<!--
 ### Links
 
 * [PyDiagram source code](https://github.com/liuyxpp/pydiagram)
 * [PyDiagram PyPI page](http://pypi.python.org/pypi/pydiagram)
+-->
 
 ## Gyroid
 -----
