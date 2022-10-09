@@ -10,7 +10,7 @@ breadcrumbs: true
 
 {% include toc.md panel=true %}
 
-## Scientific Research 101: Introduction to Scientific Computing
+## Scientific Research 101: Introduction to Scientific Computing (XDSY118019, Undergraduate)
 -----
 
 Course website: [www.yxliu.group/XDSY118019/](https://www.yxliu.group/XDSY118019/)
