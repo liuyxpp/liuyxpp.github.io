@@ -25,6 +25,7 @@ Scientific software development plays a central role in my research. Along with 
 
 <div markdown="0">
     <a href="{{ site.url }}/software/#mpltex" class="btn btn-success">mpltex</a>
+    <a href="{{ site.url }}/software/#MakiePublication.jl" class="btn btn-success">MakiePublication.jl</a>
     <a href="{{ site.url }}/software/#ngpy" class="btn btn-success">ngpy</a>
 </div>
 
@@ -109,16 +110,16 @@ Scientific software development plays a central role in my research. Along with 
 
 ### Features
 
-* Processor: support Polyorder and PolyFTS output files, and a general dgm file containing all simulation results.
-* Plotter: provide plots of raw, invalid, phase boundary, and standard phase diagrams.
-* Analyzer: the trend of the free energy, stretch-free cell size, and accuracy.
-* A project configuration file provides full control of the processor, plotter, and analyzer.
+- Processor: support Polyorder and PolyFTS output files, and a general dgm file containing all simulation results.
+- Plotter: provide plots of raw, invalid, phase boundary, and standard phase diagrams.
+- Analyzer: the trend of the free energy, stretch-free cell size, and accuracy.
+- A project configuration file provides full control of the processor, plotter, and analyzer.
 
 <!--
 ### Links
 
-* [PyDiagram source code](https://github.com/liuyxpp/pydiagram)
-* [PyDiagram PyPI page](http://pypi.python.org/pypi/pydiagram)
+- [PyDiagram source code](https://github.com/liuyxpp/pydiagram)
+- [PyDiagram PyPI page](http://pypi.python.org/pypi/pydiagram)
 -->
 
 ## Gyroid
@@ -128,11 +129,11 @@ Scientific software development plays a central role in my research. Along with 
 
 ### Features
 
-* Support 1D, 2D and 3D symmetry groups.
-* Has a structure renderer.
-* Prepare input data for polyorder.
-* Install with pip/easy_install
-* Well documented.
+- Support 1D, 2D and 3D symmetry groups.
+- Has a structure renderer.
+- Prepare input data for polyorder.
+- Install with pip/easy_install
+- Well documented.
 
 ### Links
 
@@ -147,10 +148,10 @@ Scientific software development plays a central role in my research. Along with 
 
 ### Features
 
-* Run multiple simulation instances.
-* Analyze simulation data online.
-* Retrieve result data online.
-* Install with pip/easy_install
+- Run multiple simulation instances.
+- Analyze simulation data online.
+- Retrieve result data online.
+- Install with pip/easy_install
 
 ### Links
 
@@ -162,15 +163,15 @@ Scientific software development plays a central role in my research. Along with 
 -----
 
 `mpltex` is a python package for creating publication-quality plots using matplotlib. Inspired by [Olga Botvinnik](http://olgabotvinnik.com/)'s python package [prettyplotlib](https://github.com/olgabot/prettyplotlib).
-`mpltex` now has **45 stars** and has been **forked 16** times at [github.com](https://github.com)!
+`mpltex` now has **75 stars** and has been **forked 18** times at [github.com](https://github.com)!
 
 ### Features
 
-* Create plots for American Chemical Society.
-* Create plots for presentation slides.
-* Create plots for webpages.
-* The internal matplotlib color cycle is replaced by ColorBrewer Set1 scale which looks less saturated and more pleasing to eyes.
-* enable cycle line styles and a selected set of line markers including hollow type markers.
+- Create plots for American Chemical Society.
+- Create plots for presentation slides.
+- Create plots for webpages.
+- The color cycle is replaced by Tableau classic 10 color scheme which looks less saturated and more pleasing to eyes.
+- enable cycle line styles and a selected set of line markers including hollow type markers.
 
 ### Getting Started
 
@@ -180,3 +181,16 @@ Scientific software development plays a central role in my research. Along with 
 
 - [mpltex source code](https://github.com/liuyxpp/mpltex)
 - [mpltex PyPI page](https://pypi.python.org/pypi/mpltex)
+
+## MakiePublication.jl
+
+[MakiePublication.jl](https://github.com/liuyxpp/MakiePublication.jl) is a Julia package for producing publication quality figures based on [Makie.jl](https://github.com/JuliaPlots/Makie.jl). It aims to provide equivalent functionalities as the Python package [mpltex](https://github.com/liuyxpp/mpltex).
+
+Read the [full documentation here](http://www.yxliu.group/MakiePublication.jl/dev/).
+
+### Features
+
+- Provide a collection of custom themes for journal publishers: ACS, APS, RSC.
+- Custom theme for making figures suitable for web pages.
+- 15 color palettes based on well-known quality color schemes with special tweaked ordering for scientific publishing. (since v0.3.0)
+- Support hollow markers. (since v0.3.1)
