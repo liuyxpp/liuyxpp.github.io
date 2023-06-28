@@ -1,5 +1,75 @@
 # Yi-Xin Liu's Publications - Journal articles
 
+- title: 'Template Design for Complex Block Copolymer Patterns Using a Machine Learning Method'
+  volume: 'June'
+  issue: ''
+  page: 'ASAP'
+  year: 2023
+  author:
+  - given: Zhihan
+    given_initial: Z.
+    family: Liu
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: 'main corr'
+  - given: Yuliang
+    given_initial: Y.
+    family: Yang
+  - given: Jianfeng
+    given_initial: J.
+    family: Li
+    role: 'corr'
+  journal:
+    fullname: ACS Applied Materials & Interfaces
+    abbreviation: ACS Appl. Mater. Interfaces
+  URL: https://pubs.acs.org/doi/10.1021/acsami.3c05018
+  type: article
+  DOI: 10.1021/acsami.3c05018
+  fulltext: acsami202301asap.pdf
+  language: english
+
+- title: 'Composition Waves in Solution-Processed Organic Films and Its Propagations from Kinetically Frozen Surface Mesophases'
+  volume: 'May'
+  issue: ''
+  page: 'ASAP'
+  year: 2023
+  author:
+  - given: Jinde
+    given_initial: J.
+    family: Yu
+  - given: Zichao
+    given_initial: Z.
+    family: Shen
+  - given: Wanlong
+    given_initial: W.
+    family: Lu
+  - given: Yuanwei
+    given_initial: Y.
+    family: Zhu
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: 'main corr'
+  - given: Dieter
+    given_initial: D.
+    family: Neher
+  - given: Norbert
+    given_initial: N.
+    family: Koch
+  - given: Guanghao
+    given_initial: G.
+    family: Lu
+    role: 'corr'
+  journal:
+    fullname: Advanced Functional Materials
+    abbreviation: Adv. Funct. Mater.
+  URL: https://onlinelibrary.wiley.com/doi/10.1002/adfm.202302089
+  type: article
+  DOI: 10.1002/adfm.202302089
+  fulltext:
+  language: english
+
 - title: 'On the Teaching of Modern Polymer Physics: Free Energy of A Single Polymer Chain in Polymer Solutions'
   title_alt: '现代高分子物理漫谈--溶液中高分子单链自由能'
   volume: '37'

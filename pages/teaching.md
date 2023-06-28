@@ -4,7 +4,7 @@ layout: page
 title: Teaching
 description: "Undergraduate courses: Polymer Physics, Introduction to Polymeric Materials."
 comments: false
-modified: 2022-05-20
+modified: 2023-06-28
 breadcrumbs: true
 ---
 
@@ -51,4 +51,4 @@ Note 2: Course time (11-12) corresponds to 18:30 - 20:10.
 ## Polymer Rheology and Processing (Undergraduate & Graduate)
 -----
 
-- Planned for Spring 2023.
+- Planned for Spring 2024.
