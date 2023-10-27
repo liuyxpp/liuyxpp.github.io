@@ -30,9 +30,9 @@
   language: english
 
 - title: 'Composition Waves in Solution-Processed Organic Films and Its Propagations from Kinetically Frozen Surface Mesophases'
-  volume: 'May'
-  issue: ''
-  page: 'ASAP'
+  volume: '33'
+  issue: '40'
+  page: '2302089'
   year: 2023
   author:
   - given: Jinde
@@ -67,7 +67,7 @@
   URL: https://onlinelibrary.wiley.com/doi/10.1002/adfm.202302089
   type: article
   DOI: 10.1002/adfm.202302089
-  fulltext:
+  fulltext: 
   language: english
 
 - title: 'On the Teaching of Modern Polymer Physics: Free Energy of A Single Polymer Chain in Polymer Solutions'
