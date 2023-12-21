@@ -1,5 +1,30 @@
 # Yi-Xin Liu's Publications - Journal articles
 
+- title: 'Automated Identification of Ordered Phases for Simulation Studies of Block Copolymers'
+  volume: ''
+  issue: ''
+  page: ''
+  year: Accepted
+  author:
+  - given: Yuchen
+    given_initial: Y.
+    family: Zhang
+  - given: Weiling
+    given_initial: W.
+    family: Huang
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: 'main corr'
+  journal:
+    fullname: Chinese Journal of Polymer Science
+    abbreviation: Chinese J. Polym. Sci.
+  URL: 
+  type: article
+  DOI: 
+  fulltext: 
+  language: english
+
 - title: 'Template Design for Complex Block Copolymer Patterns Using a Machine Learning Method'
   volume: '15'
   issue: '25'
