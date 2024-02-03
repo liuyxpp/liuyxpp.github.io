@@ -3,8 +3,8 @@
 - title: 'Automated Identification of Ordered Phases for Simulation Studies of Block Copolymers'
   volume: ''
   issue: ''
-  page: ''
-  year: Accepted
+  page: ASAP
+  year: 2024
   author:
   - given: Yuchen
     given_initial: Y.
@@ -19,10 +19,10 @@
   journal:
     fullname: Chinese Journal of Polymer Science
     abbreviation: Chinese J. Polym. Sci.
-  URL: 
+  URL: https://doi.org/10.1007/s10118-024-3084-x
   type: article
-  DOI: 
-  fulltext: 
+  DOI: 10.1007/s10118-024-3084-x
+  fulltext: cjps202401.pdf
   language: english
 
 - title: 'Template Design for Complex Block Copolymer Patterns Using a Machine Learning Method'
