@@ -40,7 +40,7 @@ Note 2: Course time (1-2) corresponds to (8:00 - 9:40), (3-4) corresponds to (9:
 ## Introduction to Polymeric Materials (MACR110003, Undergraduate)
 -----
 
-- Fall 2023, Classroom: H2106B, Time: Mon 11-12
+- Fall 2024, Classroom: H2106B, Time: Mon 11-12
 - Fall 2022, Classroom: H2104B, Time: Mon 11-12
 - Fall 2021, Classroom: H2207, Time: Mon 11-12
 - Fall 2020, Classroom: H2104A, Time: Mon 11-12

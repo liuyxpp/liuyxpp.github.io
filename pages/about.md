@@ -16,7 +16,9 @@ I have spent two years (07/2014 - 07/2016) performing research, as a visiting re
 My [current research interests]({{site.url}}/research) lie in the area of soft matter physics and [scientific software]({{site.url}}/software), including polymer field theory (both mean-field and beyond mean-field) and related numerical algorithms, phase behavior and structures of block copolymers, polymer brushes and polyelectrolytes in bulk and under confinements, directed self-assembly, and ultrathin film crystallization.
 I have published [27 research articles]({{site.url}}/publications) in peer reviewed journals.
 
+<!--
 {% include alert success='Announcement: A postdoc position is open in my group. Please contact me directly to apply.' %}
+-->
 
 **Associate Professor (2019.1 - present)**<br>
 **Lecturer (2012.3 - 2018.12)**<br>
