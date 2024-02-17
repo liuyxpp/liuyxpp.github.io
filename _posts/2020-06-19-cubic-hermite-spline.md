@@ -5,7 +5,7 @@ subheadline: "Perform cubic Hermite spline interpolation in Julia"
 description: "This is a tutorial on how to use the Julia package CubicHermiteSpline.jl, which performs a [cubic Hermite spline interpolation](https://en.wikipedia.org/wiki/Cubic_Hermite_spline) on an array of data points given that their associated gradients at each point are known in advance."
 author: lyx
 date: 2020-06-19
-modified: 2020-08-25
+modified: 2024-02-17
 image:
     feature: false
     twitter: CubicHermiteSpline/twitter.png
@@ -17,7 +17,10 @@ show_meta:
 
 This is a tutorial on how to use the Julia package [CubicHermiteSpline.jl](https://github.com/liuyxpp/CubicHermiteSpline.jl), which performs a [cubic Hermite spline interpolation](https://en.wikipedia.org/wiki/Cubic_Hermite_spline) on an array of data points, $(x_i, y_i)$, given that their associated gradients, $k_i=(dy/dx)_i$, are known in advance.
 
-New: v0.2.2 can now compute the 1st order derivative of the interpolated function.
+New
+
+- v0.3.0 can now perform bivariate cubic Hermite spline interpolation for 2D data points (regular and irregular grids are both supported).
+- v0.2.2 can now compute the 1st order derivative of the interpolated function.
 
 <!--more-->
 
