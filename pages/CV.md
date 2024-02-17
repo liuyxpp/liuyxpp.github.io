@@ -5,7 +5,7 @@ title: Yi-Xin Liu
 description: "CV, Resume of Dr. Yi-Xin Liu at Fudan University."
 header-img: images/abstract-5.jpg
 comments: false
-modified: 2021-04-28
+modified: 2024-02-17
 breadcrumbs: true
 ---
 
@@ -21,17 +21,6 @@ Research Group Homepage: [http://www.yxliu.group](http://www.yxliu.group)
 <div markdown="0">
     <a href="{{ site.url }}/downloads/CV.pdf" class="btn btn-success">Download PDF Version</a>
 </div>
-
-### Education
------
-
-**PhD in Polymer Chemistry and Physics**, 2004-2009<br>
-*Peking University, Beijing, China*<br>
-Disertation: Phase Selection Pathways and Morphological Evolution in Polymer Crystallization: An Experimental and Theoretical Study on Low Molecular Weight Poly(ethylene oxide) Fractions<br>
-Advisor: Prof. Er-Qiang Chen
-
-**BS in Chemistry**, 2000-2004<br>
-*Nanjing University, Nanjing*
 
 ### Research Interests
 -----
@@ -51,7 +40,7 @@ Advisor: Prof. Er-Qiang Chen
 
 - Directed self-assembly of block copolymers under *soft confinements*: nanostructures design and the mechanism of defect removal.
 
-- Developing highly efficient numerical algorithms for self-assembly of block copolymers in bulk and under soft confinements.
+- Developing highly efficient numerical algorithms for computing self-assembly of block copolymers in bulk and under soft confinements based on polymer theoretic-field simulations.
 
 **Visiting Researcher**, 2014 - 2016<br>
 *University of California, Santa Barbara, Materials Research Laboratory*
@@ -81,10 +70,21 @@ Advisor: Prof. Er-Qiang Chen
 
 - Computed surface properties of supported catalysts using Gaussian 98.
 
+### Education
+-----
+
+**PhD in Polymer Chemistry and Physics**, 2004-2009<br>
+*Peking University, Beijing, China*<br>
+Disertation: Phase Selection Pathways and Morphological Evolution in Polymer Crystallization: An Experimental and Theoretical Study on Low Molecular Weight Poly(ethylene oxide) Fractions<br>
+Advisor: Prof. Er-Qiang Chen
+
+**BS in Chemistry**, 2000-2004<br>
+*Nanjing University, Nanjing*
+
 ### Research Grants
 -----
 
-- **General Program of the National Natural Science Foundation of China (NSFC):** Exploration and Design of Nontrivial Mesostructures of Polymeric Materials under Complex Conditions. PI, No. 218743021, 744K RMB (110K USD) 2019.1-2022.12.
+- **General Program of the National Natural Science Foundation of China (NSFC):** Exploration and Design of Nontrivial Mesostructures of Polymeric Materials under Complex Conditions. PI, No. 21873021, 744K RMB (110K USD) 2019.1-2022.12.
 
 - **Shanghai Pujiang Program:** Exploring Novel Nanostructures Through Mircophase Separation of Block Copolymers under Soft Confinements. PI, No. 18PJ1401200, 200K RMB (30K USD), 2018.7-2020.7
 
@@ -118,16 +118,16 @@ Please visit [my publication list]({{ site.url }}/publications/).
 ### Teaching Experience
 -----
 
-**Instructor:** Polymer Physics, 2014, 2017, 2018, 2019, 2020, 2021<br>
+**Instructor:** Polymer Physics, 2014, 2017-2023<br>
 *Fudan University, Department of Macromolecular Science*<br>
 Core undergraduate course, 30+ students, 15-week, 3-credit. Co-instructors: Prof. Hong-Dong Zhang and Prof. Jian-Feng Li.
 
-**Instructor:** Introduction to Polymeric Materials, 2016, 2017, 2018, 2019, 2020<br>
+**Instructor:** Introduction to Polymeric Materials, 2016-2023<br>
 *Fudan University, Department of Macromolecular Science*<br>
 Undergraduate course, 20+ students, 15-week, 2-credit. Co-instructor: Prof. Jia Guo.
 
 **Instructor:** Quantitative Chemical Analysis Experiments, 2006, 2007<br>
-*Peking University, College of Chemistry and Moelcular Engineering*<br>
+*Peking University, College of Chemistry and Molecular Engineering*<br>
 Undergraduate experimental course, 17 students, 15-week, 2-credit.
 
 ### Computational Experience

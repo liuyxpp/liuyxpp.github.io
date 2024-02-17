@@ -9,7 +9,7 @@ modified: 2024-02-17
 breadcrumbs: true
 ---
 
-I (刘一新, Yi-Xin Liu) am a [polymer physicist at Department of Macromolecular Science of Fudan University](http://polymer.fudan.edu.cn/Data/View/1660) since 2012.
+I (刘一新, Yi-Xin Liu) am a [polymer physicist at Department of Macromolecular Science of Fudan University](https://polymer.fudan.edu.cn/e1/db/c31500a385499/page.htm) since 2012.
 Before that, I was a Postdoctoral Research Fellow at Fudan University from 2009 to 2012.
 I received my PhD in Polymer Physics from Peking University China in 2009 and my BSc from Nanjing University China in 2004.
 I have spent two years (07/2014 - 07/2016) performing research, as a visiting researcher, in collaboration with Prof. Glenn H. Fredrickson in Materials Research Laboratory (MRL) at University of California, Santa Barbara, on the fields of computational polymer field theory and theoretical polymer physics.
