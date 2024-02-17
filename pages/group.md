@@ -5,7 +5,7 @@ title: Group Members
 description: "Group members: a list of current group members and alumni."
 header-img: images/research-1.jpg
 comments: false
-modified: 2023-10-31
+modified: 2024-02-17
 breadcrumbs: true
 ---
 
@@ -29,21 +29,33 @@ Dr. Yi-Xin Liu is currently an associated professor at Fudan University. See his
 </figure>
 
 #### Mr. Yu-Chen Zhang
-Yu-Chen Zhang is working on developing novel algorithms for computing scattering behaviors of polymer assemblies and nanoparticle clusters. He is now pursuing a Master degree of science.
+Yu-Chen Zhang is working on developing novel algorithms for computing scattering behaviors of polymer assemblies and nanoparticle clusters. He is now pursuing a MSc.
 
 <figure class="third">
     <img src="{{ site.url }}/images/avatar.jpg" alt="">
 </figure>
 
 #### Ms. Wei-Ling Huang
-Wei-Ling Huang is working on the phase separation kinetics of polymer thin films under solvent evaporation. She is now pursuing a Master degree of science.
+Wei-Ling Huang is working on the phase separation kinetics of polymer thin films under solvent evaporation. She is now pursuing a MSc.
 
 ## Undergraduate Students
 -----
 
-#### Ms. Xi-Yue Zhang
-
 *Welcome undergraduate students to join our research group!*
+
+<figure class="third">
+    <img src="{{ site.url }}/images/avatar.jpg" alt="">
+</figure>
+
+#### Ms. Xi-Yue Zhang
+Xi-Yue Zhang is working on polymer self-consistent field theory and its application to the phase behavior of block copolymers. She is now pursuing a BSc.
+
+<figure class="third">
+    <img src="{{ site.url }}/images/avatar.jpg" alt="">
+</figure>
+
+#### Mr. Shuo Huang
+Shuo Huang's project is yet to be determined. He is now pursuing a BSc.
 
 ## Alumni
 -----

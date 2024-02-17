@@ -4,7 +4,7 @@ layout: page
 title: Teaching
 description: "Undergraduate courses: Polymer Physics, Introduction to Polymeric Materials, Scientific Research 101: Introduction to Scientific Computing."
 comments: false
-modified: 2023-10-06
+modified: 2024-02-17
 breadcrumbs: true
 ---
 
@@ -24,6 +24,7 @@ Note 1: with Prof. Ping Tang at Fall 2022.
 ## Polymer Physics (MACR130002, Undergraduate)
 -----
 
+- Spring 2023, Classroom: H6409, Time: Tues 1-2, Thur 3-4
 - Spring 2023, Classroom: H6506, Time: Tues 1-2, Thur 3-4
 - Spring 2022, Classroom: Online, Time: Tues 1-2, Thur 3-4
 - Spring 2021, Classroom: H6506, Time: Tues 1-2, Thur 3-4
@@ -54,4 +55,4 @@ Note 2: Course time (11-12) corresponds to 18:30 - 20:10.
 ## Polymer Rheology and Processing (Undergraduate & Graduate)
 -----
 
-- Planned for Spring 2024.
+- Planned for Spring 2025.

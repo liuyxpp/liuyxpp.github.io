@@ -5,7 +5,7 @@ title: Software
 description: "A set of open source projects developed by Yi-Xin Liu research group."
 header-img: images/software-1.jpg
 comments: false
-modified: 2022-06-30
+modified: 2024-02-17
 breadcrumbs: true
 ---
 
@@ -17,6 +17,7 @@ Scientific software development plays a central role in my research. Along with 
 
 <div markdown="0">
     <a href="{{ site.url }}/software/#polyorder" class="btn btn-success">PolyOrder</a>
+    <a href="{{ site.url }}/software/#cheb++" class="btn btn-success">cheb++</a>
     <a href="{{ site.url }}/software/#gyroid" class="btn btn-success">gyroid</a>
     <a href="{{ site.url }}/software/#pydiagram" class="btn btn-success">pydiagram</a>
     <a href="{{ site.url }}/software/#scftpy" class="btn btn-success">scftpy</a>
@@ -24,8 +25,8 @@ Scientific software development plays a central role in my research. Along with 
 </div>
 
 <div markdown="0">
-    <a href="{{ site.url }}/software/#mpltex" class="btn btn-success">mpltex</a>
     <a href="{{ site.url }}/software/#MakiePublication.jl" class="btn btn-success">MakiePublication.jl</a>
+    <a href="{{ site.url }}/software/#mpltex" class="btn btn-success">mpltex</a>
     <a href="{{ site.url }}/software/#ngpy" class="btn btn-success">ngpy</a>
 </div>
 
