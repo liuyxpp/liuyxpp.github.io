@@ -54,8 +54,8 @@ Xi-Yue Zhang is working on polymer self-consistent field theory and its applicat
     <img src="{{ site.url }}/images/avatar.jpg" alt="">
 </figure>
 
-#### Mr. Shuo Huang
-Shuo Huang's project is yet to be determined. He is now pursuing a BSc.
+#### Mr. Shuai Tian
+Shuai Tian's project is yet to be determined. He is now pursuing a BSc.
 
 ## Alumni
 -----
