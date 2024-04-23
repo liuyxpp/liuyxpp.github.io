@@ -1,5 +1,51 @@
 # Yi-Xin Liu's Publications - Journal articles
 
+- title: 'On the Teaching of Modern Polymer Physics: Phase Equilibrium of Polymer Blends'
+  title_alt: '现代高分子物理课程系列漫谈: 高分子共混物相平衡'
+  volume: 'ASAP'
+  page:
+  year: 2024
+  author:
+  - given: Wei-Ling
+    given_alt: 玮玲
+    given_initial: W. L.
+    family: Huang
+    family_alt: 黄
+    name: Wei-Ling Huang
+    name_alt: 黄玮玲
+  - given: Yu-Chen
+    given_alt: 御辰
+    given_initial: Y. C.
+    family: Zhang
+    family_alt: 张
+    name: Yu-Chen Zhang
+    name_alt: 张御辰
+  - given: Jian-Feng
+    given_alt: 剑锋
+    given_initial: J. F.
+    family: Li
+    family_alt: 李
+    name: Jian-Feng Li
+    name_alt: 李剑锋
+    role: "corr"
+  - given: Yi-Xin
+    given_alt: 一新
+    given_initial: Y. X.
+    family: Liu
+    family_alt: 刘
+    name: Yi-Xin Liu
+    name_alt: 刘一新
+    role: "main, corr"
+  journal:
+    fullname: Polymer Bulletin
+    fullname_alt: 高分子通报
+    abbreviation: Polymer Bulletin
+  URL: 
+  type: article
+  DOI: 10.14028/j.cnki.1003-3726.2024.23.377
+  fulltext:
+  language: chinese
+
 - title: 'Automated Identification of Ordered Phases for Simulation Studies of Block Copolymers'
   volume: 42
   issue: 5
