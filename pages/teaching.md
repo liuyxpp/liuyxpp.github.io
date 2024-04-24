@@ -24,7 +24,7 @@ Note 1: with Prof. Ping Tang at Fall 2022.
 ## Polymer Physics (MACR130002, Undergraduate)
 -----
 
-- Spring 2023, Classroom: H6409, Time: Tues 1-2, Thur 3-4
+- Spring 2024, Classroom: H6409, Time: Tues 1-2, Thur 3-4 (Apr. 25 - May 16)
 - Spring 2023, Classroom: H6506, Time: Tues 1-2, Thur 3-4
 - Spring 2022, Classroom: Online, Time: Tues 1-2, Thur 3-4
 - Spring 2021, Classroom: H6506, Time: Tues 1-2, Thur 3-4
