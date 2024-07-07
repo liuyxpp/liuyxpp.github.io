@@ -1,5 +1,54 @@
 # Yi-Xin Liu's Publications - Meetigns, Workshops, Proceedings, Talks
 
+- title: 'Automating the Exploration of Block Copolymer Phase Diagrams'
+  year: 2024
+  author:
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  source: 'The 14th International Symposium on Polymer Physics'
+  city: 'Chongqing, China'
+  fulltext:
+
+- title: 'Accelerating Phase Diagram Calculations of Block Copolymer Blends Involving Microphase Separation'
+  year: 2023
+  author:
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  source: 'Polymer Symposium of China'
+  city: 'Wuhan, China'
+  fulltext:
+
+- title: 'A General Description of Polymer Architectures and Its Applications'
+  year: 2021
+  author:
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  source: 'Interdisciplinary Workshop on Macromolecules and Active Matter'
+  city: 'Suzhou, China (Online)'
+  fulltext:
+
+- title: 'Soft and Strong Thermoplastic Elastomers Based on Miktoarm Star Block Copolymers'
+  year: 2017
+  author:
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  - given: Kris T.
+    given_initial: K. T.
+    family: Delaney
+  - given: Glenn H.
+    given_initial: G. H.
+    family: Fredrickson
+  source: 'Fudan University-South China University of Technology Joint Workshop on Soft Matter'
+  city: 'Shanghai, China'
+
 - title: 'Density Functional Model for Fluctuating Polymer Solutions: Partial Saddle Point Approximation Approach'
   year: 2016
   author:
