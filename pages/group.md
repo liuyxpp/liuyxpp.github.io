@@ -12,12 +12,19 @@ breadcrumbs: true
 ## Principle Investigator
 -----
 
-<figure class="third">
-    <img src="{{ site.url }}/images/me.jpg" alt="">
-</figure>
-
-#### Prof. Yi-Xin Liu
-Dr. Yi-Xin Liu is currently an associated professor at Fudan University. See his biography [here]({{ site.url }}/about/).
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <figure class="third">
+        <img src="{{ site.url }}/images/me3.jpg" alt="" class="img-fluid">
+      </figure>
+    </div>
+    <div class="col-md-4">
+      <h4>Prof. Yi-Xin Liu</h4>
+      <p>Dr. Yi-Xin Liu is currently an associated professor at Fudan University. See his biography <a href="{{ site.url }}/about/">here</a>.</p>
+    </div>
+  </div>
+</div>
 
 ## Graduate Students
 -----

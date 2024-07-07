@@ -5,12 +5,13 @@ title: Research Projects
 description: "Research interests: computational science, polymer physics, numerical algorithm, scientific software, polymer crystallization, python."
 header-img: images/research-1.jpg
 comments: false
-modified: 2022-05-20
+modified: 2024-07-07
 breadcrumbs: true
 ---
 
-My current research interests focus on developing theoretical and numerical methods for understanding the phase behavior and structures of block copolymers, polymer brushes and polyelectrolytes both in bulk and under geometrical confinements.
-During the PhD period, my research focus was conducting both experimental and theoretical studies to elucidate the fundamental mechanism of polymer crystallization, using monolayer crystals of low molecular weight poly(ethylene oxide) (PEO) fractions as a model system.
+Research interests of our group focus on developing theoretical and numerical methods for understanding the phase behavior and structures of block copolymers, polymer brushes and polyelectrolytes both in bulk and under geometrical confinements.
+
+We also conducted both experimental and theoretical studies to elucidate the fundamental mechanism of polymer crystallization, using monolayer crystals of low molecular weight poly(ethylene oxide) (PEO) fractions as a model system.
 
 {% include toc.md panel=true %}
 
@@ -20,11 +21,11 @@ During the PhD period, my research focus was conducting both experimental and th
 Block copolymers represent an important class of polymeric materials that
 can self-assemble into complex microstructures on the scale of 1 to 100 nm.
 Confining block copolymers in geometrical environments introduces additional parameters, which leads to an even richer set of nanostructures, making it an attractive route for a wide range of applications including nanolithography, nanotemplating, nanoporous membranes, coatings, and biomaterials.
-I have conducted a comprehensive study of the confining system of block copolymers, including development of highly efficient numerical tools, the surface states of polymer brushes which are often used to modify substrate properties, development of a model to describe the interaction between the modified substrates and the block copolymers, thermodynamic and kinetic aspects of directed self-assembly (DSA).
+Our group have conducted a comprehensive study of the confining system of block copolymers, including development of highly efficient numerical tools, the surface states of polymer brushes which are often used to modify substrate properties, development of a model to describe the interaction between the modified substrates and the block copolymers, thermodynamic and kinetic aspects of directed self-assembly (DSA).
 
 ### 1.1 Methodology Development
 
-<figure class="third">
+<figure class="second">
     <img src="{{ site.url }}/images/research/etdrk4.png" alt="">
 </figure>
 
@@ -38,7 +39,9 @@ It is demonstrated that this method exhibits fourth order accuracy in contour st
 
 ### 1.2 Polymer Brushes
 
-<figure class="third">
+* *Chinese J. Polym. Sci.*, **2018**, *36*, 1047-1054.
+
+<figure class="second">
     <img src="{{ site.url }}/images/research/brush.jpg" alt="">
 </figure>
 
@@ -48,11 +51,12 @@ However, both neutral and purely repulsive substrates are rare in practice.
 Owing to our newly developed numerical method, ETDRK4, we can treat polymer brushes on interacting surfaces being either attractive or repulsive to the grafting polymers.
 It is found that the brush state of the grafting polymers exists at high surface coverage for a whole range of surface interactions from complete repulsion to strong attraction.
 Three additional surfaces states were identified by a scaling analysis of the layer thickness as a function of the stretching parameter at different surface interactions.
-(*Chinese J. Polym. Sci.*, **2018**, *36*, 1047-1054.)
 
 ### 1.3 Surface Interaction Model
 
-<figure class="third">
+* *J. Chem. Phys.*, **2016**, *145*, 214902.
+
+<figure class="second">
     <img src="{{ site.url }}/images/research/surface_interaction.png" alt="">
 </figure>
 
@@ -67,7 +71,6 @@ Hence we believe that this separation of surface interactions into two independe
 Based on this model of surface interactions, we show that the homopolymer-grafted confinement is indeed a versatile platform for creating stable perpendicular lamellae that should be seriously considered in experiments and industrial applications.
 By varying the surface softness and the surface preference of the confining wall, we identify a reasonable window of perpendicular lamellae in the phase diagram of the alignment of self-assembled domains even when the confining wall is highly selective to one of blocks of the block copolymer.
 It thus brings more options in devising substrates that favor perpendicular lamellae by tweaking other properties of substrates that are hopefully easier to control such as the composition, length, and/or grafting density of grafted homopolymers.
-(*J. Chem. Phys.*, **2016**, *145*, 214902.)
 
 ### 1.4 Directed Self-Assembly (DSA)
 
@@ -79,6 +82,12 @@ Consequently, it is impossible to reduce the cost by lowering the resolution of 
 
 ### 1.5 Machine Learning Assisted Inverse Design of DSA Templates
 
+* *ACS Appl. Mater. Interfaces*, **2023**, *15*, 31049-31056.
+
+<figure class="second">
+    <img src="{{ site.url }}/images/research/inverse_dsa.png" alt="">
+</figure>
+
 Inverse design is an emerging concept in materials design that the desired functionality of the new material is declared first and theoretical or numerical calculations are then used to predict which stable compounds/molecules exhibit the required functionality.
 The common approach for tackling such inverse problems is converting them into optimization problems and optimization methods (such as evolutionary algorithms) are employed to solve these problems.
 One major issue of this approach is that the optimization method has to be rerun once the desired functionality is changed a little.
@@ -89,7 +98,10 @@ Thus it can save tremendous amount of computational time in practical applicatio
 
 ### 1.6 Removal of Defects in Self-Assembled Thin Films
 
-<figure class="third">
+* *Acta Polym. Sin.*, **2018**, *12*, 1548-1557.
+* *Macromolecules*, **2018**, *51*, 4201-4212.
+
+<figure class="second">
     <img src="{{ site.url }}/images/research/defect_removal.png" alt="">
 </figure>
 
@@ -100,7 +112,6 @@ We employed the string method coupled with SCFT to explore the influence of graf
 It is found that the "immersion effect" and the "rearrangement effect" of the brush layer can facilitate the hopping diffusion of block copolymer chains through reducing the effective Flory-Huggins interaction parameter, thus making the formation of the "bridge" structure more easier.
 The increase of the softness (decreasing $\gamma$) of the brush layer will enhance these two effects and reduce the energy barrier of the transition state of the defect removal process.
 In the limit of extremely soft confinement, the bridge structures already exist in the dislocation dipole near the brush layer, leading to a diminishing energy barrier of the removal process.
-(*Acta Polym. Sin.*, **2018**, *12*, 1548-1557.)
 
 Most previous studies mainly focused on the removal of in-plane dislocation and disclination defects, while out-of-plane defects receive less attention.
 We studied in detail the removal of two types of out-of-plane defects of lamellar forming block copolymer thin films, the tilted domain defect and the cross-sectional edge dislocation defect, using the string method coupled with the numerical SCFT.
@@ -110,7 +121,6 @@ For both cases, multiple removal pathways have been identified by varying the he
 Phase-diagram-like maps are constructed to show which removal pathway can occur most probably at given height and segregation strength.
 In strong segregation regime, in consistent with that found in the removal of in-plane defects, one or more bridge structures are formed, which serve as a channel for diffusion of polymer chains.
 When the segregation is weak, however, no actual bridge but only a nascent bridge structure, whose density of A components in the B domain is slightly higher than the averaging value, is observed and plays a similar role as the actual bridge.
-(*Macromolecules*, **2018**, *51*, 4201-4212.)
 
 ### 1.7 Research Notes
 
@@ -127,15 +137,18 @@ When the segregation is weak, however, no actual bridge but only a nascent bridg
 
 ### 2.1 Methodology Development
 
+* *Chinese J. Polym. Sci.*, **2018**, *36*, 488-496.
+
 SCFT, as the state-of-the-art technique for computing the self-assembled structures of block copolymers, is attracting continuous efforts to improve its accuracy and efficiency.
 Inspired by the ETDRK4 method we developed to solve non-periodic problems (confined systems), we have extend it to the periodic problems, i.e. bulk systems.
 By making a careful comparison with currently most efficient and popular algorithms, we have shown that the **periodic-ETDRK4** method significantly reduces the number of chain contour steps in solving MDEs, resulting in boost of the overall computational efficiency.
 It is the most efficient non-parallel algorithm for bulk SCFT calculations to date.
-(*Chinese J. Polym. Sci.*, **2018**, *36*, 488-496.)
 
 ### 2.2 Block Copolyelectrolyte Solutions
 
-<figure class="third">
+* *Macromolecules*, **2011**, *44*, 8261-8269.
+
+<figure class="second">
     <img src="{{ site.url }}/images/research/charged.png" alt="">
 </figure>
 
@@ -150,11 +163,12 @@ Meanwhile, the ODT line and the OOT line are asymmetric.
 These features of the phase diagram lead to larger parameter space for the
 hexagonal phase (HEX) near $f=0.5$, which we believe explains the recent
 experimental results.
-(*Macromolecules*, **2011**, *44*, 8261-8269.)
 
 ### 2.3 Fluctuation Stabilized Mesophase
 
-<figure class="third">
+* *Macromolecules*, **2017**, *50*, 6263-6272.
+
+<figure class="second">
     <img src="{{ site.url }}/images/research/BM.png" alt="">
 </figure>
 
@@ -164,7 +178,6 @@ In collaboration with Prof. G. H. Fredrickson at UCSB, we investigated the equil
 As expected, the B&M mesophase is not present in the mean-field phase diagram obtained with self-consistent field theory, but complex Langevin (CL) simulations, which fully incorporate thermal fluctuation effects, reveal dramatic changes to the phase diagram.
 A region of strong fluctuations results in the emergent stabilization of the B&M mesophase in a broad composition channel positioned between microphase separation and macrophase separation envelopes, consistent with experimental observations.
 Our simulations clarify the topology of the blend phase diagram and suggest that the B&M mesophase, at least as observed near the order-disorder transition, has no long-range or quasi-long-range positional or orientational order.
-(*Macromolecules*, **2017**, *50*, 6263-6272.)
 
 ### 2.4 Beyond Mean-Field Density Functional Models for Polymer Systems
 
@@ -178,6 +191,8 @@ Using the same strategy for developing the model of polymer solutions, it can be
 ## 3. Ultrathin Film Polymer Crystallization
 -----
 
+* *Coord. Chem. Rev.*, **2010**, *254*, 1011-1037.
+
 Ordering and crystallization of polymeric chains with regular chemistry structure is one of the most striking phenomena in condensed matter physics.
 The process of polymer crystallization is a transition from a randomly coiled state to a perfectly ordered state. During this process a hierarchy of ordered structure develops, which in turn controls the physical properties of the polymer materials. In bulk, spherulites are the most common superstruc-tures observed when crystallizing from melt, while single crystals and dendrites can be grown from dilute solutions. Recently, polymer crystallization under spatial confinement, especially in thin (thickness less than 1000 nm) and ultrathin (thickness less than 100 nm) films on solid substrates, has attracted increasing attention. The objective to study polymer crystallization confined in ultrathin films is twofold:
 
@@ -185,11 +200,12 @@ The process of polymer crystallization is a transition from a randomly coiled st
 2. to provide new evidence to better understand the nature of polymer crystal-lization.
 
 Low molecular weight poly(ethylene oxide) (PEO) fractions tend to form integral folded chain [IF($n$)] monolayer crystals with $n$ the number of folds per chain on mica surfaces, which serve as a good model to study the underlying mechanism of polymer crystallization.
-(*Coord. Chem. Rev.*, **2010**, *254*, 1011-1037.)
 
 ### 3.1 Crystallization Kinetics
 
-<figure>
+* *Macromolecules*, **2011**, *44*, 8819-8828.
+
+<figure class="second">
     <img src="{{ site.url }}/images/research/peo.png" alt="">
 </figure>
 
@@ -197,11 +213,13 @@ The phase selection pathways in crystallization of PEO monolayer on mica surface
 We focused on a temperature region where the crystallization kinetics of IF(0) and IF(1) crystals are expected to compete with each other.
 Four pathways are identified: melt$\rightarrow$IF(0) crystals (S0), melt$\rightarrow$IF(1) crystals (S1), IF(1) crystals$\rightarrow$IF(0) crystals (S10), and the composite fluctuation of the latter two (S2).
 This observation agrees with classical nucleation theory except the fact that S0 cannot occur before S1 when the undercooling exceeds some critical value, which can only be understood by introducing the Gr\'an\'asy-Oxtoby nucleation theory.
-(*Macromolecules*, **2011**, *44*, 8819-8828.)
 
 ### 3.2 Crystal Thickening Process
 
-<figure>
+* *Macromolecules*, **2009**, *42*, 2886-2890.
+* *Acta Polym. Sin.*, **2018**, *9*, 1212-1220.
+
+<figure class="second">
     <img src="{{ site.url }}/images/research/peo_thickening.png" alt="">
 </figure>
 
@@ -211,7 +229,6 @@ While the number of thickening domains increases with time, the thickness behave
 This phenomenon highly indicates that lamellar thickening follows a nucleation and growth mechanism, which has been actually reproduced by **phase field simulations**.
 Combining the experimental and simulation results, we can conclude that while the longitudinal sliding diffusion within the crystalline lattice provides the manner of thickening, the fold surface free energy dominates the thickening barrier.
 As the fold surface free energy reduces with temperature (an effect has been neglected in most literatures), the thickening rate will increase.
-(*Macromolecules*, **2009**, *42*, 2886-2890; *Acta Polym. Sin.*, **2018**, *9*, 1212-1220.)
 
 ### 3.3 Thermodynamic Behavior
 
@@ -224,20 +241,25 @@ The end group effect on the melting behavior of the monolayer crystals was also 
 ## 4. Scientific Software Development
 -----
 
-As an important part of my research work, I have developed several computational software packages and implemented numerical algorithms to perform computational tasks encountered along research.
+As an important part of our research work, we have developed several scientific computing software and packages and implemented numerical algorithms to perform computational tasks for our research.
 
-Programming languages involved: `C/C++`, `Matlab`, and `Python`. Transition to `Julia` Planned.
+Currently, we almost exclusively use the `Julia` language. Previous software and packages developed in `C/C++`, `Matlab`, and `Python` are considered deprecated.
 
-### 4.1 Software Packages
+### 4.1 Software & Packages
 
-* [Polyorder]({{ site.url }}/software/#polyorder)
-* [Gyroid]({{ site.url }}/software/#gyroid)
-* [PyDiagram]({{ site.url }}/software/#pydiagram)
-* [NGPy]({{ site.url }}/software/#ngpy)
-* [mpltex]({{ site.url }}/software/#mpltex)
+Please visit the [full list of our software]({{site.url}}/software/). Below is a brief list of our core software:
+
+* [Polyorder.jl]({{ site.url }}/software/#polyorderjl)
+* [Scattering.jl]({{ site.url }}/software/#scatteringjl)
+* [PhaseDiagram.jl]({{ site.url }}/software/#phasediagram.jl)
+* [MakiePublication.jl]({{ site.url }}/software/#makiepublicationjl)
 
 ### 4.2 Numerical Algorithms
 
+* OPS method for constructing the phase diagram of polymer blends.
+* Modern acceleration methods for SCFT calculations of block copolymers.
+* Graph enhanced SCFT method for computing arbitrary noncyclic chain architecures.
+* ETDRK4 and periodic-ETDRK4 methods for SCFT calculations of confined polymers.
 * Chebyshev collocation method for SCFT calculations of confined polymers.
 * Pseudo-spectral method for SCFT calculations.
 * Multigrid method for SCFT calculations of charged polymers.
@@ -246,8 +268,4 @@ Programming languages involved: `C/C++`, `Matlab`, and `Python`. Transition to `
 
 ### 4.3 Research Notes
 
-* [Julia in Practice: Building Scattering.jl from Scratch (1)]({% post_url 2020-03-19-scattering-1 %})
-* [Weak Inhomogeneity Expansion in Polymer Field Theory]({% post_url 2019-01-03-lyx-tr-2015-02 %})
-* [Simpson's Rule and Other Fourth-Order Quadrature Formulas]({% post_url 2014-09-11-simpson %})
-* [mpltex: A Tool for Creating Publication-Quality Plots]({% post_url 2014-09-09-mpltex %})
-* [Full list of Research Notes]({{site.url}}/blog/category/research/)
+Please visist the [full list of our Research Notes]({{site.url}}/blog/category/research/)
