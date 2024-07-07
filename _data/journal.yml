@@ -40,10 +40,10 @@
     fullname: Polymer Bulletin
     fullname_alt: 高分子通报
     abbreviation: Polymer Bulletin
-  URL: 
+  URL: https://www.gfztb.com/zh/article/doi/10.14028/j.cnki.1003-3726.2024.23.377/
   type: article
   DOI: 10.14028/j.cnki.1003-3726.2024.23.377
-  fulltext:
+  fulltext: gfztb202401.pdf
   language: chinese
 
 - title: 'Automated Identification of Ordered Phases for Simulation Studies of Block Copolymers'
