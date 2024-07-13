@@ -15,11 +15,7 @@ Scientific software development plays a central role in our research group. Alon
     <img src="{{ site.url }}/images/software.png" alt="">
 </figure>
 
-Some listed software are open sourced. More will be open sourced as they become mature. Please check our github.com account for the latest updates.
-
-<div markdown="0">
-    <a href="https://github.com/liuyxpp" class="btn btn-info">View source codes at github.com</a>
-</div>
+Some listed software are open sourced. More will be open sourced as they become mature. Please check our [github.com account](https://github.com/liuyxpp) for the latest updates.
 
 <div markdown="0">
     <a href="{{ site.url }}/software/#polyorderjl" class="btn btn-danger">Polyorder.jl</a>
