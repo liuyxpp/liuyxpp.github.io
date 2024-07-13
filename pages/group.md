@@ -29,7 +29,7 @@ breadcrumbs: true
 ## Graduate Students
 -----
 
-*Master, PhD, and postdoc positions are open for application!*
+_Master, PhD, and postdoc positions are open for application!_
 
 <!--
 <figure class="third">
@@ -38,6 +38,8 @@ breadcrumbs: true
 -->
 
 #### Mr. Yu-Chen Zhang
+_Sep. 2022 - Present_
+
 Yu-Chen Zhang is working on developing novel algorithms for computing scattering behaviors of polymer assemblies and nanoparticle clusters. He is now pursuing a MSc.
 
 <!--
@@ -47,12 +49,19 @@ Yu-Chen Zhang is working on developing novel algorithms for computing scattering
 -->
 
 #### Ms. Wei-Ling Huang
+_Sep. 2022 - Present_
+
 Wei-Ling Huang is working on the phase separation kinetics of polymer thin films under solvent evaporation. She is now pursuing a MSc.
+
+#### Mr. Jun-Yang Liu
+_Starting from Sep. 2024_
+
+Jun-Yang Liu will join our group this autumn as a MSc student. Welcome! 👏🏻👏🏻👏🏻
 
 ## Undergraduate Students
 -----
 
-*Welcome undergraduate students to join our research group!*
+_Welcome undergraduate students to join our research group!_
 
 <!--
 <figure class="third">
@@ -61,7 +70,9 @@ Wei-Ling Huang is working on the phase separation kinetics of polymer thin films
 -->
 
 #### Ms. Xi-Yue Zhang
-Xi-Yue Zhang is working on a Xi-Yuan Project (2021) to develop **Machine Learning** methods for predicting the phase behavior of block copolymers. to the phase behavior of block copolymers.  She is now pursuing a BSc.
+_Mar. 2024 - Present_
+
+Xi-Yue Zhang is working on a Xi-Yuan Project (2021) to develop **Machine Learning** methods for predicting the phase behavior of block copolymers. She is now pursuing a BSc.
 
 <!--
 <figure class="third">
@@ -81,7 +92,9 @@ Shuai Tian's project is yet to be determined. He is now pursuing a BSc.
 </figure>
 -->
 
-#### Mr. Xu-Chen Gan (Mar. 2021 - Jun. 2022)
+#### Mr. Xu-Chen Gan
+_Mar. 2021 - Jun. 2022_
+
 Xu-Chen Gan ([github](https://github.com/vvmbvy)) was working on a *Xi-Yuan Project (2021)* to develop efficient and reliable algorithms for computing phase diagrams of polymer blends. He graduated at 2022 with BSc. He is now pursuing a PhD at UMass.
 
 <!--
@@ -90,5 +103,7 @@ Xu-Chen Gan ([github](https://github.com/vvmbvy)) was working on a *Xi-Yuan Proj
 </figure>
 -->
 
-#### Dr. Jun-Qing Song (Sep. 2013 - Jun. 2018)
+#### Dr. Jun-Qing Song
+_Sep. 2013 - Jun. 2018_
+
 Dr. Jun-Qing Song graduated at 2018 with PhD. He is working in a government department at Guangxi Province (as of 2018).
