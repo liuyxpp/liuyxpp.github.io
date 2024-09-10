@@ -4,7 +4,7 @@ layout: page
 title: Teaching
 description: "Undergraduate courses: Polymer Physics, Introduction to Polymeric Materials, Scientific Research 101: Introduction to Scientific Computing."
 comments: false
-modified: 2024-02-17
+modified: 2024-09-10
 breadcrumbs: true
 ---
 
@@ -15,6 +15,7 @@ breadcrumbs: true
 
 Course website: [www.yxliu.group/XDSY118019/](https://www.yxliu.group/XDSY118019/)
 
+- Fall 2024, Calssroom: H2205, Time: Thur 11-13
 - Fall 2023, Classroom: H2210, Time: Thur 11-13.
 - Fall 2022, Classroom: H6104, Time: Thur 11-13.
 
@@ -40,7 +41,7 @@ Note 2: Course time (1-2) corresponds to (8:00 - 9:40), (3-4) corresponds to (9:
 ## Introduction to Polymeric Materials (MACR110003, Undergraduate)
 -----
 
-- Fall 2024, Classroom: H2106B, Time: Mon 11-12
+- Fall 2023, Classroom: H2106B, Time: Mon 11-12
 - Fall 2022, Classroom: H2104B, Time: Mon 11-12
 - Fall 2021, Classroom: H2207, Time: Mon 11-12
 - Fall 2020, Classroom: H2104A, Time: Mon 11-12
