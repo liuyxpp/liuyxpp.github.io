@@ -1,5 +1,30 @@
 # Yi-Xin Liu's Publications - Journal articles
 
+- title: 'Automated chain architecture screening for discovery of block copolymer assembly with graph enhanced self-consistent field theory'
+  volume: 5
+  issue:
+  page: 266
+  year: 2024
+  author:
+  - given: Yuchen
+    given_initial: Y.
+    family: Zhang
+  - given: Weiling
+    given_initial: W.
+    family: Huang
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: 'main corr'
+  journal:
+    fullname: Computational Materials
+    abbreviation: Commun. Mater.
+  URL: https://doi.org/10.1038/s43246-024-00723-w
+  type: article
+  DOI: 10.1038/s43246-024-00723-w
+  fulltext: cm202401.pdf
+  language: english
+
 - title: 'On the Teaching of Modern Polymer Physics: Phase Equilibrium of Polymer Blends'
   title_alt: '现代高分子物理课程系列漫谈: 高分子共混物相平衡'
   volume: 37

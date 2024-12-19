@@ -1,5 +1,27 @@
 # Yi-Xin Liu's Publications - Meetigns, Workshops, Proceedings, Talks
 
+- title: 'Accelerating Mean-Field Phase Diagram Construction of Multi-component Block Copolymer Blends'
+  year: Upcoming
+  author:
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  source: 'APS March Meeting'
+  city: 'Anaheim, CA, USA'
+  fulltext:
+
+- title: '嵌段共聚物相图计算相关加速算法研究'
+  year: 2024
+  author:
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  source: '中国化学会软物质理论计算与模拟学术会议'
+  city: 'Guangzhou, China'
+  fulltext:
+
 - title: 'Automating the Exploration of Block Copolymer Phase Diagrams'
   year: 2024
   author:

@@ -5,7 +5,7 @@ title: Group Members
 description: "Group members: a list of current group members and alumni."
 header-img: images/research-1.jpg
 comments: false
-modified: 2024-07-07
+modified: 2024-12-18
 breadcrumbs: true
 ---
 
@@ -54,14 +54,14 @@ _Sep. 2022 - Present_
 Wei-Ling Huang is working on the phase separation kinetics of polymer thin films under solvent evaporation. She is now pursuing a MSc.
 
 #### Mr. Jun-Yang Liu
-_Starting from Sep. 2024_
+_Sep. 2024 - Present_
 
-Jun-Yang Liu will join our group this autumn as a MSc student. Welcome! 👏🏻👏🏻👏🏻
+Jun-Yang Liu is developing highly efficient algorithms for solving SCFT equations of block copolymers. He is now pursuing a MSc.
 
 ## Undergraduate Students
 -----
 
-_Welcome undergraduate students to join our research group!_
+_Welcome undergraduate students to join our research group! Please contact Prof. Liu to make an appointment for interview._
 
 <!--
 <figure class="third">
