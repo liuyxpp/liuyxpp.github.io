@@ -13,109 +13,64 @@
 
 {% include nav_cleanblog.html %}
 
-{% include header-home.html %}
-
 <div id="main" role="main">
-
-{% comment %}
-*
-* First check, if widget is empty or not by checking if there is a title
-*
-{% endcomment %}
-<div class="row t60 widget">
-    {% if page.widget1.title %}
-        {% include frontpage-widget.html widget=page.widget1 %}
-    {% endif %}
-
-
-    {% if page.widget2.title %}
-        {% include frontpage-widget.html widget=page.widget2 %}
-    {% endif %}
-
-
-    {% if page.widget3.title %}
-        {% include frontpage-widget.html widget=page.widget3 %}
-    {% endif %}
-</div><!-- /.row -->
-
-<div class="row t30 b20 homepage">
-<div class="small-12 columns">
-    <h2>News</h2>
-</div>
-</div>
-
-<div class="row announcement-content">
-<div class="medium-6 columns">
-    <!--
-    <p>
-        诚招博士/博士后：欢迎对软物质物理、高分子场论、数值计算、机器学习、Julia或Python等感兴趣的同学/博士加盟本课题组。请直接发简历至lyx@fudan.edu.cn咨询。
-    </p>-->
-    <p>
-        2024.12.18 YC Zhang published a paper on <a href="https://rdcu.be/d334W">Communication Materials</a> on Automated chain architecture screening for discovery of block copolymer assembly with graph enhanced self-consistent field theory. Congratulations! 🎉🎉🎉
-    </p>
-    <p>
-        2024.4.7 WL Huang published a paper on <a href="https://www.gfztb.com/zh/article/doi/10.14028/j.cnki.1003-3726.2024.23.377/">Polymer Bulletin （《高分子通报》）</a> on the teaching of modern polymer physics: phase equilibrium of polymer blends. Congratulations! 🎉🎉🎉
-    </p>
-    <p>
-        2024.2.17 YC Zhang published a paper on <a href="https://doi.org/10.1007/s10118-024-3084-x">Chinese Journal of Polymer Science</a> on Automated Identification of Ordered Phases for Simulation Studies of Block Copolymers. Congratulations! 🎉🎉🎉
-    </p>
-</div>
-</div>
-
-{% comment %}
-*
-* First check, if there are any posts at all
-*
-{% endcomment %}
-
-{% unless site.posts == empty %}
-    <div class="row t30 b20 homepage">
-        <div class="small-12 columns">
-            {% for post in site.posts limit:1 %}
-            {% if post.image.homepage %}
-            <p>
-                <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}">
-                    <img width="970" src="{{ site.urlimg }}{{ post.image.homepage }}" alt="{{ page.title | escape_once }}" />
-                </a>
-            </p>
-
-            {% if post.image.caption_url and post.image.caption %}
-            <p class="text-right caption">
-                <a href="{{ post.image.caption_url }}">{{ post.image.caption }}</a>
-            </p>
-            {% endif %}
-            {% else %}
-            <h2>{{ site.data.language.new_blog_entries }}</h2>
-            {% endif %}
-            {% endfor %}
-        </div>
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1 class="hero-title">Welcome to Polyorder Lab @Fudan</h1>
+      <p class="hero-subtitle">Exploring the Frontiers of Polymer Physics and Computational Materials Science</p>
+      <div class="hero-cta">
+        <a href="/research" class="button primary">Our Research</a>
+        <a href="/publications" class="button secondary">Recent Publications</a>
+      </div>
     </div>
+  </section>
 
+  <!-- Featured Content Section -->
+  <section class="featured-section">
+    <div class="grid-container">
+      <div class="featured-card">
+        <h2>Latest Blogs</h2>
+        <p>Read our latest blog posts about polymer physics, scientific computing, and software development.</p>
+        <a href="/blog" class="button">Learn More</a>
+      </div>
 
-    <div class="row blog-articles">
-        <div class="medium-6 columns">
-            {% for post in site.posts limit:1 %}
-            {% if post.subheadline %}<p class="subheadline">{{ post.subheadline }}</p>{% endif %}
-            <h2>{% include snippets/post_link.html post=post %}</h2>
-            <p>
-                {% if post.description %}{{ post.description | strip_html | escape }}{% elsif post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}
-                <a href="{{ site.baseurl }}{{ post.url }}" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
-            </p>
-            {% endfor %}
-        </div>
-
-        <div class="medium-6 columns">
-            <h4>{{ site.data.language.more_articles }}</h4>
-            {% assign moreLink = site.baseurl | append: '/blog/' %}
-            {% include list-posts.html entries='3' offset='1' more=moreLink %}
-        </div>
+      <div class="featured-card">
+        <h2>Join Our Team</h2>
+        <p>We're always looking for talented researchers to join our group.</p>
+        <a href="/group" class="button">Opportunities</a>
+      </div>
     </div>
-{% endunless %}
+  </section>
 
+  <!-- News Section -->
+  <section class="news-section">
+    <h2 class="section-title">Latest News</h2>
+    <div class="news-grid">
+      {% assign sorted_news = site.data.news | sort: 'date' | reverse %}
+      {% for item in sorted_news limit:3 %}
+      <article class="news-card">
+        <div class="news-content">
+          <h3>{{ item.title }}</h3>
+          <p class="news-meta">{{ item.date | date: "%Y.%m.%d" }} | {{ item.category | capitalize }}</p>
+          <p>{{ item.description }}</p>
+          <a href="{{ item.url }}" class="read-more">Read more</a>
+        </div>
+      </article>
+      {% endfor %}
+      
+      <!-- More News Card -->
+      <article class="news-card more-news">
+        <div class="news-content">
+          <a href="/news" class="read-more">View All News</a>
+        </div>
+      </article>
+    </div>
+  </section>
 
 {% comment %}
 *
-* Finally, if there is content, spit it out.
+* Main content section
 *
 {% endcomment %}
 

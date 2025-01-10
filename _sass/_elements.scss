@@ -122,15 +122,15 @@ svg:not(:root) {
   }
 }
 .btn-success {
-  background-color: $success;
+  background-color: $success-color;
   color: $white;
-  border-color: $success;
+  border-color: $success-color;
   &:visited {
     color: $white;
   }
   &:hover {
     background-color: $white;
-    color: $success;
+    color: $success-color;
   }
 }
 .btn-warning {
@@ -202,8 +202,8 @@ ul#markdown-toc {
 
 .border-dotted {
   border: 1px dotted $grey-5;
-  padding: rem-calc(20);
-  border-radius: $global-radius;
+  padding: 1.25rem;
+  border-radius: 4px;
 }
 
 
@@ -243,18 +243,26 @@ ul#markdown-toc {
     border-bottom: 1px solid #fff;
   }
   &.terminal {
-    @include alert-style($terminal-color);
+    background-color: $terminal-color;
+    border-color: darken($terminal-color, 10%);
+    color: #fff;
     font-family: $font-family-monospace;
   }
   &.text {
-    @include alert-style($grey-2);
+    background-color: $grey-2;
+    border-color: darken($grey-2, 10%);
+    color: #000;
     text-shadow: none;
   }
   &.tip {
-    @include alert-style($info-color);
+    background-color: $info-color;
+    border-color: darken($info-color, 10%);
+    color: #fff;
   }
   &.todo {
-    @include alert-style($todo-color);
+    background-color: $todo-color;
+    border-color: darken($todo-color, 10%);
+    color: #000;
     text-shadow: none;
   }
   &.alert {
@@ -297,7 +305,7 @@ ul#markdown-toc {
   }
 
   @media print {
-    border: 3px solid $aluminum !important;
+    border: 3px solid #999 !important;
   }
 }
 
@@ -379,12 +387,15 @@ button, .button {
   $tag-size-base: 12;
   $tag-size-count: 10;
   $tag-size-height-max: $tag-size-base + $tag-size-count * $tag-size-count / $tag-size-count;
-  @include label($bg: $grey-11, $radius: true);
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  background-color: $grey-11;
+  border-radius: 4px;
   font-weight: bold;
   font-size: rem-calc($tag-size-base + 0 * 0 / $tag-size-count);
   margin-top: rem-calc(($tag-size-height-max - $tag-size-base) / 2);
   margin-bottom: rem-calc(($tag-size-height-max - $tag-size-base) / 2);
-  background-color: $body-bg;
+  background-color: #fff;
   color: $text-color;
   border: 2px solid $grey-11;
   &:visited {

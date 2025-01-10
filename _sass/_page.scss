@@ -67,7 +67,7 @@ body {
 		margin: 10px 20px;
 		font-weight: 700;
 		@include font-rem(24);
-		color: $secondary; //lighten($base-color,20);
+		color: $secondary;
 		@media #{$medium} {
 			@include font-rem(36);
 		}
@@ -78,21 +78,19 @@ body {
 	h2 {
 		margin: 0;
 		@include font-rem(18);
-		//text-transform: uppercase;
-		color: lighten($base-color,40);
+		color: lighten(rgba(#222,0.8),40);
 		@media #{$medium} {
 			@include font-rem(24);
 		}
 	}
 	p {
-		color: lighten($base-color,20);
+		color: lighten(rgba(#222,0.8),20);
 	}
 }
 .feature .header-title {
 	position: absolute;
 	top: 0;
 	display: table;
-	//margin-top: 0;
     margin-top: $navbar-actual-height;
 	width: 100%;
 	height: $post-header-height;
@@ -108,17 +106,14 @@ body {
 		font-weight: 700;
 		margin: 10px 60px;
 		color: $white;
-		text-shadow: 1px 1px 4px rgba($base-color,0.6);
+		text-shadow: 1px 1px 4px rgba(rgba(#222,0.8),0.6);
 		a {
 			color: $white;
-		}
-		@media #{$large} {
 		}
 	}
 	h2 {
 		margin: 0;
 		color: $white;
-		//text-transform: uppercase;
 		@media #{$medium} {
 			a {
 				color: $white;
@@ -144,7 +139,7 @@ body {
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background-color: rgba($base-color,0.3);
+		background-color: rgba(rgba(#222,0.8),0.3);
 	}
 	img {
 		position: absolute;
@@ -154,7 +149,7 @@ body {
 		bottom: 0;
 		margin: auto;
 		min-width: 50%;
-		min-height: $post-header-height; // match .entry-image min-height
+		min-height: $post-header-height;
 	}
 }
 // Feature Image Caption
@@ -165,7 +160,7 @@ body {
 	margin: 0 auto;
 	max-width: 440px;
 	padding: 10px 15px;
-	background-color: rgba($base-color,0.5);
+	background-color: rgba(rgba(#222,0.8),0.5);
 	color: $white;
 	@include font-rem(12);
 	text-align: right;
@@ -188,10 +183,10 @@ body {
 .entry-meta {
 	@include font-rem(12);
 	text-transform: uppercase;
-	color: lighten($base-color,60);
+	color: lighten(rgba(#222,0.8),60);
     margin: 50px 30px 0px 30px;
 	a {
-		color: lighten($base-color,60);
+		color: lighten(rgba(#222,0.8),60);
         border-bottom: none;
         &:hover {
             color: $link-color-hover;
@@ -218,17 +213,17 @@ body {
 		margin: 4px;
 		color: $white;
 		@include rounded(3px);
-		background-color: lighten($base-color,50);
+		background-color: lighten(rgba(#222,0.8),50);
 		span {
 			float: left;
 			padding: 2px 6px;
 		}
 		.count {
-			background-color: lighten($base-color,40);
+			background-color: lighten(rgba(#222,0.8),40);
 			@include border-radius(3px,3px,0,0);
 		}
 		&:hover {
-			background-color: lighten($base-color,40);
+			background-color: lighten(rgba(#222,0.8),40);
 		}
 	}
 	.entry-reading-time {
@@ -237,7 +232,7 @@ body {
 }
 
 header .entry-meta {
-	display: none; // hide header meta on small screens
+	display: none;
 	@media #{$medium} {
 		display: block;
 	}
@@ -291,12 +286,10 @@ header .entry-meta {
         }
     }
     div.highlighter-rouge {
-        //margin: 0;
         padding-top: 10px;
         padding-bottom: 10px;
     }
     figure.image{
-        // background-color: #E9F9E9;
         display: block;
         width: 50%;
         min-width: 400px;
@@ -304,11 +297,8 @@ header .entry-meta {
         font-style: italic;
         font-size: smaller;
         text-indent: 0;
-        // border: thin silver solid;
         margin-left: auto;
         margin-right: auto;
-        // margin: 0.5em;
-        // padding: 0.5em;
     }
     img.displayed{
         display: block;
@@ -320,7 +310,6 @@ header .entry-meta {
     }
     article {
         header.post-header {
-            //display: block;
             border-bottom: 2px solid $header-underline-color;
             margin-bottom: 20px;
         }
@@ -344,7 +333,6 @@ header .entry-meta {
             }
         }
     }
-    /* should be put outside of .entry-meta */
     #post-nav {
         margin-top: 30px;
         a {
@@ -392,7 +380,6 @@ header .entry-meta {
     }
     article {
         header.post-index-header {
-            //display: block;
             border-bottom: 2px solid $header-underline-color;
             margin-bottom: 20px;
         }
@@ -434,11 +421,9 @@ header .entry-meta {
 .year-heading {
 	margin-top: 0;
 }
-// Permalink icon for link post
 .permalink {
 	margin-right: 7px;
 }
-// Post Pagination Module
 .pagination {
     display: block;
 	margin: 20px 10px;
@@ -458,7 +443,6 @@ header .entry-meta {
 	}
 }
 
-// Read More Module
 .read-more {
 	position: relative;
 	margin: 40px 2px 0 2px;
@@ -502,7 +486,7 @@ header .entry-meta {
 	}
 }
 .read-more-list {
-	border-top: solid 2px lighten($base-color,80);
+	border-top: solid 2px lighten(rgba(#222,0.8),80);
 }
 .list-item {
 	width: 100%;
@@ -514,7 +498,7 @@ header .entry-meta {
 	span {
 		display: block;
 		@include font-rem(14);
-		color: lighten($base-color,50);
+		color: lighten(rgba(#222,0.8),50);
 	}
 	@media #{$medium} {
 		width: 49%;
@@ -525,8 +509,6 @@ header .entry-meta {
 	}
 }
 
-// Homepage
-// --------------------------------------------------
 #home {
     #main {
         margin: 2px 2px 2px 2px;
@@ -563,8 +545,6 @@ header .entry-meta {
     }
 }
 
-// Homepage
-// --------------------------------------------------
 .blog-index {
     a.button, a.tag {
         text-decoration: none;
@@ -580,8 +560,6 @@ header .entry-meta {
     }
 }
 
-// Post Index
-// --------------------------------------------------
 #post-index {
     a.dotted {
         border-bottom: 1px dotted;
@@ -618,7 +596,7 @@ header .entry-meta {
 	}
 	article {
 		background-color: $white;
-		box-shadow: 0 0 0 0, 0 6px 12px rgba($base-color,0.1);
+		box-shadow: 0 0 0 0, 0 6px 12px rgba(rgba(#222,0.8),0.1);
 		@include rounded(3px);
 		margin-bottom: 20px;
 		padding: 25px 15px;
@@ -646,9 +624,6 @@ header .entry-meta {
             border-bottom: 2px solid $header-underline-color;
             margin-bottom: 20px;
         }
-        // h2 {
-        //     font-size: 1.8rem;
-        // }
         h2 a {
             border-bottom: none;
             &:hover {
@@ -688,73 +663,16 @@ header .entry-meta {
 		margin-bottom: 20px;
 	}
 	img {
-		@include border-radius(3px,0,0,3px); // round image corners
+		@include border-radius(3px,0,0,3px);
 	}
 }
 
-// Footer
-// --------------------------------------------------
 .footer-wrapper {
 	@include clearfix;
 	margin: 1em auto;
 	text-align: center;
 	color: lighten($text-color,20);
 	a {
-		color: lighten($text-color,20);
-        &:hover {
-            color: $danger;
-        }
+		color: lighten($text-color, 20%);
 	}
-}
-
-// Social Share
-// --------------------------------------------------
-.socialcount {
-	@include font-rem(16);
-	li {
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-	p > a,
-	li > a {
-		border-bottom-width: 0;
-	}
-}
-
-
-// Browser Upgrade
-// --------------------------------------------------
-.upgrade {
-	padding: 10px;
-	text-align: center;
-}
-
-// Google Search
-// --------------------------------------------------
-#goog-fixurl {
-	ul {
-		list-style: none;
-		margin-left: 0;
-		padding-left: 0;
-		li {
-			list-style-type: none;
-		}
-	}
-}
-#goog-wm-qt {
-	width: auto;
-	margin-right: 10px;
-	margin-bottom: 20px;
-	padding: 8px 20px;
-	display: inline-block;
-	@include font-rem(14);
-	background-color: $white;
-	color: $text-color;
-	border-width: 2px !important;
-	border-style: solid !important;
-	border-color: lighten($primary,50);
-	@include rounded(3px);
-}
-#goog-wm-sb {
-	@extend .btn;
 }

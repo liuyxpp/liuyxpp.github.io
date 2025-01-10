@@ -1,135 +1,50 @@
 // Typography
-// --------------------------------------------------
-
-// $base-font: "Noto Serif", "DejaVu Serif", serif;
-$base-font: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-$heading-font: 'Lato','Open Sans','Helvetica Neue',Helvetica,Calibri,Arial,sans-serif;
-$caption-font: 'Lato','Open Sans','Helvetica Neue',Helvetica,Calibri,Arial,sans-serif;
-$code-font: "Roboto Mono","Monaco","Inconsolata","DejaVu Sans Mono","Andale Mono WT","Andale Mono","Courier New",Courier,monospace;
-$alt-font: serif;
-$site-title-font: 'Viga', $heading-font;
+$base-font: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+$heading-font: 'Lato', 'Open Sans', sans-serif;
+$site-title-font: $heading-font;
+$code-font: "Roboto Mono", monospace;
 
 $doc-font-size: 14;
 $doc-line-height: 26;
-// $font-size-p:    	$doc-font-size;
-// $font-size-h1:      2.441em;
-// $font-size-h2:      1.953em;
-// $font-size-h3:      1.563em;
-// $font-size-h4:      1.25em;
-// $font-size-h5:      1.152em;
-// $font-size-small:   0.8em;
 
-// Navigation bar height set by Bootstrap 3.3 50px plus 1px border
-$navbar-height:         51px;
-$navbar-actual-height:  62px;
-// Post header size
-$post-header-height:    320px;
-
-// set-up the body font-size / line-height
-body {
-    // margin-top: 0px + $doc-line-height;
-    padding: $navbar-actual-height 0 0 0;
-    font-size: 0px + $doc-font-size;
-}
+// Layout
+$navbar-height: 51px;
+$navbar-actual-height: 62px;
+$post-header-height: 320px;
 
 // Colors
-// --------------------------------------------------
-$turquoise:     #1abc9c;
-$emerald:       #2ecc71;
-$peter-river:   #3498db;
-$amethyst:      #9b59b6;
-$wet-asphalt:   #34495e;
-$sun-flower:    #f1c40f;
-$carrot:        #e67e22;
-$alizarin:      #e74c3c;
-$clouds:        #f4f6f7;
-$concrete:      #95a6a6;
+$black: #000;
+$white: #fff;
+$gray: #95a6a6;
+$gray-light: lighten($gray, 10%);
+$gray-dark: darken($gray, 20%);
+$concrete: #e0e0e0;
 
-$black:         #000;
-$black-almost:  rgba(#222,0.8);
-$black999:      #999;
-$white:         #fff;
-$white-almost:  #e8e8e8;
-$gray:          lighten($wet-asphalt, 50%);
-$gray-light:    lighten($wet-asphalt, 60%);
-$gray-lighter:  lighten($wet-asphalt, 70%);
-$gray-dark:     lighten($wet-asphalt, 35%);
-$gray-darker:   lighten($wet-asphalt, 20%);
-$inverse:       white;
+$primary: #4a6b8a;
+$secondary: #1abc9c;
+$info: #3498db;
+$warning: #f1c40f;
+$danger: #e74c3c;
 
-$primary:       $wet-asphalt;
-$secondary:     $turquoise;
-$success:       $emerald;
-$warning:       $sun-flower;
-$danger	:       $alizarin;
-$info:          $peter-river;
+$body-color: #f1f8ff;
+$text-color: rgba(#222, 0.8);
+$text-color-light: rgba(#222, 0.6);
+$border-color: lighten($text-color, 60%);
+$nav-color: lighten($primary, 30%);
+$nav-faded: lighten($primary, 15%);
+$nav-brand-faded: lighten($primary, 25%);
+$nav-brand-fix-faded: lighten($primary, 30%);
+$nav-fix-faded: lighten($primary, 20%);
+$navbar-bgcolor: darken($primary, 10%);
+$nav-bgcolor: $navbar-bgcolor;
 
-/* syntax highlighting */
-// for display language name on the upper right corner of the code block panel
-$lang-color: $gray;
-// only for language text/plaintext, background color of the code block panel
-$text-lang-bg-color: lighten($wet-asphalt, 66%);
+// Links
+$link-color: mix(#000, $info, 15%);
+$link-color-hover: mix(#000, $link-color, 30%);
+$link-color-visited: mix(#fff, $link-color, 15%);
 
-$base-color:    $black-almost;
-// $body-color:    $white-almost;
-$body-color:    #f1f8ff; //#fafbfc;
-$text-color:    $black-almost;
-$comp-color:    complement(#222);
-$border-color:  lighten($base-color,60);
-$feature-title-color:  $white;
-$header-underline-color: $gray-darker;
-
-/* links */
-// $link-color: $info !default;
-$link-color: mix(#000, $info, 15%) !default;
-$link-color-hover: mix(#000, $link-color, 30%) !default;
-// $link-color-hover: lighten($link-color, 20) !default;
-$link-color-visited: mix(#fff, $link-color, 15%) !default;
-
-/* Navigation bar */
-$navbar-bgcolor:        $primary;
-$nav-brand-color:       $white;
-$nav-brand-faded:       rgba($nav-brand-color, 0.6);
-$nav-brand-fix-color:   $white;
-$nav-brand-fix-faded:   rgba($nav-brand-fix-color, 0.6);
-$nav-color:             $concrete; //$clouds;
-$nav-faded:             $turquoise; //rgba($nav-color, 0.7);
-$nav-fix-color:         $primary;
-$nav-fix-faded:         rgba($nav-fix-color, 0.7);
-$nav-bgcolor:           rgba($white, 0.8);
-
-/* brands */
-$behance-color: #1769ff !default;
-$bitbucket-color: #205081 !default;
-$dribbble-color: #ea4c89 !default;
-$facebook-color: #3b5998 !default;
-$flickr-color: #ff0084 !default;
-$foursquare-color: #0072b1 !default;
-$github-color: #171516 !default;
-$gitlab-color: #e24329 !default;
-$instagram-color: #517fa4 !default;
-$keybase-color: #ef7639 !default;
-$lastfm-color: #d51007 !default;
-$linkedin-color: #007bb6 !default;
-$mastodon-color: #2b90d9 !default;
-$pinterest-color: #cb2027 !default;
-$reddit-color: #ff4500 !default;
-$rss-color: #fa9b39 !default;
-$soundcloud-color: #ff3300 !default;
-$stackoverflow-color: #fe7a15 !default;
-$tumblr-color: #32506d !default;
-$twitter-color: #55acee !default;
-$vimeo-color: #1ab7ea !default;
-$vine-color: #00bf8f !default;
-$youtube-color: #bb0000 !default;
-$xing-color: #006567 !default;
-
-// Screen Size
-// --------------------------------------------------
-
-$small               : "only screen and (min-width: 576px)" !default;
-$medium              : "only screen and (min-width: 768px)" !default;
-// $medium-wide         : "only screen and (min-width: 900px)" !default;
-$large               : "only screen and (min-width: 992px)" !default;
-$x-large             : "only screen and (min-width: 1200px)" !default;
-$max-width           : $x-large !default;
+// Breakpoints
+$small: "only screen and (min-width: 576px)";
+$medium: "only screen and (min-width: 768px)";
+$large: "only screen and (min-width: 992px)";
+$x-large: "only screen and (min-width: 1200px)";

@@ -1,106 +1,65 @@
-// Foundation by ZURB
-// foundation.zurb.com
-// Licensed under MIT Open Source
+// Simplified label component using CSS variables
 
-@import "global";
+:root {
+  --label-padding: 0.25rem 0.5rem;
+  --label-radius: 4px;
+  --label-font-size: 0.875rem;
+  --label-font-weight: 500;
+  --label-font-color: #333;
+  --label-bg-color: #f0f0f0;
+}
 
-//
-// @variables
-//
-$include-html-label-classes: $include-html-classes !default;
-
-// We use these to style the labels
-$label-padding: rem-calc(4 8 4) !default;
-$label-radius: $global-radius !default;
-
-// We use these to style the label text
-$label-font-sizing: rem-calc(11) !default;
-$label-font-weight: $font-weight-normal !default;
-$label-font-color: $oil !default;
-$label-font-color-alt: $white !default;
-$label-font-family: $body-font-family !default;
-
-//
-// @mixins
-//
-// We use this mixin to create a default label base.
-@mixin label-base {
-  font-weight: $label-font-weight;
-  font-family: $label-font-family;
-  text-align: center;
-  text-decoration: none;
+.label {
+  display: inline-block;
+  padding: var(--label-padding);
+  font-size: var(--label-font-size);
+  font-weight: var(--label-font-weight);
+  color: var(--label-font-color);
+  background-color: var(--label-bg-color);
+  border-radius: var(--label-radius);
   line-height: 1;
   white-space: nowrap;
-  display: inline-block;
-  position: relative;
-  margin-bottom: auto;
-}
+  text-align: center;
+  margin: 0 0.25rem 0.25rem 0;
 
-// @mixins
-//
-// We use this mixin to add label size styles.
-// $padding - Used to determine label padding. Default: $label-padding || rem-calc(4 8 4) !default
-// $text-size - Used to determine label text-size. Default: $text-size found in settings
-@mixin label-size($padding:$label-padding, $text-size:$label-font-sizing) {
-  @if $padding { padding: $padding; }
-  @if $text-size { font-size: $text-size; }
-}
-
-// @mixins
-//
-// We use this mixin to add label styles.
-// $bg - Default: $primary-color (found in settings file)
-// $radius - Default: false, Options: true, sets radius to $global-radius (found in settings file)
-@mixin label-style($bg:$primary-color, $radius:false) {
-
-  // We control which background color comes through
-  @if $bg {
-
-    // This find the lightness percentage of the background color.
-    $bg-lightness: lightness($bg);
-
-    background-color: $bg;
-
-    // We control the text color for you based on the background color.
-    @if $bg-lightness < 70% { color: $label-font-color-alt; }
-    @else { color: $label-font-color; }
+  // Color variants
+  &.primary {
+    --label-font-color: #fff;
+    --label-bg-color: #007bff;
   }
 
-  // We use this to control the radius on labels.
-  @if $radius == true { @include radius($label-radius); }
-  @else if $radius { @include radius($radius); }
+  &.secondary {
+    --label-font-color: #fff;
+    --label-bg-color: #6c757d;
+  }
 
-}
+  &.success {
+    --label-font-color: #fff;
+    --label-bg-color: #28a745;
+  }
 
-// @mixins
-//
-// We use this to add close buttons to alerts
-// $padding - Default: $label-padding,
-// $text-size - Default: $label-font-sizing,
-// $bg - Default: $primary-color(found in settings file)
-// $radius - Default: false, Options: true which sets radius to $global-radius (found in settings file)
-@mixin label($padding:$label-padding, $text-size:$label-font-sizing, $bg:$primary-color, $radius:false) {
+  &.warning {
+    --label-font-color: #212529;
+    --label-bg-color: #ffc107;
+  }
 
-  @include label-base;
-  @include label-size($padding, $text-size);
-  @include label-style($bg, $radius);
-}
+  &.danger {
+    --label-font-color: #fff;
+    --label-bg-color: #dc3545;
+  }
 
-@include exports("label") {
-  @if $include-html-label-classes {
-    .label {
-      @include label-base;
-      @include label-size;
-      @include label-style;
+  &.info {
+    --label-font-color: #fff;
+    --label-bg-color: #17a2b8;
+  }
 
-      &.radius { @include label-style(false, true); }
-      &.round { @include label-style(false, $radius:1000px); }
+  // Shape variants
+  &.pill {
+    --label-radius: 9999px;
+  }
 
-      &.alert     { @include label-style($alert-color); }
-      &.warning   { @include label-style($warning-color); }
-      &.success   { @include label-style($success-color); }
-      &.secondary { @include label-style($secondary-color); }
-      &.info      { @include label-style($info-color); }
-    }
+  &.outline {
+    background-color: transparent;
+    border: 1px solid currentColor;
   }
 }

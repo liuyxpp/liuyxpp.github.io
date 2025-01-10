@@ -105,7 +105,7 @@ figcaption {
 // Blockquotes
 // --------------------------------------------------
 blockquote {
-	font-family: $alt-font;
+	font-family: $heading-font;
 	font-style: italic;
 	border-left: 8px solid $border-color;
 	padding-left: 20px;
@@ -200,8 +200,8 @@ pre {
 }
 
 mark {
-    background: invert($body-bg);
-    color: $body-bg;
+    background: #ffff00;
+    color: #000;
     font-weight: bold;
     font-size: 0.9em;
     padding: 2px;

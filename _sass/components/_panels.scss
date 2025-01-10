@@ -1,101 +1,61 @@
-// Foundation by ZURB
-// foundation.zurb.com
-// Licensed under MIT Open Source
+// Simplified panel component using CSS variables
 
-@import "global";
+:root {
+  --panel-bg: #f8f9fa;
+  --panel-border-color: #dee2e6;
+  --panel-padding: 1.25rem;
+  --panel-margin-bottom: 1.5rem;
+  --panel-font-color: #212529;
+  --panel-font-color-alt: #fff;
+  --panel-radius: 4px;
+  --panel-callout-bg: #e9f5ff;
+  --panel-callout-link-color: #007bff;
+  --panel-callout-link-hover-color: #0056b3;
+}
 
-//
-// @variables
-//
-$include-html-panel-classes: $include-html-classes !default;
+.panel {
+  background-color: var(--panel-bg);
+  border: 1px solid var(--panel-border-color);
+  border-radius: var(--panel-radius);
+  padding: var(--panel-padding);
+  margin-bottom: var(--panel-margin-bottom);
+  color: var(--panel-font-color);
 
-// We use these to control the background and border styles
-$panel-bg: scale-color($white, $lightness: -5%) !default;
-$panel-border-style: solid !default;
-$panel-border-size: 1px !default;
+  // Reset margins for first/last child
+  & > :first-child {
+    margin-top: 0;
+  }
+  & > :last-child {
+    margin-bottom: 0;
+  }
 
-// We use this % to control how much we darken things on hover
-$panel-function-factor: -11% !default;
-$panel-border-color: scale-color($panel-bg, $lightness: $panel-function-factor) !default;
+  // Header styles
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
+    
+    &.subheader {
+      line-height: 1.4;
+    }
+  }
 
-// We use these to set default inner padding and bottom margin
-$panel-margin-bottom: rem-calc(20) !default;
-$panel-padding: rem-calc(20) !default;
-
-// We use these to set default font colors
-$panel-font-color: $oil !default;
-$panel-font-color-alt: $white !default;
-
-$panel-header-adjust: true !default;
-$callout-panel-link-color: $primary-color !default;
-$callout-panel-link-color-hover: scale-color($callout-panel-link-color, $lightness: -14%) !default;
-//
-// @mixins
-//
-// We use this mixin to create panels.
-// $bg - Sets the panel background color. Default: $panel-pg || scale-color($white, $lightness: -5%) !default
-// $padding - Sets the panel padding amount. Default: $panel-padding || rem-calc(20)
-// $adjust - Sets the font color based on the darkness of the bg & resets header line-heights for panels. Default: $panel-header-adjust || true
-@mixin panel($bg:$panel-bg, $padding:$panel-padding, $adjust:$panel-header-adjust) {
-
-  @if $bg {
-    $bg-lightness: lightness($bg);
-
-    border-style: $panel-border-style;
-    border-width: $panel-border-size;
-    border-color: scale-color($bg, $lightness: $panel-function-factor);
-    margin-bottom: $panel-margin-bottom;
-    padding: $padding;
-
-    background: $bg;
-    @if $bg-lightness >= 50% { color: $panel-font-color; }
-    @else { color: $panel-font-color-alt; }
-
-    // Respect the padding, fool.
-    &>:first-child { margin-top: 0; }
-    &>:last-child { margin-bottom: 0; }
-
-    @if $adjust {
-      // We set the font color based on the darkness of the bg.
-      @if $bg-lightness >= 50% { 
-        h1,h2,h3,h4,h5,h6,p,li,dl { color: $panel-font-color; }
-      }
-      @else { 
-        h1,h2,h3,h4,h5,h6,p,li,dl { color: $panel-font-color-alt; }
-      }
-
-      // reset header line-heights for panels
-      h1,h2,h3,h4,h5,h6 {
-        line-height: 1; margin-bottom: rem-calc(20) / 2;
-        &.subheader { line-height: 1.4; }
+  // Callout variant
+  &.callout {
+    background-color: var(--panel-callout-bg);
+    border-color: var(--panel-callout-link-color);
+    
+    a:not(.button) {
+      color: var(--panel-callout-link-color);
+      
+      &:hover,
+      &:focus {
+        color: var(--panel-callout-link-hover-color);
       }
     }
   }
-}
 
-@include exports("panel") {
-  @if $include-html-panel-classes {
-
-    /* Panels */
-    .panel { @include panel;
-
-      &.callout {
-        @include panel(scale-color($primary-color, $lightness: 94%));
-        a:not(.button) {
-          color: $callout-panel-link-color;
-
-          &:hover,
-          &:focus {
-            color: $callout-panel-link-color-hover;
-          }
-        }
-      }
-
-      &.radius {
-        @include radius;
-      }
-
-    }
-
+  // Radius variant
+  &.radius {
+    border-radius: var(--panel-radius);
   }
 }

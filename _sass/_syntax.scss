@@ -26,22 +26,22 @@ figure.highlight {
             position: absolute;
             top: 3px;
             right: 10px;
-            color: $lang-color;
+            color: $primary;
             font-size: 12px;
         }
         &[data-lang=text] {
-            background-color: $text-lang-bg-color;
+            background-color: $body-color;
             tr {
-                background-color: $text-lang-bg-color;
+                background-color: $body-color;
                 &:hover {
-                    background-color: $gray-lighter;
+                    background-color: $gray-light;
                     td, pre {
-                        background-color: $gray-lighter;
+                        background-color: $gray-light;
                     }
                 }
             }
             pre {
-                background-color: $text-lang-bg-color;
+                background-color: $body-color;
             }
         }
     }
@@ -99,7 +99,7 @@ div.language-julia {
             position: absolute;
             top: 2px;
             right: 10px;
-            color: $lang-color;
+            color: $primary;
             font-size: 12px;
         }
     }
@@ -114,7 +114,7 @@ div.language-console {
             position: absolute;
             top: 2px;
             right: 10px;
-            color: $lang-color;
+            color: $primary;
             font-size: 12px;
         }
     }
@@ -129,7 +129,7 @@ div.language-markdown {
             position: absolute;
             top: 2px;
             right: 10px;
-            color: $lang-color;
+            color: $primary;
             font-size: 12px;
         }
     }
@@ -144,7 +144,7 @@ div.language-python {
             position: absolute;
             top: 2px;
             right: 10px;
-            color: $lang-color;
+            color: $primary;
             font-size: 12px;
         }
     }
@@ -159,7 +159,7 @@ div.language-c {
             position: absolute;
             top: 2px;
             right: 10px;
-            color: $lang-color;
+            color: $primary;
             font-size: 12px;
         }
     }
@@ -174,7 +174,7 @@ div.language-cpp {
             position: absolute;
             top: 2px;
             right: 10px;
-            color: $lang-color;
+            color: $primary;
             font-size: 12px;
         }
     }
@@ -189,7 +189,7 @@ div.language-matlab {
             position: absolute;
             top: 2px;
             right: 10px;
-            color: $lang-color;
+            color: $primary;
             font-size: 12px;
         }
     }
@@ -204,7 +204,7 @@ div.language-liquid {
             position: absolute;
             top: 2px;
             right: 10px;
-            color: $lang-color;
+            color: $primary;
             font-size: 12px;
         }
     }
@@ -219,7 +219,7 @@ div.language-yaml {
             position: absolute;
             top: 2px;
             right: 10px;
-            color: $lang-color;
+            color: $primary;
             font-size: 12px;
         }
     }
@@ -228,28 +228,28 @@ div.language-yaml {
 div.language-text {
     position: relative;
     pre.highlight {
-        background-color: $text-lang-bg-color;
+        background-color: $body-color;
         padding: 14px;
         &::before {
             content: "text";
             position: absolute;
             top: 2px;
             right: 10px;
-            color: $lang-color;
+            color: $primary;
             font-size: 12px;
         }
     }
     tr {
-        background-color: $text-lang-bg-color;
+        background-color: $body-color;
         &:hover {
-            background-color: $gray-lighter;
+            background-color: $gray-light;
             td, pre {
-                background-color: $gray-lighter;
+                background-color: $gray-light;
             }
         }
     }
     pre {
-        background-color: $text-lang-bg-color;
+        background-color: $body-color;
     }
 }
 
