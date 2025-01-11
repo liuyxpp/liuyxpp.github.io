@@ -22,7 +22,6 @@ css: /assets/css/page.css
 Some listed software are open sourced. More will be open sourced as they become mature. Please check our [github.com account](https://github.com/liuyxpp) for the latest updates.
 
 <div class="toc-section">
-  <h2>Software Overview</h2>
   <div class="toc-nav">
     {% assign grouped_software = site.data.software | group_by: "category" %}
     {% for group in grouped_software %}

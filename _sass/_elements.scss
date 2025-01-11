@@ -4,8 +4,46 @@ hr {
     padding: 0;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #fff;
+}
+
+/* Modern h2 heading style */
+h2:not(.hero-section h2, .featured-section h2, .news-section h2, #toc h2) {
+    position: relative;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+    
+    &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 60px;
+        height: 3px;
+        background: linear-gradient(90deg, $primary, lighten($primary, 20%));
+        border-radius: 2px;
+        transition: width 0.3s ease;
+    }
+    
+    &:hover::after {
+        width: 100px;
+    }
+}
+
+/* Reset styles for homepage and TOC h2 elements */
+.hero-section h2,
+.featured-section h2, 
+.news-section h2,
+#toc h2 {
+    padding-bottom: 0;
+    margin-bottom: 0.5em;
+    
+    &::after {
+        content: none;
+    }
+}
+
+hr.no-line {
+    border: 0;
 }
 
 hr.small {
