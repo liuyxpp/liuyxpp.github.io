@@ -1,15 +1,10 @@
 <!-- Homepage Header -->
 <header class="blog-header" style="background-image: url('{{ site.url }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-lg-offset-8 col-md-10 col-md-offset-2">
-                <div class="site-heading text-center">
-                    <!-- <h1>Polyorder Lab</h1> -->
-                    {% if page.description %}
-                        <span class="subheading">{{ page.description }}</span>
-                    {% endif %}
-                </div>
-            </div>
+        <div class="site-heading text-center">
+            {% if page.description %}
+                <span class="subheading">{{ page.description }}</span>
+            {% endif %}
         </div>
     </div>
 </header>
