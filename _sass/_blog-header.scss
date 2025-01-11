@@ -1,0 +1,65 @@
+@import "variables";
+
+// Modern Header Styles
+.blog-header {
+    position: relative;
+    height: 30vh;
+    min-height: 250px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1.5rem;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.3));
+        z-index: 1;
+    }
+}
+
+.site-heading {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.subheading {
+    font-size: 2.7rem;
+    font-weight: 400;
+    line-height: 1.3;
+    display: block;
+    color: $secondary;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    padding: 1.2rem 2rem;
+    background: rgba(0,0,0,0.4);
+    border-radius: 12px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    backdrop-filter: blur(4px);
+    max-width: 80%;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .blog-header {
+        height: 30vh;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .site-heading {
+        padding: 1rem;
+        max-width: 80%;
+        text-align: center;
+    }
+}
