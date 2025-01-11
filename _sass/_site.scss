@@ -1,3 +1,109 @@
+// Member Cards
+.pi-card {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 2rem;
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  
+  .pi-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  
+  .pi-info {
+    flex: 1;
+    
+    h3 {
+      margin-top: 0;
+      color: #222;
+    }
+    
+    .member-bio {
+      color: #444;
+      line-height: 1.6;
+    }
+    
+    .member-link {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: 500;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.member-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.member-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  
+  .member-info {
+    h4 {
+      margin-top: 0;
+      color: #222;
+    }
+    
+    .member-period {
+      color: #666;
+      font-size: 0.9em;
+      margin: 0.5em 0;
+    }
+    
+    .member-description {
+      color: #444;
+      line-height: 1.6;
+      
+      p {
+        margin: 0 0 1em;
+        
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+      
+      a {
+        color: #007bff;
+        text-decoration: none;
+        
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      
+      strong {
+        font-weight: bold;
+      }
+      
+      em {
+        font-style: italic;
+      }
+    }
+  }
+}
+
 // Selection
 // --------------------------------------------------
 ::-moz-selection { 

@@ -43,6 +43,14 @@ body {
 			border-bottom-style: solid;
 		}
 	}
+	
+	// Exclude dropdown links from dotted underline
+	.toc-dropdown a {
+		border-bottom: none !important;
+		&:hover {
+			border-bottom: none !important;
+		}
+	}
 }
 
 .entry-title {
@@ -523,6 +531,25 @@ header .entry-meta {
             margin-right: auto;
         }
     }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -15px;
+        margin-right: -15px;
+        
+        .medium-8 {
+            width: 66.66667%;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        
+        .medium-4 {
+            width: 33.33333%;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
     a.btn{
         @include font-rem(9);
     }
@@ -675,4 +702,226 @@ header .entry-meta {
 	a {
 		color: lighten($text-color, 20%);
 	}
+}
+
+/* Software Page Styles */
+.intro-row {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.intro-text {
+  flex: 1;
+  max-width: 45%;
+  padding: 0;
+}
+
+.intro-image {
+  flex: 1.5;
+  max-width: 55%;
+  margin: 0;
+  padding: 0;
+}
+
+.intro-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .intro-row {
+    flex-direction: column;
+  }
+  
+  .intro-text,
+  .intro-image {
+    max-width: 100%;
+  }
+}
+
+.toc-section {
+  margin-bottom: 1rem;
+}
+
+.toc-nav {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding: 1rem 0;
+}
+
+.toc-category {
+  flex: 0 0 auto;
+}
+
+.toc-category-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  background: #f8f9fa;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 0.9em;
+  color: #333;
+}
+
+.toc-category-btn:hover {
+  background: #e3f2fd;
+  transform: translateY(-2px);
+}
+
+.toc-caret {
+  font-size: 0.8em;
+  transition: transform 0.2s;
+}
+
+.toc-dropdown {
+  display: none;
+  position: absolute;
+  background: white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  min-width: 200px;
+  z-index: 1;
+}
+
+.toc-item {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.2s;
+  font-size: 0.9em;
+  border-bottom: none;
+}
+
+.toc-item:hover {
+  background: #e3f2fd;
+  color: #007bff;
+  padding-left: 1.25rem;
+}
+
+.highlight-badge {
+  color: #ffc107;
+  margin-left: 0.5rem;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.toc-dropdown.show {
+  display: block;
+  animation: fadeIn 0.2s ease-out;
+}
+
+.software-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.category-section {
+  margin-bottom: 2rem;
+}
+
+.category-section h2 {
+  color: #333;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.software-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.software-card:hover {
+  transform: translateY(-5px);
+}
+
+.highlighted .card-header {
+  background: #bbdefb;
+}
+
+.highlighted .card-body {
+  background: linear-gradient(to bottom, #e3f2fd, #ffffff);
+  border-left: 4px solid #64b5f6;
+}
+
+.highlighted:hover {
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  transform: translateY(-3px);
+}
+
+.card-header {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.card-header h3 {
+  margin: 0;
+  color: #333;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.description {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.features h4, .installation h4, .links h4 {
+  color: #444;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.features ul, .links ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.features li, .links li {
+  margin-bottom: 0.5rem;
+}
+
+.installation pre {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+.links a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
 }

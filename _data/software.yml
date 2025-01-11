@@ -1,0 +1,166 @@
+- name: Polyorder.jl
+  category: Scientific Computing
+  description: A pure Julia implementation of polymer self-consistent field theory
+  features:
+    - Support arbitrary noncyclic chain architectures
+    - Modern acceleration algorithms (Anderson mixing, GMRES)
+    - Support 1D, 2D, and 3D unit cells
+    - RPA analysis support
+  highlight: true
+  links:
+    - text: GitHub Repository
+      url: https://github.com/liuyxpp/Polyorder.jl
+
+- name: Scattering.jl
+  category: Scientific Computing
+  description: Julia package for computing scattering and diffraction of nanoparticles
+  features:
+    - Form factor calculations
+    - Structure factor calculations
+    - Translation and rotation operations
+  links:
+    - text: Documentation
+      url: https://scatteringjl.readthedocs.io
+
+- name: PhaseDiagram.jl
+  category: Scientific Computing
+  description: Julia package for computing phase diagrams of block copolymers
+  features:
+    - Microphase separation diagrams
+    - Macrophase separation diagrams
+  highlight: false
+
+- name: Polymer.jl
+  category: Scientific Computing
+  description: Common interface for describing polymer systems
+  installation: |
+    ```julia
+    julia> ]
+    pkg> add Polymer
+    ```
+  links:
+    - text: GitHub Repository
+      url: https://github.com/liuyxpp/Polymer.jl
+
+- name: PolymerArchitecture.jl
+  category: Scientific Computing
+  description: Graph representation of polymer architectures
+  features:
+    - Automatic identification of equivalent sub-architectures
+    - Integration with Polymer.jl
+
+- name: CubicHermiteSpline.jl
+  category: Scientific Computing
+  description: Cubic Hermite spline interpolation for 1D and 2D data
+  features:
+    - Univariate and bivariate interpolation
+    - Gradient calculations
+  installation: |
+    ```julia
+    julia> ]
+    pkg> add CubicHermiteSpline
+    ```
+  links:
+    - text: GitHub Repository
+      url: https://github.com/liuyxpp/CubicHermiteSpline.jl
+
+- name: MakiePublication.jl
+  category: Utility
+  description: Publication quality figures using Makie.jl
+  features:
+    - Custom themes for major publishers
+    - 15 color palettes
+    - Hollow markers support
+  highlight: true
+  links:
+    - text: Documentation
+      url: http://www.yxliu.group/MakiePublication.jl/dev/
+
+- name: PolymerArchitectureMakie.jl
+  category: Utility
+  description: Visualization of polymer architectures using GraphMakie.jl
+  features:
+    - Integration with PolymerArchitecture.jl
+    - Customizable visual styles
+
+- name: mpltex
+  category: Utility
+  description: Python package for creating publication-quality plots
+  features:
+    - ACS style plots
+    - Presentation and web styles
+    - Tableau color scheme
+  links:
+    - text: GitHub Repository
+      url: https://github.com/liuyxpp/mpltex
+    - text: PyPI Page
+      url: https://pypi.python.org/pypi/mpltex
+
+- name: PolyOrder
+  category: Legacy
+  description: C++ library for polymer self-consistent field theory (deprecated)
+  features:
+    - Non-orthogonal unit cell support
+    - Weakly charged polymers support
+
+- name: cheb++
+  category: Legacy
+  description: C++ library for Chebyshev polynomials
+  features:
+    - Chebyshev differential matrix
+    - Clenshaw-Curtis quadrature
+  links:
+    - text: GitHub Repository
+      url: https://github.com/liuyxpp/cheb
+
+- name: scftpy
+  category: Legacy
+  description: Python package for polymer SCFT calculations
+  features:
+    - Confined polymer simulations
+    - Polymer brush simulations
+  links:
+    - text: GitHub Repository
+      url: https://github.com/liuyxpp/scftpy
+
+- name: chebpy
+  category: Legacy
+  description: Python package for spectral methods of PDEs
+  features:
+    - Chebyshev series construction
+    - Fast Chebyshev transform
+  links:
+    - text: GitHub Repository
+      url: https://github.com/liuyxpp/chebpy
+
+- name: PyDiagram
+  category: Legacy
+  description: Python package for generating phase diagrams
+  features:
+    - Polyorder and PolyFTS file support
+    - Free energy analysis
+    - Phase boundary plotting
+
+- name: gyroid
+  category: Legacy
+  description: Python package for symmetry adapted basis functions
+  features:
+    - 1D, 2D and 3D symmetry groups
+    - Structure renderer
+  links:
+    - text: GitHub Repository
+      url: https://github.com/liuyxpp/gyroid
+    - text: PyPI Page
+      url: https://pypi.python.org/pypi/gyroid
+
+- name: NGPy
+  category: Legacy
+  description: Web application for nucleation and growth simulations
+  features:
+    - Online simulation and analysis
+    - Web framework for custom applications
+  links:
+    - text: GitHub Repository
+      url: https://github.com/liuyxpp/ngpy
+    - text: PyPI Page
+      url: https://pypi.python.org/pypi/ngpy
