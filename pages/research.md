@@ -25,7 +25,7 @@ Our group have conducted a comprehensive study of the confining system of block 
 
 ### 1.1 Methodology Development
 
-<figure class="second">
+<figure class="research-figure">
     <img src="{{ site.url }}/images/research/etdrk4.png" alt="">
 </figure>
 
@@ -41,7 +41,7 @@ It is demonstrated that this method exhibits fourth order accuracy in contour st
 
 * *Chinese J. Polym. Sci.*, **2018**, *36*, 1047-1054.
 
-<figure class="second">
+<figure class="research-figure">
     <img src="{{ site.url }}/images/research/brush.jpg" alt="">
 </figure>
 
@@ -56,7 +56,7 @@ Three additional surfaces states were identified by a scaling analysis of the la
 
 * *J. Chem. Phys.*, **2016**, *145*, 214902.
 
-<figure class="second">
+<figure class="research-figure">
     <img src="{{ site.url }}/images/research/surface_interaction.png" alt="">
 </figure>
 
@@ -84,7 +84,7 @@ Consequently, it is impossible to reduce the cost by lowering the resolution of 
 
 * *ACS Appl. Mater. Interfaces*, **2023**, *15*, 31049-31056.
 
-<figure class="second">
+<figure class="research-figure">
     <img src="{{ site.url }}/images/research/inverse_dsa.png" alt="">
 </figure>
 
@@ -101,7 +101,7 @@ Thus it can save tremendous amount of computational time in practical applicatio
 * *Acta Polym. Sin.*, **2018**, *12*, 1548-1557.
 * *Macromolecules*, **2018**, *51*, 4201-4212.
 
-<figure class="second">
+<figure class="research-figure">
     <img src="{{ site.url }}/images/research/defect_removal.png" alt="">
 </figure>
 
@@ -129,7 +129,7 @@ When the segregation is weak, however, no actual bridge but only a nascent bridg
 
 ## 2. Self-Assembly of Block Copolymers in Bulk
 
-<figure class="third">
+<figure class="research-figure">
     <img src="{{ site.url }}/images/research/gyroid.png" alt="Gyroid">
     <img src="{{ site.url }}/images/research/hex.png" alt="HEX">
     <img src="{{ site.url }}/images/research/bcc.png" alt="BCC">
@@ -148,7 +148,7 @@ It is the most efficient non-parallel algorithm for bulk SCFT calculations to da
 
 * *Macromolecules*, **2011**, *44*, 8261-8269.
 
-<figure class="second">
+<figure class="research-figure">
     <img src="{{ site.url }}/images/research/charged.png" alt="">
 </figure>
 
@@ -168,7 +168,7 @@ experimental results.
 
 * *Macromolecules*, **2017**, *50*, 6263-6272.
 
-<figure class="second">
+<figure class="research-figure">
     <img src="{{ site.url }}/images/research/BM.png" alt="">
 </figure>
 
@@ -205,7 +205,7 @@ Low molecular weight poly(ethylene oxide) (PEO) fractions tend to form integral 
 
 * *Macromolecules*, **2011**, *44*, 8819-8828.
 
-<figure class="second">
+<figure class="research-figure">
     <img src="{{ site.url }}/images/research/peo.png" alt="">
 </figure>
 
@@ -219,7 +219,7 @@ This observation agrees with classical nucleation theory except the fact that S0
 * *Macromolecules*, **2009**, *42*, 2886-2890.
 * *Acta Polym. Sin.*, **2018**, *9*, 1212-1220.
 
-<figure class="second">
+<figure class="research-figure">
     <img src="{{ site.url }}/images/research/peo_thickening.png" alt="">
 </figure>
 

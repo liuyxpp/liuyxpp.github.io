@@ -70,6 +70,8 @@ figure {
   padding-top: 10px;
   padding-bottom: 10px;
   @include clearfix();
+  
+  // Default figure styles
   img {
     margin-bottom: 10px;
   }
@@ -82,6 +84,38 @@ figure {
       &:hover {
         @include translate(0, -5px);
         @include box-shadow(0 0 10px fade($base-color, 20));
+      }
+    }
+  }
+
+  // Research figure specific styles
+  &.research-figure {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+    img {
+      max-height: 200px;
+      width: auto;
+      height: auto;
+      margin: 0;
+      display: inline-block;
+      object-fit: contain;
+    }
+    
+    @media (max-width: 768px) {
+      img {
+        max-height: 150px;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      img {
+        max-height: 100px;
       }
     }
   }
