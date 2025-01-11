@@ -1,0 +1,26 @@
+- title: Fudan University
+  roles:
+    - title: Associate Professor
+      dates: 2019.1 - present
+    - title: Lecturer
+      dates: 2012.3 - 2018.12
+  department: Department of Macromolecular Science
+  address: Chemistry Bldg. Room B3083, 2005 Songhu Rd.
+  location: Shanghai 200438, China
+  phone: +86-21-31242883
+  mobile: +86-18117210989
+  email: lyx@fudan.edu.cn
+  profiles:
+    - lang: English
+      url: https://polymer.fudan.edu.cn/polymeren/da/17/c31607a383511/page.htm
+    - lang: 中文版
+      url: https://polymer.fudan.edu.cn/e1/db/c31500a385499/page.htm
+
+- title: UC Santa Barbara
+  roles:
+    - title: Visiting Researcher
+      dates: 2014.7 - 2016.7
+  department: Materials Research Laboratory
+  address: MRL Bldg. Room 3104, UC Santa Barbara
+  location: Santa Barbara, CA 93106, US
+  email: lyx@mrl.ucsb.edu

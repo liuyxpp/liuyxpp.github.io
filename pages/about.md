@@ -5,7 +5,7 @@ title: About Me
 description: A brief introduction of Prof. Yi-Xin Liu and this website.
 header-img: images/about.jpg
 comments: false
-modified: 2024-12-19
+modified: 2025-01-11
 breadcrumbs: true
 ---
 
@@ -20,23 +20,35 @@ I have published [29 research articles]({{site.url}}/publications) in peer revie
 {% include alert success='Announcement: A postdoc position is open in my group. Please contact me directly to apply.' %}
 -->
 
-**Associate Professor (2019.1 - present)**<br>
-**Lecturer (2012.3 - 2018.12)**<br>
-Department of Macromolecular Science<br>
-Fudan University<br>
-Chemistry Bldg. Room B3083, 2005 Songhu Rd.<br>
-Shanghai 200438, China<br>
-Office: +86-21-31242883<br>
-Mobile: +86-18117210989<br>
-Email: lyx@fudan.edu.cn<br>
-Department profile: [English](https://polymer.fudan.edu.cn/polymeren/da/17/c31607a383511/page.htm) [中文版](https://polymer.fudan.edu.cn/e1/db/c31500a385499/page.htm)
-
-**Visiting Researcher (2014.7 - 2016.7)**<br>
-Materials Research Laboratory<br>
-University of California, Santa Barbara<br>
-MRL Bldg. Room 3104, UC Santa Barbara<br>
-Santa Barbara, CA 93106, US<br>
-Email: lyx@mrl.ucsb.edu
+<div class="position-grid">
+  {% for position in site.data.positions %}
+  <div class="position-card">
+    <div class="position-info">
+      <h3>{{ position.title }}</h3>
+      <div class="position-details">
+        {% if position.roles %}
+          {% for role in position.roles %}
+            <strong>{{ role.title }} ({{ role.dates }})</strong><br>
+          {% endfor %}
+        {% endif %}
+        {{ position.department }}<br>
+        {{ position.address }}<br>
+        {{ position.location }}<br>
+        {% if position.phone %}Office: {{ position.phone }}<br>{% endif %}
+        {% if position.mobile %}Mobile: {{ position.mobile }}<br>{% endif %}
+        Email: {{ position.email }}<br>
+        {% if position.profiles %}
+          Department profile: 
+          {% for profile in position.profiles %}
+            <a href="{{ profile.url }}">{{ profile.lang }}</a>
+            {% unless forloop.last %}/{% endunless %}
+          {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
 
 <div markdown="0">
     <a href="{{ site.url }}/cv/" class="btn btn-info">View HTML</a>
