@@ -7,13 +7,16 @@ comments: false
 header-img: images/blog.jpg
 ---
 
-<div class="row">
-    <div class="medium-8 columns t30">
-        {% include pagination.html %}
-    </div>
+<div class="blog-index-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-8 col-lg-9 t30">
+                {% include pagination.html %}
+            </div>
 
-
-    <div class="medium-4 columns t30">
-        {% include sidebar.html %}
+            <div class="col-12 col-md-4 col-lg-3 t30 d-none d-md-block">
+                {% include sidebar.html %}
+            </div>
+        </div>
     </div>
 </div>
