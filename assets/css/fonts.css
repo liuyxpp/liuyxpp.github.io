@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/lato-v24-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Viga';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/viga-v14-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/ubuntu-v20-latin-700.woff2') format('woff2');
+}
