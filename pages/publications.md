@@ -1,11 +1,11 @@
 ---
 permalink: /publications/
 layout: page
-title: My Publications
-description: "A list of my publications: journal articles, presentations, posters, and thesis."
+title: Publications
+description: "A list of publications of Polyorder lab: journal articles, presentations, posters, and thesis."
 header-img: images/publications-0.jpg
 comments: false
-modified: 2024-07-07
+modified: 2025-02-04
 breadcrumbs: true
 ---
 
