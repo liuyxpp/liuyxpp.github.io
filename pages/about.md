@@ -5,20 +5,16 @@ title: About Prof. Yi-Xin Liu
 description: A brief introduction of Prof. Yi-Xin Liu and this website.
 header-img: images/about.jpg
 comments: false
-modified: 2025-02-04
+modified: 2025-02-09
 breadcrumbs: true
 ---
 
 Prof. Yi-Xin Liu (刘一新) is a [polymer physicist at Department of Macromolecular Science of Fudan University](https://polymer.fudan.edu.cn/e1/db/c31500a385499/page.htm) since 2012.
 Before that, he was a Postdoctoral Research Fellow at Fudan University from 2009 to 2012.
-He received my PhD in Polymer Physics from Peking University China in 2009 and my BSc from Nanjing University China in 2004.
+He received his PhD in Polymer Physics from Peking University China in 2009 and my BSc from Nanjing University China in 2004.
 He has spent two years (07/2014 - 07/2016) performing research, as a visiting researcher, in collaboration with Prof. Glenn H. Fredrickson in Materials Research Laboratory (MRL) at University of California, Santa Barbara, on the fields of computational polymer field theory and theoretical polymer physics.
 His [Current research interests]({{site.url}}/research) lie in the area of soft matter physics and [scientific software]({{site.url}}/software), including polymer field theory (both mean-field and beyond mean-field) and related numerical algorithms, phase behavior and structures of block copolymers, polymer brushes and polyelectrolytes in bulk and under confinements, directed self-assembly, and ultrathin film crystallization.
 He has published [29 research articles]({{site.url}}/publications) in peer reviewed journals.
-
-<!--
-{% include alert success='Announcement: A postdoc position is open in my group. Please contact me directly to apply.' %}
--->
 
 <div class="position-grid">
   {% for position in site.data.positions %}
