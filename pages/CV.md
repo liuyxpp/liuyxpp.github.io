@@ -118,9 +118,19 @@ Please visit [my publication list]({{ site.url }}/publications/).
 ### Teaching Experience
 -----
 
-**Instructor:** Polymer Physics, 2014, 2017-2023<br>
+**Instructor:** Polymer Physics, 2014, 2017-2025<br>
 *Fudan University, Department of Macromolecular Science*<br>
 Core undergraduate course, 30+ students, 15-week, 3-credit. Co-instructors: Prof. Hong-Dong Zhang and Prof. Jian-Feng Li.
+
+**Instructor:** Polymer Rheology and Processing, 2025-2025<br>
+*Fudan University, Department of Macromolecular Science*<br>
+Core undergraduate course, ~10 students, 15-week, 2-credit.
+
+**Instructor:** Scientific Research 101: Introduction to Scientific Computing, 2022-2024<br>
+*Fudan University, Department of Macromolecular Science*<br>
+Undergraduate course, 20+ students, 15-week, 2-credit.<br>
+Course website: [www.yxliu.group/XDSY118019/](https://www.yxliu.group/XDSY118019/)<br>
+Course syllabus and materials: [github.com/liuyxpp/XDSY118019](https://github.com/liuyxpp/XDSY118019).
 
 **Instructor:** Introduction to Polymeric Materials, 2016-2023<br>
 *Fudan University, Department of Macromolecular Science*<br>

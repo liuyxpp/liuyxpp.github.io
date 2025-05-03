@@ -2,9 +2,9 @@
 permalink: /teaching/
 layout: page
 title: Teaching
-description: "Undergraduate courses: Polymer Physics, Introduction to Polymeric Materials, Scientific Research 101: Introduction to Scientific Computing."
+description: "Undergraduate courses: Polymer Rheology and Processing, Polymer Physics, Introduction to Polymeric Materials, Scientific Research 101: Introduction to Scientific Computing."
 comments: false
-modified: 2025-02-28
+modified: 2025-05-03
 breadcrumbs: true
 ---
 
@@ -22,6 +22,7 @@ MACR130043, for undergraduate & graduate
 
 MACR130002, for undergraduate
 
+- Spring 2025, Classroom: HGX302, Time: Thur 1-2, Thur 3-4 (Apr. 8 - May 6)
 - Spring 2024, Classroom: H6409, Time: Tues 1-2, Thur 3-4 (Apr. 25 - May 16)
 - Spring 2023, Classroom: H6506, Time: Tues 1-2, Thur 3-4
 - Spring 2022, Classroom: Online, Time: Tues 1-2, Thur 3-4
