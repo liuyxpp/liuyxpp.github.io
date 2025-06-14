@@ -6,20 +6,20 @@ principle_investigator:
 
 graduate_students:
   - name: "Mr. Yu-Chen Zhang"
-    period: "Sep. 2022 - Present"
+    period: "Sep. 2022"
     description: "Yu-Chen Zhang is working on developing novel algorithms for computing scattering behaviors of polymer assemblies and nanoparticle clusters. He is now pursuing a MSc."
   
   - name: "Ms. Wei-Ling Huang"
-    period: "Sep. 2022 - Present"
+    period: "Sep. 2022"
     description: "Wei-Ling Huang is working on the phase separation kinetics of polymer thin films under solvent evaporation. She is now pursuing a MSc."
   
   - name: "Mr. Jun-Yang Liu"
-    period: "Sep. 2024 - Present"
+    period: "Sep. 2024"
     description: "Jun-Yang Liu is developing highly efficient algorithms for solving SCFT equations of block copolymers. He is now pursuing a MSc."
 
 undergraduate_students:
   - name: "Ms. Xi-Yue Zhang"
-    period: "Mar. 2024 - Present"
+    period: "Mar. 2024"
     description: "Xi-Yue Zhang is working on a Xi-Yuan Project (2021) to develop **Machine Learning** methods for predicting the phase behavior of block copolymers. She is now pursuing a BSc."
   
   - name: "Mr. Shuai Tian"

@@ -1,7 +1,14 @@
+- title: "MakiePublication.jl v0.4.2 Released"
+  date: 2025-06-14
+  description: "It has been over a year since the last minor release of MakiePublication.jl, and I’m excited to announce that v0.4.2 is now available! This release includes several new features and bug fixes, including support for the latest versions of Makie and GLMakie, as well as improved documentation."
+  url: https://github.com/liuyxpp/MakiePublication.jl
+  image: ""
+  category: software
+
 - title: "YC Zhang & WL Huang Defend Their MSc Theses"
   date: 2025-05-20
   description: "I’m enormously proud of Yuchen Zhang and Weiling Huang, who had excellent MSc defenses today! It’s been amazing to see you grow over the last three years, and thanks for your contribution to the group. I look forward to learning more from you in the years to come — congrats!"
-  url: 
+  url: https://www.yxliu.group/news/
   image: ""
   category: graduation
 
