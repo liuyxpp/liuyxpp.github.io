@@ -1,9 +1,9 @@
 # Yi-Xin Liu's Publications - Journal articles
 
 - title: 'A Unified Approach to Phase Equilibria in Multi-Component Polymer Systems with Effective Chemical Potential'
-  volume: 
-  issue: 
-  page: Accepted (2025-05-02)
+  volume: TBD
+  issue: TBD
+  page: TBD
   year: 2025
   author:
   - given: Weiling
@@ -19,10 +19,10 @@
   journal:
     fullname: Chinese Journal of Polymer Science
     abbreviation: Chinese J. Polym. Sci.
-  URL:
+  URL: https://dx.doi.org/10.1007/s10118-025-3369-8
   type: article
-  DOI:
-  fulltext:
+  DOI: 10.1007/s10118-025-3369-8
+  fulltext: cjps202501.pdf
   language: english
 
 - title: 'Automated chain architecture screening for discovery of block copolymer assembly with graph enhanced self-consistent field theory'
