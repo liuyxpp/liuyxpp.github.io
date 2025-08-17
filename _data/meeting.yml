@@ -1,7 +1,18 @@
 # Yi-Xin Liu's Publications - Meetigns, Workshops, Proceedings, Talks
 
+- title: '嵌段共聚物自组装有序相结构预测的自动化技术'
+  year: 2025
+  author:
+  - given: Yi-Xin
+    given_initial: Y. X.
+    family: Liu
+    role: main
+  source: '中国材料大会'
+  city: 'Xiamen, China'
+  fulltext:
+
 - title: 'Accelerating Mean-Field Phase Diagram Construction of Multi-component Block Copolymer Blends'
-  year: Upcoming
+  year: 2025
   author:
   - given: Yi-Xin
     given_initial: Y. X.
