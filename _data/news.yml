@@ -1,8 +1,15 @@
+- title: "Polyorder App Is Online"
+  date: 2025-10-08
+  description: "We are thrilled to announce that a full-feature web app for performing SCFT simulations using Polyorder.jl as the engine is now online. The app provides a user-friendly interface for running SCFT simulations and online monitoring of the results. It is available at <a href='https://app.yxliu.group'>https://app.yxliu.group</a>. Welcome to try it out!"
+  url: https://app.yxliu.group
+  image: "/images/news/landing-small.png"
+  category: software
+
 - title: "MakiePublication.jl v0.4.2 Released"
   date: 2025-06-14
   description: "It has been over a year since the last minor release of MakiePublication.jl, and I’m excited to announce that v0.4.2 is now available! This release includes several new features and bug fixes, including support for the latest versions of Makie and GLMakie, as well as improved documentation."
   url: https://github.com/liuyxpp/MakiePublication.jl
-  image: ""
+  image: "/images/news/makiepub-small.png"
   category: software
 
 - title: "YC Zhang & WL Huang Defend Their MSc Theses"

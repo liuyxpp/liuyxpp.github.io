@@ -4,7 +4,7 @@ layout: page
 title: Teaching
 description: "Undergraduate courses: Polymer Rheology and Processing, Polymer Physics, Introduction to Polymeric Materials, Scientific Research 101: Introduction to Scientific Computing."
 comments: false
-modified: 2025-05-03
+modified: 2025-09-03
 breadcrumbs: true
 ---
 
@@ -42,12 +42,12 @@ Note 2: Course time (1-2) corresponds to (8:00 - 9:40), (3-4) corresponds to (9:
 XDSY118019, for undergraduate<br>
 Course website: [www.yxliu.group/XDSY118019/](https://www.yxliu.group/XDSY118019/)
 
+- Fall 2025, Classroom: H2112A, Time: Thur 11-13
 - Fall 2024, Calssroom: H2205, Time: Thur 11-13
 - Fall 2023, Classroom: H2210, Time: Thur 11-13.
 - Fall 2022, Classroom: H6104, Time: Thur 11-13.
 
 Course syllabus and materials: [github.com/liuyxpp/XDSY118019](https://github.com/liuyxpp/XDSY118019).<br>
-Note 1: with Prof. Ping Tang at Fall 2022.
 
 ## Introduction to Polymeric Materials
 -----

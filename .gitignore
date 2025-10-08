@@ -10,3 +10,7 @@ backup
 _backup
 _drafts
 .vscode
+
+
+#Ignore vscode AI rules
+.github/instructions/codacy.instructions.md
