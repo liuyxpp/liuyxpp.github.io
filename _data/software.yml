@@ -11,6 +11,21 @@
     - text: GitHub Repository
       url: https://github.com/liuyxpp/Polyorder.jl
 
+- name: Polyorder Web App
+  category: Scientific Computing
+  description: Web-based interface for running and managing Polyorder.jl simulations
+  features:
+    - Complete web interface for SCFT simulation configuration
+    - Real-time simulation monitoring with live convergence plots
+    - Thread-safe distributed worker pool
+    - Block copolymer library with pre-defined architectures
+    - Seed library with rich set of pre-defined seeds
+    - User management and simulation history tracking
+  highlight: true
+  links:
+    - text: app website
+      url: https://app.yxliu.group
+
 - name: Scattering.jl
   category: Scientific Computing
   description: Julia package for computing scattering and diffraction of nanoparticles
