@@ -63,6 +63,9 @@
   features:
     - Automatic identification of equivalent sub-architectures
     - Integration with Polymer.jl
+  links:
+    - text: GitHub Repository
+      url: https://github.com/liuyxpp/PolymerArchitecture.jl
 
 - name: CubicHermiteSpline.jl
   category: Scientific Computing
@@ -97,6 +100,9 @@
   features:
     - Integration with PolymerArchitecture.jl
     - Customizable visual styles
+  links:
+    - text: GitHub Repository
+      url: https://github.com/liuyxpp/PolymerArchitectureMakie.jl
 
 - name: mpltex
   category: Utility
