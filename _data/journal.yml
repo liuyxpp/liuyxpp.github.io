@@ -1,21 +1,46 @@
 # Yi-Xin Liu's Publications - Journal articles
 
-- title: 'A Unified Approach to Phase Equilibria in Multi-Component Polymer Systems with Effective Chemical Potential'
+- title: "Accelerating Field-Based Simulations of Block Copolymers by Exploring Symmetry of Chain Architectures"
+  volume:
+  issue:
+  page: Accepted
+  year: 2026
+  author:
+    - given: Jun-Yang
+      given_initial: J. Y.
+      family: Liu
+    - given: Yu-Chen
+      given_initial: Y. C.
+      family: Zhang
+    - given: Yi-Xin
+      given_initial: Y. X.
+      family: Liu
+      role: "main corr"
+  journal:
+    fullname: Chinese Journal of Polymer Science
+    abbreviation: Chinese J. Polym. Sci.
+  URL:
+  type: article
+  DOI:
+  fulltext:
+  language: english
+
+- title: "A Unified Approach to Phase Equilibria in Multi-Component Polymer Systems with Effective Chemical Potential"
   volume: 43
-  issue: 
+  issue:
   page: 1681-1689
   year: 2025
   author:
-  - given: Weiling
-    given_initial: W.
-    family: Huang
-  - given: Yuchen
-    given_initial: Y.
-    family: Zhang
-  - given: Yi-Xin
-    given_initial: Y. X.
-    family: Liu
-    role: 'main corr'
+    - given: Weiling
+      given_initial: W.
+      family: Huang
+    - given: Yuchen
+      given_initial: Y.
+      family: Zhang
+    - given: Yi-Xin
+      given_initial: Y. X.
+      family: Liu
+      role: "main corr"
   journal:
     fullname: Chinese Journal of Polymer Science
     abbreviation: Chinese J. Polym. Sci.
@@ -25,22 +50,22 @@
   fulltext: cjps202501.pdf
   language: english
 
-- title: 'Automated chain architecture screening for discovery of block copolymer assembly with graph enhanced self-consistent field theory'
+- title: "Automated chain architecture screening for discovery of block copolymer assembly with graph enhanced self-consistent field theory"
   volume: 5
   issue:
   page: 266
   year: 2024
   author:
-  - given: Yuchen
-    given_initial: Y.
-    family: Zhang
-  - given: Weiling
-    given_initial: W.
-    family: Huang
-  - given: Yi-Xin
-    given_initial: Y. X.
-    family: Liu
-    role: 'main corr'
+    - given: Yuchen
+      given_initial: Y.
+      family: Zhang
+    - given: Weiling
+      given_initial: W.
+      family: Huang
+    - given: Yi-Xin
+      given_initial: Y. X.
+      family: Liu
+      role: "main corr"
   journal:
     fullname: Computational Materials
     abbreviation: Commun. Mater.
@@ -50,42 +75,42 @@
   fulltext: cm202401.pdf
   language: english
 
-- title: 'On the Teaching of Modern Polymer Physics: Phase Equilibrium of Polymer Blends'
-  title_alt: '现代高分子物理课程系列漫谈: 高分子共混物相平衡'
+- title: "On the Teaching of Modern Polymer Physics: Phase Equilibrium of Polymer Blends"
+  title_alt: "现代高分子物理课程系列漫谈: 高分子共混物相平衡"
   volume: 37
   page: 829-835
   year: 2024
   author:
-  - given: Wei-Ling
-    given_alt: 玮玲
-    given_initial: W. L.
-    family: Huang
-    family_alt: 黄
-    name: Wei-Ling Huang
-    name_alt: 黄玮玲
-  - given: Yu-Chen
-    given_alt: 御辰
-    given_initial: Y. C.
-    family: Zhang
-    family_alt: 张
-    name: Yu-Chen Zhang
-    name_alt: 张御辰
-  - given: Jian-Feng
-    given_alt: 剑锋
-    given_initial: J. F.
-    family: Li
-    family_alt: 李
-    name: Jian-Feng Li
-    name_alt: 李剑锋
-    role: "corr"
-  - given: Yi-Xin
-    given_alt: 一新
-    given_initial: Y. X.
-    family: Liu
-    family_alt: 刘
-    name: Yi-Xin Liu
-    name_alt: 刘一新
-    role: "main corr"
+    - given: Wei-Ling
+      given_alt: 玮玲
+      given_initial: W. L.
+      family: Huang
+      family_alt: 黄
+      name: Wei-Ling Huang
+      name_alt: 黄玮玲
+    - given: Yu-Chen
+      given_alt: 御辰
+      given_initial: Y. C.
+      family: Zhang
+      family_alt: 张
+      name: Yu-Chen Zhang
+      name_alt: 张御辰
+    - given: Jian-Feng
+      given_alt: 剑锋
+      given_initial: J. F.
+      family: Li
+      family_alt: 李
+      name: Jian-Feng Li
+      name_alt: 李剑锋
+      role: "corr"
+    - given: Yi-Xin
+      given_alt: 一新
+      given_initial: Y. X.
+      family: Liu
+      family_alt: 刘
+      name: Yi-Xin Liu
+      name_alt: 刘一新
+      role: "main corr"
   journal:
     fullname: Polymer Bulletin
     fullname_alt: 高分子通报
@@ -96,22 +121,22 @@
   fulltext: gfztb202401.pdf
   language: chinese
 
-- title: 'Automated Identification of Ordered Phases for Simulation Studies of Block Copolymers'
+- title: "Automated Identification of Ordered Phases for Simulation Studies of Block Copolymers"
   volume: 42
   issue: 5
   page: 683-692
   year: 2024
   author:
-  - given: Yuchen
-    given_initial: Y.
-    family: Zhang
-  - given: Weiling
-    given_initial: W.
-    family: Huang
-  - given: Yi-Xin
-    given_initial: Y. X.
-    family: Liu
-    role: 'main corr'
+    - given: Yuchen
+      given_initial: Y.
+      family: Zhang
+    - given: Weiling
+      given_initial: W.
+      family: Huang
+    - given: Yi-Xin
+      given_initial: Y. X.
+      family: Liu
+      role: "main corr"
   journal:
     fullname: Chinese Journal of Polymer Science
     abbreviation: Chinese J. Polym. Sci.
@@ -121,26 +146,26 @@
   fulltext: cjps202401.pdf
   language: english
 
-- title: 'Template Design for Complex Block Copolymer Patterns Using a Machine Learning Method'
-  volume: '15'
-  issue: '25'
-  page: '31049-31056'
+- title: "Template Design for Complex Block Copolymer Patterns Using a Machine Learning Method"
+  volume: "15"
+  issue: "25"
+  page: "31049-31056"
   year: 2023
   author:
-  - given: Zhihan
-    given_initial: Z.
-    family: Liu
-  - given: Yi-Xin
-    given_initial: Y. X.
-    family: Liu
-    role: 'main corr'
-  - given: Yuliang
-    given_initial: Y.
-    family: Yang
-  - given: Jianfeng
-    given_initial: J.
-    family: Li
-    role: 'corr'
+    - given: Zhihan
+      given_initial: Z.
+      family: Liu
+    - given: Yi-Xin
+      given_initial: Y. X.
+      family: Liu
+      role: "main corr"
+    - given: Yuliang
+      given_initial: Y.
+      family: Yang
+    - given: Jianfeng
+      given_initial: J.
+      family: Li
+      role: "corr"
   journal:
     fullname: ACS Applied Materials & Interfaces
     abbreviation: ACS Appl. Mater. Interfaces
@@ -150,38 +175,38 @@
   fulltext: acsami202301.pdf
   language: english
 
-- title: 'Composition Waves in Solution-Processed Organic Films and Its Propagations from Kinetically Frozen Surface Mesophases'
-  volume: '33'
-  issue: '40'
-  page: '2302089'
+- title: "Composition Waves in Solution-Processed Organic Films and Its Propagations from Kinetically Frozen Surface Mesophases"
+  volume: "33"
+  issue: "40"
+  page: "2302089"
   year: 2023
   author:
-  - given: Jinde
-    given_initial: J.
-    family: Yu
-  - given: Zichao
-    given_initial: Z.
-    family: Shen
-  - given: Wanlong
-    given_initial: W.
-    family: Lu
-  - given: Yuanwei
-    given_initial: Y.
-    family: Zhu
-  - given: Yi-Xin
-    given_initial: Y. X.
-    family: Liu
-    role: 'main corr'
-  - given: Dieter
-    given_initial: D.
-    family: Neher
-  - given: Norbert
-    given_initial: N.
-    family: Koch
-  - given: Guanghao
-    given_initial: G.
-    family: Lu
-    role: 'corr'
+    - given: Jinde
+      given_initial: J.
+      family: Yu
+    - given: Zichao
+      given_initial: Z.
+      family: Shen
+    - given: Wanlong
+      given_initial: W.
+      family: Lu
+    - given: Yuanwei
+      given_initial: Y.
+      family: Zhu
+    - given: Yi-Xin
+      given_initial: Y. X.
+      family: Liu
+      role: "main corr"
+    - given: Dieter
+      given_initial: D.
+      family: Neher
+    - given: Norbert
+      given_initial: N.
+      family: Koch
+    - given: Guanghao
+      given_initial: G.
+      family: Lu
+      role: "corr"
   journal:
     fullname: Advanced Functional Materials
     abbreviation: Adv. Funct. Mater.
@@ -191,36 +216,36 @@
   fulltext: afm202301.pdf
   language: english
 
-- title: 'On the Teaching of Modern Polymer Physics: Free Energy of A Single Polymer Chain in Polymer Solutions'
-  title_alt: '现代高分子物理漫谈--溶液中高分子单链自由能'
-  volume: '37'
-  issue: '1'
-  page: '2103041'
+- title: "On the Teaching of Modern Polymer Physics: Free Energy of A Single Polymer Chain in Polymer Solutions"
+  title_alt: "现代高分子物理漫谈--溶液中高分子单链自由能"
+  volume: "37"
+  issue: "1"
+  page: "2103041"
   year: 2022
   author:
-  - given: Yi-Xin
-    given_alt: 一新
-    given_initial: Y. X.
-    family: Liu
-    family_alt: 刘
-    name: Yi-Xin Liu
-    name_alt: 刘一新
-    role: 'main'
-  - given: Jian-Feng
-    given_alt: 剑锋
-    given_initial: J. F.
-    family: Li
-    family_alt: 李
-    name: Jian-Feng Li
-    name_alt: 李剑锋
-    role: 'corr'
-  - given: Hong-Dong
-    given_alt: 红东
-    given_initial: H. D.
-    family: Zhang
-    family_alt: 张
-    name: Hong-Dong Zhang
-    name_alt: 张红东
+    - given: Yi-Xin
+      given_alt: 一新
+      given_initial: Y. X.
+      family: Liu
+      family_alt: 刘
+      name: Yi-Xin Liu
+      name_alt: 刘一新
+      role: "main"
+    - given: Jian-Feng
+      given_alt: 剑锋
+      given_initial: J. F.
+      family: Li
+      family_alt: 李
+      name: Jian-Feng Li
+      name_alt: 李剑锋
+      role: "corr"
+    - given: Hong-Dong
+      given_alt: 红东
+      given_initial: H. D.
+      family: Zhang
+      family_alt: 张
+      name: Hong-Dong Zhang
+      name_alt: 张红东
   journal:
     fullname: University Chemistry
     fullname_alt: 大学化学
@@ -231,42 +256,42 @@
   fulltext: uc202201.pdf
   language: chinese
 
-- title: 'Folded Chain Lamellae of Dynamic Helical Poly-(phenylacetylene) in Hexagonal Columnar Phase'
-  volume: '54'
-  issue: '13'
-  page: '6038-6044'
+- title: "Folded Chain Lamellae of Dynamic Helical Poly-(phenylacetylene) in Hexagonal Columnar Phase"
+  volume: "54"
+  issue: "13"
+  page: "6038-6044"
   year: 2021
   author:
-  - given: Yan-Fang
-    given_initial: Y. F.
-    family: Zhang
-  - given: Xu
-    given_initial: X.
-    family: Chen
-  - given: Xiao-Song
-    given_initial: X. S.
-    family: Yu
-  - given: Jia-Xin
-    given_initial: J. X.
-    family: Chen
-  - given: Ming-Qiu
-    given_initial: M. Q.
-    family: Hu
-  - given: Bo-Yuan
-    given_initial: B. Y.
-    family: Zhang
-  - given: Yi-Xin
-    given_initial: Y. X.
-    family: Liu
-    role: 'main corr'
-  - given: Shuang
-    given_initial: S.
-    family: Yang
-    role: 'corr'
-  - given: Er-Qiang
-    given_initial: E. Q.
-    family: Chen
-    role: 'corr'
+    - given: Yan-Fang
+      given_initial: Y. F.
+      family: Zhang
+    - given: Xu
+      given_initial: X.
+      family: Chen
+    - given: Xiao-Song
+      given_initial: X. S.
+      family: Yu
+    - given: Jia-Xin
+      given_initial: J. X.
+      family: Chen
+    - given: Ming-Qiu
+      given_initial: M. Q.
+      family: Hu
+    - given: Bo-Yuan
+      given_initial: B. Y.
+      family: Zhang
+    - given: Yi-Xin
+      given_initial: Y. X.
+      family: Liu
+      role: "main corr"
+    - given: Shuang
+      given_initial: S.
+      family: Yang
+      role: "corr"
+    - given: Er-Qiang
+      given_initial: E. Q.
+      family: Chen
+      role: "corr"
   journal:
     fullname: Macromolecules
     abbreviation: Macromolecules
@@ -276,20 +301,20 @@
   fulltext: ma202101.pdf
   language: english
 
-- title: 'Simplicity in Mean-field Phase Behavior of Two-component Miktoarm Star Copolymers'
-  volume: '154'
-  issue: '1'
-  page: '014903'
+- title: "Simplicity in Mean-field Phase Behavior of Two-component Miktoarm Star Copolymers"
+  volume: "154"
+  issue: "1"
+  page: "014903"
   year: 2021
   author:
-  - given: Wei
-    given_initial: W.
-    family: Li
-    role: corr
-  - given: Yi-Xin
-    given_initial: Y. X.
-    family: Liu
-    role: 'main corr'
+    - given: Wei
+      given_initial: W.
+      family: Li
+      role: corr
+    - given: Yi-Xin
+      given_initial: Y. X.
+      family: Liu
+      role: "main corr"
   journal:
     fullname: The Journal of Chemical Physics
     abbreviation: J. Chem. Phys.
@@ -299,22 +324,22 @@
   fulltext: jcp202101.pdf
   language: english
 
-- title: 'Removal Pathways of Out-of-plane Defects in Thin Films of Lamellar Forming Block Copolymers'
-  volume: '51'
-  issue: '11'
-  page: '4201-4212'
+- title: "Removal Pathways of Out-of-plane Defects in Thin Films of Lamellar Forming Block Copolymers"
+  volume: "51"
+  issue: "11"
+  page: "4201-4212"
   year: 2018
   author:
-  - given: Jun-Qing
-    given_initial: J. Q.
-    family: Song
-  - given: Yi-Xin
-    given_initial: Y. X.
-    family: Liu
-    role: 'main corr'
-  - given: Hong-Dong
-    given_initial: H. D.
-    family: Zhang
+    - given: Jun-Qing
+      given_initial: J. Q.
+      family: Song
+    - given: Yi-Xin
+      given_initial: Y. X.
+      family: Liu
+      role: "main corr"
+    - given: Hong-Dong
+      given_initial: H. D.
+      family: Zhang
   journal:
     fullname: Macromolecules
     abbreviation: Macromolecules
@@ -324,35 +349,35 @@
   fulltext: ma201801.pdf
   language: english
 
-- title: 'Theoretical Studies on Defect Removal in Block Copolymer Thin Films under Soft Confinement'
-  title_alt: '软受限条件下嵌段共聚物薄膜缺陷消除的理论研究'
-  volume: '12'
-  issue: '12'
-  page: '1548-1557'
+- title: "Theoretical Studies on Defect Removal in Block Copolymer Thin Films under Soft Confinement"
+  title_alt: "软受限条件下嵌段共聚物薄膜缺陷消除的理论研究"
+  volume: "12"
+  issue: "12"
+  page: "1548-1557"
   year: 2018
   author:
-  - given: Jun-Qing
-    given_alt: 俊清
-    given_initial: J. Q.
-    family: Song
-    family_alt: 宋
-    name: Jun-Qing Song
-    name_alt: 宋俊清
-  - given: Yi-Xin
-    given_alt: 一新
-    given_initial: Y. X.
-    family: Liu
-    family_alt: 刘
-    name: Yi-Xin Liu
-    name_alt: 刘一新
-    role: 'main corr'
-  - given: Hong-Dong
-    given_alt: 红东
-    given_initial: H. D.
-    family: Zhang
-    family_alt: 张
-    name: Hong-Dong Zhang
-    name_alt: 张红东
+    - given: Jun-Qing
+      given_alt: 俊清
+      given_initial: J. Q.
+      family: Song
+      family_alt: 宋
+      name: Jun-Qing Song
+      name_alt: 宋俊清
+    - given: Yi-Xin
+      given_alt: 一新
+      given_initial: Y. X.
+      family: Liu
+      family_alt: 刘
+      name: Yi-Xin Liu
+      name_alt: 刘一新
+      role: "main corr"
+    - given: Hong-Dong
+      given_alt: 红东
+      given_initial: H. D.
+      family: Zhang
+      family_alt: 张
+      name: Hong-Dong Zhang
+      name_alt: 张红东
   journal:
     fullname: Acta Polymerica Sinica
     fullname_alt: 高分子学报
@@ -363,28 +388,28 @@
   fulltext: gfzxb201802
   language: chinese
 
-- title: 'Thickening Kinetics of Monolayer Crystals of Low Molecular Weight Poly(ethylene oxide) Fractions on Mica Surfaces'
-  title_alt: '云母表面低分子量聚氧乙烯单层片晶等温增厚动力学'
-  volume: '9'
-  issue: '9'
-  page: '1212-1220'
+- title: "Thickening Kinetics of Monolayer Crystals of Low Molecular Weight Poly(ethylene oxide) Fractions on Mica Surfaces"
+  title_alt: "云母表面低分子量聚氧乙烯单层片晶等温增厚动力学"
+  volume: "9"
+  issue: "9"
+  page: "1212-1220"
   year: 2018
   author:
-  - given: Yi-Xin
-    given_alt: 一新
-    given_initial: Y. X.
-    family: Liu
-    family_alt: 刘
-    role: 'main corr'
-    name: Yi-Xin Liu
-    name_alt: 刘一新
-  - given: Er-Qiang
-    given_alt: 尔强
-    given_initial: E. Q.
-    family: Chen
-    family_alt: 陈
-    name: Er-Qiang Chen
-    name_alt: 刘一新
+    - given: Yi-Xin
+      given_alt: 一新
+      given_initial: Y. X.
+      family: Liu
+      family_alt: 刘
+      role: "main corr"
+      name: Yi-Xin Liu
+      name_alt: 刘一新
+    - given: Er-Qiang
+      given_alt: 尔强
+      given_initial: E. Q.
+      family: Chen
+      family_alt: 陈
+      name: Er-Qiang Chen
+      name_alt: 刘一新
   journal:
     fullname: Acta Polymerica Sinica
     fullname_alt: 高分子学报
@@ -395,19 +420,19 @@
   fulltext: gfzxb201801.pdf
   language: chinese
 
-- title: 'Structures and Surface States of Polymer Brushes in Good Solvents: Effects of Surface Interactions'
-  volume: '36'
-  issue: '9'
-  page: '1047-1054'
+- title: "Structures and Surface States of Polymer Brushes in Good Solvents: Effects of Surface Interactions"
+  volume: "36"
+  issue: "9"
+  page: "1047-1054"
   year: 2018
   author:
-  - given: Yi-Xin
-    given_initial: Y. X.
-    family: Liu
-    role: 'main corr'
-  - given: Hong-Dong
-    given_initial: H. D.
-    family: Zhang
+    - given: Yi-Xin
+      given_initial: Y. X.
+      family: Liu
+      role: "main corr"
+    - given: Hong-Dong
+      given_initial: H. D.
+      family: Zhang
   journal:
     fullname: Chinese Journal of Polymer Science
     abbreviation: Chinese J. Polym. Sci.
@@ -417,22 +442,22 @@
   fulltext: cjps201802.pdf
   language: english
 
-- title: 'An Efficient Algorithm for Self-Consistent Field Theory Calculations of Complex Self-Assembled Structures of Block Copolymer Melts'
-  volume: '36'
-  issue: ''
-  page: '488-496'
+- title: "An Efficient Algorithm for Self-Consistent Field Theory Calculations of Complex Self-Assembled Structures of Block Copolymer Melts"
+  volume: "36"
+  issue: ""
+  page: "488-496"
   year: 2018
   author:
-  - given: Jun-Qing
-    given_initial: J. Q.
-    family: Song
-  - given: Yi-Xin
-    given_initial: Y. X.
-    family: Liu
-    role: 'main corr'
-  - given: Hong-Dong
-    given_initial: H. D.
-    family: Zhang
+    - given: Jun-Qing
+      given_initial: J. Q.
+      family: Song
+    - given: Yi-Xin
+      given_initial: Y. X.
+      family: Liu
+      role: "main corr"
+    - given: Hong-Dong
+      given_initial: H. D.
+      family: Zhang
   journal:
     fullname: Chinese Journal of Polymer Science
     abbreviation: Chinese J. Polym. Sci.
@@ -442,23 +467,23 @@
   fulltext: cjps201801.pdf
   language: english
 
-- title: 'Field-Theoretic Simulations of Fluctuation-Stabilized Aperiodic Bricks-and-Mortar Mesophase in Miktoarm Star Block Copolymer/Homopolymer Blends'
-  volume: '50'
-  issue: '16'
-  page: '6263-6272'
+- title: "Field-Theoretic Simulations of Fluctuation-Stabilized Aperiodic Bricks-and-Mortar Mesophase in Miktoarm Star Block Copolymer/Homopolymer Blends"
+  volume: "50"
+  issue: "16"
+  page: "6263-6272"
   year: 2017
   author:
-  - given: Yi-Xin
-    given_initial: Y. X.
-    family: Liu
-    role: 'main'
-  - given: Kris
-    given_initial: K. T.
-    family: Delaney
-  - given: Glenn
-    given_initial: G. H.
-    family: Fredrickson
-    role: 'corr'
+    - given: Yi-Xin
+      given_initial: Y. X.
+      family: Liu
+      role: "main"
+    - given: Kris
+      given_initial: K. T.
+      family: Delaney
+    - given: Glenn
+      given_initial: G. H.
+      family: Fredrickson
+      role: "corr"
   journal:
     fullname: Macromolecules
     abbreviation: Macromolecules
@@ -468,22 +493,22 @@
   fulltext: ma201701.pdf
   language: english
 
-- title: 'A Surface Interaction Model for Self-assembly of Block Copolymers under Soft Confinement'
-  volume: '145'
-  issue: '21'
-  page: '214902'
+- title: "A Surface Interaction Model for Self-assembly of Block Copolymers under Soft Confinement"
+  volume: "145"
+  issue: "21"
+  page: "214902"
   year: 2016
   author:
-  - given: Jun-Qing
-    given_initial: J. Q.
-    family: Song
-  - given: Yi-Xin
-    given_initial: Y. X.
-    family: Liu
-    role: 'main corr'
-  - given: Hong-Dong
-    given_initial: H. D.
-    family: Zhang
+    - given: Jun-Qing
+      given_initial: J. Q.
+      family: Song
+    - given: Yi-Xin
+      given_initial: Y. X.
+      family: Liu
+      role: "main corr"
+    - given: Hong-Dong
+      given_initial: H. D.
+      family: Zhang
   journal:
     fullname: The Journal of Chemical Physics
     abbreviation: J. Chem. Phys.
@@ -493,27 +518,27 @@
   fulltext: jcp201601.pdf
   language: english
 
-- title: 'On the Teaching of Modern Polymer Physics: I. Ginzburg Criterion'
-  title_alt: '现代高分子物理课程系列漫谈I: 金兹堡判据'
-  volume: '1'
-  page: '73-79'
+- title: "On the Teaching of Modern Polymer Physics: I. Ginzburg Criterion"
+  title_alt: "现代高分子物理课程系列漫谈I: 金兹堡判据"
+  volume: "1"
+  page: "73-79"
   year: 2015
   author:
-  - given: Yi-Xin
-    given_alt: 一新
-    given_initial: Y. X.
-    family: Liu
-    family_alt: 刘
-    name: Yi-Xin Liu
-    name_alt: 刘一新
-    role: 'main corr'
-  - given: Hong-Dong
-    given_alt: 红东
-    given_initial: H. D.
-    family: Zhang
-    family_alt: 张
-    name: Hong-Dong Zhang
-    name_alt: 张红东
+    - given: Yi-Xin
+      given_alt: 一新
+      given_initial: Y. X.
+      family: Liu
+      family_alt: 刘
+      name: Yi-Xin Liu
+      name_alt: 刘一新
+      role: "main corr"
+    - given: Hong-Dong
+      given_alt: 红东
+      given_initial: H. D.
+      family: Zhang
+      family_alt: 张
+      name: Hong-Dong Zhang
+      name_alt: 张红东
   journal:
     fullname: Polymer Bulletin
     fullname_alt: 高分子通报
@@ -524,19 +549,19 @@
   fulltext: gfztb201501.pdf
   language: chinese
 
-- title: 'Exponential time differencing methods with Chebyshev collocation for polymers confined by interacting surfaces'
-  volume: '140'
-  issue: '22'
-  page: '224101'
+- title: "Exponential time differencing methods with Chebyshev collocation for polymers confined by interacting surfaces"
+  volume: "140"
+  issue: "22"
+  page: "224101"
   year: 2014
   author:
-  - given: Yi-Xin
-    given_initial: Y. X.
-    family: Liu
-    role: 'main corr'
-  - given: Hong-Dong
-    given_initial: H. D.
-    family: Zhang
+    - given: Yi-Xin
+      given_initial: Y. X.
+      family: Liu
+      role: "main corr"
+    - given: Hong-Dong
+      given_initial: H. D.
+      family: Zhang
   journal:
     fullname: The Journal of Chemical Physics
     abbreviation: J. Chem. Phys.
@@ -546,28 +571,28 @@
   fulltext: jcp201401.pdf
   language: english
 
-- title: 'Microphase Separation and Phase Diagram of Concentrated Diblock Copolyelectrolyte Solutions Studied by Self-Consistent Field Theory Calculations in Two-Dimensional Space'
-  ISSN: '0024-9297'
-  issue: '20'
-  page: '8261-8269'
-  volume: '44'
+- title: "Microphase Separation and Phase Diagram of Concentrated Diblock Copolyelectrolyte Solutions Studied by Self-Consistent Field Theory Calculations in Two-Dimensional Space"
+  ISSN: "0024-9297"
+  issue: "20"
+  page: "8261-8269"
+  volume: "44"
   year: 2011
   month: 9
   author:
-  - given: Yi-Xin
-    given_initial: Y. X.
-    family: Liu
-    role: 'main corr'
-  - given: Hong-Dong
-    given_initial: H. D.
-    family: Zhang
-    role: corr
-  - given: Chao Hui
-    given_initial: C. H.
-    family: Tong
-  - given: Yu Liang
-    given_initial: Y. L.
-    family: Yang
+    - given: Yi-Xin
+      given_initial: Y. X.
+      family: Liu
+      role: "main corr"
+    - given: Hong-Dong
+      given_initial: H. D.
+      family: Zhang
+      role: corr
+    - given: Chao Hui
+      given_initial: C. H.
+      family: Tong
+    - given: Yu Liang
+      given_initial: Y. L.
+      family: Yang
   journal:
     fullname: Macromolecules
     abbreviation: Macromolecules
@@ -578,28 +603,28 @@
   language: english
   fulltext: ma201101.pdf
 
-- title: 'Phase Selection Pathways in Ultrathin Film Crystallization of a Low Molecular Weight Poly(ethylene oxide) Fraction on Mica Surfaces'
-  ISSN: '0024-9297'
-  issue: '22'
-  page: '8819-8828'
-  volume: '44'
+- title: "Phase Selection Pathways in Ultrathin Film Crystallization of a Low Molecular Weight Poly(ethylene oxide) Fraction on Mica Surfaces"
+  ISSN: "0024-9297"
+  issue: "22"
+  page: "8819-8828"
+  volume: "44"
   year: 2011
   month: 11
   author:
-  - given: Yi-Xin
-    given_initial: Y. X.
-    family: Liu
-    role: main
-  - given: Lu Wei
-    given_initial: L. W.
-    family: Zhong
-  - given: Shi Zhao
-    given_initial: S. Z.
-    family: Su
-  - given: Er-Qiang
-    given_initial: E. Q.
-    family: Chen
-    role: corr
+    - given: Yi-Xin
+      given_initial: Y. X.
+      family: Liu
+      role: main
+    - given: Lu Wei
+      given_initial: L. W.
+      family: Zhong
+    - given: Shi Zhao
+      given_initial: S. Z.
+      family: Su
+    - given: Er-Qiang
+      given_initial: E. Q.
+      family: Chen
+      role: corr
   journal:
     fullname: Macromolecules
     abbreviation: Macromolecules
@@ -611,34 +636,34 @@
   fulltext: ma201103.pdf
 
 - title: "Combined Main-Chain/Side-Chain Liquid Crystalline Polymer with Main-Chain On the basis of Jacketing Effect and Side-Chain Containing Azobenzene Groups"
-  ISSN: '0024-9297'
-  issue: '19'
-  page: '7600-7609'
-  volume: '44'
+  ISSN: "0024-9297"
+  issue: "19"
+  page: "7600-7609"
+  volume: "44"
   year: 2011
   month: 9
   author:
-  - given: He Lou
-    given_initial: H. L.
-    family: Xie
-  - given: Shao Jie
-    given_initial: S. J.
-    family: Wang
-  - given: Guan Qun
-    given_initial: G. Q.
-    family: Zhong
-  - given: Yi-Xin
-    given_initial: Y. X.
-    family: Liu
-    role: main
-  - given: Hai Liang
-    given_initial: H. L.
-    family: Zhang
-    role: corr
-  - given: Er-Qiang
-    given_initial: E. Q.
-    family: Chen
-    role: corr
+    - given: He Lou
+      given_initial: H. L.
+      family: Xie
+    - given: Shao Jie
+      given_initial: S. J.
+      family: Wang
+    - given: Guan Qun
+      given_initial: G. Q.
+      family: Zhong
+    - given: Yi-Xin
+      given_initial: Y. X.
+      family: Liu
+      role: main
+    - given: Hai Liang
+      given_initial: H. L.
+      family: Zhang
+      role: corr
+    - given: Er-Qiang
+      given_initial: E. Q.
+      family: Chen
+      role: corr
   journal:
     fullname: Macromolecules
     abbreviation: Macromolecules
@@ -649,21 +674,21 @@
   fulltext: ma201102.pdf
   language: english
 
-- title: 'Polymer crystallization of ultrathin films on solid substrates'
-  ISSN: '00108545'
-  issue: '9-10'
-  page: '1011-1037'
-  volume: '254'
+- title: "Polymer crystallization of ultrathin films on solid substrates"
+  ISSN: "00108545"
+  issue: "9-10"
+  page: "1011-1037"
+  volume: "254"
   year: 2010
   author:
-  - given: Yi-Xin
-    given_initial: Y. X.
-    family: Liu
-    role: main
-  - given: Er-Qiang
-    given_initial: E. Q.
-    family: Chen
-    role: corr
+    - given: Yi-Xin
+      given_initial: Y. X.
+      family: Liu
+      role: main
+    - given: Er-Qiang
+      given_initial: E. Q.
+      family: Chen
+      role: corr
   journal:
     fullname: Coordination Chemistry Reviews
     abbreviation: Coord. Chem. Rev.
@@ -673,35 +698,35 @@
   language: english
   fulltext: ccr201001.pdf
 
-- title: 'Design, Synthesis, and Multiple Hierarchical Ordering of a Novel Side-Chain Liquid Crystalline-Rod Diblock Copolymer'
-  ISSN: '0024-9297'
-  issue: '22'
-  page: '8774-8780'
-  volume: '42'
+- title: "Design, Synthesis, and Multiple Hierarchical Ordering of a Novel Side-Chain Liquid Crystalline-Rod Diblock Copolymer"
+  ISSN: "0024-9297"
+  issue: "22"
+  page: "8774-8780"
+  volume: "42"
   year: 2009
   month: 11
   author:
-  - given: He Lou
-    given_initial: H. L.
-    family: Xie
-  - given: Yi-Xin
-    given_initial: Y. X.
-    family: Liu
-    role: main
-  - given: Guan Qun
-    given_initial: G. Q.
-    family: Zhong
-  - given: Hai Liang
-    given_initial: H. L.
-    family: Zhang
-    role: corr
-  - given: Er-Qiang
-    given_initial: E. Q.
-    family: Chen
-    role: corr
-  - given: Qi Feng
-    given_initial: Q. F.
-    family: Zhou
+    - given: He Lou
+      given_initial: H. L.
+      family: Xie
+    - given: Yi-Xin
+      given_initial: Y. X.
+      family: Liu
+      role: main
+    - given: Guan Qun
+      given_initial: G. Q.
+      family: Zhong
+    - given: Hai Liang
+      given_initial: H. L.
+      family: Zhang
+      role: corr
+    - given: Er-Qiang
+      given_initial: E. Q.
+      family: Chen
+      role: corr
+    - given: Qi Feng
+      given_initial: Q. F.
+      family: Zhou
   journal:
     fullname: Macromolecules
     abbreviation: Macromolecules
@@ -712,32 +737,32 @@
   language: english
   fulltext: ma200902.pdf
 
-- title: 'Direct Observation and Modeling of Transient Nucleation in Isothermal Thickening of Polymer Lamellar Crystal Monolayers'
-  ISSN: '0024-9297'
-  issue: '8'
-  page: '2886-2890'
-  volume: '42'
+- title: "Direct Observation and Modeling of Transient Nucleation in Isothermal Thickening of Polymer Lamellar Crystal Monolayers"
+  ISSN: "0024-9297"
+  issue: "8"
+  page: "2886-2890"
+  volume: "42"
   year: 2009
   month: 4
   author:
-  - given: Yi-Xin
-    given_initial: Y. X.
-    family: Liu
-    role: main
-  - given: Jian Feng
-    given_initial: J. F.
-    family: Li
-  - given: Dun Shen
-    given_initial: D. S.
-    family: Zhu
-  - given: Er-Qiang
-    given_initial: E. Q.
-    family: Chen
-    role: corr
-  - given: Hong-Dong
-    given_initial: H. D.
-    family: Zhang
-    role: corr
+    - given: Yi-Xin
+      given_initial: Y. X.
+      family: Liu
+      role: main
+    - given: Jian Feng
+      given_initial: J. F.
+      family: Li
+    - given: Dun Shen
+      given_initial: D. S.
+      family: Zhu
+    - given: Er-Qiang
+      given_initial: E. Q.
+      family: Chen
+      role: corr
+    - given: Hong-Dong
+      given_initial: H. D.
+      family: Zhang
+      role: corr
   journal:
     fullname: Macromolecules
     abbreviation: Macromolecules
@@ -748,26 +773,26 @@
   language: english
   fulltext: ma200901.pdf
 
-- title: 'Molecular packing and phase transitions of side-chain liquid crystalline polymethacrylates based on p-methoxyazobenzene'
-  issue: '12-13'
-  page: '3103-3110'
-  volume: '49'
+- title: "Molecular packing and phase transitions of side-chain liquid crystalline polymethacrylates based on p-methoxyazobenzene"
+  issue: "12-13"
+  page: "3103-3110"
+  volume: "49"
   year: 2008
   author:
-  - given: Xing Qi
-    given_initial: X. Q.
-    family: Zhu
-  - given: Jia Hao
-    given_initial: J. H.
-    family: Liu
-  - given: Yi-Xin
-    given_initial: Y. X.
-    family: Liu
-    role: main
-  - given: Er-Qiang
-    given_initial: E. Q.
-    family: Chen
-    role: corr
+    - given: Xing Qi
+      given_initial: X. Q.
+      family: Zhu
+    - given: Jia Hao
+      given_initial: J. H.
+      family: Liu
+    - given: Yi-Xin
+      given_initial: Y. X.
+      family: Liu
+      role: main
+    - given: Er-Qiang
+      given_initial: E. Q.
+      family: Chen
+      role: corr
   journal:
     fullname: Polymer
     abbreviation: Polymer
@@ -776,28 +801,28 @@
   language: english
   fulltext: po200801.pdf
 
-- title: 'AFM-tip-induced crystallization of poly(ethylene oxide) melt droplets'
-  page: '174-177'
-  volume: '2'
+- title: "AFM-tip-induced crystallization of poly(ethylene oxide) melt droplets"
+  page: "174-177"
+  volume: "2"
   year: 2007
   author:
-  - given: Dun Shen
-    given_initial: D. S.
-    family: Zhu
-  - given: Xing Xian
-    given_initial: X. X.
-    family: Shou
-  - given: Yi-Xin
-    given_initial: Y. X.
-    family: Liu
-    role: main
-  - given: Er-Qiang
-    given_initial: E. Q.
-    family: Chen
-    role: corr
-  - given: Stephen Zheng Di
-    given_initial: S. Z. D.
-    family: Cheng
+    - given: Dun Shen
+      given_initial: D. S.
+      family: Zhu
+    - given: Xing Xian
+      given_initial: X. X.
+      family: Shou
+    - given: Yi-Xin
+      given_initial: Y. X.
+      family: Liu
+      role: main
+    - given: Er-Qiang
+      given_initial: E. Q.
+      family: Chen
+      role: corr
+    - given: Stephen Zheng Di
+      given_initial: S. Z. D.
+      family: Cheng
   journal:
     abbreviation: Front. Chem. China
   URL: "http://dx.doi.org/10.1007/s11458-007-0035-3"
@@ -806,45 +831,45 @@
   language: english
   fulltext: fcc200702.pdf
 
-- title: 'Crystal Growth Mechanism Changes in Pseudo-Dewetted Poly(ethylene oxide) Thin Layers'
-  ISSN: '0024-9297'
-  issue: '5'
-  page: '1570-1578'
-  volume: '40'
+- title: "Crystal Growth Mechanism Changes in Pseudo-Dewetted Poly(ethylene oxide) Thin Layers"
+  ISSN: "0024-9297"
+  issue: "5"
+  page: "1570-1578"
+  volume: "40"
   year: 2007
   month: 3
   author:
-  - given: Dun Shen
-    given_initial: D. S.
-    family: Zhu
-  - given: Yi-Xin
-    given_initial: Y. X.
-    family: Liu
-    role: main
-  - given: Er-Qiang
-    given_initial: E. Q.
-    family: Chen
-    role: corr
-  - given: Ming
-    given_initial: M.
-    family: Li
-  - given: Chao
-    given_initial: C.
-    family: Chen
-  - given: You Hai
-    given_initial: Y. H.
-    family: Sun
-  - given: An Chang
-    given_initial: A. C.
-    family: Shi
-    role: corr
-  - given: Ryan M.
-    given_initial: R. M.
-    family: Van Horn
-  - given: Stephen Zheng Di
-    given_initial: S. Z. D.
-    family: Cheng
-    role: corr
+    - given: Dun Shen
+      given_initial: D. S.
+      family: Zhu
+    - given: Yi-Xin
+      given_initial: Y. X.
+      family: Liu
+      role: main
+    - given: Er-Qiang
+      given_initial: E. Q.
+      family: Chen
+      role: corr
+    - given: Ming
+      given_initial: M.
+      family: Li
+    - given: Chao
+      given_initial: C.
+      family: Chen
+    - given: You Hai
+      given_initial: Y. H.
+      family: Sun
+    - given: An Chang
+      given_initial: A. C.
+      family: Shi
+      role: corr
+    - given: Ryan M.
+      given_initial: R. M.
+      family: Van Horn
+    - given: Stephen Zheng Di
+      given_initial: S. Z. D.
+      family: Cheng
+      role: corr
   journal:
     fullname: Macromolecules
     abbreviation: Macromolecules
@@ -855,27 +880,27 @@
   language: english
   fulltext: ma200701.pdf
 
-- title: 'Morphology evolution in superheated crystal monolayer of low molecular weight poly(ethylene oxide) on mica surface'
-  ISSN: '00323861'
-  issue: '15'
-  page: '5239-5242'
-  volume: '47'
+- title: "Morphology evolution in superheated crystal monolayer of low molecular weight poly(ethylene oxide) on mica surface"
+  ISSN: "00323861"
+  issue: "15"
+  page: "5239-5242"
+  volume: "47"
   year: 2006
   author:
-  - given: Dun Shen
-    given_initial: D. S.
-    family: Zhu
-  - given: Yi-Xin
-    given_initial: Y. X.
-    family: Liu
-    role: main
-  - given: An Chang
-    given_initial: A. C.
-    family: Shi
-  - given: Er-Qiang
-    given_initial: E. Q.
-    family: Chen
-    role: corr
+    - given: Dun Shen
+      given_initial: D. S.
+      family: Zhu
+    - given: Yi-Xin
+      given_initial: Y. X.
+      family: Liu
+      role: main
+    - given: An Chang
+      given_initial: A. C.
+      family: Shi
+    - given: Er-Qiang
+      given_initial: E. Q.
+      family: Chen
+      role: corr
   journal:
     fullname: Polymer
     abbreviation: Polymer
@@ -885,51 +910,51 @@
   language: english
   fulltext: po200603.pdf
 
-- title: 'Pseudo-dewetting behavior of low molecular weight poly(ethylene oxide) melts on mica surface'
-  title_alt: '云母表面上低分子量聚氧乙烯熔体的“假不浸润”行为'
-  ISSN: '1000-3304'
-  issue: '9'
-  volume: '9'
-  page: '1125-1128'
+- title: "Pseudo-dewetting behavior of low molecular weight poly(ethylene oxide) melts on mica surface"
+  title_alt: "云母表面上低分子量聚氧乙烯熔体的“假不浸润”行为"
+  ISSN: "1000-3304"
+  issue: "9"
+  volume: "9"
+  page: "1125-1128"
   year: 2006
   author:
-  - given: Dun Shen
-    given_alt: 敦深
-    given_initial: D. S.
-    family: Zhu
-    family_alt: 朱
-    name: Dun Shen Zhu
-    name_alt: 朱敦深
-  - given: Yi-Xin
-    given_alt: 一新
-    given_initial: Y. X.
-    family: Liu
-    family_alt: 刘
-    name: Yi-Xin Liu
-    name_alt: 刘一新
-    role: main
-  - given: Er-Qiang
-    given_alt: 尔强
-    given_initial: E. Q.
-    family: Chen
-    family_alt: 陈
-    name: Er-Qiang Chen
-    name_alt: 陈尔强
-    role: corr
-  - given: Ming
-    given_alt: 明
-    given_initial: M.
-    family: Li
-    family_alt: 李
-    name: Ming Li
-    name_alt: 李明
-  - given: Stephen Zheng Di
-    given_alt: 正迪
-    given_initial: S. Z. D.
-    family: Cheng
-    family_alt: 程
-    name: Stephen Zheng Di Cheng
-    name_alt: 程正迪
+    - given: Dun Shen
+      given_alt: 敦深
+      given_initial: D. S.
+      family: Zhu
+      family_alt: 朱
+      name: Dun Shen Zhu
+      name_alt: 朱敦深
+    - given: Yi-Xin
+      given_alt: 一新
+      given_initial: Y. X.
+      family: Liu
+      family_alt: 刘
+      name: Yi-Xin Liu
+      name_alt: 刘一新
+      role: main
+    - given: Er-Qiang
+      given_alt: 尔强
+      given_initial: E. Q.
+      family: Chen
+      family_alt: 陈
+      name: Er-Qiang Chen
+      name_alt: 陈尔强
+      role: corr
+    - given: Ming
+      given_alt: 明
+      given_initial: M.
+      family: Li
+      family_alt: 李
+      name: Ming Li
+      name_alt: 李明
+    - given: Stephen Zheng Di
+      given_alt: 正迪
+      given_initial: S. Z. D.
+      family: Cheng
+      family_alt: 程
+      name: Stephen Zheng Di Cheng
+      name_alt: 程正迪
   journal:
     fullname: Acta Polymerica Sinica
     fullname_alt: 高分子学报
@@ -939,50 +964,50 @@
   language: chinese
   fulltext: gfzxb200601.pdf
 
-- title: 'AFM-tip-induced crystallization of poly(ethylene oxide) melt droplets'
-  title_alt: '原子力显微镜针尖诱导聚氧乙烯熔体结晶的研究'
-  page: '553-556'
-  volume: '4'
-  issue:  '4'
+- title: "AFM-tip-induced crystallization of poly(ethylene oxide) melt droplets"
+  title_alt: "原子力显微镜针尖诱导聚氧乙烯熔体结晶的研究"
+  page: "553-556"
+  volume: "4"
+  issue: "4"
   year: 2006
   author:
-  - given: Dun Shen
-    given_alt: 敦深
-    given_initial: D. S.
-    family: Zhu
-    family_alt: 朱
-    name: Dun Shen Zhu
-    name_alt: 朱敦深
-  - given: Xing Xian
-    given_alt: 兴贤
-    given_initial: X. X.
-    family: Shou
-    family_alt: 寿
-    name: Xing Xian Shou
-    name_alt: 寿兴贤
-  - given: Yi-Xin
-    given_alt: 一新
-    given_initial: Y. X.
-    family: Liu
-    family_alt: 刘
-    name: Yi-Xin Liu
-    name_alt: 刘一新
-    role: main
-  - given: Er-Qiang
-    given_alt: 尔强
-    given_initial: E. Q.
-    family: Chen
-    family_alt: 陈
-    name: Er-Qiang
-    name_alt: 陈尔强
-    role: corr
-  - given: Stephen Zheng Di
-    given_alt: 正迪
-    given_initial: S. Z. D.
-    family: Cheng
-    family_alt: 程
-    name: Stephen Zheng Di Cheng
-    name_alt: 程正迪
+    - given: Dun Shen
+      given_alt: 敦深
+      given_initial: D. S.
+      family: Zhu
+      family_alt: 朱
+      name: Dun Shen Zhu
+      name_alt: 朱敦深
+    - given: Xing Xian
+      given_alt: 兴贤
+      given_initial: X. X.
+      family: Shou
+      family_alt: 寿
+      name: Xing Xian Shou
+      name_alt: 寿兴贤
+    - given: Yi-Xin
+      given_alt: 一新
+      given_initial: Y. X.
+      family: Liu
+      family_alt: 刘
+      name: Yi-Xin Liu
+      name_alt: 刘一新
+      role: main
+    - given: Er-Qiang
+      given_alt: 尔强
+      given_initial: E. Q.
+      family: Chen
+      family_alt: 陈
+      name: Er-Qiang
+      name_alt: 陈尔强
+      role: corr
+    - given: Stephen Zheng Di
+      given_alt: 正迪
+      given_initial: S. Z. D.
+      family: Cheng
+      family_alt: 程
+      name: Stephen Zheng Di Cheng
+      name_alt: 程正迪
   journal:
     fullname: Acta Polymerica Sinica
     fullname_alt: 高分子学报
@@ -991,4 +1016,3 @@
   type: article
   language: chinese
   fulltext: gfzxb200602.pdf
-

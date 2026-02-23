@@ -1,3 +1,17 @@
+- title: "We Opensourced AcceleratedDCTs.jl"
+  date: 2026-02-23
+  description: "AcceleratedDCTs.jl: Fast, device-agnostic 1D/2D/3D DCTs for #JuliaLang! ✅ Runs on CPU & GPU (via KernelAbstractions) ✅ >2x speedup vs SOTA ✅ AbstractFFTs interface."
+  url: https://github.com/liuyxpp/AcceleratedDCTs.jl
+  image: "/images/news/opensource.jpg"
+  category: software
+
+- title: "JY Liu Publishes in Chinese Journal of Polymer Science"
+  date: 2026-01-28
+  description: "Accelerating Field-Based Simulations of Block Copolymers by Exploring Symmetry of Chain Architectures"
+  url:
+  image: ""
+  category: publication
+
 - title: "We Opensourced PolymerArchitecture.jl and PolymerArchitectureMakie.jl"
   date: 2025-12-16
   description: "We are excited to announce that we have opensourced two Julia packages: PolymerArchitecture.jl and PolymerArchitectureMakie.jl. These packages provide tools for analyzing and visualizing polymer architectures, including automatic detection of equivalent sub-architectures and visualization using GraphMakie.jl. An accompanying research article utilizing these packages to accelerate polymer SCFT simulations is upcoming."
@@ -29,7 +43,7 @@
 - title: "WL Huang Publishes in Chinese Journal of Polymer Science"
   date: 2025-05-02
   description: "A Unified Approach to Phase Equilibria in Multi-Component Polymer Systems with Effective Chemical Potential"
-  url: 
+  url:
   image: "/images/news/toc-small-cjps-2025.png"
   category: publication
 
