@@ -3,24 +3,37 @@
 // Home Page Styles
 
 // ================================
+// Full-width breakout from #main container
+// ================================
+.hero-section,
+.featured-section {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+// ================================
 // Hero Section
 // ================================
 .hero-section {
-  background: linear-gradient(
-    160deg,
-    rgba(20, 40, 60, 0.75) 0%,
-    rgba(30, 60, 90, 0.55) 40%,
-    rgba(20, 50, 80, 0.65) 100%
-  ),
-  url('/images/homepage.jpg');
+  background-color: #0a1628;
+  background-image: linear-gradient(160deg,
+      rgba(20, 40, 60, 0.55) 0%,
+      rgba(30, 60, 90, 0.35) 40%,
+      rgba(20, 50, 80, 0.45) 100%),
+    url('/images/homepage.jpg');
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  padding: 6rem 2rem 5rem;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 8rem 2rem 7rem;
+  min-height: 520px;
   text-align: center;
   color: white;
   margin-top: -$navbar-actual-height;
-  padding-top: calc(#{$navbar-actual-height} + 5rem);
+  padding-top: calc(#{$navbar-actual-height} + 6rem);
   margin-bottom: 0;
   position: relative;
   overflow: hidden;
@@ -33,17 +46,15 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(
-      45deg,
-      rgba($primary, 0.15) 0%,
-      transparent 50%,
-      rgba($secondary, 0.1) 100%
-    );
+    background: linear-gradient(45deg,
+        rgba($primary, 0.15) 0%,
+        transparent 50%,
+        rgba($secondary, 0.1) 100%);
     z-index: 0;
     animation: heroShimmer 8s ease-in-out infinite alternate;
   }
 
-  > * {
+  >* {
     position: relative;
     z-index: 1;
   }
@@ -139,15 +150,19 @@
   0% {
     opacity: 0.5;
   }
+
   100% {
     opacity: 1;
   }
 }
 
 @keyframes scrollBounce {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateX(-50%) translateY(0);
   }
+
   50% {
     transform: translateX(-50%) translateY(8px);
   }
@@ -559,9 +574,30 @@
 // Footer Enhancement
 // ================================
 .footer-wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
   footer {
     background: darken($primary, 15%);
     padding: 3rem 0 2rem;
+    text-align: center;
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+
+    .row {
+      margin: 0;
+    }
+
+    [class*="col-"] {
+      width: 100%;
+      margin-left: 0;
+      float: none;
+    }
 
     .list-inline {
       margin-bottom: 1.5rem;
