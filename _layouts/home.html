@@ -20,25 +20,37 @@
       <h1 class="hero-title">Welcome to Polyorder Lab @Fudan</h1>
       <p class="hero-subtitle">Exploring the Frontiers of Polymer Physics and Computational Materials Science</p>
       <div class="hero-cta">
-        <a href="/research" class="button primary">Our Research</a>
-        <a href="/publications" class="button secondary">Recent Publications</a>
+        <a href="/research/" class="button primary">Our Research</a>
+        <a href="/publications/" class="button secondary">Recent Publications</a>
       </div>
     </div>
+    <a href="#featured" class="scroll-indicator">
+      <i class="fa fa-chevron-down"></i>
+    </a>
   </section>
 
   <!-- Featured Content Section -->
-  <section class="featured-section">
+  <section id="featured" class="featured-section">
     <div class="grid-container">
       <div class="featured-card">
-        <h2>Latest Blogs</h2>
-        <p>Read our latest blog posts about polymer physics, scientific computing, and software development.</p>
-        <a href="/blog" class="button">Learn More</a>
+        <i class="fa fa-flask card-icon"></i>
+        <h2>Research</h2>
+        <p>Discover our cutting-edge work in polymer self-consistent field theory, block copolymer assembly, and computational materials science.</p>
+        <a href="/research/" class="button">Explore</a>
       </div>
 
       <div class="featured-card">
+        <i class="fa fa-code card-icon"></i>
+        <h2>Software</h2>
+        <p>Check out our open-source scientific software: <a href="https://github.com/liuyxpp/Polymer.jl">Polymer.jl</a>, <a href="https://github.com/liuyxpp/MakiePublication.jl">MakiePublication.jl</a>, and more.</p>
+        <a href="/software/" class="button">Explore</a>
+      </div>
+
+      <div class="featured-card">
+        <i class="fa fa-users card-icon"></i>
         <h2>Join Our Team</h2>
-        <p>We're always looking for talented researchers to join our group.</p>
-        <a href="/group" class="button">Opportunities</a>
+        <p>We're always looking for talented researchers and students passionate about polymer physics and scientific computing.</p>
+        <a href="/group/" class="button">Opportunities</a>
       </div>
     </div>
   </section>
@@ -52,9 +64,14 @@
       <article class="news-card">
         <div class="news-content">
           <h3>{{ item.title }}</h3>
-          <p class="news-meta">{{ item.date | date: "%Y.%m.%d" }} | {{ item.category | capitalize }}</p>
-          <p>{{ item.description }}</p>
+          <p class="news-meta">
+            {{ item.date | date: "%Y.%m.%d" }}
+            <span class="category-badge">{{ item.category }}</span>
+          </p>
+          <p>{{ item.description | strip_html }}</p>
+          {% if item.url and item.url != "" %}
           <a href="{{ item.url }}" class="read-more">Read more</a>
+          {% endif %}
         </div>
       </article>
       {% endfor %}
@@ -62,7 +79,9 @@
       <!-- More News Card -->
       <article class="news-card more-news">
         <div class="news-content">
-          <a href="/news" class="read-more">View All News</a>
+          <i class="fa fa-newspaper-o more-news-icon"></i>
+          <p class="more-news-text">Stay up to date with our latest achievements, publications, and events.</p>
+          <a href="/news/" class="read-more">View All News</a>
         </div>
       </article>
     </div>
