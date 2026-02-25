@@ -1,5 +1,6 @@
 - name: Polyorder.jl
   category: Scientific Computing
+  language: Julia
   description: A pure Julia implementation of polymer self-consistent field theory
   features:
     - Support arbitrary noncyclic chain architectures
@@ -13,6 +14,7 @@
 
 - name: Polyorder Web App
   category: Scientific Computing
+  language: Julia
   description: Web-based interface for running and managing Polyorder.jl simulations
   features:
     - Complete web interface for SCFT simulation configuration
@@ -28,6 +30,7 @@
 
 - name: Scattering.jl
   category: Scientific Computing
+  language: Julia
   description: Julia package for computing scattering and diffraction of nanoparticles
   features:
     - Form factor calculations
@@ -39,6 +42,7 @@
 
 - name: PhaseDiagram.jl
   category: Scientific Computing
+  language: Julia
   description: Julia package for computing phase diagrams of block copolymers
   features:
     - Microphase separation diagrams
@@ -47,6 +51,7 @@
 
 - name: Polymer.jl
   category: Scientific Computing
+  language: Julia
   description: Common interface for describing polymer systems
   installation: |
     ```julia
@@ -59,6 +64,7 @@
 
 - name: PolymerArchitecture.jl
   category: Scientific Computing
+  language: Julia
   description: Graph representation of polymer architectures
   features:
     - Automatic identification of equivalent sub-architectures
@@ -69,6 +75,7 @@
 
 - name: CubicHermiteSpline.jl
   category: Scientific Computing
+  language: Julia
   description: Cubic Hermite spline interpolation for 1D and 2D data
   features:
     - Univariate and bivariate interpolation
@@ -84,6 +91,7 @@
 
 - name: MakiePublication.jl
   category: Utility
+  language: Julia
   description: Publication quality figures using Makie.jl
   features:
     - Custom themes for major publishers
@@ -96,6 +104,7 @@
 
 - name: PolymerArchitectureMakie.jl
   category: Utility
+  language: Julia
   description: Visualization of polymer architectures using GraphMakie.jl
   features:
     - Integration with PolymerArchitecture.jl
@@ -106,6 +115,7 @@
 
 - name: mpltex
   category: Utility
+  language: Python
   description: Python package for creating publication-quality plots
   features:
     - ACS style plots
@@ -119,6 +129,7 @@
 
 - name: PolyOrder
   category: Legacy
+  language: C++
   description: C++ library for polymer self-consistent field theory (deprecated)
   features:
     - Non-orthogonal unit cell support
@@ -126,6 +137,7 @@
 
 - name: cheb++
   category: Legacy
+  language: C++
   description: C++ library for Chebyshev polynomials
   features:
     - Chebyshev differential matrix
@@ -136,6 +148,7 @@
 
 - name: scftpy
   category: Legacy
+  language: Python
   description: Python package for polymer SCFT calculations
   features:
     - Confined polymer simulations
@@ -146,6 +159,7 @@
 
 - name: chebpy
   category: Legacy
+  language: Python
   description: Python package for spectral methods of PDEs
   features:
     - Chebyshev series construction
@@ -156,6 +170,7 @@
 
 - name: PyDiagram
   category: Legacy
+  language: Python
   description: Python package for generating phase diagrams
   features:
     - Polyorder and PolyFTS file support
@@ -164,6 +179,7 @@
 
 - name: gyroid
   category: Legacy
+  language: Python
   description: Python package for symmetry adapted basis functions
   features:
     - 1D, 2D and 3D symmetry groups
@@ -176,6 +192,7 @@
 
 - name: NGPy
   category: Legacy
+  language: Python
   description: Web application for nucleation and growth simulations
   features:
     - Online simulation and analysis

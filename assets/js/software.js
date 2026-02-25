@@ -1,65 +1,62 @@
-// Emoji mapping for categories
-const categoryEmojis = {
-  'Scientific Computing': '🧮',
-  'Utility': '🛠️',
-  'Legacy': '🕰️'
-};
+// Software page: smooth scroll for TOC + active state tracking
 
-function toggleTocDropdown(event) {
-  event.preventDefault();
-  event.stopPropagation();
-  
-  const button = event.currentTarget;
-  const dropdown = button.parentElement.querySelector('.toc-dropdown');
-  const caret = button.querySelector('.toc-caret');
-  
-  // Toggle current dropdown
-  const isShowing = dropdown.classList.toggle('show');
-  caret.style.transform = isShowing ? 'rotate(180deg)' : 'rotate(0)';
-  
-  // Add emojis to dropdown items
-  if (isShowing) {
-    // Extract category name by removing caret symbol and trimming
-    const category = button.textContent.replace('▼', '').trim();
-    const emoji = categoryEmojis[category] || '📄';
-    
-    dropdown.querySelectorAll('.toc-item').forEach(item => {
-      if (!item.textContent.startsWith(emoji)) {
-        // Create span for emoji to maintain layout
-        const emojiSpan = document.createElement('span');
-        emojiSpan.className = 'toc-emoji';
-        emojiSpan.textContent = emoji;
-        emojiSpan.style.marginRight = '8px';
-        
-        // Insert emoji before existing content
-        item.insertBefore(emojiSpan, item.firstChild);
+document.addEventListener('DOMContentLoaded', function () {
+  const tocPills = document.querySelectorAll('.toc-pill');
+  const categorySections = document.querySelectorAll('.category-section');
+
+  // Smooth scroll on click
+  tocPills.forEach(pill => {
+    pill.addEventListener('click', function (e) {
+      e.preventDefault();
+      const targetId = this.getAttribute('href').substring(1);
+      const target = document.getElementById(targetId);
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        // Update active state
+        tocPills.forEach(p => p.classList.remove('active'));
+        this.classList.add('active');
       }
     });
-  }
-  
-  // Close other dropdowns
-  document.querySelectorAll('.toc-dropdown').forEach(d => {
-    if (d !== dropdown && d.classList.contains('show')) {
-      d.classList.remove('show');
-      d.previousElementSibling.querySelector('.toc-caret').style.transform = 'rotate(0)';
-    }
   });
-}
 
-// Close dropdowns when clicking outside
-document.addEventListener('click', function(event) {
-  if (!event.target.closest('.toc-category')) {
-    document.querySelectorAll('.toc-dropdown.show').forEach(d => {
-      d.classList.remove('show');
-      d.previousElementSibling.querySelector('.toc-caret').style.transform = 'rotate(0)';
+  // Active state tracking on scroll
+  const observerOptions = {
+    root: null,
+    rootMargin: '-80px 0px -60% 0px',
+    threshold: 0
+  };
+
+  const observer = new IntersectionObserver(function (entries) {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const id = entry.target.id;
+        tocPills.forEach(pill => {
+          pill.classList.toggle('active', pill.getAttribute('href') === '#' + id);
+        });
+      }
     });
-  }
-});
+  }, observerOptions);
 
-// Close dropdowns on window resize
-window.addEventListener('resize', function() {
-  document.querySelectorAll('.toc-dropdown.show').forEach(d => {
-    d.classList.remove('show');
-    d.previousElementSibling.querySelector('.toc-caret').style.transform = 'rotate(0)';
+  categorySections.forEach(section => {
+    observer.observe(section);
+  });
+
+  // Animate cards on scroll
+  const cards = document.querySelectorAll('.software-card');
+  const cardObserver = new IntersectionObserver(function (entries) {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'translateY(0)';
+        cardObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+
+  cards.forEach(card => {
+    card.style.opacity = '0';
+    card.style.transform = 'translateY(20px)';
+    card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+    cardObserver.observe(card);
   });
 });
