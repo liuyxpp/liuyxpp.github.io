@@ -509,6 +509,203 @@
   }
 }
 
+// ================================
+// Research Page Styles
+// ================================
+
+.research-page {
+
+  // suppress default h2/h3 ::after underlines
+  h2::after,
+  h3::after {
+    display: none !important;
+  }
+}
+
+// Introduction card
+.research-intro {
+  background: white;
+  border-radius: 12px;
+  padding: 1.2rem 1.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  border-left: 3px solid $secondary;
+  margin-bottom: 2rem;
+
+  p {
+    margin: 0 0 0.6rem;
+    color: $text-color;
+    font-size: 0.92rem;
+    line-height: 1.7;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// Research TOC
+.research-toc {
+  background: white;
+  border-radius: 12px;
+  padding: 1.2rem 1.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba($primary, 0.06);
+  margin-bottom: 2rem;
+
+  .toc-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: darken($primary, 5%);
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 0 0 0.8rem;
+
+    svg {
+      color: $secondary;
+    }
+
+    &::after {
+      display: none !important;
+    }
+  }
+
+  .toc-columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem 1.5rem;
+
+    @media (max-width: 600px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .toc-group {
+    h4 {
+      color: darken($primary, 10%);
+      font-size: 0.85rem;
+      font-weight: 700;
+      margin: 0 0 0.3rem;
+
+      &::after {
+        display: none !important;
+      }
+    }
+
+    ul {
+      list-style: none;
+      margin: 0 0 0.3rem;
+      padding: 0;
+
+      li {
+        padding: 0.15rem 0;
+
+        a {
+          color: $primary;
+          text-decoration: none;
+          font-weight: 500;
+          font-size: 0.82rem;
+          border-bottom: none !important;
+          transition: color 0.2s ease;
+
+          &:hover {
+            color: $secondary;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Research sections (major topic cards)
+.research-section {
+  background: white;
+  border-radius: 14px;
+  padding: 1.5rem 1.8rem 1rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba($primary, 0.06);
+  margin-bottom: 1.5rem;
+
+  >h2 {
+    color: darken($primary, 15%) !important;
+    font-size: 1.35rem !important;
+    font-weight: 700;
+    margin: 0 0 1rem !important;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid rgba($primary, 0.08);
+  }
+
+  >h3 {
+    color: darken($primary, 8%) !important;
+    font-size: 1.08rem !important;
+    font-weight: 700;
+    margin: 1.5rem 0 0.6rem !important;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid rgba($primary, 0.06);
+  }
+
+  >p,
+  >ol,
+  >ul {
+    font-size: 0.92rem;
+    line-height: 1.7;
+    color: $text-color;
+  }
+
+  >ul {
+    padding-left: 1.2rem;
+
+    li {
+      margin-bottom: 0.25rem;
+      font-size: 0.88rem;
+
+      a {
+        color: $primary;
+        border-bottom: none !important;
+        text-decoration: none;
+        transition: color 0.2s ease;
+
+        &:hover {
+          color: $secondary;
+        }
+      }
+    }
+  }
+
+  code {
+    background: rgba($primary, 0.06);
+    padding: 0.1rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.85em;
+    color: darken($primary, 10%);
+  }
+}
+
+// Research figures
+.research-figure {
+  margin: 1rem 0;
+  text-align: center;
+
+  img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+
+  &.research-figure-multi {
+    display: flex;
+    gap: 0.8rem;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    img {
+      max-width: 30%;
+      flex: 1;
+      min-width: 120px;
+    }
+  }
+}
+
 // Position Cards
 .position-grid {
   display: grid;

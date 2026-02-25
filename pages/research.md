@@ -9,14 +9,62 @@ modified: 2024-07-07
 breadcrumbs: true
 ---
 
-Research interests of our group focus on developing theoretical and numerical methods for understanding the phase behavior and structures of block copolymers, polymer brushes and polyelectrolytes both in bulk and under geometrical confinements.
+<div class="research-page">
 
-We also conducted both experimental and theoretical studies to elucidate the fundamental mechanism of polymer crystallization, using monolayer crystals of low molecular weight poly(ethylene oxide) (PEO) fractions as a model system.
+<div class="research-intro">
+<p>Research interests of our group focus on developing theoretical and numerical methods for understanding the phase behavior and structures of block copolymers, polymer brushes and polyelectrolytes both in bulk and under geometrical confinements.</p>
+<p>We also conducted both experimental and theoretical studies to elucidate the fundamental mechanism of polymer crystallization, using monolayer crystals of low molecular weight poly(ethylene oxide) (PEO) fractions as a model system.</p>
+</div>
 
-{% include toc.md panel=true %}
+<div class="research-toc">
+  <h3 class="toc-title">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+    Research Areas
+  </h3>
+  <div class="toc-columns">
+    <div class="toc-group">
+      <h4>1. Block Copolymers Under Soft Confinements</h4>
+      <ul>
+        <li><a href="#11-methodology-development">1.1 Methodology Development</a></li>
+        <li><a href="#12-polymer-brushes">1.2 Polymer Brushes</a></li>
+        <li><a href="#13-surface-interaction-model">1.3 Surface Interaction Model</a></li>
+        <li><a href="#14-directed-self-assembly-dsa">1.4 Directed Self-Assembly (DSA)</a></li>
+        <li><a href="#15-machine-learning-assisted-inverse-design-of-dsa-templates">1.5 ML Inverse Design</a></li>
+        <li><a href="#16-removal-of-defects-in-self-assembled-thin-films">1.6 Defect Removal</a></li>
+        <li><a href="#17-research-notes">1.7 Research Notes</a></li>
+      </ul>
+    </div>
+    <div class="toc-group">
+      <h4>2. Block Copolymers in Bulk</h4>
+      <ul>
+        <li><a href="#21-methodology-development">2.1 Methodology Development</a></li>
+        <li><a href="#22-block-copolyelectrolyte-solutions">2.2 Copolyelectrolyte Solutions</a></li>
+        <li><a href="#23-fluctuation-stabilized-mesophase">2.3 Fluctuation Stabilized Mesophase</a></li>
+        <li><a href="#24-beyond-mean-field-density-functional-models-for-polymer-systems">2.4 Beyond Mean-Field</a></li>
+      </ul>
+    </div>
+    <div class="toc-group">
+      <h4>3. Ultrathin Film Polymer Crystallization</h4>
+      <ul>
+        <li><a href="#31-crystallization-kinetics">3.1 Crystallization Kinetics</a></li>
+        <li><a href="#32-crystal-thickening-process">3.2 Crystal Thickening</a></li>
+        <li><a href="#33-thermodynamic-behavior">3.3 Thermodynamic Behavior</a></li>
+      </ul>
+    </div>
+    <div class="toc-group">
+      <h4>4. Scientific Software Development</h4>
+      <ul>
+        <li><a href="#41-software--packages">4.1 Software & Packages</a></li>
+        <li><a href="#42-numerical-algorithms">4.2 Numerical Algorithms</a></li>
+        <li><a href="#43-research-notes">4.3 Research Notes</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="research-section" markdown="1">
 
 ## 1. Self-Assembly of Block Copolymers Under Soft Confinements
------
 
 Block copolymers represent an important class of polymeric materials that
 can self-assemble into complex microstructures on the scale of 1 to 100 nm.
@@ -127,9 +175,13 @@ When the segregation is weak, however, no actual bridge but only a nascent bridg
 * [A Quick Guide to the Self-Consistent Field Theory in Polymer Physics]({% post_url 2014-05-26-scft-guide %})
 * [Lecture Notes in Polymer Physics]({% post_url 2014-05-26-pp-notes %})
 
+</div>
+
+<div class="research-section" markdown="1">
+
 ## 2. Self-Assembly of Block Copolymers in Bulk
 
-<figure class="research-figure">
+<figure class="research-figure research-figure-multi">
     <img src="{{ site.url }}/images/research/gyroid.png" alt="Gyroid">
     <img src="{{ site.url }}/images/research/hex.png" alt="HEX">
     <img src="{{ site.url }}/images/research/bcc.png" alt="BCC">
@@ -188,8 +240,11 @@ In collaboration with Prof. G. H. Fredrickson at UCSB, we propose a density func
 Meanwhile, it can cut the number of dimensions of the computational space from 4 to 3, leading to a reduction of computational cost for about two magnitude.
 Using the same strategy for developing the model of polymer solutions, it can be generalized to other polymeric systems such as block copolymers.
 
+</div>
+
+<div class="research-section" markdown="1">
+
 ## 3. Ultrathin Film Polymer Crystallization
------
 
 * *Coord. Chem. Rev.*, **2010**, *254*, 1011-1037.
 
@@ -238,8 +293,11 @@ The melting behavior of PEO monolayer crystals on mica surfaces was studied by A
 Taking account of the linear decrease of fold surface free energy with temperature, we have shown that the relations between melting points and thickness and/or fold number can be described by a modified Gibbs-Thomson equation.
 The end group effect on the melting behavior of the monolayer crystals was also analyzed.
 
+</div>
+
+<div class="research-section" markdown="1">
+
 ## 4. Scientific Software Development
------
 
 As an important part of our research work, we have developed several scientific computing software and packages and implemented numerical algorithms to perform computational tasks for our research.
 
@@ -269,3 +327,7 @@ Please visit the [full list of our software]({{site.url}}/software/). Below is a
 ### 4.3 Research Notes
 
 Please visist the [full list of our Research Notes]({{site.url}}/blog/category/research/)
+
+</div>
+
+</div>
