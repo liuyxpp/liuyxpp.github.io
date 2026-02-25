@@ -827,6 +827,148 @@ input {
   @include transition(all .2s ease);
 }
 
+// ================================
+// About Page Styles
+// ================================
+
+.about-page {
+
+  // suppress default h2/h3 ::after underlines
+  h2::after,
+  h3::after {
+    display: none !important;
+  }
+}
+
+.about-bio {
+  background: white;
+  border-radius: 14px;
+  padding: 1.5rem 1.8rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba($primary, 0.06);
+  border-left: 4px solid $secondary;
+  margin-bottom: 1.5rem;
+
+  .bio-content {
+    font-size: 0.92rem;
+    line-height: 1.75;
+    color: $text-color;
+  }
+}
+
+.about-positions {
+  background: white;
+  border-radius: 14px;
+  padding: 1.5rem 1.8rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba($primary, 0.06);
+  margin-bottom: 1.5rem;
+
+  >h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: darken($primary, 15%) !important;
+    font-size: 1.3rem !important;
+    font-weight: 700;
+    margin: 0 0 1rem !important;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid rgba($primary, 0.08);
+
+    svg {
+      color: $secondary;
+    }
+  }
+
+  .position-grid {
+    margin: 0;
+  }
+
+  .position-card {
+    border: 1px solid rgba($primary, 0.08);
+  }
+}
+
+.about-cv {
+  display: flex;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.cv-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.5rem 1.1rem;
+  border-radius: 24px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  transition: all 0.25s ease;
+
+  &.html {
+    background: rgba($primary, 0.08);
+    color: darken($primary, 5%);
+    border: 1px solid rgba($primary, 0.18);
+
+    &:hover {
+      background: rgba($primary, 0.16);
+      transform: translateY(-1px);
+      box-shadow: 0 2px 8px rgba($primary, 0.15);
+    }
+  }
+
+  &.pdf {
+    background: rgba(#28a745, 0.1);
+    color: #1e7e34;
+    border: 1px solid rgba(#28a745, 0.2);
+
+    &:hover {
+      background: rgba(#28a745, 0.18);
+      transform: translateY(-1px);
+      box-shadow: 0 2px 8px rgba(#28a745, 0.15);
+    }
+  }
+}
+
+.about-section {
+  background: white;
+  border-radius: 14px;
+  padding: 1.5rem 1.8rem 1rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba($primary, 0.06);
+  margin-bottom: 1.5rem;
+
+  >h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: darken($primary, 15%) !important;
+    font-size: 1.3rem !important;
+    font-weight: 700;
+    margin: 0 0 1rem !important;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid rgba($primary, 0.08);
+
+    svg {
+      color: $secondary;
+    }
+  }
+
+  ul,
+  ol {
+    font-size: 0.92rem;
+    line-height: 1.7;
+  }
+
+  p {
+    font-size: 0.92rem;
+    line-height: 1.7;
+  }
+}
+
 // Import home page styles
 @import "home";
 @import "bloghome";
