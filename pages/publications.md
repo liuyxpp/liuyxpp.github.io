@@ -42,7 +42,17 @@ breadcrumbs: true
 
   <ol class="pub-list" reversed>
   {% for article in site.data.journal %}
-    <li class="pub-item">
+    {% capture authors_str %}{% for author in article.author %}{{ author.family }}, {{ author.given_initial }}{% unless forloop.last %}; {% endunless %}{% endfor %}{% endcapture %}
+    <li class="pub-item"
+        data-title="{{ article.title | escape }}"
+        data-authors="{{ authors_str | strip | escape }}"
+        data-journal="{{ article.journal.abbreviation | escape }}"
+        data-journal-full="{{ article.journal.fullname | escape }}"
+        data-year="{{ article.year }}"
+        data-volume="{{ article.volume }}"
+        data-issue="{{ article.issue }}"
+        data-page="{{ article.page }}"
+        data-doi="{{ article.DOI }}">
       <div class="pub-title">
         {{ article.title }}
         {% if article.fulltext %}
@@ -63,14 +73,26 @@ breadcrumbs: true
         <span class="pub-page">{{ article.page }}.</span>
         {% if article.language != 'english' %}<span class="pub-lang">(In {{ article.language }})</span>{% endif %}
       </div>
-      {% if article.URL %}
-      <div class="pub-doi">
-        <a href="{{ article.URL }}">
+      <div class="pub-actions">
+        {% if article.URL %}
+        <a href="{{ article.URL }}" class="pub-doi-link">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           DOI
         </a>
+        {% endif %}
+        <div class="cite-wrapper">
+          <button class="cite-btn" onclick="toggleCiteMenu(this)" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M6 17c-2 0-3-1-3-3v-3c0-2 1-3 3-3h1l1-3h2l-1 3c2 0 3 1 3 3v3c0 2-1 3-3 3H6z"/><path d="M15 17c-2 0-3-1-3-3v-3c0-2 1-3 3-3h1l1-3h2l-1 3c2 0 3 1 3 3v3c0 2-1 3-3 3h-3z"/></svg>
+            Cite
+          </button>
+          <div class="cite-menu">
+            <div class="cite-menu-title">Copy citation as:</div>
+            <button onclick="copyCitation(this, 'acs')" type="button">ACS Style</button>
+            <button onclick="copyCitation(this, 'aip')" type="button">AIP Style</button>
+            <button onclick="copyCitation(this, 'aps')" type="button">APS Style</button>
+          </div>
+        </div>
       </div>
-      {% endif %}
     </li>
   {% endfor %}
   </ol>

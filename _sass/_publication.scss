@@ -209,26 +209,102 @@
         }
     }
 
-    .pub-doi {
-        margin-top: 0.2rem;
+    .pub-actions {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin-top: 0.25rem;
+    }
 
-        a {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.3rem;
-            font-size: 0.78rem;
+    .pub-doi-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.3rem;
+        font-size: 0.78rem;
+        font-weight: 600;
+        color: $primary;
+        text-decoration: none;
+        border-bottom: none !important;
+        padding: 0.15rem 0.5rem;
+        border-radius: 4px;
+        background: rgba($primary, 0.06);
+        transition: all 0.2s ease;
+
+        &:hover {
+            background: rgba($primary, 0.12);
+            color: darken($primary, 10%);
+        }
+    }
+
+    .cite-wrapper {
+        position: relative;
+        display: inline-block;
+    }
+
+    .cite-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.3rem;
+        font-size: 0.78rem;
+        font-weight: 600;
+        color: darken($secondary, 8%);
+        background: rgba($secondary, 0.08);
+        border: none;
+        padding: 0.15rem 0.5rem;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        font-family: inherit;
+
+        &:hover {
+            background: rgba($secondary, 0.16);
+            color: darken($secondary, 15%);
+        }
+    }
+
+    .cite-menu {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: calc(100% + 4px);
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+        border: 1px solid rgba($primary, 0.1);
+        padding: 0.4rem 0;
+        z-index: 100;
+        min-width: 150px;
+
+        &.open {
+            display: block;
+        }
+
+        .cite-menu-title {
+            font-size: 0.72rem;
+            color: lighten($text-color, 30%);
+            padding: 0.2rem 0.8rem 0.3rem;
             font-weight: 600;
-            color: $primary;
-            text-decoration: none;
-            border-bottom: none !important;
-            padding: 0.15rem 0.5rem;
-            border-radius: 4px;
-            background: rgba($primary, 0.06);
-            transition: all 0.2s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            text-align: left;
+            border: none;
+            background: none;
+            padding: 0.35rem 0.8rem;
+            font-size: 0.82rem;
+            font-weight: 500;
+            color: $text-color;
+            cursor: pointer;
+            font-family: inherit;
+            transition: all 0.15s ease;
 
             &:hover {
-                background: rgba($primary, 0.12);
-                color: darken($primary, 10%);
+                background: rgba($primary, 0.06);
+                color: $primary;
             }
         }
     }
@@ -238,5 +314,29 @@
         color: lighten($text-color, 15%);
         font-style: italic;
         margin-bottom: 0.1rem;
+    }
+}
+
+// Citation toast notification
+.cite-toast {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    background: darken($primary, 10%);
+    color: white;
+    padding: 0.6rem 1.5rem;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index: 10000;
+    pointer-events: none;
+
+    &.show {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
     }
 }
