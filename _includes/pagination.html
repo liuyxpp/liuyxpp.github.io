@@ -1,47 +1,92 @@
 {% comment %}
-*  This loops through the paginated posts 
+* This loops through the paginated posts
 *
-*  Total posts: {{ paginator.total_posts }}
-*  Total paginate-pages: {{ paginator.total_pages }}
-*  
+* Total posts: {{ paginator.total_posts }}
+* Total paginate-pages: {{ paginator.total_pages }}
+*
 {% endcomment %}
 
+<div class="posts-list">
+  {% for post in paginator.posts %}
+  <article class="post-card">
+    <div class="post-card-body">
+      <div class="post-meta-row">
+        <time class="post-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">
+          {{ post.date | date: "%Y年%m月%d日" }}
+        </time>
+        <div class="post-categories">
+          {% for cat in post.categories %}
+          <span class="category-pill">{{ cat }}</span>
+          {% endfor %}
+        </div>
+      </div>
 
-{% for post in paginator.posts %}
-  <div class="row">
-    <div class="small-12 columns b60">
-      <p class="subheadline">
-        <span class="subheader">{% include page_categories.html categories=post.categories %}</span>
-        {% if post.subheadline %} – {{ post.subheadline }}{% endif %}
-      </p>
-      <h2>{% include snippets/post_link.html post=post %}</h2>
-      <p>
-        {% if post.image.thumb %}<a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title | strip_html | strip_newlines | escape }}"><img src="{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title | strip_newlines | escape }}" /></a>{% endif %}
-
-        {% if post.meta_description %}{{ post.meta_description | strip_html | strip_newlines | escape }}{% elsif post.teaser %}{{ post.teaser | strip_html | strip_newlines | escape }}{% endif %}
-        {% assign excerpt = post.excerpt | strip_html | strip_newlines %}
-        {% if excerpt != "" %}{% if post.meta_description or post.teaser %}<br/>{% endif %}<q>{{ excerpt }}</q>{% endif %}
-
-        <a href="{{ site.baseurl }}{{ post.url }}" title="{{ site.data.language.read }} {{ post.title | strip_html | strip_newlines | escape }}"><strong>{{ site.data.language.read_more }}</strong></a>
-      </p>
-    </div>
-  </div>
-{% endfor %}
-
-
-<nav id="pagination">
-    {% if paginator.previous_page %}
-      {% if paginator.previous_page == 1 %}
-      <a class="radius button small" href="{{ site.baseurl }}/blog/" title="{{ site.data.language.previous_posts }}">&laquo; {{ site.data.language.previous_posts }}</a>
-      {% else %}
-      <a class="radius button small" href="{{ site.baseurl }}/blog/page{{ paginator.previous_page }}/" title="{{ site.data.language.previous_posts }}">&laquo; {{ site.data.language.previous }}</a>
+      {% if post.subheadline %}
+      <p class="post-subheadline">{{ post.subheadline }}</p>
       {% endif %}
-    {% endif %}
 
-    <a class="radius button small" href="{{ site.baseurl }}/blog/archive/" title="{{ site.data.language.blog_archive }}">{{ site.data.language.blog_archive }}</a>
-        
-    {% if paginator.next_page %} 
-    <a class="radius button small" href="{{ site.baseurl }}/blog/page{{ paginator.next_page }}/" title="{{ site.data.language.next_posts }}">{{ site.data.language.next }} &raquo;</a>
-    {% endif %} 
-  </nav>
+      <h2 class="post-title">
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </h2>
 
+      <div class="post-excerpt">
+        {% if post.image.thumb %}
+        <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title | strip_html | strip_newlines | escape }}">
+          <img src="{{ site.urlimg }}{{ post.image.thumb }}" class="post-thumb"
+            alt="{{ post.title | strip_newlines | escape }}" />
+        </a>
+        {% endif %}
+
+        {% if post.meta_description %}{{ post.meta_description | strip_html | strip_newlines | escape }}{% elsif
+        post.teaser %}{{ post.teaser | strip_html | strip_newlines | escape }}{% endif %}
+        {% assign excerpt = post.excerpt | strip_html | strip_newlines %}
+        {% if excerpt != "" %}{% if post.meta_description or post.teaser %}<br />{% endif %}<q>{{ excerpt }}</q>{% endif
+        %}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more-link"
+        title="{{ site.data.language.read }} {{ post.title | strip_html | strip_newlines | escape }}">
+        {{ site.data.language.read_more }}
+        <svg class="read-more-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="5" y1="12" x2="19" y2="12" />
+          <polyline points="12 5 19 12 12 19" />
+        </svg>
+      </a>
+    </div>
+  </article>
+  {% endfor %}
+</div>
+
+<nav class="blog-pagination">
+  {% if paginator.previous_page %}
+  {% if paginator.previous_page == 1 %}
+  <a class="pagination-btn" href="{{ site.baseurl }}/blog/" title="{{ site.data.language.previous_posts }}">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+      <polyline points="15 18 9 12 15 6" />
+    </svg>
+    {{ site.data.language.previous_posts }}
+  </a>
+  {% else %}
+  <a class="pagination-btn" href="{{ site.baseurl }}/blog/page{{ paginator.previous_page }}/"
+    title="{{ site.data.language.previous_posts }}">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+      <polyline points="15 18 9 12 15 6" />
+    </svg>
+    {{ site.data.language.previous }}
+  </a>
+  {% endif %}
+  {% endif %}
+
+  <a class="pagination-btn archive-btn" href="{{ site.baseurl }}/blog/archive/"
+    title="{{ site.data.language.blog_archive }}">{{ site.data.language.blog_archive }}</a>
+
+  {% if paginator.next_page %}
+  <a class="pagination-btn" href="{{ site.baseurl }}/blog/page{{ paginator.next_page }}/"
+    title="{{ site.data.language.next_posts }}">
+    {{ site.data.language.next }}
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+      <polyline points="9 18 15 12 9 6" />
+    </svg>
+  </a>
+  {% endif %}
+</nav>

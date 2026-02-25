@@ -1,14 +1,14 @@
+@import "variables";
+
 // Sidebar specific styles
 .sidebar {
-  .panel {
-    padding: 0.5rem; // Reduced from 1.25rem
-    
+  .sidebar-widget {
     ul {
-      padding-left: 0; // Remove default list padding
-      margin-left: 0; // Remove default list margin
-      
+      padding-left: 0;
+      margin-left: 0;
+
       li {
-        padding-left: 0.5rem; // Add minimal left padding for icons
+        padding-left: 0.3rem;
       }
     }
   }

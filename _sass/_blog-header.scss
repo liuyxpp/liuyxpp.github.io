@@ -3,8 +3,8 @@
 // Modern Header Styles
 .blog-header {
     position: relative;
-    height: 30vh;
-    min-height: 250px;
+    height: 28vh;
+    min-height: 220px;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -12,7 +12,7 @@
     justify-content: flex-end;
     padding: 1.5rem;
     color: white;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 
     &::before {
         content: '';
@@ -21,7 +21,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.3));
+        background: linear-gradient(135deg, rgba($primary, 0.6), rgba(darken($primary, 20%), 0.7));
         z-index: 1;
     }
 }
@@ -34,36 +34,43 @@
 }
 
 .subheading {
-    font-size: 2.7rem;
-    font-weight: 400;
+    font-size: 2.4rem;
+    font-weight: 600;
     line-height: 1.3;
     display: block;
-    color: $secondary;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
-    padding: 1.2rem 2rem;
-    background: rgba(0,0,0,0.4);
-    border-radius: 12px;
-    margin: 2rem 0 0;
-    backdrop-filter: blur(4px);
-    width: 100%;
-    max-width: 800px;
-    min-width: 300px;
+    color: white;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    padding: 0;
+    background: none;
+    border-radius: 0;
+    margin: 0;
+    width: auto;
+    max-width: none;
+    min-width: auto;
     text-align: center;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+
+    &::after {
+        content: '';
+        display: block;
+        width: 60px;
+        height: 3px;
+        background: linear-gradient(90deg, $secondary, lighten($secondary, 15%));
+        margin: 0.8rem auto 0;
+        border-radius: 2px;
+    }
 }
 
 @media (max-width: 768px) {
     .blog-header {
-        height: 30vh;
+        height: 25vh;
         justify-content: center;
         text-align: center;
     }
-    
-    .site-heading {
-        padding: 1rem;
-        max-width: 80%;
-        text-align: center;
+
+    .subheading {
+        font-size: 1.8rem;
     }
 }
