@@ -1,16 +1,19 @@
 - name: Polyorder.jl
   category: Scientific Computing
   language: Julia
-  description: A pure Julia implementation of polymer self-consistent field theory
+  description: High-performance, next-generation SCFT simulation platform for polymer systems
   features:
-    - Support arbitrary noncyclic chain architectures
-    - Modern acceleration algorithms (Anderson mixing, GMRES)
-    - Support 1D, 2D, and 3D unit cells
-    - RPA analysis support
+    - "Bleeding edge MDE solvers (ETDRK4) and preconditioned accelerators (Anderson-ETD, NGMRES, OACCEL)"
+    - "GPU acceleration: device-agnostic support via AcceleratedKernels.jl"
+    - "Low memory mode: checkpointing and shared cache for up to 80% memory reduction"
+    - Flexible architectures for arbitrary block copolymer topologies (linear, star, comb, cyclic)
+    - Variable cell optimization and symmetry adapted solution for all 1D/2D/3D space groups
   highlight: true
   links:
     - text: GitHub Repository
       url: https://github.com/liuyxpp/Polyorder.jl
+    - text: Documentation
+      url: https://yxliu.group/Polyorder.jl/dev/
 
 - name: Polyorder Web App
   category: Scientific Computing
@@ -31,28 +34,38 @@
 - name: Scattering.jl
   category: Scientific Computing
   language: Julia
-  description: Julia package for computing scattering and diffraction of nanoparticles
+  description: Julia library for computing scattering and diffraction of nanoparticles, crystals, and clusters
   features:
-    - Form factor calculations
-    - Structure factor calculations
-    - Translation and rotation operations
+    - Form factor of single particles and collections of particles
+    - Structure factor and scattering curves of crystals
+    - Translation, rotation, and symmetry operations on particles
+    - Unit cell and space group support for 1D, 2D, and 3D crystals
   links:
-    - text: Documentation
-      url: https://scatteringjl.readthedocs.io
+    - text: GitHub Repository
+      url: https://github.com/liuyxpp/Scattering.jl
 
 - name: PhaseDiagram.jl
   category: Scientific Computing
   language: Julia
-  description: Julia package for computing phase diagrams of block copolymers
+  description: Julia library for computing phase diagrams of block copolymers, blends, and solutions
   features:
-    - Microphase separation diagrams
-    - Macrophase separation diagrams
+    - Microphase separation phase boundary computation
+    - Macrophase separation coexistence (binodal) boundary computation
+    - Integration with Polyorder.jl as SCFT solver backend
   highlight: false
+  links:
+    - text: GitHub Repository
+      url: https://github.com/liuyxpp/PhaseDiagram.jl
 
 - name: Polymer.jl
   category: Scientific Computing
   language: Julia
-  description: Common interface for describing polymer systems
+  description: Common interface for describing polymer systems with arbitrary architectures
+  features:
+    - Graph-based representation for arbitrary block copolymer topologies
+    - Convenient constructors for common polymer chains and multicomponent blends
+    - Serialization and configuration via YAML files
+    - Control parameters for systematic phase diagram construction
   installation: |
     ```julia
     julia> ]
@@ -65,9 +78,11 @@
 - name: PolymerArchitecture.jl
   category: Scientific Computing
   language: Julia
-  description: Graph representation of polymer architectures
+  description: Graph representation and symmetry analysis of polymer architectures
   features:
-    - Automatic identification of equivalent sub-architectures
+    - Automatic identification of equivalent and semi-equivalent sub-architectures
+    - Architecture type classification (linear, star, comb, etc.)
+    - Symmetry reduction for polymer field-theoretic simulations (SCFT and FTS)
     - Integration with Polymer.jl
   links:
     - text: GitHub Repository
@@ -88,6 +103,47 @@
   links:
     - text: GitHub Repository
       url: https://github.com/liuyxpp/CubicHermiteSpline.jl
+
+- name: AcceleratedDCTs.jl
+  category: Scientific Computing
+  language: Julia
+  description: Fast, device-agnostic, AbstractFFTs-compatible DCT library for 1D/2D/3D data
+  features:
+    - "High performance: optimized Makhoul's method outperforming standard separable approaches"
+    - "Device agnostic: runs on CPU (multithreaded) and GPU (CUDA, AMD via KernelAbstractions)"
+    - "VkDCT backend: VkFFT-based CUDA library for DCT-I offering ~15x speedup on GPU"
+    - AbstractFFTs compatible with zero-allocation Plan support
+    - Specialized 3D kernels avoiding redundant transposes
+  highlight: false
+  installation: |
+    ```julia
+    julia> ]
+    pkg> add AcceleratedDCTs
+    ```
+  links:
+    - text: GitHub Repository
+      url: https://github.com/liuyxpp/AcceleratedDCTs.jl
+
+- name: CrystallographicFFT.jl
+  category: Scientific Computing
+  language: Julia
+  description: Exploit crystallographic symmetry to compute FFTs on 3D periodic grids up to 28× faster
+  features:
+    - Up to 28× speedup over full-grid FFT for highly symmetric space groups
+    - All 230 space groups supported
+    - "GPU acceleration via CUDA weak extension"
+    - "R2C FFT transforms for further memory and compute savings"
+    - "SCFT-ready with built-in diffusion kernel and stress helpers"
+    - Zero-allocation execution with pre-allocated plans
+  highlight: false
+  installation: |
+    ```julia
+    julia> ]
+    pkg> add CrystallographicFFT
+    ```
+  links:
+    - text: GitHub Repository
+      url: https://github.com/liuyxpp/CrystallographicFFT.jl
 
 - name: MakiePublication.jl
   category: Utility

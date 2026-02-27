@@ -128,6 +128,19 @@
             transform: translateY(-1px);
         }
     }
+
+    &.bibtex-download {
+        background: rgba(#2e7d32, 0.08);
+        color: #2e7d32;
+        border: 1px solid rgba(#2e7d32, 0.2);
+        cursor: pointer;
+        font-family: inherit;
+
+        &:hover {
+            background: rgba(#2e7d32, 0.16);
+            transform: translateY(-1px);
+        }
+    }
 }
 
 // Publication list
@@ -259,6 +272,27 @@
         &:hover {
             background: rgba($secondary, 0.16);
             color: darken($secondary, 15%);
+        }
+    }
+
+    .bibtex-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.3rem;
+        font-size: 0.78rem;
+        font-weight: 600;
+        color: #2e7d32;
+        background: rgba(#2e7d32, 0.08);
+        border: none;
+        padding: 0.15rem 0.5rem;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        font-family: inherit;
+
+        &:hover {
+            background: rgba(#2e7d32, 0.16);
+            color: darken(#2e7d32, 10%);
         }
     }
 

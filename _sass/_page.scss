@@ -1088,20 +1088,6 @@ header .entry-meta {
 
     // Highlighted cards
     &.highlighted {
-        position: relative;
-        overflow: hidden;
-
-        &::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            width: 4px;
-            background: linear-gradient(to bottom, $primary, $secondary);
-            border-radius: 12px 0 0 12px;
-        }
-
         .card-header {
             background: linear-gradient(135deg, lighten($primary, 38%), lighten($primary, 42%));
         }

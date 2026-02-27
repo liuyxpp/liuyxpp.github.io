@@ -222,6 +222,157 @@ function showCiteToast(msg) {
     }, 2000);
 }
 
+/* ---- BibTeX ---- */
+
+/**
+ * Generate a BibTeX citation key: FirstAuthorFamily + Year (e.g. Liu2024).
+ */
+function bibtexKey(d) {
+    var authors = splitAuthors(d.authors);
+    var family = (authors.length > 0 ? authors[0].family : 'Unknown')
+        .replace(/[^a-zA-Z]/g, '');
+    return family + d.year;
+}
+
+/**
+ * Escape special LaTeX/BibTeX characters in a string.
+ */
+function bibtexEscape(str) {
+    return str
+        .replace(/&/g, '\\&')
+        .replace(/%/g, '\\%')
+        .replace(/#/g, '\\#');
+}
+
+/**
+ * Format a single pub-item's data as a BibTeX @article entry.
+ */
+function generateBibtex(d, key) {
+    var authors = splitAuthors(d.authors);
+    var authorBib = authors.map(function (a) {
+        return a.family + ', ' + a.initials;
+    }).join(' and ');
+
+    var lines = [];
+    lines.push('@article{' + key + ',');
+    lines.push('  title     = {' + bibtexEscape(d.title) + '},');
+    lines.push('  author    = {' + bibtexEscape(authorBib) + '},');
+    lines.push('  journal   = {' + bibtexEscape(d.journalFull || d.journal) + '},');
+    if (d.year) lines.push('  year      = {' + d.year + '},');
+    if (d.volume) lines.push('  volume    = {' + d.volume + '},');
+    if (d.issue) lines.push('  number    = {' + d.issue + '},');
+    if (d.page) lines.push('  pages     = {' + d.page.replace(/-/g, '--') + '},');
+    if (d.doi) lines.push('  doi       = {' + d.doi + '},');
+    lines.push('}');
+    return lines.join('\n');
+}
+
+/**
+ * Collect all pub-items and assign unique BibTeX keys (append a/b/c for duplicates).
+ */
+function getAllBibtexEntries() {
+    var items = document.querySelectorAll('#journal-articles .pub-item');
+    var keyCounts = {};
+    var entries = [];
+
+    items.forEach(function (li) {
+        var d = parsePubData(li);
+        var base = bibtexKey(d);
+        if (keyCounts[base] === undefined) {
+            keyCounts[base] = 0;
+        }
+        keyCounts[base]++;
+    });
+
+    // Second pass: assign suffixes where needed
+    var keyUsed = {};
+    items.forEach(function (li) {
+        var d = parsePubData(li);
+        var base = bibtexKey(d);
+        var key;
+        if (keyCounts[base] > 1) {
+            if (keyUsed[base] === undefined) keyUsed[base] = 0;
+            key = base + String.fromCharCode(97 + keyUsed[base]); // a, b, c …
+            keyUsed[base]++;
+        } else {
+            key = base;
+        }
+        entries.push(generateBibtex(d, key));
+    });
+
+    return entries;
+}
+
+/**
+ * Copy a single article's BibTeX to clipboard (called from per-article button).
+ */
+function copyBibtex(btn) {
+    var li = btn.closest('.pub-item');
+    var d = parsePubData(li);
+
+    // Quick duplicate-aware key for this single item
+    var items = document.querySelectorAll('#journal-articles .pub-item');
+    var base = bibtexKey(d);
+    var sameKeyCount = 0;
+    var myIndex = 0;
+    for (var i = 0; i < items.length; i++) {
+        var other = parsePubData(items[i]);
+        if (bibtexKey(other) === base) {
+            if (items[i] === li) myIndex = sameKeyCount;
+            sameKeyCount++;
+        }
+    }
+    var key = sameKeyCount > 1 ? base + String.fromCharCode(97 + myIndex) : base;
+    var bib = generateBibtex(d, key);
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(bib).then(function () {
+            showCiteToast('BibTeX copied!');
+        }).catch(function () {
+            fallbackCopyText(bib);
+        });
+    } else {
+        fallbackCopyText(bib);
+    }
+}
+
+/**
+ * Plain-text clipboard fallback.
+ */
+function fallbackCopyText(text) {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position = 'fixed';
+    ta.style.left = '-9999px';
+    document.body.appendChild(ta);
+    ta.select();
+    try {
+        document.execCommand('copy');
+        showCiteToast('BibTeX copied!');
+    } catch (e) {
+        showCiteToast('Copy failed – please copy manually');
+    }
+    document.body.removeChild(ta);
+}
+
+/**
+ * Download all articles' BibTeX as a .bib file.
+ */
+function downloadAllBibtex() {
+    var entries = getAllBibtexEntries();
+    var content = entries.join('\n\n') + '\n';
+    var blob = new Blob([content], { type: 'text/plain;charset=utf-8' });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = 'publications.bib';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    showCiteToast('BibTeX file downloaded!');
+}
+
 document.addEventListener('click', function (e) {
     if (!e.target.closest('.cite-wrapper')) {
         document.querySelectorAll('.cite-menu.open').forEach(function (m) { m.classList.remove('open'); });

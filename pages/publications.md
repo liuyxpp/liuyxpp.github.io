@@ -38,6 +38,10 @@ breadcrumbs: true
       <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg>
       Google Scholar
     </a>
+    <button class="profile-badge bibtex-download" onclick="downloadAllBibtex()" type="button">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Download All BibTeX
+    </button>
   </div>
 
   <ol class="pub-list" reversed>
@@ -92,6 +96,10 @@ breadcrumbs: true
             <button onclick="copyCitation(this, 'aps')" type="button">APS Style</button>
           </div>
         </div>
+        <button class="bibtex-btn" onclick="copyBibtex(this)" type="button">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg>
+          BibTeX
+        </button>
       </div>
     </li>
   {% endfor %}
