@@ -4,7 +4,7 @@ layout: page
 title: Teaching
 description: "Undergraduate courses: Polymer Rheology and Processing, Polymer Physics, Introduction to Polymeric Materials, Scientific Research 101: Introduction to Scientific Computing."
 comments: false
-modified: 2025-09-03
+modified: 2026-03-22
 breadcrumbs: true
 ---
 
@@ -38,6 +38,10 @@ breadcrumbs: true
   </div>
   <div class="semester-list">
     <div class="semester-item current">
+      <span class="semester-badge">Spring 2026</span>
+      <span class="semester-detail">H2217 · Thur 11-12</span>
+    </div>
+    <div class="semester-item">
       <span class="semester-badge">Spring 2025</span>
       <span class="semester-detail">H2217 · Thur 11-12</span>
     </div>
@@ -59,6 +63,10 @@ breadcrumbs: true
   </div>
   <div class="semester-list">
     <div class="semester-item current">
+      <span class="semester-badge">Spring 2026</span>
+      <span class="semester-detail">H6304 · Thur 1-2, Thur 3-4 TBD </span>
+    </div>
+    <div class="semester-item">
       <span class="semester-badge">Spring 2025</span>
       <span class="semester-detail">HGX302 · Thur 1-2, Thur 3-4 (Apr. 8 – May 6)</span>
     </div>
