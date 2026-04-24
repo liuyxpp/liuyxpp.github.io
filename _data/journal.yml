@@ -1,9 +1,10 @@
 # Yi-Xin Liu's Publications - Journal articles
 
-- title: "Accelerating Field-Based Simulations of Block Copolymers by Exploring Symmetry of Chain Architectures"
+- title: "Accelerating Field-Based Simulations of Block Copolymers by Exploring
+    Symmetry of Chain Architectures"
   volume:
   issue:
-  page: Accepted
+  page: ASAP
   year: 2026
   author:
     - given: Jun-Yang
@@ -19,13 +20,14 @@
   journal:
     fullname: Chinese Journal of Polymer Science
     abbreviation: Chinese J. Polym. Sci.
-  URL:
+  URL: https://doi.org/10.1007/s10118-026-3599-4
   type: article
-  DOI:
-  fulltext:
+  DOI: 10.1007/s10118-026-3599-4
+  fulltext: cjps202601.pdf
   language: english
 
-- title: "A Unified Approach to Phase Equilibria in Multi-Component Polymer Systems with Effective Chemical Potential"
+- title: "A Unified Approach to Phase Equilibria in Multi-Component Polymer
+    Systems with Effective Chemical Potential"
   volume: 43
   issue:
   page: 1681-1689
@@ -50,7 +52,8 @@
   fulltext: cjps202501.pdf
   language: english
 
-- title: "Automated chain architecture screening for discovery of block copolymer assembly with graph enhanced self-consistent field theory"
+- title: "Automated chain architecture screening for discovery of block copolymer
+    assembly with graph enhanced self-consistent field theory"
   volume: 5
   issue:
   page: 266
@@ -75,7 +78,8 @@
   fulltext: cm202401.pdf
   language: english
 
-- title: "On the Teaching of Modern Polymer Physics: Phase Equilibrium of Polymer Blends"
+- title: "On the Teaching of Modern Polymer Physics: Phase Equilibrium of Polymer
+    Blends"
   title_alt: "现代高分子物理课程系列漫谈: 高分子共混物相平衡"
   volume: 37
   page: 829-835
@@ -121,7 +125,8 @@
   fulltext: gfztb202401.pdf
   language: chinese
 
-- title: "Automated Identification of Ordered Phases for Simulation Studies of Block Copolymers"
+- title: "Automated Identification of Ordered Phases for Simulation Studies of
+    Block Copolymers"
   volume: 42
   issue: 5
   page: 683-692
@@ -146,7 +151,8 @@
   fulltext: cjps202401.pdf
   language: english
 
-- title: "Template Design for Complex Block Copolymer Patterns Using a Machine Learning Method"
+- title: "Template Design for Complex Block Copolymer Patterns Using a Machine
+    Learning Method"
   volume: "15"
   issue: "25"
   page: "31049-31056"
@@ -175,7 +181,8 @@
   fulltext: acsami202301.pdf
   language: english
 
-- title: "Composition Waves in Solution-Processed Organic Films and Its Propagations from Kinetically Frozen Surface Mesophases"
+- title: "Composition Waves in Solution-Processed Organic Films and Its
+    Propagations from Kinetically Frozen Surface Mesophases"
   volume: "33"
   issue: "40"
   page: "2302089"
@@ -216,7 +223,8 @@
   fulltext: afm202301.pdf
   language: english
 
-- title: "On the Teaching of Modern Polymer Physics: Free Energy of A Single Polymer Chain in Polymer Solutions"
+- title: "On the Teaching of Modern Polymer Physics: Free Energy of A Single
+    Polymer Chain in Polymer Solutions"
   title_alt: "现代高分子物理漫谈--溶液中高分子单链自由能"
   volume: "37"
   issue: "1"
@@ -256,7 +264,8 @@
   fulltext: uc202201.pdf
   language: chinese
 
-- title: "Folded Chain Lamellae of Dynamic Helical Poly-(phenylacetylene) in Hexagonal Columnar Phase"
+- title: "Folded Chain Lamellae of Dynamic Helical Poly-(phenylacetylene) in
+    Hexagonal Columnar Phase"
   volume: "54"
   issue: "13"
   page: "6038-6044"
@@ -301,7 +310,8 @@
   fulltext: ma202101.pdf
   language: english
 
-- title: "Simplicity in Mean-field Phase Behavior of Two-component Miktoarm Star Copolymers"
+- title: "Simplicity in Mean-field Phase Behavior of Two-component Miktoarm Star
+    Copolymers"
   volume: "154"
   issue: "1"
   page: "014903"
@@ -324,7 +334,8 @@
   fulltext: jcp202101.pdf
   language: english
 
-- title: "Removal Pathways of Out-of-plane Defects in Thin Films of Lamellar Forming Block Copolymers"
+- title: "Removal Pathways of Out-of-plane Defects in Thin Films of Lamellar
+    Forming Block Copolymers"
   volume: "51"
   issue: "11"
   page: "4201-4212"
@@ -349,7 +360,8 @@
   fulltext: ma201801.pdf
   language: english
 
-- title: "Theoretical Studies on Defect Removal in Block Copolymer Thin Films under Soft Confinement"
+- title: "Theoretical Studies on Defect Removal in Block Copolymer Thin Films
+    under Soft Confinement"
   title_alt: "软受限条件下嵌段共聚物薄膜缺陷消除的理论研究"
   volume: "12"
   issue: "12"
@@ -388,7 +400,8 @@
   fulltext: gfzxb201802
   language: chinese
 
-- title: "Thickening Kinetics of Monolayer Crystals of Low Molecular Weight Poly(ethylene oxide) Fractions on Mica Surfaces"
+- title: "Thickening Kinetics of Monolayer Crystals of Low Molecular Weight
+    Poly(ethylene oxide) Fractions on Mica Surfaces"
   title_alt: "云母表面低分子量聚氧乙烯单层片晶等温增厚动力学"
   volume: "9"
   issue: "9"
@@ -420,7 +433,8 @@
   fulltext: gfzxb201801.pdf
   language: chinese
 
-- title: "Structures and Surface States of Polymer Brushes in Good Solvents: Effects of Surface Interactions"
+- title: "Structures and Surface States of Polymer Brushes in Good Solvents:
+    Effects of Surface Interactions"
   volume: "36"
   issue: "9"
   page: "1047-1054"
@@ -442,7 +456,8 @@
   fulltext: cjps201802.pdf
   language: english
 
-- title: "An Efficient Algorithm for Self-Consistent Field Theory Calculations of Complex Self-Assembled Structures of Block Copolymer Melts"
+- title: "An Efficient Algorithm for Self-Consistent Field Theory Calculations of
+    Complex Self-Assembled Structures of Block Copolymer Melts"
   volume: "36"
   issue: ""
   page: "488-496"
@@ -467,7 +482,9 @@
   fulltext: cjps201801.pdf
   language: english
 
-- title: "Field-Theoretic Simulations of Fluctuation-Stabilized Aperiodic Bricks-and-Mortar Mesophase in Miktoarm Star Block Copolymer/Homopolymer Blends"
+- title: "Field-Theoretic Simulations of Fluctuation-Stabilized Aperiodic
+    Bricks-and-Mortar Mesophase in Miktoarm Star Block Copolymer/Homopolymer
+    Blends"
   volume: "50"
   issue: "16"
   page: "6263-6272"
@@ -493,7 +510,8 @@
   fulltext: ma201701.pdf
   language: english
 
-- title: "A Surface Interaction Model for Self-assembly of Block Copolymers under Soft Confinement"
+- title: "A Surface Interaction Model for Self-assembly of Block Copolymers under
+    Soft Confinement"
   volume: "145"
   issue: "21"
   page: "214902"
@@ -549,7 +567,8 @@
   fulltext: gfztb201501.pdf
   language: chinese
 
-- title: "Exponential time differencing methods with Chebyshev collocation for polymers confined by interacting surfaces"
+- title: "Exponential time differencing methods with Chebyshev collocation for
+    polymers confined by interacting surfaces"
   volume: "140"
   issue: "22"
   page: "224101"
@@ -571,7 +590,9 @@
   fulltext: jcp201401.pdf
   language: english
 
-- title: "Microphase Separation and Phase Diagram of Concentrated Diblock Copolyelectrolyte Solutions Studied by Self-Consistent Field Theory Calculations in Two-Dimensional Space"
+- title: "Microphase Separation and Phase Diagram of Concentrated Diblock
+    Copolyelectrolyte Solutions Studied by Self-Consistent Field Theory
+    Calculations in Two-Dimensional Space"
   ISSN: "0024-9297"
   issue: "20"
   page: "8261-8269"
@@ -603,7 +624,8 @@
   language: english
   fulltext: ma201101.pdf
 
-- title: "Phase Selection Pathways in Ultrathin Film Crystallization of a Low Molecular Weight Poly(ethylene oxide) Fraction on Mica Surfaces"
+- title: "Phase Selection Pathways in Ultrathin Film Crystallization of a Low
+    Molecular Weight Poly(ethylene oxide) Fraction on Mica Surfaces"
   ISSN: "0024-9297"
   issue: "22"
   page: "8819-8828"
@@ -635,7 +657,9 @@
   language: english
   fulltext: ma201103.pdf
 
-- title: "Combined Main-Chain/Side-Chain Liquid Crystalline Polymer with Main-Chain On the basis of Jacketing Effect and Side-Chain Containing Azobenzene Groups"
+- title: "Combined Main-Chain/Side-Chain Liquid Crystalline Polymer with
+    Main-Chain On the basis of Jacketing Effect and Side-Chain Containing
+    Azobenzene Groups"
   ISSN: "0024-9297"
   issue: "19"
   page: "7600-7609"
@@ -698,7 +722,8 @@
   language: english
   fulltext: ccr201001.pdf
 
-- title: "Design, Synthesis, and Multiple Hierarchical Ordering of a Novel Side-Chain Liquid Crystalline-Rod Diblock Copolymer"
+- title: "Design, Synthesis, and Multiple Hierarchical Ordering of a Novel
+    Side-Chain Liquid Crystalline-Rod Diblock Copolymer"
   ISSN: "0024-9297"
   issue: "22"
   page: "8774-8780"
@@ -737,7 +762,8 @@
   language: english
   fulltext: ma200902.pdf
 
-- title: "Direct Observation and Modeling of Transient Nucleation in Isothermal Thickening of Polymer Lamellar Crystal Monolayers"
+- title: "Direct Observation and Modeling of Transient Nucleation in Isothermal
+    Thickening of Polymer Lamellar Crystal Monolayers"
   ISSN: "0024-9297"
   issue: "8"
   page: "2886-2890"
@@ -773,7 +799,8 @@
   language: english
   fulltext: ma200901.pdf
 
-- title: "Molecular packing and phase transitions of side-chain liquid crystalline polymethacrylates based on p-methoxyazobenzene"
+- title: "Molecular packing and phase transitions of side-chain liquid crystalline
+    polymethacrylates based on p-methoxyazobenzene"
   issue: "12-13"
   page: "3103-3110"
   volume: "49"
@@ -831,7 +858,8 @@
   language: english
   fulltext: fcc200702.pdf
 
-- title: "Crystal Growth Mechanism Changes in Pseudo-Dewetted Poly(ethylene oxide) Thin Layers"
+- title: "Crystal Growth Mechanism Changes in Pseudo-Dewetted Poly(ethylene oxide)
+    Thin Layers"
   ISSN: "0024-9297"
   issue: "5"
   page: "1570-1578"
@@ -880,7 +908,8 @@
   language: english
   fulltext: ma200701.pdf
 
-- title: "Morphology evolution in superheated crystal monolayer of low molecular weight poly(ethylene oxide) on mica surface"
+- title: "Morphology evolution in superheated crystal monolayer of low molecular
+    weight poly(ethylene oxide) on mica surface"
   ISSN: "00323861"
   issue: "15"
   page: "5239-5242"
@@ -910,7 +939,8 @@
   language: english
   fulltext: po200603.pdf
 
-- title: "Pseudo-dewetting behavior of low molecular weight poly(ethylene oxide) melts on mica surface"
+- title: "Pseudo-dewetting behavior of low molecular weight poly(ethylene oxide)
+    melts on mica surface"
   title_alt: "云母表面上低分子量聚氧乙烯熔体的“假不浸润”行为"
   ISSN: "1000-3304"
   issue: "9"
