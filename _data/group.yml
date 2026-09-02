@@ -11,11 +11,12 @@ graduate_students:
 
   - name: "Ms. Xi-Yue Zhang"
     period: "Sep. 2025"
-    description: "Xi-Yue Zhang is developing **Machine Learning** methods for predicting the phase behavior of block copolymers. She is now pursuing a BSc."
+    description: "Xi-Yue Zhang is developing **Machine Learning** methods for predicting the phase behavior of block copolymers. She is now pursuing a MSc."
 
 undergraduate_students:
-  - name: "Ms. Xuan Zhao"
-    description: "Xuan's project is yet to be determined. She is now pursuing a BSc."
+  - name: "Ms. Yu-Tong Wu"
+    period: "Mar. 2026"
+    description: "Yu-Tong Wu is working on a **XiYuan** project which aims to develop **Machine Learning** methods for predicting the phase behavior of block copolymers. She is now pursuing a BSc."
 
 alumni:
   - name: "Mr. Yu-Chen Zhang"
