@@ -22,7 +22,7 @@ For vector-only output:
 make svg
 ```
 
-The build script reads the two canonical outlined SVGs in `source/`, creates every variant under `dist/`, generates the preview board, and records file sizes and SHA-256 checksums in `dist/manifest.json`. The outlined wordmark has no runtime font dependency.
+The build script reads the two canonical outlined SVGs in `source/`, creates every variant under `dist/`, strips volatile raster metadata, generates the preview board, and records file sizes and SHA-256 checksums in `dist/manifest.json`. The outlined wordmark has no runtime font dependency, and repeated builds produce identical artifacts.
 
 ## Which file to use
 
@@ -47,14 +47,18 @@ SVG is preferred whenever the destination supports it. PNG exports are supplied 
 | Name | Hex | Meaning |
 | --- | --- | --- |
 | Polymer red | `#B72F47` | Molecular architecture and the outer domain |
+| Polymer coral | `#F05A70` | Outer contour and `Poly` wordmark on dark backgrounds |
 | Field slate | `#334D5C` | Field theory and computation |
 | Order mint | `#45B29D` | Emergent order and resolved structure |
 | Descriptor slate | `#5B7083` | Supporting text |
 | Deep navy | `#172A54` | Dark institutional backgrounds |
+| Field mist | `#DCE6EC` | High-contrast middle contour on dark backgrounds |
+| Light mint | `#64C9B4` | High-contrast inner contour on dark backgrounds |
 
 ### Clear space and minimum size
 
 - Keep clear space around the logo equal to at least one inner-stroke width of the contour mark.
+- On dark backgrounds, use an `on-dark` variant. Its coral, field-mist, and light-mint contours are tuned so all three nested **P** shapes remain distinct at navigation size.
 - Do not place the primary logo smaller than 220 px wide on screen or 40 mm wide in print.
 - Use the compact lockup below 220 px and the mark alone below 120 px.
 - Use the dedicated 16, 32, and 48 px exports for browser icons.

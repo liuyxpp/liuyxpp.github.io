@@ -4,8 +4,11 @@
   "concept": "Three nested P-shaped contours connect polymer architecture, composition fields, and ordered morphologies.",
   "palette": {
     "polymer_red": "#B72F47",
+    "polymer_coral": "#F05A70",
     "field_slate": "#334D5C",
+    "field_mist": "#DCE6EC",
     "order_mint": "#45B29D",
+    "order_mint_light": "#64C9B4",
     "descriptor_slate": "#5B7083",
     "deep_navy": "#172A54",
     "paper_white": "#FFFFFF"

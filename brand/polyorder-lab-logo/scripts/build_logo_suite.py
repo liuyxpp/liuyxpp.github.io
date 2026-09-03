@@ -49,6 +49,12 @@ SOURCE_COLORS = {
     "rgb(35.68573%, 43.920898%, 51.371765%)": "#5B7083",
 }
 
+ON_DARK_MARK_COLORS = {
+    "#B72F47": "#F05A70",
+    "#334D5C": "#DCE6EC",
+    "#45B29D": "#64C9B4",
+}
+
 
 def qname(name: str) -> str:
     return f"{{{SVG_NS}}}{name}"
@@ -82,6 +88,14 @@ def recolor(element: ET.Element, color: str) -> None:
             node.set("fill", color)
         if node.get("stroke") and node.get("stroke") != "none":
             node.set("stroke", color)
+
+
+def remap_colors(element: ET.Element, colors: dict[str, str]) -> None:
+    for node in element.iter():
+        for attribute in ("fill", "stroke"):
+            value = node.get(attribute)
+            if value in colors:
+                node.set(attribute, colors[value])
 
 
 def make_root(view_box: str, title: str, description: str) -> ET.Element:
@@ -122,6 +136,8 @@ def add_group(
             element.set("fill", "#F05A70" if current == "#B72F47" else "#FFFFFF")
         elif policy == "descriptor-on-dark":
             recolor(element, "#DCE6EC")
+        elif policy == "mark-on-dark":
+            remap_colors(element, ON_DARK_MARK_COLORS)
         group.append(element)
     return group
 
@@ -151,7 +167,7 @@ def build_primary_variants(primary: list[ET.Element], groups: dict) -> None:
         (
             "polyorder-lab-primary-on-dark.svg",
             "0 0 1710 540",
-            [("mark", mark, None, "brand"), ("wordmark", wordmark, None, "wordmark-on-dark"), ("descriptor", descriptor, None, "descriptor-on-dark")],
+            [("mark", mark, None, "mark-on-dark"), ("wordmark", wordmark, None, "wordmark-on-dark"), ("descriptor", descriptor, None, "descriptor-on-dark")],
             "Polyorder Lab primary logo for dark backgrounds",
         ),
         (
@@ -163,7 +179,7 @@ def build_primary_variants(primary: list[ET.Element], groups: dict) -> None:
         (
             "polyorder-lab-compact-on-dark.svg",
             "90 80 1500 385",
-            [("mark", mark, None, "brand"), ("wordmark", wordmark, None, "wordmark-on-dark")],
+            [("mark", mark, None, "mark-on-dark"), ("wordmark", wordmark, None, "wordmark-on-dark")],
             "Polyorder Lab compact logo for dark backgrounds",
         ),
         (
@@ -209,7 +225,13 @@ def build_primary_variants(primary: list[ET.Element], groups: dict) -> None:
             f"Polyorder Lab navigation logo{' for dark backgrounds' if dark else ''}",
             concept,
         )
-        add_group(root, "mark", mark, navbar_transforms["mark"], "brand")
+        add_group(
+            root,
+            "mark",
+            mark,
+            navbar_transforms["mark"],
+            "mark-on-dark" if dark else "brand",
+        )
         add_group(
             root,
             "wordmark",
@@ -226,7 +248,13 @@ def build_primary_variants(primary: list[ET.Element], groups: dict) -> None:
             f"Polyorder Lab stacked logo{' for dark backgrounds' if dark else ''}",
             concept,
         )
-        add_group(root, "mark", mark, "matrix(0.60 0 0 0.60 267 -25)", "brand")
+        add_group(
+            root,
+            "mark",
+            mark,
+            "matrix(0.60 0 0 0.60 267 -25)",
+            "mark-on-dark" if dark else "brand",
+        )
         add_group(
             root,
             "wordmark",
@@ -258,7 +286,16 @@ def build_mark_variants(mark_paths: list[ET.Element]) -> None:
 
 def render_png(magick: str, source: Path, output: Path, width: int) -> None:
     subprocess.run(
-        [magick, "-background", "none", str(source), "-resize", f"{width}x", str(output)],
+        [
+            magick,
+            "-background",
+            "none",
+            str(source),
+            "-resize",
+            f"{width}x",
+            "-strip",
+            str(output),
+        ],
         check=True,
     )
 
@@ -289,6 +326,7 @@ def build_rasters(magick: str) -> None:
             str(PNG_DIR / "polyorder-lab-mark-16.png"),
             str(PNG_DIR / "polyorder-lab-mark-32.png"),
             str(PNG_DIR / "polyorder-lab-mark-48.png"),
+            "-strip",
             str(PNG_DIR / "polyorder-lab-favicon.ico"),
         ],
         check=True,
@@ -314,7 +352,7 @@ def build_preview(primary: list[ET.Element], groups: dict, magick: str | None) -
     add_group(root, "preview-primary-descriptor", descriptor, "matrix(0.74 0 0 0.74 45 145)", "brand")
 
     ET.SubElement(root, qname("rect"), {"x": "65", "y": "595", "width": "1470", "height": "360", "rx": "26", "fill": "#172A54"})
-    add_group(root, "preview-dark-mark", mark, "matrix(0.70 0 0 0.70 75 575)", "brand")
+    add_group(root, "preview-dark-mark", mark, "matrix(0.70 0 0 0.70 75 575)", "mark-on-dark")
     add_group(root, "preview-dark-wordmark", wordmark, "matrix(0.70 0 0 0.70 75 575)", "wordmark-on-dark")
     add_group(root, "preview-dark-descriptor", descriptor, "matrix(0.70 0 0 0.70 75 575)", "descriptor-on-dark")
 
@@ -383,6 +421,23 @@ def validate_generated(magick: str | None) -> None:
         raise RuntimeError(f"Unexpected SVG set; missing={missing}, extra={extra}")
     for path in SVG_DIR.glob("*.svg"):
         ET.parse(path)
+    for filename in (
+        "polyorder-lab-primary-on-dark.svg",
+        "polyorder-lab-compact-on-dark.svg",
+        "polyorder-lab-navbar-on-dark.svg",
+        "polyorder-lab-stacked-on-dark.svg",
+    ):
+        root = ET.parse(SVG_DIR / filename).getroot()
+        mark = root.find(f".//{qname('g')}[@id='mark']")
+        if mark is None:
+            raise RuntimeError(f"{filename}: missing mark group")
+        strokes = {node.get("stroke") for node in mark.iter() if node.get("stroke")}
+        expected = set(ON_DARK_MARK_COLORS.values())
+        if strokes != expected:
+            raise RuntimeError(
+                f"{filename}: expected high-contrast mark strokes {sorted(expected)}, "
+                f"found {sorted(strokes)}"
+            )
     ET.parse(PREVIEW_DIR / "polyorder-lab-logo-suite-preview.svg")
     if magick:
         pngs = sorted(PNG_DIR.glob("*.png")) + [

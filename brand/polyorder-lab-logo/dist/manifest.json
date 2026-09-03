@@ -4,7 +4,7 @@
     {
       "path": "dist/svg/polyorder-lab-compact-on-dark.svg",
       "bytes": 9841,
-      "sha256": "f248bc5940eefc0aacd6a722f130c6c712f37b31f186d186ff930c19766a5f4a"
+      "sha256": "d503409ac8700d5808b58c72ce803f45bea6279b8bd97a4a2c0b9498fed6d03c"
     },
     {
       "path": "dist/svg/polyorder-lab-compact.svg",
@@ -39,7 +39,7 @@
     {
       "path": "dist/svg/polyorder-lab-navbar-on-dark.svg",
       "bytes": 9926,
-      "sha256": "8575b80b9b4619aaeef3c6c33778ac88ca13251ea1963227fc6d09e999cb91f8"
+      "sha256": "238fe9a1f3790460b57a431a2d05711812c20b06f18db05e6e5045e012934dae"
     },
     {
       "path": "dist/svg/polyorder-lab-navbar.svg",
@@ -49,7 +49,7 @@
     {
       "path": "dist/svg/polyorder-lab-primary-on-dark.svg",
       "bytes": 25317,
-      "sha256": "f7eed5bbcd2898cea4ad06a97880e0eee5bc8f5d7a8f3ca26b2c17aafda105c7"
+      "sha256": "0b78fb61aac0010f4e82bc6f9c56c3c99f0c5b85045d849503d09f8c47c85c31"
     },
     {
       "path": "dist/svg/polyorder-lab-primary.svg",
@@ -59,7 +59,7 @@
     {
       "path": "dist/svg/polyorder-lab-stacked-on-dark.svg",
       "bytes": 25444,
-      "sha256": "48cce96c80d8dbe52f03d7eb8be7cb5670561b334b4659934a851fc79c3fa5cc"
+      "sha256": "7e6a72b0efefad27cd9c07b73ae8747cd71b60b9313ba83bd32be0c4e1694881"
     },
     {
       "path": "dist/svg/polyorder-lab-stacked.svg",
@@ -78,123 +78,123 @@
     },
     {
       "path": "dist/png/polyorder-lab-compact-1200.png",
-      "bytes": 155523,
-      "sha256": "7d559a501b64ae5537b42193f2549ac59566e003cf7f8600dd1873ffb9adc23c"
+      "bytes": 155271,
+      "sha256": "01f7be85ee52fb47506a443eb86515011ae4079719e773a8b0e9bf9c86a93e1f"
     },
     {
       "path": "dist/png/polyorder-lab-compact-600.png",
-      "bytes": 72462,
-      "sha256": "052a97efe5cf4b2f6b0aa4cf943cf4b11658eafb21041bf6b95fb1736e8873e9"
+      "bytes": 72210,
+      "sha256": "775dd5108d9a53a86f7022aa547359afbc647e63d04c948163c7ef2e3d871e1b"
     },
     {
       "path": "dist/png/polyorder-lab-compact-on-dark-1200.png",
-      "bytes": 129666,
-      "sha256": "35f8a1012b466cfdf3549a18d6e142e16730253b1fd21303c587a85efa2c043f"
+      "bytes": 129345,
+      "sha256": "b07fbbe31c0e8efedb27bce498fc8a292c35116cd1089eccc003ba74786a10d5"
     },
     {
       "path": "dist/png/polyorder-lab-compact-on-dark-600.png",
-      "bytes": 60633,
-      "sha256": "4342a8d1f3e268aeaeca20e48ece37fbad0e919dae8b3a093bdb7d6495e2cff9"
+      "bytes": 60332,
+      "sha256": "02c8a386c1bca836ce24a189f8bf4aa18694e522608f3324d0e335a10576b177"
     },
     {
       "path": "dist/png/polyorder-lab-favicon.ico",
       "bytes": 15086,
-      "sha256": "7b72c6cb66c0b7248506a0408fc45569f05354a3aad908d831dc004a6772e372"
+      "sha256": "fb117220d60efcb6f780e3896d8798e7e44cf1325bff58e4cf86ac59ad6a2dbf"
     },
     {
       "path": "dist/png/polyorder-lab-mark-1024.png",
-      "bytes": 580779,
-      "sha256": "bb4de27e03a56edcb4d45f65359cc1f2a19294fc006a75039462f82896ba7ad2"
+      "bytes": 580527,
+      "sha256": "84c9b47609b46ab65615025393d7e7ccd4977931d16dff1a0437dd725a0e9de1"
     },
     {
       "path": "dist/png/polyorder-lab-mark-16.png",
-      "bytes": 1773,
-      "sha256": "ca095bb30ec6d548420de77fd9c3b43d6b57a81f661783578ac1bf8a91403607"
+      "bytes": 1521,
+      "sha256": "b02280e5e1f6a0b2f3763f686d49ee21e82171e5aef117652b375bdfe72acc10"
     },
     {
       "path": "dist/png/polyorder-lab-mark-180.png",
-      "bytes": 32044,
-      "sha256": "a98f378a9589bfbf2d4ea0d305c424fd6969a7d5e903bf569e773948bcc7d51d"
+      "bytes": 31792,
+      "sha256": "9a0005900eaf45c10b307bff03467d10aa416e9624fd33dc9503cd12be9c97ea"
     },
     {
       "path": "dist/png/polyorder-lab-mark-32.png",
-      "bytes": 3817,
-      "sha256": "2affdaaba96043a493a1e77eb64b6631d685452da4d4187b30cd6de7426b78fa"
+      "bytes": 3565,
+      "sha256": "fdfce777ce89bf2352cd68f11f831851d5e17b95dacac0bdf4386f79b5825982"
     },
     {
       "path": "dist/png/polyorder-lab-mark-48.png",
-      "bytes": 6334,
-      "sha256": "aac3a5d8d95d79fa88185e91d945d539c3793f05976e85dca14640b4e6cdc3d5"
+      "bytes": 6082,
+      "sha256": "2df6e860010c2125ea6178827d1cb08a4a4abd0046172e62fca67ca4c13feab2"
     },
     {
       "path": "dist/png/polyorder-lab-mark-512.png",
-      "bytes": 179430,
-      "sha256": "3f4bdf84748bae85ca87b9dffb4c9fb15edab80c26b1428c670966f118ba9c36"
+      "bytes": 179178,
+      "sha256": "2fc26cffa88d04a28e696b953bff03c3c355d9bb0e5f2d2e3d00365b90c89e71"
     },
     {
       "path": "dist/png/polyorder-lab-mark-monochrome-dark-512.png",
-      "bytes": 175457,
-      "sha256": "547d68d2d6da24012ce4db9e8c259ec12e1ac9169e08fa9f0ce71276fe19b11d"
+      "bytes": 175205,
+      "sha256": "9003dc699f0ccf78afa0cc0fee9df3cc95e67944c75b02829d2a0d31b6166514"
     },
     {
       "path": "dist/png/polyorder-lab-mark-monochrome-white-512.png",
-      "bytes": 22936,
-      "sha256": "fa9aa3ea2a01fa875979106e74dac8220f103055f5283d2458ad875de0241814"
+      "bytes": 22688,
+      "sha256": "d2dc01b7b3c9e8fb5db114b886e1fd13a66d1858a2a888a62325ac98ba85dbec"
     },
     {
       "path": "dist/png/polyorder-lab-navbar-on-dark-240.png",
-      "bytes": 20113,
-      "sha256": "63c1416b04ac2d16b99619922bf4feb7d7de5ece4a5abe614e9c28485a1204d1"
+      "bytes": 19960,
+      "sha256": "5f1eec3f543f2f5fa76278c5c60307c528c1654d5eabc1ef1202d1703eee91c4"
     },
     {
       "path": "dist/png/polyorder-lab-navbar-on-dark-480.png",
-      "bytes": 45357,
-      "sha256": "cdf7fde6b43e8ca061059fe03d7eefacc4011db718db9c28ad50dcf59c8c80ed"
+      "bytes": 45065,
+      "sha256": "ad9a0090d92a1709ea29ac26edab290b171bc5cbdb862b9f20670bb246a80e65"
     },
     {
       "path": "dist/png/polyorder-lab-primary-1200.png",
-      "bytes": 177236,
-      "sha256": "33ee8e269f879e1051d5c5a2cdc1f6335960e1e8b143a9720ff98c75385e5b05"
+      "bytes": 176984,
+      "sha256": "3e6a8beed1f7f02ea0445a199e1d447b33d5df5af5861724da13469c2438673b"
     },
     {
       "path": "dist/png/polyorder-lab-primary-2400.png",
-      "bytes": 454154,
-      "sha256": "97d732fe50faa3672017c02da8c538fd31667186d3adaea9f05ebdea429b84a3"
+      "bytes": 453902,
+      "sha256": "741cb6cd083e24a6b89babf1f065d7144944620002416fc487a069254e927f51"
     },
     {
       "path": "dist/png/polyorder-lab-primary-600.png",
-      "bytes": 81953,
-      "sha256": "d2184d33caa834b5116b2adbe76340f693a506e3db541c01fe8f8a006b2a25d3"
+      "bytes": 81701,
+      "sha256": "8e15e2d004ee9d16948e6352c59200208b691765a9c28f8a836fcb2d06dfc42c"
     },
     {
       "path": "dist/png/polyorder-lab-primary-on-dark-1200.png",
-      "bytes": 154877,
-      "sha256": "3a123d9808584f8db98337b7787a0e3a48a76a25b2ec0a0a9c99125fa6291a70"
+      "bytes": 154486,
+      "sha256": "3e1794cab2fe5df8c16bd567fe4201e57055bc30ccf5b7d84c7df1fd566412f7"
     },
     {
       "path": "dist/png/polyorder-lab-primary-on-dark-600.png",
-      "bytes": 71843,
-      "sha256": "d7602819f03c24f7ebf469edfc484a3db1847b31aa4c0dd37d32ce03f73ca7c8"
+      "bytes": 71566,
+      "sha256": "a9c6079a297e96ed908341a4614edede3b8f36c6a3ce0eed084c3bdcbe9339e0"
     },
     {
       "path": "dist/png/polyorder-lab-stacked-1024.png",
-      "bytes": 223709,
-      "sha256": "4d756598265a5b0a5be284305b4087e07187fd396314ee58211515573b32f9af"
+      "bytes": 223457,
+      "sha256": "a6eae6c74e25832b2556f14ac96f02bb27e5ef29545ceef0a4751026317a0374"
     },
     {
       "path": "dist/png/polyorder-lab-stacked-512.png",
-      "bytes": 98018,
-      "sha256": "066ada151a6b0eb46edd269779d9030414f3295071a3e7305dd6b68159b26577"
+      "bytes": 97766,
+      "sha256": "a5916b1987fc6bda7f9ba69a48b2eaf5bcf48484887ae9b7c0416878ac04f4b5"
     },
     {
       "path": "dist/png/polyorder-lab-stacked-on-dark-1024.png",
-      "bytes": 193187,
-      "sha256": "0e1d750b3c08bd33b7caf4d6e3c8d5b4f83932fcc90d8af765eb2ba742ff1d71"
+      "bytes": 192728,
+      "sha256": "c200f1ca54198cc642367877a07dc81292d394199521115a0c67c01b61f191c2"
     },
     {
       "path": "dist/png/polyorder-lab-stacked-on-dark-512.png",
-      "bytes": 84317,
-      "sha256": "2e78a6ce46eaba0530327176888cd995b4d21ac8306b6da7e843e61ada41e8da"
+      "bytes": 83949,
+      "sha256": "4cdc6aae1594cc482b3344dcafeb8211811ae9c0c9369d354dee0c81b3cca82a"
     },
     {
       "path": "dist/png/site.webmanifest",
@@ -203,13 +203,13 @@
     },
     {
       "path": "preview/polyorder-lab-logo-suite-preview.png",
-      "bytes": 160607,
-      "sha256": "94bfb0e427bb9a7e77b63506ca5e72886d103b026736dd395470cdcaaf272cd2"
+      "bytes": 161874,
+      "sha256": "8afe4e89c7639d6608cccae6d8eb415803d37d948052bc818c6edef1736f31fd"
     },
     {
       "path": "preview/polyorder-lab-logo-suite-preview.svg",
       "bytes": 61869,
-      "sha256": "cd668f26313983d96b90c9b2b60584e1e840eb0107579ab62b3e0e744081cd85"
+      "sha256": "3ec34d3aa56e1724ab77967ab1abd0f41e3a2796162939d3a2d33ead800877de"
     }
   ]
 }
