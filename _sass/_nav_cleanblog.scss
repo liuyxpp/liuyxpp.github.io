@@ -3,7 +3,6 @@
 // fix Bootstrap margin-left: -15px for site title
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
     margin-left: -8px;
-    height: $navbar-height;
 }
 
 .navbar-custom {
@@ -17,35 +16,36 @@
     font-family: $heading-font;
     border-bottom: 1px solid transparent;
 	.navbar-brand {
-        font-family: $site-title-font;
-        font-size: 24px;
-		font-weight: 800;
-        //&:hover,
-        //&:focus {
-        //    color: $nav-brand-faded;
-        //}
-        color: #FFF;
-        background: linear-gradient(#B72F47, #A61E36) repeat scroll 0% 0% transparent;
-        //font-weight: 700;
-        //font-size: 85%;
-        //text-transform: uppercase;
-        line-height: 1.0em;
-        //padding: 0.0em 0.4em;
-        //margin: 5px;
-        margin-left: 8px!important;
-        margin-top: 5px;
-        margin-bottom: 8px;
-        margin-right: 5px;
-        padding-left: 8px;
-        padding-right: 8px;
-        padding-bottom: 0px;
-        padding-top: 12px;
-        box-sizing: border-box;
-        border-radius: 5px;
-        top: 0px;
-        letter-spacing: 0px;
-        text-shadow: 0 2px 0 #A00;
-        //box-shadow: 0px 3px 4px -1px
+		display: flex;
+		align-items: center;
+		width: auto;
+		height: 52px;
+		margin: 4px 8px !important;
+		padding: 5px 7px;
+		box-sizing: border-box;
+		border-radius: 5px;
+		background: transparent;
+		box-shadow: none;
+		text-shadow: none;
+		line-height: 1;
+		transition: background-color 0.2s ease;
+
+		img {
+			display: block;
+			width: auto;
+			height: 40px;
+			max-width: calc(100vw - 92px);
+		}
+
+		&:hover,
+		&:focus {
+			background: rgba(255, 255, 255, 0.08);
+		}
+
+		&:focus-visible {
+			outline: 2px solid #45B29D;
+			outline-offset: 2px;
+		}
 	}
 	.nav {
 		li {
@@ -68,30 +68,10 @@
         background: $navbar-bgcolor;
 		border-bottom: 1px solid transparent;
 		.navbar-brand {
-			//color: $nav-brand-color;
-			//padding: 20px;
 			&:hover,
 			&:focus {
-				color: $nav-brand-faded;
+				background: rgba(255, 255, 255, 0.08);
 			}
-            color: #FFF;
-            background: linear-gradient(#B72F47, #A61E36) repeat scroll 0% 0% transparent;
-            font-weight: 700;
-            //font-size: 85%;
-            //text-transform: uppercase;
-            line-height: 1.0em;
-            //padding: 0.0em 0.4em;
-            margin: 5px;
-            padding-left: 8px;
-            padding-right: 8px;
-            padding-bottom: 0px;
-            padding-top: 12px;
-            box-sizing: border-box;
-            border-radius: 5px;
-            top: 0px;
-            letter-spacing: 0px;
-            text-shadow: 0 2px 0 #A00;
-            box-shadow: 0px 3px 4px -1px rgba(0, 0, 0, 0.67);
 		}
 		.nav {
 			li {
@@ -120,6 +100,18 @@
 		-webkit-backface-visibility: hidden;
 		backface-visibility: hidden;
 	}
+}
+
+@media (max-width: 420px) {
+  .navbar-custom .navbar-brand {
+    height: 48px;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+
+    img {
+      height: 36px;
+    }
+  }
 }
 
 // Fix Bootstrap issue: stack menubar items in multiline

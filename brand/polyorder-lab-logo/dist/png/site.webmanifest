@@ -1,0 +1,19 @@
+{
+  "name": "Polyorder Lab",
+  "short_name": "Polyorder",
+  "icons": [
+    {
+      "src": "polyorder-lab-mark-180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "polyorder-lab-mark-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#172A54",
+  "background_color": "#FFFFFF",
+  "display": "standalone"
+}

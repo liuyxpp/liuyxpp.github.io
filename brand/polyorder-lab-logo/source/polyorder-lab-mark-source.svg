@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="672" height="672" viewBox="0 0 168 168" role="img" aria-labelledby="title description">
+  <title id="title">Polyorder Lab contour P icon</title>
+  <desc id="description">Three nested P-shaped contours representing polymer domains, composition fields, and ordered lamellae.</desc>
+  <path d="M38 142V30H91C130 30 150 49 150 80C150 111 130 128 93 128H67"
+        fill="none" stroke="#B72F47" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M57 142V48H91C118 48 132 59 132 80C132 101 119 111 93 111H75"
+        fill="none" stroke="#334D5C" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M76 142V66H91C106 66 114 71 114 80C114 89 107 94 93 94H84"
+        fill="none" stroke="#45B29D" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

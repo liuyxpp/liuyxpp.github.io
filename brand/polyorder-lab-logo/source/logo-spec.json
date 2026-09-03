@@ -1,0 +1,22 @@
+{
+  "name": "Polyorder Lab",
+  "descriptor": "Polymer Ordering Lab",
+  "concept": "Three nested P-shaped contours connect polymer architecture, composition fields, and ordered morphologies.",
+  "palette": {
+    "polymer_red": "#B72F47",
+    "field_slate": "#334D5C",
+    "order_mint": "#45B29D",
+    "descriptor_slate": "#5B7083",
+    "deep_navy": "#172A54",
+    "paper_white": "#FFFFFF"
+  },
+  "primary_path_groups": {
+    "mark": [0, 3],
+    "wordmark": [3, 12],
+    "descriptor": [12, 30]
+  },
+  "source_files": {
+    "primary": "polyorder-lab-primary-source.svg",
+    "mark": "polyorder-lab-mark-source.svg"
+  }
+}

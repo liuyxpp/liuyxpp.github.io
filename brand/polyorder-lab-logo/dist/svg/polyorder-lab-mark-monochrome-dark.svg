@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 168" role="img" aria-labelledby="title description" preserveAspectRatio="xMidYMid meet">
+  <title id="title">Polyorder Lab dark monochrome mark</title>
+  <desc id="description">Three nested P-shaped contours representing polymer ordering.</desc>
+  <g id="mark">
+    <path d="M38 142V30H91C130 30 150 49 150 80C150 111 130 128 93 128H67" fill="none" stroke="#223746" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M57 142V48H91C118 48 132 59 132 80C132 101 119 111 93 111H75" fill="none" stroke="#223746" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M76 142V66H91C106 66 114 71 114 80C114 89 107 94 93 94H84" fill="none" stroke="#223746" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>
