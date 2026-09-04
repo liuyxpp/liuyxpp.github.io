@@ -3,6 +3,8 @@ permalink: /publications/
 layout: page
 title: Publications
 description: "Journal articles, talks, posters, and theses from Polyorder Lab."
+hide_description: true
+compact_header: true
 header-img: images/publications-0.jpg
 comments: false
 modified: 2026-09-04
@@ -10,23 +12,18 @@ breadcrumbs: true
 ---
 
 <div class="publications-page">
-<section class="publications-intro" aria-labelledby="publications-record-heading">
-  <div>
-    <h2 id="publications-record-heading">A record of methods, models, and materials</h2>
-    <p>Journal articles are listed as a chronological research index. Talks, posters, and theses follow as supporting collections.</p>
-  </div>
+<div class="publications-toolbar">
+  <nav class="pub-toc" aria-label="Publication collections">
+    <a href="#journal-articles">Journal articles</a>
+    <a href="#presentations-and-posters">Presentations and posters</a>
+    <a href="#thesis">Theses</a>
+  </nav>
   <div class="pub-profiles" aria-label="Publication profiles and downloads">
     <a href="https://orcid.org/0000-0001-9374-5981" class="profile-badge orcid" target="_blank" rel="noopener">ORCID</a>
     <a href="https://scholar.google.com/citations?user=TcKXbCoAAAAJ&amp;hl=en" class="profile-badge scholar" target="_blank" rel="noopener">Google Scholar</a>
     <button class="profile-badge bibtex-download" onclick="downloadAllBibtex()" type="button">Download all BibTeX</button>
   </div>
-</section>
-
-<nav class="pub-toc" aria-label="Publication collections">
-  <a href="#journal-articles">Journal articles</a>
-  <a href="#presentations-and-posters">Presentations and posters</a>
-  <a href="#thesis">Theses</a>
-</nav>
+</div>
 
 <section class="pub-section" id="journal-articles" aria-labelledby="journal-articles-heading">
   <header class="pub-section-heading">

@@ -597,30 +597,15 @@ $atlas-muted: #60717b;
 
 // Publications: a typographic index, not a collection of UI cards.
 .publications-page {
-  .publications-intro {
+  .publications-toolbar {
     display: grid;
     grid-template-columns: minmax(0, 1fr) auto;
-    gap: 2rem;
-    align-items: end;
-    margin-bottom: 2rem;
-
-    h2 {
-      max-width: 720px;
-      margin: 0 0 0.8rem;
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: clamp(1.8rem, 4vw, 3rem);
-      font-weight: 400;
-      line-height: 1.08;
-      letter-spacing: -0.025em;
-    }
-
-    p {
-      max-width: 66ch;
-      margin: 0;
-      color: $atlas-slate;
-      font-size: 0.96rem;
-      line-height: 1.65;
-    }
+    gap: 1rem 2rem;
+    align-items: center;
+    margin: 0 0 2.4rem;
+    padding: 0.65rem 0;
+    border-top: 1px solid $atlas-slate;
+    border-bottom: 1px solid $atlas-mist;
   }
 
   .pub-profiles {
@@ -660,11 +645,9 @@ $atlas-muted: #60717b;
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem 1.5rem;
-    margin: 0 0 4rem;
-    padding: 0.75rem 0;
+    margin: 0;
+    padding: 0;
     border: 0;
-    border-top: 1px solid $atlas-slate;
-    border-bottom: 1px solid $atlas-mist;
     border-radius: 0;
     background: transparent;
     box-shadow: none;
@@ -684,7 +667,7 @@ $atlas-muted: #60717b;
   }
 
   .pub-section {
-    margin: 0 0 5rem;
+    margin: 0 0 3.25rem;
     padding: 0;
     border: 0;
     border-radius: 0;
@@ -698,14 +681,14 @@ $atlas-muted: #60717b;
     gap: 1rem;
     align-items: baseline;
     justify-content: space-between;
-    padding: 0 0 0.75rem;
+    padding: 0 0 0.55rem;
     border-bottom: 1px solid $atlas-slate;
 
     h2 {
       margin: 0 !important;
       color: $atlas-navy !important;
       font-family: Georgia, "Times New Roman", serif;
-      font-size: clamp(1.5rem, 3vw, 2.1rem) !important;
+      font-size: clamp(1.35rem, 2.5vw, 1.75rem) !important;
       font-weight: 400;
     }
 
@@ -736,9 +719,9 @@ $atlas-muted: #60717b;
 
   .pub-record {
     display: grid;
-    grid-template-columns: 78px minmax(0, 1fr);
-    gap: 1.25rem;
-    padding: 1.25rem 0 1.35rem;
+    grid-template-columns: 58px minmax(0, 1fr);
+    gap: 1rem;
+    padding: 0.82rem 0 0.9rem;
   }
 
   .pub-year-marker {
@@ -754,19 +737,19 @@ $atlas-muted: #60717b;
   }
 
   .pub-list .pub-title {
-    margin: 0 0 0.35rem;
+    margin: 0 0 0.2rem;
     color: $atlas-navy;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 1.03rem;
+    font-size: 0.98rem;
     font-weight: 400;
-    line-height: 1.42;
+    line-height: 1.36;
   }
 
   .pub-list .pub-authors {
-    margin: 0 0 0.25rem;
+    margin: 0 0 0.1rem;
     color: $atlas-slate;
     font-size: 0.82rem;
-    line-height: 1.5;
+    line-height: 1.4;
 
     .main,
     .corr,
@@ -781,7 +764,7 @@ $atlas-muted: #60717b;
     margin: 0;
     color: $atlas-muted;
     font-size: 0.8rem;
-    line-height: 1.5;
+    line-height: 1.4;
   }
 
   .pub-list .pub-info .pub-journal {
@@ -794,7 +777,7 @@ $atlas-muted: #60717b;
     flex-wrap: wrap;
     gap: 0.35rem 0.9rem;
     align-items: center;
-    margin: 0.55rem 0 0;
+    margin: 0.32rem 0 0;
   }
 
   .pub-list .pub-doi-link,
@@ -853,8 +836,21 @@ $atlas-muted: #60717b;
   }
 
   .pub-section-secondary .pub-record {
-    padding-top: 1.05rem;
-    padding-bottom: 1.15rem;
+    padding-top: 0.72rem;
+    padding-bottom: 0.78rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .publications-page {
+    .publications-toolbar {
+      grid-template-columns: 1fr;
+      align-items: start;
+    }
+
+    .pub-profiles {
+      justify-content: flex-start;
+    }
   }
 }
 
@@ -933,13 +929,8 @@ $atlas-muted: #60717b;
   }
 
   .publications-page {
-    .publications-intro {
-      grid-template-columns: 1fr;
-      align-items: start;
-    }
-
-    .pub-profiles {
-      justify-content: flex-start;
+    .publications-toolbar {
+      margin-bottom: 2rem;
     }
 
     .pub-record {

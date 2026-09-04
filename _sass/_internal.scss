@@ -303,6 +303,29 @@ body#post-index.internal-page--index .internal-content.entry-content {
   max-width: 960px;
 }
 
+body.internal-page--compact {
+  .internal-page-header {
+    padding-top: 2.6rem;
+
+    h1 {
+      font-size: clamp(2.6rem, 4vw, 4rem);
+    }
+  }
+
+  .internal-breadcrumbs {
+    margin-bottom: 1.35rem;
+  }
+
+  .internal-field-line {
+    height: 28px;
+    margin-top: 1.8rem;
+  }
+}
+
+body#page.internal-page--compact .internal-content.entry-content {
+  margin-top: 1.6rem;
+}
+
 .internal-page-meta {
   margin-top: 1.5rem;
 
@@ -332,6 +355,10 @@ body#post-index.internal-page--index .internal-content.entry-content {
       font-size: clamp(2.45rem, 12vw, 3.7rem);
       max-width: none;
     }
+  }
+
+  body.internal-page--compact .internal-page-header {
+    padding-top: 2.25rem;
   }
 
   .internal-breadcrumbs {

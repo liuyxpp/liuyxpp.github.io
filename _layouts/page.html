@@ -7,7 +7,7 @@
 {% include head.html %}
 </head>
 
-<body id="page" class="internal-page internal-page--{{ page.content_width | default: 'wide' }}{% if page.image.feature %} feature{% endif %}">
+<body id="page" class="internal-page internal-page--{{ page.content_width | default: 'wide' }}{% if page.compact_header == true %} internal-page--compact{% endif %}{% if page.image.feature %} feature{% endif %}">
 
 {% include browser-upgrade.html %}
 {% include nav_cleanblog.html %}
