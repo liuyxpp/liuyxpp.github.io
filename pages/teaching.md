@@ -3,6 +3,8 @@ permalink: /teaching/
 layout: page
 title: Teaching
 description: "Current courses and teaching materials in polymer physics, rheology, and scientific computing."
+hide_description: true
+compact_header: true
 comments: false
 modified: 2026-09-04
 breadcrumbs: true
@@ -10,8 +12,6 @@ content_width: wide
 ---
 
 <div class="teaching-page">
-
-<p class="teaching-page__lead">Courses connect the physical ideas behind polymeric materials with the computational methods used to study them. Current schedules appear first; earlier offerings remain available as a teaching record.</p>
 
 <nav class="course-index" aria-label="Courses on this page">
   <a href="#polymer-rheology-and-processing"><span>MACR130043</span>Polymer Rheology and Processing</a>
