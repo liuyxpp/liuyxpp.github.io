@@ -24,7 +24,7 @@
       rgba(20, 40, 60, 0.55) 0%,
       rgba(30, 60, 90, 0.35) 40%,
       rgba(20, 50, 80, 0.45) 100%),
-    url('/images/homepage.jpg');
+    url('/images/homepage-polyorder-research.webp');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -37,6 +37,12 @@
   margin-bottom: 0;
   position: relative;
   overflow: hidden;
+
+  @media (max-width: 700px) {
+    // Keep the lamellar / gyroid morphology visible when the wide banner is
+    // heavily cropped on narrow screens.
+    background-position: 73% center;
+  }
 
   // Subtle animated overlay
   &::before {
