@@ -259,60 +259,12 @@ $atlas-muted: #60717b;
 
 // Software: a technical ledger, with Polyorder as the singular visual anchor.
 .software-page {
-  .software-intro {
-    display: grid;
-    grid-template-columns: minmax(0, 1.05fr) minmax(300px, 0.95fr);
-    gap: 3rem;
-    align-items: center;
-    margin: 0 0 2.5rem;
-    padding: 0 0 2.5rem;
-    border: 0;
-    border-bottom: 1px solid $atlas-mist;
-    border-radius: 0;
-    background: transparent;
-
-    .intro-text {
-      max-width: none;
-      padding: 0;
-    }
-
-    h2 {
-      margin: 0 0 1rem;
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: clamp(1.8rem, 4vw, 3rem);
-      font-weight: 400;
-      line-height: 1.08;
-      letter-spacing: -0.025em;
-    }
-
-    p {
-      margin: 0 0 0.75rem;
-      color: $atlas-slate;
-      font-size: 0.98rem;
-      line-height: 1.7;
-    }
-
-    .intro-image {
-      max-width: none;
-      margin: 0;
-      padding: 0;
-    }
-
-    .intro-image img {
-      display: block;
-      width: 100%;
-      height: auto;
-      border: 0;
-      border-radius: 0;
-      box-shadow: none;
-    }
-  }
-
   .software-directory {
     display: flex;
     flex-wrap: wrap;
     gap: 0 1.5rem;
-    margin: 0 0 3.5rem;
+    align-items: baseline;
+    margin: 0 0 2.4rem;
     border-bottom: 1px solid $atlas-mist;
 
     .toc-pill {
@@ -354,10 +306,22 @@ $atlas-muted: #60717b;
       font-size: 0.75rem;
       font-weight: 600;
     }
+
+    .software-directory__source {
+      margin-left: auto;
+      padding: 0.65rem 0 0.6rem;
+      border-bottom: 0 !important;
+      color: $atlas-navy;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-decoration: underline;
+      text-decoration-color: rgba($atlas-coral, 0.48);
+      text-underline-offset: 0.2em;
+    }
   }
 
   .software-grid {
-    gap: 4rem;
+    gap: 2.8rem;
   }
 
   .category-section {
@@ -366,12 +330,8 @@ $atlas-muted: #60717b;
   }
 
   .category-heading {
-    display: grid;
-    grid-template-columns: minmax(210px, 0.45fr) minmax(0, 1fr);
-    gap: 2rem;
-    align-items: baseline;
-    margin-bottom: 1rem;
-    padding-top: 1rem;
+    margin-bottom: 0;
+    padding: 0.75rem 0 0.65rem;
     border-top: 1px solid $atlas-slate;
 
     .category-title {
@@ -379,7 +339,7 @@ $atlas-muted: #60717b;
       padding: 0;
       color: $atlas-navy;
       font-family: Georgia, "Times New Roman", serif;
-      font-size: 1.65rem;
+      font-size: 1.45rem;
       font-weight: 400;
     }
 
@@ -387,13 +347,6 @@ $atlas-muted: #60717b;
       display: none;
     }
 
-    p {
-      max-width: 58ch;
-      margin: 0;
-      color: $atlas-muted;
-      font-size: 0.88rem;
-      line-height: 1.5;
-    }
   }
 
   .card-container {
@@ -404,7 +357,7 @@ $atlas-muted: #60717b;
   .software-card.highlighted,
   .software-card:hover {
     display: grid;
-    grid-template-columns: minmax(210px, 0.45fr) minmax(0, 1fr);
+    grid-template-columns: minmax(190px, 0.36fr) minmax(0, 1fr);
     overflow: visible;
     border: 0;
     border-top: 1px solid $atlas-mist;
@@ -422,7 +375,7 @@ $atlas-muted: #60717b;
 
   .software-entry-flagship,
   .software-entry-flagship:hover {
-    margin: 0 0 1.2rem;
+    margin: 0;
     border-top: 3px solid $atlas-coral;
     border-bottom: 1px solid $atlas-mist;
     background: rgba($atlas-mist, 0.22);
@@ -434,7 +387,7 @@ $atlas-muted: #60717b;
     gap: 1rem;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 1.35rem 1.25rem 1.35rem 0;
+    padding: 0.95rem 1rem 1rem 0;
     border: 0;
     background: transparent;
 
@@ -442,14 +395,14 @@ $atlas-muted: #60717b;
       margin: 0;
       color: $atlas-navy;
       font-family: Georgia, "Times New Roman", serif;
-      font-size: 1.2rem;
+      font-size: 1.12rem;
       font-weight: 400;
       line-height: 1.25;
     }
   }
 
   .software-entry-flagship .card-header {
-    padding-left: 1.25rem;
+    padding-left: 1rem;
   }
 
   .software-role {
@@ -485,22 +438,49 @@ $atlas-muted: #60717b;
 
   .card-body {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(180px, 0.5fr);
-    gap: 0.75rem 2rem;
-    padding: 1.35rem 0 1.5rem;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0.55rem 1.5rem;
+    align-content: start;
+    padding: 0.95rem 0 1rem;
   }
 
   .software-entry-flagship .card-body {
-    padding-right: 1.25rem;
+    padding-right: 1rem;
   }
 
   .description {
-    grid-column: 1 / -1;
+    grid-column: 1;
     max-width: 72ch;
     margin: 0;
     color: $atlas-slate;
-    font-size: 0.94rem;
-    line-height: 1.6;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  .software-details {
+    grid-column: 1 / -1;
+    margin-top: 0.1rem;
+
+    summary {
+      width: fit-content;
+      cursor: pointer;
+      color: $atlas-muted;
+      font-size: 0.78rem;
+      font-weight: 700;
+    }
+
+    &[open] summary {
+      color: $atlas-coral;
+    }
+  }
+
+  .software-details__content {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(180px, 0.42fr);
+    gap: 1rem 2rem;
+    margin-top: 0.7rem;
+    padding-top: 0.7rem;
+    border-top: 1px solid $atlas-mist;
   }
 
   .features {
@@ -554,12 +534,14 @@ $atlas-muted: #60717b;
   }
 
   .card-links {
-    grid-column: 1 / -1;
+    grid-column: 2;
+    grid-row: 1;
     display: flex;
     flex-wrap: wrap;
     gap: 0.4rem 1rem;
+    justify-content: flex-end;
     margin: 0;
-    padding: 0.35rem 0 0;
+    padding: 0;
   }
 
   .link-pill,
@@ -590,7 +572,7 @@ $atlas-muted: #60717b;
     }
 
     .software-card {
-      background: rgba($atlas-mist, 0.1);
+      background: transparent;
     }
   }
 }
@@ -890,20 +872,18 @@ $atlas-muted: #60717b;
   }
 
   .software-page {
-    .software-intro {
-      grid-template-columns: 1fr;
-      gap: 1.5rem;
+    .software-directory {
+      column-gap: 1.1rem;
+
+      .software-directory__source {
+        margin-left: 0;
+      }
     }
 
-    .category-heading,
     .software-card,
     .software-card.highlighted,
     .software-card:hover {
       grid-template-columns: 1fr;
-    }
-
-    .category-heading {
-      gap: 0.45rem;
     }
 
     .card-header,
@@ -923,8 +903,18 @@ $atlas-muted: #60717b;
     }
 
     .description,
-    .card-links {
+    .card-links,
+    .software-details {
       grid-column: 1;
+    }
+
+    .card-links {
+      grid-row: auto;
+      justify-content: flex-start;
+    }
+
+    .software-details__content {
+      grid-template-columns: 1fr;
     }
   }
 

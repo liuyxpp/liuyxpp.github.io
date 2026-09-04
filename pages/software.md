@@ -3,24 +3,15 @@ permalink: /software/
 layout: page
 title: Software
 description: "Open-source tools for polymer field theory, numerical methods, and scientific workflows."
-header-img: images/software-1.jpg
+hide_description: true
+compact_header: true
 comments: false
 modified: 2026-09-04
 breadcrumbs: true
+content_width: wide
 ---
 
 <div class="software-page">
-<section class="software-intro" aria-labelledby="software-ecosystem-heading">
-  <div class="intro-text">
-    <h2 id="software-ecosystem-heading">Software is part of the method</h2>
-    <p>We build the numerical tools used in our research, from polymer architecture models and field-theoretic solvers to phase-diagram and publication workflows. New scientific projects are developed primarily in Julia; earlier C++, Python, Matlab, and Fortran projects remain available as part of the group’s technical record.</p>
-    <p>Open-source releases appear here as they mature. Development activity and source repositories are also available on <a href="https://github.com/liuyxpp" target="_blank" rel="noopener">GitHub</a>.</p>
-  </div>
-  <figure class="intro-image">
-    <img src="{{ site.url }}/images/software.png" alt="Diagram of the Polyorder scientific software ecosystem">
-  </figure>
-</section>
-
 <nav class="software-directory" aria-label="Software categories">
   {% assign grouped_software = site.data.software | group_by: "category" %}
   {% for group in grouped_software %}
@@ -29,6 +20,7 @@ breadcrumbs: true
       <span class="toc-count" aria-label="{{ group.items | size }} projects">{{ group.items | size }}</span>
     </a>
   {% endfor %}
+  <a class="software-directory__source" href="https://github.com/liuyxpp" target="_blank" rel="noopener">GitHub repositories</a>
 </nav>
 
 <div class="software-grid">
@@ -37,13 +29,6 @@ breadcrumbs: true
     <section class="category-section{% if group.name == 'Legacy' %} category-section-legacy{% endif %}" id="{{ group.name | slugify }}" aria-labelledby="{{ group.name | slugify }}-heading">
       <header class="category-heading">
         <h2 class="category-title" id="{{ group.name | slugify }}-heading">{{ group.name }}</h2>
-        {% if group.name == "Scientific Computing" %}
-          <p>Research-grade tools for modeling, simulation, and analysis.</p>
-        {% elsif group.name == "Utility" %}
-          <p>Focused packages for visualization and research communication.</p>
-        {% elsif group.name == "Legacy" %}
-          <p>Earlier projects retained for reference; these are not the basis of current development.</p>
-        {% endif %}
       </header>
 
       <div class="card-container">
@@ -63,21 +48,28 @@ breadcrumbs: true
             <div class="card-body">
               <p class="description">{{ software.description }}</p>
 
-              {% if software.features.size > 0 %}
-                <div class="features">
-                  <ul>
-                    {% for feature in software.features %}
-                      <li>{{ feature }}</li>
-                    {% endfor %}
-                  </ul>
-                </div>
-              {% endif %}
+              {% if software.features.size > 0 or software.installation %}
+                <details class="software-details">
+                  <summary>{% if software.installation %}Capabilities and installation{% else %}Capabilities{% endif %}</summary>
+                  <div class="software-details__content">
+                    {% if software.features.size > 0 %}
+                      <div class="features">
+                        <ul>
+                          {% for feature in software.features %}
+                            <li>{{ feature }}</li>
+                          {% endfor %}
+                        </ul>
+                      </div>
+                    {% endif %}
 
-              {% if software.installation %}
-                <div class="installation">
-                  <h4>Installation</h4>
-                  {{ software.installation | markdownify }}
-                </div>
+                    {% if software.installation %}
+                      <div class="installation">
+                        <h4>Installation</h4>
+                        {{ software.installation | markdownify }}
+                      </div>
+                    {% endif %}
+                  </div>
+                </details>
               {% endif %}
 
               {% if software.links.size > 0 %}
@@ -96,4 +88,4 @@ breadcrumbs: true
 </div>
 </div>
 
-<script src="{{ site.url }}/assets/js/software.js"></script>
+<script src="{{ site.url }}/assets/js/software.js?v=20260904-software-compact"></script>
