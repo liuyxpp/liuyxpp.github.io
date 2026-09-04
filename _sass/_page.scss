@@ -691,6 +691,14 @@ header .entry-meta {
     }
 }
 
+// The research landing page owns its full-width sections. Keep the legacy
+// constrained #home layout for the blog index, which shares the same body id.
+#home.home-landing #main {
+    margin: 0;
+    max-width: none;
+    width: 100%;
+}
+
 .blog-index {
 
     a.button,

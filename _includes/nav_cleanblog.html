@@ -1,34 +1,66 @@
+<a class="skip-link" href="#main">Skip to main content</a>
+
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+<nav class="navbar navbar-default navbar-fixed-top navbar-custom" aria-label="Primary navigation">
     <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#primary-navigation"
+                    aria-controls="primary-navigation" aria-expanded="false">
+                <span class="sr-only">Open navigation menu</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ site.baseurl }}/" aria-label="Polyorder Lab home">
+            <a class="navbar-brand" href="{{ site.baseurl }}/" aria-label="Polyorder Lab home"{% if page.url == '/' %} aria-current="page"{% endif %}>
                 <img src="{{ site.baseurl }}/brand/polyorder-lab-logo/dist/svg/polyorder-lab-navbar-on-dark.svg?v=20260903-contrast"
                      width="182" height="40" alt="Polyorder Lab">
             </a>
         </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="primary-navigation">
             <ul class="nav navbar-nav navbar-right">
                 {% for link in site.data.navigation %}
-                    {% if link.url contains 'http' %}
-                        {% assign domain = '' %}
-                        {% else %}
-                        {% assign domain = site.url %}
+                    {% if link.group == 'primary' %}
+                        {% assign is_current = false %}
+                        {% if link.external != true and page.url contains link.url %}
+                            {% assign is_current = true %}
+                        {% endif %}
+                        <li{% if is_current %} class="active"{% endif %}>
+                            <a href="{% if link.external %}{{ link.url }}{% else %}{{ site.baseurl }}{{ link.url }}{% endif %}"
+                               {% if link.external %}target="_blank" rel="noopener noreferrer" class="external-link"{% endif %}
+                               {% if is_current %}aria-current="page"{% endif %}>
+                                {{ link.title }}{% if link.external %}<span aria-hidden="true"> ↗</span><span class="sr-only"> (opens in a new tab)</span>{% endif %}
+                            </a>
+                        </li>
                     {% endif %}
-                    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
                 {% endfor %}
+                {% assign more_is_current = false %}
+                {% for link in site.data.navigation %}
+                    {% if link.group == 'more' and page.url contains link.url %}
+                        {% assign more_is_current = true %}
+                    {% elsif link.title == 'Blog' and page.layout == 'post' %}
+                        {% assign more_is_current = true %}
+                    {% endif %}
+                {% endfor %}
+                <li class="dropdown{% if more_is_current %} active{% endif %}">
+                    <button type="button" class="dropdown-toggle nav-more-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                        More <span class="caret" aria-hidden="true"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        {% for link in site.data.navigation %}
+                            {% if link.group == 'more' %}
+                                {% assign is_current = false %}
+                                {% if page.url contains link.url %}{% assign is_current = true %}{% endif %}
+                                {% if link.title == 'Blog' and page.layout == 'post' %}{% assign is_current = true %}{% endif %}
+                                <li{% if is_current %} class="active"{% endif %}>
+                                    <a href="{{ site.baseurl }}{{ link.url }}"{% if is_current %} aria-current="page"{% endif %}>{{ link.title }}</a>
+                                </li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </li>
             </ul>
         </div>
-        <!-- /.navbar-collapse -->
     </div>
-    <!-- /.container -->
 </nav>

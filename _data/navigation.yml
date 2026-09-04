@@ -1,28 +1,35 @@
-# Menu navigation links
+# Menu navigation links. The navbar uses `group` to keep the research-facing
+# destinations visible and place supporting pages under More.
 
-- title:    Home
-  url:      /
+- title: Research
+  url: /research/
+  group: primary
 
-- title:    Group
-  url:      /group/
+- title: Software
+  url: /software/
+  group: primary
 
-- title:    Research
-  url:      /research/
+- title: Publications
+  url: /publications/
+  group: primary
 
-- title:    Teaching
-  url:      /teaching/
+- title: Group
+  url: /group/
+  group: primary
 
-- title:    Publications
-  url:      /publications/
+- title: PolyorderApp
+  url: https://app.yxliu.group
+  group: primary
+  external: true
 
-- title:    Software
-  url:      /software/
+- title: Teaching
+  url: /teaching/
+  group: more
 
-- title:    PolyorderApp
-  url:      https://app.yxliu.group
+- title: Blog
+  url: /blog/
+  group: more
 
-- title:    Blog
-  url:      /blog/
-
-- title:    About
-  url:      /about/
+- title: About
+  url: /about/
+  group: more

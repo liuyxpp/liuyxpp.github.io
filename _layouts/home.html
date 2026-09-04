@@ -9,89 +9,106 @@
   {% include head.html %}
 </head>
 
-<body id="home">
+<body id="home" class="home-landing">
 
   {% include browser-upgrade.html %}
 
   {% include nav_cleanblog.html %}
 
-  <div id="main" role="main">
-    <!-- Hero Section -->
-    <section class="hero-section">
+  <main id="main" tabindex="-1">
+    <section class="hero-section" aria-labelledby="hero-title">
       <div class="hero-content">
-        <h1 class="hero-title">Welcome to Polyorder Lab @Fudan</h1>
-        <p class="hero-subtitle">Exploring the Frontiers of Polymer Physics and Computational Materials Science</p>
+        <p class="hero-kicker">Polyorder Lab · Fudan University</p>
+        <h1 class="hero-title" id="hero-title">Controlling order in soft materials</h1>
+        <p class="hero-subtitle">We develop field-theoretic models, accelerated numerical methods, and Julia tools to understand polymer self-assembly.</p>
         <div class="hero-cta">
-          <a href="/research/" class="button primary">Our Research</a>
-          <a href="/publications/" class="button secondary">Recent Publications</a>
-        </div>
-      </div>
-      <a href="#featured" class="scroll-indicator">
-        <i class="fa fa-chevron-down"></i>
-      </a>
-    </section>
-
-    <!-- Featured Content Section -->
-    <section id="featured" class="featured-section">
-      <div class="grid-container">
-        <div class="featured-card">
-          <i class="fa fa-flask card-icon"></i>
-          <h2>Research</h2>
-          <p>Discover our cutting-edge work in polymer self-consistent field theory, block copolymer assembly, and
-            computational materials science.</p>
-          <a href="/research/" class="button">Explore</a>
-        </div>
-
-        <div class="featured-card">
-          <i class="fa fa-code card-icon"></i>
-          <h2>Software</h2>
-          <p>Check out our open-source scientific software: <a
-              href="https://github.com/liuyxpp/Polymer.jl">Polymer.jl</a>, <a
-              href="https://github.com/liuyxpp/PolymerArchitecture.jl">PolymerArchitecture.jl</a>, <a
-              href="https://github.com/liuyxpp/AcceleratedDCTs.jl">AcceleratedDCTs.jl</a>, <a
-              href="https://github.com/liuyxpp/MakiePublication.jl">MakiePublication.jl</a>, and more.</p>
-          <a href="/software/" class="button">Explore</a>
-        </div>
-
-        <div class="featured-card">
-          <i class="fa fa-users card-icon"></i>
-          <h2>Join Our Team</h2>
-          <p>We're always looking for talented researchers and students passionate about polymer physics, scientific
-            computing and AI.</p>
-          <a href="/group/" class="button">Opportunities</a>
+          <a href="/research/" class="button primary">Explore our research</a>
+          <a href="/software/" class="button secondary">Use our software</a>
         </div>
       </div>
     </section>
 
-    <!-- News Section -->
-    <section class="news-section">
-      <h2 class="section-title">Latest News</h2>
-      <div class="news-grid">
+    <section id="featured" class="featured-section" aria-labelledby="research-continuum-title">
+      <div class="atlas-shell">
+        <header class="atlas-intro">
+          <p class="section-kicker">Architecture → Algorithms → Morphology</p>
+          <h2 id="research-continuum-title">From molecular design to ordered matter</h2>
+          <p>Our work connects polymer architecture, computational algorithms, and the morphologies that emerge from self-assembly.</p>
+        </header>
+
+        <ol class="research-continuum">
+          <li class="continuum-stage architecture-stage">
+            <span class="stage-number">01</span>
+            <div>
+              <h3>Architecture</h3>
+              <p>Representing complex chain topologies and identifying symmetry-equivalent structures.</p>
+            </div>
+          </li>
+          <li class="continuum-stage algorithms-stage">
+            <span class="stage-number">02</span>
+            <div>
+              <h3>Algorithms</h3>
+              <p>Accelerating field-theoretic simulations with structure-aware numerical methods.</p>
+            </div>
+          </li>
+          <li class="continuum-stage morphology-stage">
+            <span class="stage-number">03</span>
+            <div>
+              <h3>Morphology</h3>
+              <p>Discovering and characterizing ordered phases across polymer design spaces.</p>
+            </div>
+          </li>
+        </ol>
+
+        <div class="atlas-actions">
+          <a href="/research/" class="text-link">See the full research program</a>
+        </div>
+
+        <div class="lab-pathways">
+          <article>
+            <p class="pathway-label">Open scientific software</p>
+            <h3>Tools built for research</h3>
+            <p>Explore Polymer.jl, PolymerArchitecture.jl, AcceleratedDCTs.jl, MakiePublication.jl, and our other Julia packages.</p>
+            <a href="/software/" class="text-link">Browse software</a>
+          </article>
+          <article>
+            <p class="pathway-label">Work with us</p>
+            <h3>Join the Polyorder Lab</h3>
+            <p>We welcome researchers and students interested in polymer physics, scientific computing, and AI.</p>
+            <a href="/group/" class="text-link">Meet the group</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="news-section" aria-labelledby="latest-news-title">
+      <div class="news-shell">
+        <header class="news-heading">
+          <p class="section-kicker">From the lab</p>
+          <h2 id="latest-news-title">Latest work</h2>
+          <a href="/news/" class="text-link">All news</a>
+        </header>
         {% assign sorted_news = site.data.news | sort: 'date' | reverse %}
-        {% for item in sorted_news limit:3 %}
-        <article class="news-card">
-          <div class="news-content">
-            <h3>{{ item.title }}</h3>
-            <p class="news-meta">
-              {{ item.date | date: "%Y.%m.%d" }}
-              <span class="category-badge">{{ item.category }}</span>
-            </p>
-            <p>{{ item.description | strip_html }}</p>
-            {% if item.url and item.url != "" %}
-            <a href="{{ item.url }}" class="read-more">Read more</a>
+        {% assign featured_news = sorted_news | first %}
+        <div class="news-editorial">
+          <article class="news-feature">
+            <p class="news-meta"><time datetime="{{ featured_news.date | date: '%Y-%m-%d' }}">{{ featured_news.date | date: "%Y.%m.%d" }}</time> · {{ featured_news.category }}</p>
+            <h3>{{ featured_news.title }}</h3>
+            <p>{{ featured_news.description | strip_html }}</p>
+            {% if featured_news.url and featured_news.url != "" %}
+              <a href="{{ featured_news.url }}" class="text-link">Read the story</a>
             {% endif %}
-          </div>
-        </article>
-        {% endfor %}
+          </article>
 
-        <!-- More News Card -->
-        <article class="news-card more-news">
-          <div class="news-content">
-            <i class="fa fa-newspaper-o more-news-icon"></i>
-            <p class="more-news-text">Stay up to date with our latest achievements, publications, and events.</p>
-            <a href="/news/" class="read-more">View All News</a>
+          <div class="news-list-compact">
+            {% for item in sorted_news offset:1 limit:3 %}
+              <article class="news-list-item">
+                <p class="news-meta"><time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%Y.%m.%d" }}</time> · {{ item.category }}</p>
+                <h3>{% if item.url and item.url != "" %}<a href="{{ item.url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</h3>
+              </article>
+            {% endfor %}
           </div>
-        </article>
+        </div>
       </div>
     </section>
 
@@ -101,11 +118,11 @@
     *
     {% endcomment %}
 
-    <div class="row">
+    <div class="row legacy-home-content">
       {{ content }}
     </div>
 
-  </div><!-- /#main -->
+  </main>
 
   <div class="footer-wrapper">
     {% include footer.html %}

@@ -1,172 +1,307 @@
-// Navigation by Clean Blog
+// Polyorder primary navigation
 
-// fix Bootstrap margin-left: -15px for site title
-.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
-    margin-left: -8px;
+$polyorder-navy: #172a54;
+$polyorder-slate: #334d5c;
+$polyorder-mist: #dce6ec;
+$polyorder-mint: #45b29d;
+$polyorder-coral: #f05a70;
+
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand {
+  margin-left: 0;
 }
 
 .navbar-custom {
-	background: $navbar-bgcolor;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: 1000;
-	//.sans-serif;
-    font-family: $heading-font;
-    border-bottom: 1px solid transparent;
-	.navbar-brand {
-		display: flex;
-		align-items: center;
-		width: auto;
-		height: 52px;
-		margin: 4px 8px !important;
-		padding: 5px 7px;
-		box-sizing: border-box;
-		border-radius: 5px;
-		background: transparent;
-		box-shadow: none;
-		text-shadow: none;
-		line-height: 1;
-		transition: background-color 0.2s ease;
+  background: $polyorder-slate;
+  border: 0;
+  border-bottom: 1px solid rgba($polyorder-mist, 0.18);
+  box-shadow: 0 1px 0 rgba($polyorder-navy, 0.16);
+  font-family: $base-font;
+  left: 0;
+  min-height: $navbar-actual-height;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 
-		img {
-			display: block;
-			width: auto;
-			height: 40px;
-			max-width: calc(100vw - 92px);
-		}
+  &.is-fixed,
+  &.is-visible {
+    background: $polyorder-slate;
+    top: 0;
+    transform: none;
+  }
 
-		&:hover,
-		&:focus {
-			background: rgba(255, 255, 255, 0.08);
-		}
+  &.scrolled {
+    box-shadow: 0 6px 20px rgba($polyorder-navy, 0.18);
+  }
 
-		&:focus-visible {
-			outline: 2px solid #45B29D;
-			outline-offset: 2px;
-		}
-	}
-	.nav {
-		li {
-			a {
-				text-transform: uppercase;
-				font-size: 14px;
-				font-weight: 800;
-				letter-spacing: 1px;
-                color: $nav-color;
-                padding: 20px;
-                &:hover,
-                &:focus {
-                    color: $nav-faded;
-                }
-			}
-		}
-	}
-	@media #{$medium} {
-		// background: transparent;
-        background: $navbar-bgcolor;
-		border-bottom: 1px solid transparent;
-		.navbar-brand {
-			&:hover,
-			&:focus {
-				background: rgba(255, 255, 255, 0.08);
-			}
-		}
-		.nav {
-			li {
-				a {
-					color: $nav-color;
-					padding: 20px;
-					&:hover,
-					&:focus {
-						color: $nav-faded;
-					}
-				}
-			}
-		}
-	}
-	@media #{$large} {
-        border-bottom: 1px solid transparent;
-		-webkit-transition: background-color 0.3s;
-		-moz-transition: background-color 0.3s;
-		transition: background-color 0.3s;
-		/* Force Hardware Acceleration in WebKit */
-		-webkit-transform: translate3d(0, 0, 0);
-		-moz-transform: translate3d(0, 0, 0);
-		-ms-transform: translate3d(0, 0, 0);
-		-o-transform: translate3d(0, 0, 0);
-		transform: translate3d(0, 0, 0);
-		-webkit-backface-visibility: hidden;
-		backface-visibility: hidden;
-	}
-}
+  .container-fluid {
+    max-width: 1420px;
+    padding-left: 22px;
+    padding-right: 22px;
+  }
 
-@media (max-width: 420px) {
-  .navbar-custom .navbar-brand {
-    height: 48px;
-    margin-top: 5px !important;
-    margin-bottom: 5px !important;
+  .navbar-brand {
+    align-items: center;
+    background: transparent;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+    display: flex;
+    height: 52px;
+    line-height: 1;
+    margin: 4px 0 !important;
+    padding: 5px 7px;
+    text-shadow: none;
+    transition: background-color 160ms ease;
+    width: auto;
 
     img {
-      height: 36px;
+      display: block;
+      height: 40px;
+      max-width: calc(100vw - 104px);
+      width: auto;
+    }
+
+    &:hover,
+    &:focus {
+      background: rgba(255, 255, 255, 0.09);
+    }
+  }
+
+  .navbar-nav > li > a,
+  .nav-more-toggle {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    color: $polyorder-mist;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    line-height: 22px;
+    padding: 20px 15px;
+    position: relative;
+    text-decoration: none;
+    text-transform: none;
+    transition: background-color 160ms ease, color 160ms ease;
+
+    &::after {
+      background: $polyorder-mint;
+      bottom: 8px;
+      content: '';
+      height: 2px;
+      left: 15px;
+      opacity: 0;
+      position: absolute;
+      right: 15px;
+      transform: scaleX(0.4);
+      transition: opacity 160ms ease, transform 160ms ease;
+    }
+
+    &:hover,
+    &:focus {
+      background: rgba(255, 255, 255, 0.07);
+      color: #fff;
+    }
+  }
+
+  .navbar-nav > .active > a,
+  .navbar-nav > .active > a:hover,
+  .navbar-nav > .active > a:focus,
+  .navbar-nav > .active > .nav-more-toggle {
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+
+    &::after {
+      opacity: 1;
+      transform: scaleX(1);
+    }
+  }
+
+  .navbar-nav > li > .external-link {
+    color: #fff;
+  }
+
+  .nav-more-toggle {
+    cursor: pointer;
+  }
+
+  .dropdown-menu {
+    background: #fff;
+    border: 1px solid rgba($polyorder-slate, 0.18);
+    border-radius: 3px;
+    box-shadow: 0 12px 30px rgba($polyorder-navy, 0.2);
+    min-width: 170px;
+    padding: 7px;
+
+    > li > a {
+      border-radius: 2px;
+      color: $polyorder-navy;
+      font-size: 14px;
+      padding: 9px 12px;
+      text-transform: none;
+
+      &:hover,
+      &:focus {
+        background: rgba($polyorder-mint, 0.13);
+        color: $polyorder-navy;
+      }
+    }
+
+    > .active > a,
+    > .active > a:hover,
+    > .active > a:focus {
+      background: $polyorder-navy;
+      color: #fff;
+    }
+  }
+
+  a:focus-visible,
+  button:focus-visible {
+    outline: 3px solid $polyorder-mist;
+    outline-offset: -3px;
+  }
+
+  .navbar-toggle {
+    border: 0;
+    border-radius: 3px;
+    height: 44px;
+    margin: 9px 0;
+    padding: 12px 11px;
+    width: 44px;
+
+    .icon-bar {
+      background-color: $polyorder-mist;
+      height: 2px;
+      width: 22px;
+    }
+
+    &:hover,
+    &:focus {
+      background: rgba(255, 255, 255, 0.1);
     }
   }
 }
 
-// Fix Bootstrap issue: stack menubar items in multiline
-@media (max-width: 992px) {
-  .navbar-header {
+// Collapse before the links are forced into a second line.
+@media (max-width: 1180px) {
+  .navbar-custom {
+    .navbar-header {
       float: none;
-  }
-  .navbar-left,.navbar-right {
-      float: none !important;
-  }
-  .navbar-toggle {
+    }
+
+    .navbar-toggle {
       display: block;
-  }
-  .navbar-collapse {
-      border-top: 1px solid transparent;
-      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-  }
-  .navbar-fixed-top {
-      top: 0;
-      border-width: 0 0 1px;
-  }
-  .navbar-collapse.collapse {
-      display: none!important;
-  }
-  .navbar-nav {
-      float: none!important;
-      margin-top: 7.5px;
-  }
-  .navbar-nav>li {
+    }
+
+    .navbar-collapse {
+      background: $polyorder-slate;
+      border-top: 1px solid rgba($polyorder-mist, 0.18);
+      box-shadow: 0 18px 28px rgba($polyorder-navy, 0.22);
+      max-height: calc(100vh - #{$navbar-actual-height});
+      overflow-y: auto !important;
+      padding: 8px 15px 14px;
+    }
+
+    .navbar-collapse.collapse {
+      display: none !important;
+    }
+
+    .navbar-collapse.collapse.in {
+      display: block !important;
+    }
+
+    .navbar-nav,
+    .navbar-right {
+      float: none !important;
+      margin: 0;
+    }
+
+    .navbar-nav > li {
       float: none;
+    }
+
+    .navbar-nav > li > a,
+    .nav-more-toggle {
+      border-radius: 3px;
+      padding: 11px 12px;
+      text-align: left;
+      width: 100%;
+
+      &::after {
+        bottom: 7px;
+        left: 12px;
+        right: auto;
+        width: 28px;
+      }
+    }
+
+    .dropdown-menu {
+      background: rgba($polyorder-navy, 0.2);
+      border: 0;
+      box-shadow: none;
+      float: none;
+      margin: 2px 0 4px 16px;
+      position: static;
+      width: calc(100% - 16px);
+
+      > li > a {
+        color: $polyorder-mist;
+        padding: 10px 12px;
+        text-transform: none;
+      }
+    }
+
+    // Override Bootstrap's higher-specificity small-screen dropdown rules.
+    .navbar-nav .open .dropdown-menu > li > a {
+      color: $polyorder-mist;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 10px 12px;
+      text-transform: none;
+
+      &:hover,
+      &:focus {
+        background: rgba(255, 255, 255, 0.08);
+        color: #fff;
+      }
+    }
+
+    &.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    &.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    &.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+      background: $polyorder-navy;
+      color: #fff;
+    }
   }
-  .navbar-nav>li>a {
-      padding-top: 10px;
-      padding-bottom: 10px;
+}
+
+@media (max-width: 420px) {
+  .navbar-custom {
+    .container-fluid {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .navbar-brand {
+      height: 48px;
+      margin-bottom: 7px !important;
+      margin-top: 7px !important;
+
+      img {
+        height: 36px;
+      }
+    }
   }
-  .navbar-custom .nav li a {
-    padding: 10px 20px;
-  }
-  .collapse.in{
-      display:block!important;
-  }
-  .navbar-collapse.collapse.in {
-    display: block!important;
-  }
-  .collapsing {
-    overflow: hidden!important;
-  }
-  .navbar-nav .open .dropdown-menu {
-    position: static;
-    float: none;
-    width: auto;
-    margin-top: 0;
-    background-color: transparent;
-    border: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .navbar-custom *,
+  .navbar-custom *::before,
+  .navbar-custom *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
   }
 }
