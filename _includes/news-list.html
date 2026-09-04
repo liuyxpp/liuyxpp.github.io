@@ -1,17 +1,20 @@
-<div class="news-list">
+<div class="news-timeline">
   {% assign sorted_news = site.data.news | sort: 'date' | reverse %}
   {% for item in sorted_news %}
-  <article class="news-item">
-    <div class="news-content">
-      <h3>{{ item.title }}</h3>
-      <p class="news-meta">{{ item.date | date: "%Y.%m.%d" }} | {{ item.category | capitalize }}</p>
+  <article class="news-entry">
+    <div class="news-entry__meta">
+      <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%Y.%m.%d" }}</time>
+      {% if item.category %}<span>{{ item.category }}</span>{% endif %}
+    </div>
+    <div class="news-entry__content">
+      <h2>{{ item.title }}</h2>
       <p>{{ item.description }}</p>
-      <a href="{{ item.url }}" class="read-more">Read more</a>
+      {% if item.url %}<a href="{{ item.url }}">View details</a>{% endif %}
     </div>
-    {% if item.image %}
-    <div class="news-image">
-      <img src="{{ item.image }}" alt="{{ item.title }}">
-    </div>
+    {% if item.image and item.image != empty %}
+    <figure class="news-entry__media">
+      <img src="{{ item.image }}" alt="" loading="lazy">
+    </figure>
     {% endif %}
   </article>
   {% endfor %}

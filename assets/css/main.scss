@@ -57,3 +57,7 @@ $environment: '{{ jekyll.environment }}';
 @import "nav_cleanblog";
 @import "intro-header_cleanblog";
 @import "publication";
+@import "internal";
+@import "research_pages";
+@import "community_pages";
+@import "editorial_pages";

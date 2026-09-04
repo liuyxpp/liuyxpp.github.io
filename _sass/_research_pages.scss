@@ -1,0 +1,960 @@
+// Research-facing internal pages
+// Extends the home page's Computational Field Atlas language without repeating its hero.
+
+$atlas-navy: #172a54;
+$atlas-slate: #334d5c;
+$atlas-mist: #dce6ec;
+$atlas-coral: #c63f55;
+$atlas-mint: #45b29d;
+$atlas-paper: #f8fafc;
+$atlas-ink: #26333b;
+$atlas-muted: #60717b;
+
+.research-page,
+.software-page,
+.publications-page {
+  color: $atlas-ink;
+
+  h2,
+  h3 {
+    color: $atlas-navy;
+  }
+
+  h2 {
+    border-top: 0;
+    padding-top: 0;
+  }
+
+  h2::after,
+  h3::after {
+    display: none !important;
+  }
+
+  a:focus-visible,
+  button:focus-visible {
+    outline: 3px solid $atlas-coral;
+    outline-offset: 3px;
+  }
+}
+
+// Research: one connected transformation, followed by the full research record.
+.research-page {
+  .research-intro {
+    margin: 0 0 3.5rem;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .research-intro-copy {
+    max-width: 760px;
+    margin-bottom: 2.25rem;
+
+    h2 {
+      max-width: 680px;
+      margin: 0 0 1rem;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(1.8rem, 4vw, 3rem);
+      font-weight: 400;
+      line-height: 1.08;
+      letter-spacing: -0.025em;
+    }
+
+    p {
+      max-width: 72ch;
+      margin: 0 0 0.7rem;
+      color: $atlas-slate;
+      font-size: 1rem;
+      line-height: 1.75;
+    }
+  }
+
+  .research-axes {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    border-top: 1px solid $atlas-slate;
+    border-bottom: 1px solid $atlas-mist;
+  }
+
+  .research-axis {
+    position: relative;
+    min-width: 0;
+    padding: 1.3rem 1.5rem 1.45rem 0;
+
+    & + .research-axis {
+      padding-left: 1.5rem;
+      border-left: 1px solid $atlas-mist;
+    }
+
+    & + .research-axis::before {
+      position: absolute;
+      top: -0.52rem;
+      left: -0.25rem;
+      width: 0.65rem;
+      height: 0.65rem;
+      border-top: 1px solid $atlas-slate;
+      border-right: 1px solid $atlas-slate;
+      content: "";
+      transform: rotate(45deg);
+      background: $atlas-paper;
+    }
+
+    .axis-index {
+      margin: 0 0 1.4rem;
+      color: $atlas-coral;
+      font-size: 0.78rem;
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+    }
+
+    h3 {
+      margin: 0 0 0.55rem !important;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.35rem !important;
+      font-weight: 400;
+    }
+
+    p:not(.axis-index) {
+      min-height: 6.2em;
+      margin: 0 0 1rem;
+      color: $atlas-slate;
+      font-size: 0.9rem;
+      line-height: 1.55;
+    }
+
+    a {
+      color: $atlas-navy;
+      font-size: 0.84rem;
+      font-weight: 700;
+      text-decoration: underline;
+      text-decoration-color: rgba($atlas-coral, 0.5);
+      text-underline-offset: 0.2em;
+    }
+  }
+
+  .research-toc {
+    margin: 0 0 4rem;
+    padding: 1.5rem 0 0;
+    border: 0;
+    border-top: 1px solid $atlas-mist;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+
+    .toc-title {
+      margin: 0 0 1.4rem;
+      color: $atlas-navy;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.55rem;
+      font-weight: 400;
+    }
+
+    .toc-columns {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1.75rem 3rem;
+    }
+
+    .toc-group h4 {
+      margin: 0 0 0.6rem;
+      color: $atlas-slate;
+      font-size: 0.85rem;
+      line-height: 1.4;
+    }
+
+    .toc-group ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .toc-group li {
+      padding: 0.18rem 0;
+    }
+
+    .toc-group a {
+      color: $atlas-navy;
+      font-size: 0.84rem;
+      font-weight: 500;
+      line-height: 1.45;
+      text-decoration: none;
+
+      &:hover {
+        color: $atlas-coral;
+        text-decoration: underline;
+        text-underline-offset: 0.2em;
+      }
+    }
+  }
+
+  .research-section {
+    max-width: 800px;
+    margin: 0 auto 4.5rem;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+
+    > h2 {
+      margin: 0 0 1.5rem !important;
+      padding: 1.1rem 0 0.9rem;
+      border-top: 1px solid $atlas-slate;
+      border-bottom: 1px solid $atlas-mist;
+      color: $atlas-navy !important;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(1.6rem, 3.2vw, 2.25rem) !important;
+      font-weight: 400;
+      line-height: 1.18;
+      letter-spacing: -0.015em;
+    }
+
+    > h3 {
+      margin: 2.6rem 0 0.8rem !important;
+      padding: 0 0 0.45rem;
+      border: 0;
+      border-bottom: 1px solid $atlas-mist;
+      color: $atlas-slate !important;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.3rem !important;
+      font-weight: 400;
+      line-height: 1.3;
+    }
+
+    > p,
+    > ol,
+    > ul {
+      color: $atlas-ink;
+      font-size: 0.97rem;
+      line-height: 1.78;
+    }
+
+    > ul a {
+      color: $atlas-navy;
+      text-decoration: underline;
+      text-underline-offset: 0.16em;
+    }
+  }
+
+  .research-figure {
+    margin: 1.6rem 0 2rem;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid $atlas-mist;
+      border-radius: 0;
+      box-shadow: none;
+    }
+
+    &.research-figure-multi {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 0.75rem;
+    }
+  }
+}
+
+// Software: a technical ledger, with Polyorder as the singular visual anchor.
+.software-page {
+  .software-intro {
+    display: grid;
+    grid-template-columns: minmax(0, 1.05fr) minmax(300px, 0.95fr);
+    gap: 3rem;
+    align-items: center;
+    margin: 0 0 2.5rem;
+    padding: 0 0 2.5rem;
+    border: 0;
+    border-bottom: 1px solid $atlas-mist;
+    border-radius: 0;
+    background: transparent;
+
+    .intro-text {
+      max-width: none;
+      padding: 0;
+    }
+
+    h2 {
+      margin: 0 0 1rem;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(1.8rem, 4vw, 3rem);
+      font-weight: 400;
+      line-height: 1.08;
+      letter-spacing: -0.025em;
+    }
+
+    p {
+      margin: 0 0 0.75rem;
+      color: $atlas-slate;
+      font-size: 0.98rem;
+      line-height: 1.7;
+    }
+
+    .intro-image {
+      max-width: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .intro-image img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 0;
+      border-radius: 0;
+      box-shadow: none;
+    }
+  }
+
+  .software-directory {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 1.5rem;
+    margin: 0 0 3.5rem;
+    border-bottom: 1px solid $atlas-mist;
+
+    .toc-pill {
+      display: inline-flex;
+      gap: 0.45rem;
+      align-items: baseline;
+      margin: 0;
+      padding: 0.65rem 0 0.6rem;
+      border: 0;
+      border-bottom: 2px solid transparent !important;
+      border-radius: 0;
+      background: transparent;
+      box-shadow: none;
+      color: $atlas-slate;
+      font-size: 0.88rem;
+      font-weight: 700;
+      text-decoration: none;
+      transform: none;
+
+      &:hover,
+      &.active {
+        border-bottom-color: $atlas-coral !important;
+        background: transparent;
+        box-shadow: none;
+        color: $atlas-navy;
+        transform: none;
+      }
+    }
+
+    .toc-count,
+    .toc-pill.active .toc-count {
+      display: inline;
+      min-width: 0;
+      height: auto;
+      padding: 0;
+      border-radius: 0;
+      background: transparent;
+      color: $atlas-muted;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+  }
+
+  .software-grid {
+    gap: 4rem;
+  }
+
+  .category-section {
+    margin: 0;
+    scroll-margin-top: 96px;
+  }
+
+  .category-heading {
+    display: grid;
+    grid-template-columns: minmax(210px, 0.45fr) minmax(0, 1fr);
+    gap: 2rem;
+    align-items: baseline;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid $atlas-slate;
+
+    .category-title {
+      margin: 0;
+      padding: 0;
+      color: $atlas-navy;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.65rem;
+      font-weight: 400;
+    }
+
+    .category-title::after {
+      display: none;
+    }
+
+    p {
+      max-width: 58ch;
+      margin: 0;
+      color: $atlas-muted;
+      font-size: 0.88rem;
+      line-height: 1.5;
+    }
+  }
+
+  .card-container {
+    display: block;
+  }
+
+  .software-card,
+  .software-card.highlighted,
+  .software-card:hover {
+    display: grid;
+    grid-template-columns: minmax(210px, 0.45fr) minmax(0, 1fr);
+    overflow: visible;
+    border: 0;
+    border-top: 1px solid $atlas-mist;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  .software-entry-flagship,
+  .software-entry-flagship:hover {
+    margin: 0 0 1.2rem;
+    border-top: 3px solid $atlas-coral;
+    border-bottom: 1px solid $atlas-mist;
+    background: rgba($atlas-mist, 0.22);
+  }
+
+  .card-header,
+  .software-card.highlighted .card-header {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1.35rem 1.25rem 1.35rem 0;
+    border: 0;
+    background: transparent;
+
+    h3 {
+      margin: 0;
+      color: $atlas-navy;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.2rem;
+      font-weight: 400;
+      line-height: 1.25;
+    }
+  }
+
+  .software-entry-flagship .card-header {
+    padding-left: 1.25rem;
+  }
+
+  .software-role {
+    margin: 0.35rem 0 0;
+    color: $atlas-coral;
+    font-size: 0.76rem;
+    font-weight: 700;
+  }
+
+  .software-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 0.65rem;
+    justify-content: flex-end;
+  }
+
+  .lang-badge,
+  .software-status {
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    color: $atlas-muted;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: none;
+  }
+
+  .software-status {
+    color: $atlas-coral;
+  }
+
+  .card-body {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(180px, 0.5fr);
+    gap: 0.75rem 2rem;
+    padding: 1.35rem 0 1.5rem;
+  }
+
+  .software-entry-flagship .card-body {
+    padding-right: 1.25rem;
+  }
+
+  .description {
+    grid-column: 1 / -1;
+    max-width: 72ch;
+    margin: 0;
+    color: $atlas-slate;
+    font-size: 0.94rem;
+    line-height: 1.6;
+  }
+
+  .features {
+    margin: 0;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    li {
+      position: relative;
+      margin: 0;
+      padding: 0.22rem 0 0.22rem 1rem;
+      color: $atlas-ink;
+      font-size: 0.84rem;
+      line-height: 1.48;
+
+      &::before {
+        position: absolute;
+        top: 0.25rem;
+        left: 0;
+        color: $atlas-mint;
+        content: "—";
+        font-weight: 700;
+      }
+    }
+  }
+
+  .installation {
+    margin: 0;
+
+    h4 {
+      margin: 0 0 0.45rem;
+      color: $atlas-muted;
+      font-size: 0.76rem;
+      font-weight: 700;
+      letter-spacing: 0;
+      text-transform: none;
+    }
+
+    pre {
+      margin: 0;
+      padding: 0.65rem 0.8rem;
+      border: 1px solid $atlas-mist;
+      border-radius: 0;
+      background: $atlas-paper;
+      font-size: 0.78rem;
+    }
+  }
+
+  .card-links {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1rem;
+    margin: 0;
+    padding: 0.35rem 0 0;
+  }
+
+  .link-pill,
+  .link-pill:hover {
+    display: inline;
+    padding: 0;
+    border: 0 !important;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    color: $atlas-navy;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: rgba($atlas-coral, 0.48);
+    text-underline-offset: 0.2em;
+    transform: none;
+  }
+
+  .category-section-legacy {
+    .category-heading {
+      border-top-color: $atlas-mist;
+    }
+
+    .category-title,
+    .software-card h3 {
+      color: $atlas-slate;
+    }
+
+    .software-card {
+      background: rgba($atlas-mist, 0.1);
+    }
+  }
+}
+
+// Publications: a typographic index, not a collection of UI cards.
+.publications-page {
+  .publications-intro {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 2rem;
+    align-items: end;
+    margin-bottom: 2rem;
+
+    h2 {
+      max-width: 720px;
+      margin: 0 0 0.8rem;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(1.8rem, 4vw, 3rem);
+      font-weight: 400;
+      line-height: 1.08;
+      letter-spacing: -0.025em;
+    }
+
+    p {
+      max-width: 66ch;
+      margin: 0;
+      color: $atlas-slate;
+      font-size: 0.96rem;
+      line-height: 1.65;
+    }
+  }
+
+  .pub-profiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem 1rem;
+    justify-content: flex-end;
+    margin: 0;
+  }
+
+  .profile-badge,
+  .profile-badge.orcid,
+  .profile-badge.scholar,
+  .profile-badge.bibtex-download,
+  .profile-badge:hover {
+    display: inline;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    color: $atlas-navy;
+    font-family: inherit;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-decoration: underline !important;
+    text-decoration-color: rgba($atlas-coral, 0.48) !important;
+    text-underline-offset: 0.2em;
+    transform: none;
+  }
+
+  button.profile-badge {
+    cursor: pointer;
+  }
+
+  .pub-toc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
+    margin: 0 0 4rem;
+    padding: 0.75rem 0;
+    border: 0;
+    border-top: 1px solid $atlas-slate;
+    border-bottom: 1px solid $atlas-mist;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+
+    a {
+      color: $atlas-navy;
+      font-size: 0.86rem;
+      font-weight: 700;
+      text-decoration: none;
+
+      &:hover {
+        color: $atlas-coral;
+        text-decoration: underline;
+        text-underline-offset: 0.2em;
+      }
+    }
+  }
+
+  .pub-section {
+    margin: 0 0 5rem;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    scroll-margin-top: 96px;
+  }
+
+  .pub-section-heading {
+    display: flex;
+    gap: 1rem;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 0 0 0.75rem;
+    border-bottom: 1px solid $atlas-slate;
+
+    h2 {
+      margin: 0 !important;
+      color: $atlas-navy !important;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(1.5rem, 3vw, 2.1rem) !important;
+      font-weight: 400;
+    }
+
+    p {
+      margin: 0;
+      color: $atlas-muted;
+      font-size: 0.78rem;
+      white-space: nowrap;
+    }
+  }
+
+  .pub-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .pub-list .pub-item,
+  .pub-list .pub-item:hover {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-bottom: 1px solid $atlas-mist;
+    border-radius: 0;
+    background: transparent;
+    transition: none;
+  }
+
+  .pub-record {
+    display: grid;
+    grid-template-columns: 78px minmax(0, 1fr);
+    gap: 1.25rem;
+    padding: 1.25rem 0 1.35rem;
+  }
+
+  .pub-year-marker {
+    padding-top: 0.14rem;
+    color: $atlas-coral;
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .pub-record-body {
+    min-width: 0;
+  }
+
+  .pub-list .pub-title {
+    margin: 0 0 0.35rem;
+    color: $atlas-navy;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.03rem;
+    font-weight: 400;
+    line-height: 1.42;
+  }
+
+  .pub-list .pub-authors {
+    margin: 0 0 0.25rem;
+    color: $atlas-slate;
+    font-size: 0.82rem;
+    line-height: 1.5;
+
+    .main,
+    .corr,
+    [class*="corr"] {
+      color: $atlas-ink;
+      font-weight: 700;
+    }
+  }
+
+  .pub-list .pub-info,
+  .pub-list .pub-advisor {
+    margin: 0;
+    color: $atlas-muted;
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+
+  .pub-list .pub-info .pub-journal {
+    color: $atlas-slate;
+    font-style: italic;
+  }
+
+  .pub-list .pub-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 0.9rem;
+    align-items: center;
+    margin: 0.55rem 0 0;
+  }
+
+  .pub-list .pub-doi-link,
+  .pub-list .pdf-link,
+  .pub-list .cite-btn,
+  .pub-list .bibtex-btn {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    border: 0 !important;
+    border-radius: 0;
+    background: transparent;
+    color: $atlas-navy;
+    font-family: inherit;
+    font-size: 0.76rem;
+    font-weight: 700;
+    line-height: 1.4;
+    text-decoration: underline;
+    text-decoration-color: rgba($atlas-coral, 0.48);
+    text-underline-offset: 0.2em;
+    cursor: pointer;
+  }
+
+  .pub-list .cite-wrapper {
+    position: relative;
+  }
+
+  .pub-list .cite-menu {
+    top: calc(100% + 0.5rem);
+    min-width: 150px;
+    padding: 0.4rem 0;
+    border: 1px solid $atlas-mist;
+    border-radius: 0;
+    background: white;
+    box-shadow: 0 10px 28px rgba($atlas-navy, 0.13);
+
+    .cite-menu-title {
+      padding: 0.25rem 0.8rem 0.35rem;
+      color: $atlas-muted;
+      font-size: 0.7rem;
+      letter-spacing: 0;
+      text-transform: none;
+    }
+
+    button {
+      padding: 0.4rem 0.8rem;
+      color: $atlas-ink;
+      font-size: 0.8rem;
+
+      &:hover,
+      &:focus-visible {
+        background: rgba($atlas-mist, 0.45);
+        color: $atlas-navy;
+      }
+    }
+  }
+
+  .pub-section-secondary .pub-record {
+    padding-top: 1.05rem;
+    padding-bottom: 1.15rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .research-page {
+    .research-axes {
+      grid-template-columns: 1fr;
+    }
+
+    .research-axis,
+    .research-axis + .research-axis {
+      padding: 1.2rem 0;
+      border-left: 0;
+      border-top: 1px solid $atlas-mist;
+    }
+
+    .research-axis:first-child {
+      border-top: 0;
+    }
+
+    .research-axis + .research-axis::before {
+      display: none;
+    }
+
+    .research-axis p:not(.axis-index) {
+      min-height: 0;
+    }
+
+    .research-toc .toc-columns {
+      grid-template-columns: 1fr;
+      gap: 1.35rem;
+    }
+
+    .research-figure.research-figure-multi {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .software-page {
+    .software-intro {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .category-heading,
+    .software-card,
+    .software-card.highlighted,
+    .software-card:hover {
+      grid-template-columns: 1fr;
+    }
+
+    .category-heading {
+      gap: 0.45rem;
+    }
+
+    .card-header,
+    .software-entry-flagship .card-header {
+      padding: 1.1rem 0 0.65rem;
+    }
+
+    .software-entry-flagship .card-header,
+    .software-entry-flagship .card-body {
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+
+    .card-body {
+      grid-template-columns: 1fr;
+      padding-top: 0;
+    }
+
+    .description,
+    .card-links {
+      grid-column: 1;
+    }
+  }
+
+  .publications-page {
+    .publications-intro {
+      grid-template-columns: 1fr;
+      align-items: start;
+    }
+
+    .pub-profiles {
+      justify-content: flex-start;
+    }
+
+    .pub-record {
+      grid-template-columns: 1fr;
+      gap: 0.35rem;
+    }
+
+    .pub-year-marker {
+      padding: 0;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .software-page .software-card {
+    transition: none !important;
+  }
+}

@@ -2,26 +2,23 @@
 permalink: /teaching/
 layout: page
 title: Teaching
-description: "Undergraduate courses: Polymer Rheology and Processing, Polymer Physics, Introduction to Polymeric Materials, Scientific Research 101: Introduction to Scientific Computing."
+description: "Current courses and teaching materials in polymer physics, rheology, and scientific computing."
 comments: false
-modified: 2026-05-30
+modified: 2026-09-04
 breadcrumbs: true
+content_width: wide
 ---
 
 <div class="teaching-page">
 
-<div class="course-toc">
-  <h3 class="toc-title">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
-    Courses
-  </h3>
-  <ul>
-    <li><a href="#polymer-rheology-and-processing">Polymer Rheology and Processing</a></li>
-    <li><a href="#polymer-physics">Polymer Physics</a></li>
-    <li><a href="#scientific-research-101">Scientific Research 101: Introduction to Scientific Computing</a></li>
-    <li><a href="#introduction-to-polymeric-materials">Introduction to Polymeric Materials</a></li>
-  </ul>
-</div>
+<p class="teaching-page__lead">Courses connect the physical ideas behind polymeric materials with the computational methods used to study them. Current schedules appear first; earlier offerings remain available as a teaching record.</p>
+
+<nav class="course-index" aria-label="Courses on this page">
+  <a href="#polymer-rheology-and-processing"><span>MACR130043</span>Polymer Rheology and Processing</a>
+  <a href="#polymer-physics"><span>MACR130002</span>Polymer Physics</a>
+  <a href="#scientific-research-101"><span>XDSY118019</span>Scientific Research 101</a>
+  <a href="#introduction-to-polymeric-materials"><span>MACR110003</span>Introduction to Polymeric Materials</a>
+</nav>
 
 <div class="course-card" id="polymer-rheology-and-processing">
   <div class="course-header">

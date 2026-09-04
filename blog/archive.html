@@ -1,48 +1,38 @@
 ---
 permalink: /blog/archive/
 redirect_from:
-    - /blog/archive.html
+  - /blog/archive.html
 layout: post-index
-title: "Articles by Date"
-description: "An archive of posts."
+title: "Articles by date"
+description: "A chronological index of Polyorder notes."
 comments: false
 breadcrumbs: true
 ---
 
-<ul class="inline-list quick-links">
+<nav class="editorial-index-nav" aria-label="Archive years">
 {% assign lastyear = '' %}
-{% for post in site.posts reversed %}
-    {% assign currentyear = post.date | date: '%Y' %}
-    {% if currentyear != lastyear %}
-        <li><a href="#{{ currentyear }}-ref" class="dotted">{{ currentyear }}</a></li>
-        {% assign lastyear = currentyear %}
-    {% endif %}
-{% endfor %}
-</ul>
-
 {% for post in site.posts %}
-    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
-    {% capture the_date %}{{ post.date | date: "%m-%d" }}{% endcapture %}
+  {% assign currentyear = post.date | date: '%Y' %}
+  {% if currentyear != lastyear %}
+    <a href="#{{ currentyear }}-ref">{{ currentyear }}</a>
+    {% assign lastyear = currentyear %}
+  {% endif %}
+{% endfor %}
+</nav>
 
-    {% if forloop.first %}
-    <article class="posts-list">
-      <h2 id="{{ this_year }}-ref">{{ this_year }}</h2>
-      <ul>
-    {% endif %}
-
-        <li class="entry-title"><span class="date">{{ the_date }}</span> &raquo; <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-
-    {% if forloop.last %}
-      </ul>
-    </article>
-    {% else %}
-        {% if this_year != next_year %}
-          </ul>
-        </article>
-        <article class="posts-list">
-          <h2 id="{{ next_year }}-ref" class="year-heading">{{next_year}}</h2>
-          <ul>
-        {% endif %}
-    {% endif %}
+{% assign lastyear = '' %}
+{% for post in site.posts %}
+  {% assign currentyear = post.date | date: '%Y' %}
+  {% if currentyear != lastyear %}
+    {% unless forloop.first %}</ol></section>{% endunless %}
+    <section class="editorial-archive-group" aria-labelledby="{{ currentyear }}-ref">
+      <h2 id="{{ currentyear }}-ref">{{ currentyear }}</h2>
+      <ol>
+    {% assign lastyear = currentyear %}
+  {% endif %}
+    <li>
+      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%m.%d' }}</time>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% if forloop.last %}</ol></section>{% endif %}
 {% endfor %}

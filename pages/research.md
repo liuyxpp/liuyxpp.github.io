@@ -1,68 +1,89 @@
 ---
 permalink: /research/
 layout: page
-title: Research Projects
-description: "Research interests: computational science, polymer physics, numerical algorithm, scientific software, polymer crystallization, python."
+title: Research
+description: "Theory, algorithms, and software for polymer self-assembly, confinement, and crystallization."
 header-img: images/research-1.jpg
 comments: false
-modified: 2024-07-07
+modified: 2026-09-04
 breadcrumbs: true
 ---
 
 <div class="research-page">
 
-<div class="research-intro">
-<p>Research interests of our group focus on developing theoretical and numerical methods for understanding the phase behavior and structures of block copolymers, polymer brushes and polyelectrolytes both in bulk and under geometrical confinements.</p>
-<p>We also conducted both experimental and theoretical studies to elucidate the fundamental mechanism of polymer crystallization, using monolayer crystals of low molecular weight poly(ethylene oxide) (PEO) fractions as a model system.</p>
-</div>
+<section class="research-intro" aria-labelledby="research-program-heading">
+  <div class="research-intro-copy">
+    <h2 id="research-program-heading">From molecular architecture to ordered matter</h2>
+    <p>We develop theoretical models, numerical algorithms, and scientific software to understand the phase behavior and structures of block copolymers, polymer brushes, and polyelectrolytes in bulk and under geometrical confinement.</p>
+    <p>Our earlier experimental and theoretical work on ultrathin polymer crystallization remains an important part of the group’s research record.</p>
+  </div>
 
-<div class="research-toc">
-  <h3 class="toc-title">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-    Research Areas
-  </h3>
+  <div class="research-axes" aria-label="Research workflow">
+    <article class="research-axis research-axis-architecture">
+      <p class="axis-index" aria-hidden="true">01</p>
+      <h3>Architecture</h3>
+      <p>Represent linear, branched, cyclic, and charged polymer systems and the surfaces that constrain them.</p>
+      <a href="#surface-interaction-model">Explore physical models</a>
+    </article>
+    <article class="research-axis research-axis-algorithms">
+      <p class="axis-index" aria-hidden="true">02</p>
+      <h3>Algorithms</h3>
+      <p>Build accurate, accelerated solvers for field theories, inverse design, transition pathways, and fluctuations.</p>
+      <a href="#methodology-development">Explore numerical methods</a>
+    </article>
+    <article class="research-axis research-axis-morphology">
+      <p class="axis-index" aria-hidden="true">03</p>
+      <h3>Morphology</h3>
+      <p>Connect molecular and computational choices to self-assembled phases, defects, and crystallization pathways.</p>
+      <a href="#fluctuation-stabilized-mesophase">Explore ordered structures</a>
+    </article>
+  </div>
+</section>
+
+<nav class="research-toc" aria-labelledby="research-areas-heading">
+  <h2 class="toc-title" id="research-areas-heading">Research programs</h2>
   <div class="toc-columns">
     <div class="toc-group">
       <h4>1. Block Copolymers Under Soft Confinements</h4>
       <ul>
-        <li><a href="#11-methodology-development">1.1 Methodology Development</a></li>
-        <li><a href="#12-polymer-brushes">1.2 Polymer Brushes</a></li>
-        <li><a href="#13-surface-interaction-model">1.3 Surface Interaction Model</a></li>
-        <li><a href="#14-directed-self-assembly-dsa">1.4 Directed Self-Assembly (DSA)</a></li>
-        <li><a href="#15-machine-learning-assisted-inverse-design-of-dsa-templates">1.5 ML Inverse Design</a></li>
-        <li><a href="#16-removal-of-defects-in-self-assembled-thin-films">1.6 Defect Removal</a></li>
-        <li><a href="#17-research-notes">1.7 Research Notes</a></li>
+        <li><a href="#methodology-development">1.1 Methodology Development</a></li>
+        <li><a href="#polymer-brushes">1.2 Polymer Brushes</a></li>
+        <li><a href="#surface-interaction-model">1.3 Surface Interaction Model</a></li>
+        <li><a href="#directed-self-assembly-dsa">1.4 Directed Self-Assembly (DSA)</a></li>
+        <li><a href="#machine-learning-assisted-inverse-design-of-dsa-templates">1.5 ML Inverse Design</a></li>
+        <li><a href="#removal-of-defects-in-self-assembled-thin-films">1.6 Defect Removal</a></li>
+        <li><a href="#research-notes">1.7 Research Notes</a></li>
       </ul>
     </div>
     <div class="toc-group">
       <h4>2. Block Copolymers in Bulk</h4>
       <ul>
-        <li><a href="#21-methodology-development">2.1 Methodology Development</a></li>
-        <li><a href="#22-block-copolyelectrolyte-solutions">2.2 Copolyelectrolyte Solutions</a></li>
-        <li><a href="#23-fluctuation-stabilized-mesophase">2.3 Fluctuation Stabilized Mesophase</a></li>
-        <li><a href="#24-beyond-mean-field-density-functional-models-for-polymer-systems">2.4 Beyond Mean-Field</a></li>
+        <li><a href="#methodology-development-1">2.1 Methodology Development</a></li>
+        <li><a href="#block-copolyelectrolyte-solutions">2.2 Copolyelectrolyte Solutions</a></li>
+        <li><a href="#fluctuation-stabilized-mesophase">2.3 Fluctuation Stabilized Mesophase</a></li>
+        <li><a href="#beyond-mean-field-density-functional-models-for-polymer-systems">2.4 Beyond Mean-Field</a></li>
       </ul>
     </div>
     <div class="toc-group">
       <h4>3. Ultrathin Film Polymer Crystallization</h4>
       <ul>
-        <li><a href="#31-crystallization-kinetics">3.1 Crystallization Kinetics</a></li>
-        <li><a href="#32-crystal-thickening-process">3.2 Crystal Thickening</a></li>
-        <li><a href="#33-thermodynamic-behavior">3.3 Thermodynamic Behavior</a></li>
+        <li><a href="#crystallization-kinetics">3.1 Crystallization Kinetics</a></li>
+        <li><a href="#crystal-thickening-process">3.2 Crystal Thickening</a></li>
+        <li><a href="#thermodynamic-behavior">3.3 Thermodynamic Behavior</a></li>
       </ul>
     </div>
     <div class="toc-group">
       <h4>4. Scientific Software Development</h4>
       <ul>
-        <li><a href="#41-software--packages">4.1 Software & Packages</a></li>
-        <li><a href="#42-numerical-algorithms">4.2 Numerical Algorithms</a></li>
-        <li><a href="#43-research-notes">4.3 Research Notes</a></li>
+        <li><a href="#software--packages">4.1 Software & Packages</a></li>
+        <li><a href="#numerical-algorithms">4.2 Numerical Algorithms</a></li>
+        <li><a href="#research-notes-1">4.3 Research Notes</a></li>
       </ul>
     </div>
   </div>
-</div>
+</nav>
 
-<div class="research-section" markdown="1">
+<div class="research-section research-section-confinement" markdown="1">
 
 ## 1. Self-Assembly of Block Copolymers Under Soft Confinements
 
@@ -74,7 +95,7 @@ Our group have conducted a comprehensive study of the confining system of block 
 ### 1.1 Methodology Development
 
 <figure class="research-figure">
-    <img src="{{ site.url }}/images/research/etdrk4.png" alt="">
+    <img src="{{ site.url }}/images/research/etdrk4.png" alt="Convergence and accuracy comparison for the ETDRK4 numerical method">
 </figure>
 
 The most popular approach for solving the set of self-consistent field theory (SCFT) equations for bulk systems, the operator splitting algorithm based on pseudo-spectral method, suffers from poor convergence rate and low accuracy when applying to confining systems.
@@ -90,7 +111,7 @@ It is demonstrated that this method exhibits fourth order accuracy in contour st
 * *Chinese J. Polym. Sci.*, **2018**, *36*, 1047-1054.
 
 <figure class="research-figure">
-    <img src="{{ site.url }}/images/research/brush.jpg" alt="">
+    <img src="{{ site.url }}/images/research/brush.jpg" alt="Polymer-brush states under attractive and repulsive surface interactions">
 </figure>
 
 Polymer Brushes, being polymer chains with one end tethered to solid surfaces or interfaces by covalent bonds, have been often used to modify the surface properties of substrates, which further control the self-assembled structures of block copolymers confined by these substrates.
@@ -105,7 +126,7 @@ Three additional surfaces states were identified by a scaling analysis of the la
 * *J. Chem. Phys.*, **2016**, *145*, 214902.
 
 <figure class="research-figure">
-    <img src="{{ site.url }}/images/research/surface_interaction.png" alt="">
+    <img src="{{ site.url }}/images/research/surface_interaction.png" alt="Model separating surface softness and surface preference in block-copolymer confinement">
 </figure>
 
 The surface interaction between substrates and block copolymers is one of the most important factors that control the alignment of self-assembled domains under thin film confinement.
@@ -133,7 +154,7 @@ Consequently, it is impossible to reduce the cost by lowering the resolution of 
 * *ACS Appl. Mater. Interfaces*, **2023**, *15*, 31049-31056.
 
 <figure class="research-figure">
-    <img src="{{ site.url }}/images/research/inverse_dsa.png" alt="">
+    <img src="{{ site.url }}/images/research/inverse_dsa.png" alt="Inverse-design workflow for directed self-assembly templates">
 </figure>
 
 Inverse design is an emerging concept in materials design that the desired functionality of the new material is declared first and theoretical or numerical calculations are then used to predict which stable compounds/molecules exhibit the required functionality.
@@ -150,7 +171,7 @@ Thus it can save tremendous amount of computational time in practical applicatio
 * *Macromolecules*, **2018**, *51*, 4201-4212.
 
 <figure class="research-figure">
-    <img src="{{ site.url }}/images/research/defect_removal.png" alt="">
+    <img src="{{ site.url }}/images/research/defect_removal.png" alt="Simulated pathways for removing defects from self-assembled block-copolymer films">
 </figure>
 
 Understanding the defect removal process is crucial for fabricating defect-free self-assembled structures in block copolymer thin films.
@@ -177,7 +198,7 @@ When the segregation is weak, however, no actual bridge but only a nascent bridg
 
 </div>
 
-<div class="research-section" markdown="1">
+<div class="research-section research-section-bulk" markdown="1">
 
 ## 2. Self-Assembly of Block Copolymers in Bulk
 
@@ -201,7 +222,7 @@ It is the most efficient non-parallel algorithm for bulk SCFT calculations to da
 * *Macromolecules*, **2011**, *44*, 8261-8269.
 
 <figure class="research-figure">
-    <img src="{{ site.url }}/images/research/charged.png" alt="">
+    <img src="{{ site.url }}/images/research/charged.png" alt="SCFT morphologies of charged diblock copolymers">
 </figure>
 
 We studied the microphase separation of charged diblock copolymers by SCFT.
@@ -221,7 +242,7 @@ experimental results.
 * *Macromolecules*, **2017**, *50*, 6263-6272.
 
 <figure class="research-figure">
-    <img src="{{ site.url }}/images/research/BM.png" alt="">
+    <img src="{{ site.url }}/images/research/BM.png" alt="Aperiodic bricks-and-mortar mesophase morphology in miktoarm polymer blends">
 </figure>
 
 A new class of thermoplastic elastomers possessing unusual mechanical properties has recently been discovered in binary blends of A-b-(B-b-A')$_n$ miktoarm star block copolymers and A homopolymers that spontaneously form an unusual, thermodynamically stable, aperiodic "bricks-and-mortar" (B&M) mesophase morphology.
@@ -242,7 +263,7 @@ Using the same strategy for developing the model of polymer solutions, it can be
 
 </div>
 
-<div class="research-section" markdown="1">
+<div class="research-section research-section-crystallization" markdown="1">
 
 ## 3. Ultrathin Film Polymer Crystallization
 
@@ -261,7 +282,7 @@ Low molecular weight poly(ethylene oxide) (PEO) fractions tend to form integral 
 * *Macromolecules*, **2011**, *44*, 8819-8828.
 
 <figure class="research-figure">
-    <img src="{{ site.url }}/images/research/peo.png" alt="">
+    <img src="{{ site.url }}/images/research/peo.png" alt="AFM observations of phase-selection pathways in PEO monolayer crystallization">
 </figure>
 
 The phase selection pathways in crystallization of PEO monolayer on mica surfaces was intensively investigated by in situ atomic force microscopy (AFM).
@@ -275,7 +296,7 @@ This observation agrees with classical nucleation theory except the fact that S0
 * *Acta Polym. Sin.*, **2018**, *9*, 1212-1220.
 
 <figure class="research-figure">
-    <img src="{{ site.url }}/images/research/peo_thickening.png" alt="">
+    <img src="{{ site.url }}/images/research/peo_thickening.png" alt="AFM sequence showing thermal thickening of PEO monolayer crystals">
 </figure>
 
 The thickening behavior of IF(1) monolayer crystals subjected to different annealing temperatures was also in situ followed by AFM and the morphological evolution was recorded sequentially.
@@ -295,7 +316,7 @@ The end group effect on the melting behavior of the monolayer crystals was also 
 
 </div>
 
-<div class="research-section" markdown="1">
+<div class="research-section research-section-software" markdown="1">
 
 ## 4. Scientific Software Development
 
@@ -307,16 +328,16 @@ Currently, we almost exclusively use the `Julia` language. Previous software and
 
 Please visit the [full list of our software]({{site.url}}/software/). Below is a brief list of our core software:
 
-* [Polyorder.jl]({{ site.url }}/software/#polyorderjl)
-* [Scattering.jl]({{ site.url }}/software/#scatteringjl)
-* [PhaseDiagram.jl]({{ site.url }}/software/#phasediagram.jl)
-* [MakiePublication.jl]({{ site.url }}/software/#makiepublicationjl)
+* [Polyorder.jl]({{ site.url }}/software/#polyorder-jl)
+* [Scattering.jl]({{ site.url }}/software/#scattering-jl)
+* [PhaseDiagram.jl]({{ site.url }}/software/#phasediagram-jl)
+* [MakiePublication.jl]({{ site.url }}/software/#makiepublication-jl)
 
 ### 4.2 Numerical Algorithms
 
 * OPS method for constructing the phase diagram of polymer blends.
 * Modern acceleration methods for SCFT calculations of block copolymers.
-* Graph enhanced SCFT method for computing arbitrary noncyclic chain architecures.
+* Graph-enhanced SCFT methods for computing arbitrary noncyclic chain architectures.
 * ETDRK4 and periodic-ETDRK4 methods for SCFT calculations of confined polymers.
 * Chebyshev collocation method for SCFT calculations of confined polymers.
 * Pseudo-spectral method for SCFT calculations.

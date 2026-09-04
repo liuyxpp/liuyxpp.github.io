@@ -2,21 +2,13 @@
 layout: blog
 format: blog-index
 title: "Blog"
-description: "Blog posts"
+description: "Notes on polymer field theory, numerical methods, and scientific software."
 comments: false
-header-img: images/blog.jpg
 ---
 
 <div class="blog-index-container">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-8 col-lg-9 t30">
-                {% include pagination.html %}
-            </div>
-
-            <div class="col-12 col-md-4 col-lg-3 t30 d-none d-md-block">
-                {% include sidebar.html %}
-            </div>
-        </div>
-    </div>
+  <section class="blog-feed" aria-label="Latest articles">
+    {% include pagination.html %}
+  </section>
+  {% include sidebar.html %}
 </div>

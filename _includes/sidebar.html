@@ -1,77 +1,26 @@
-<aside class="sidebar">
-	<div class="sidebar-widget">
-		<h3 class="widget-title">
-			<svg class="widget-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-				<path d="M4 11a9 9 0 0 1 9 9" />
-				<path d="M4 4a16 16 0 0 1 16 16" />
-				<circle cx="5" cy="19" r="1" />
-			</svg>
-			Subscribe
-		</h3>
-		<ul class="widget-list">
-			<li><a href="{{ site.baseurl }}/feed.xml">RSS Feed</a></li>
-			<li><a href="{{ site.baseurl }}/feed_julia.xml">Julia Posts Only</a></li>
-		</ul>
-	</div>
-
-	<div class="sidebar-widget">
-		{% assign categories_url = site.baseurl | append: '/blog/category/' %}
-		<h3 class="widget-title">
-			<svg class="widget-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-				<path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" />
-			</svg>
-			<a href="{{ categories_url }}">Categories</a>
-		</h3>
-		<ul class="widget-list">
-			{% for category in site.categories %}
-			{% assign category_key = category[0] %}
-			<li>{% include page_categories.html categories=category_key show=true %}</li>
-			{% endfor %}
-		</ul>
-	</div>
-
-	<div class="sidebar-widget">
-		{% assign archive_url = site.baseurl | append: '/blog/archive/' %}
-		<h3 class="widget-title">
-			<svg class="widget-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-				<circle cx="12" cy="12" r="10" />
-				<polyline points="12 6 12 12 16 14" />
-			</svg>
-			<a href="{{ archive_url }}">Archive</a>
-		</h3>
-		{% for post in site.posts %}
-		{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-		{% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
-
-		{% if forloop.first %}
-		<ul class="widget-list">
-			<li><a href="{{ archive_url }}#{{ this_year }}-ref">{{ this_year }}</a>
-				{% assign count = 1 %}
-				{% endif %}
-				{% if forloop.last %}
-				({{ count }}&nbsp;article{% unless count == 1%}s{% endunless %})</li>
-		</ul>
-		{% else %}
-		{% if this_year != next_year %}
-		({{ count }}&nbsp;article{% unless count == 1%}s{% endunless %})</li>
-		<li><a href="{{ archive_url }}#{{ next_year }}-ref">{{ next_year }}</a>
-			{% assign count = 1 %}
-			{% else %}
-			{% assign count = count | plus: 1 %}
-			{% endif %}
-			{% endif %}
-			{% endfor %}
-	</div>
-
-	<div class="sidebar-widget">
-		{% assign tags_url = site.baseurl | append: '/blog/tags/' %}
-		<h3 class="widget-title">
-			<svg class="widget-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-				<path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" />
-				<line x1="7" y1="7" x2="7.01" y2="7" />
-			</svg>
-			<a href="{{ tags_url }}">Tags</a>
-		</h3>
-		{% include tag_cloud.html baseurl=tags_url %}
-	</div>
-</aside>
+<nav class="blog-tools" aria-label="Browse and subscribe">
+  <div class="blog-tools__group">
+    <h2>Browse</h2>
+    <ul>
+      <li><a href="{{ site.baseurl }}/blog/archive/">By date</a></li>
+      <li><a href="{{ site.baseurl }}/blog/category/">By category</a></li>
+      <li><a href="{{ site.baseurl }}/blog/tags/">By tag</a></li>
+    </ul>
+  </div>
+  <div class="blog-tools__group blog-tools__categories">
+    <h2>Topics</h2>
+    <ul>
+      {% for category in site.categories %}
+      {% assign category_key = category[0] %}
+      <li><a href="{{ site.baseurl }}/blog/category/#{{ category_key | slugify }}">{{ category_key }}</a><span>{{ category[1].size }}</span></li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="blog-tools__group">
+    <h2>Subscribe</h2>
+    <ul>
+      <li><a href="{{ site.baseurl }}/feed.xml">All posts</a></li>
+      <li><a href="{{ site.baseurl }}/feed_julia.xml">Julia posts</a></li>
+    </ul>
+  </div>
+</nav>

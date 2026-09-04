@@ -7,31 +7,15 @@
 {% include head.html %}
 </head>
 
-<body id="page" {% if page.image.feature %}class="feature"{% endif %}>
+<body id="page" class="internal-page internal-page--{{ page.content_width | default: 'wide' }}{% if page.image.feature %} feature{% endif %}">
 
 {% include browser-upgrade.html %}
 {% include nav_cleanblog.html %}
-{% if page.breadcrumbs == true %}
-    {% include masthead-breadcrumbs.html %}
-{% endif %}
 
-<div id="main" role="main">
-  <article class="hentry">
-    <div class="entry-content">
-      <header class="post-index-header">
-        <span itemprop="name">
-            {% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
-            <h1>{{ page.title }}</h1>
-        </span>
-        {% if page.teaser %}
-            <p class="teaser" itemprop="description">
-            {{ page.teaser }}
-            </p>
-        {% endif %}
-        {% if page.show_meta.info %}
-            {% include meta_information.html %}
-        {% endif %}
-      </header>
+<main id="main" class="internal-main" tabindex="-1">
+  <article class="internal-article hentry">
+    {% include internal-page-header.html %}
+    <div class="internal-shell internal-content entry-content">
       {{ content }}
       <footer class="entry-meta">
         <div class="center">
@@ -40,12 +24,12 @@
         </div>
         {% if page.share != false %}{% include social-share.html %}{% endif %}
       </footer>
-    </div><!-- /.entry-content -->
+    </div><!-- /.internal-content -->
     <!--
     {% if page.comments != false %}<section id="disqus_thread"></section>{% endif %}
     -->
   </article>
-</div><!-- /#main -->
+</main><!-- /#main -->
 
 <div class="footer-wrapper">
     {% include footer.html %}

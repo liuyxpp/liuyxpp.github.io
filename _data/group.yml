@@ -1,7 +1,7 @@
 principle_investigator:
   - name: "Prof. Yi-Xin Liu"
-    image: "images/me.jpg"
-    bio: "Dr. Yi-Xin Liu is currently an associated professor at Fudan University."
+    image: "images/me.JPG"
+    bio: "Dr. Yi-Xin Liu is an associate professor at Fudan University."
     bio_link: "/about/"
 
 graduate_students:

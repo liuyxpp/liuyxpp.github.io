@@ -1,10 +1,21 @@
-<!-- Homepage Header -->
-<header class="blog-header" style="background-image: url('{{ site.url }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
-    <div class="container">
-        <div class="site-heading text-center">
-            {% if page.description %}
-                <span class="subheading">{{ page.description }}</span>
-            {% endif %}
-        </div>
+<header class="blog-header">
+  <div class="blog-header__inner">
+    <div class="blog-header__copy">
+      <p class="blog-header__context">Polyorder research notebook</p>
+      <h1>{{ page.title | default: "Blog" }}</h1>
+      <p>{{ page.description | default: "Notes on polymer field theory, numerical methods, and scientific software." }}</p>
     </div>
+    <svg class="blog-header__field" viewBox="0 0 420 150" aria-hidden="true" focusable="false">
+      <path d="M4 118C62 25 119 22 170 78s105 52 148-8 72-54 98-16" />
+      <path d="M4 139C66 48 124 42 174 92s100 49 145-2 73-48 97-12" />
+      <path d="M4 96C58 4 117 1 169 60s108 52 152-14 72-57 95-23" />
+    </svg>
+  </div>
+  <nav class="blog-section-nav" aria-label="Blog sections">
+    <a href="{{ site.baseurl }}/blog/">Latest</a>
+    <a href="{{ site.baseurl }}/blog/archive/">Archive</a>
+    <a href="{{ site.baseurl }}/blog/category/">Categories</a>
+    <a href="{{ site.baseurl }}/blog/tags/">Tags</a>
+    <a href="{{ site.baseurl }}/feed.xml">RSS</a>
+  </nav>
 </header>
