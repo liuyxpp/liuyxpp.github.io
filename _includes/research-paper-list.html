@@ -1,0 +1,18 @@
+{% assign research_paper_files = include.files | split: "," %}
+<div class="research-paper-selection">
+  <h3>Selected papers</h3>
+  <ol class="research-paper-list">
+  {% for article in site.data.journal %}
+    {% if research_paper_files contains article.fulltext %}
+      <li>
+        <time datetime="{{ article.year }}">{{ article.year }}</time>
+        <span class="research-paper-list__title">{{ article.title }}</span>
+        <span class="research-paper-list__links">
+          {% if article.URL %}<a href="{{ article.URL }}">DOI</a>{% endif %}
+          <a href="{{ site.url }}/downloads/journal/{{ article.fulltext }}">PDF</a>
+        </span>
+      </li>
+    {% endif %}
+  {% endfor %}
+  </ol>
+</div>
