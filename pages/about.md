@@ -19,11 +19,23 @@ content_width: wide
         <a href="{{ site.url }}/software/">Use our software</a>
       </div>
     </div>
-    <div class="about-mission__axes" aria-label="Polyorder research continuum">
-      <span>Architecture</span>
-      <span>Algorithms</span>
-      <span>Morphology</span>
-    </div>
+    <aside class="about-mission__process" aria-labelledby="about-process-title">
+      <h3 id="about-process-title">How the work connects</h3>
+      <ol>
+        <li>
+          <strong>Model</strong>
+          <span>Translate polymer architecture and molecular interactions into field-theoretic descriptions.</span>
+        </li>
+        <li>
+          <strong>Compute</strong>
+          <span>Develop efficient numerical algorithms and open software for demanding simulations.</span>
+        </li>
+        <li>
+          <strong>Interpret</strong>
+          <span>Relate predicted morphologies and phase behavior to the physics of ordered soft materials.</span>
+        </li>
+      </ol>
+    </aside>
   </section>
 
   <section class="about-profile" aria-labelledby="yi-xin-liu">
