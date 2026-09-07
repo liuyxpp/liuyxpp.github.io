@@ -6,7 +6,7 @@ description: "Current courses and teaching materials in polymer physics, rheolog
 hide_description: true
 compact_header: true
 comments: false
-modified: 2026-09-04
+modified: 2026-09-07
 breadcrumbs: true
 content_width: wide
 ---
@@ -34,7 +34,7 @@ content_width: wide
     </div>
   </div>
   <div class="semester-list">
-    <div class="semester-item current">
+    <div class="semester-item">
       <span class="semester-badge">Spring 2026</span>
       <span class="semester-detail">H2217 · Thur 11-12</span>
     </div>
@@ -59,7 +59,7 @@ content_width: wide
     </div>
   </div>
   <div class="semester-list">
-    <div class="semester-item current">
+    <div class="semester-item">
       <span class="semester-badge">Spring 2026</span>
       <span class="semester-detail">H6304 · Tues 1-2 （Jun. 9）, Thur 3-4 (Jun. 4, Jun. 11, Jun. 18) </span>
     </div>
@@ -135,6 +135,10 @@ content_width: wide
   </div>
   <div class="semester-list">
     <div class="semester-item current">
+      <span class="semester-badge">Fall 2026</span>
+      <span class="semester-detail">H2215 · Thur 11-13</span>
+    </div>
+    <div class="semester-item">
       <span class="semester-badge">Fall 2025</span>
       <span class="semester-detail">H2112A · Thur 11-13</span>
     </div>
@@ -167,6 +171,10 @@ content_width: wide
     </div>
   </div>
   <div class="semester-list">
+    <div class="semester-item current">
+      <span class="semester-badge">Fall 2026</span>
+      <span class="semester-detail">H2310 · Mon 11-12</span>
+    </div>
     <div class="semester-item">
       <span class="semester-badge">Fall 2023</span>
       <span class="semester-detail">H2106B · Mon 11-12</span>
