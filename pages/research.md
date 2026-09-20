@@ -17,7 +17,7 @@ content_width: wide
 <header class="research-lede">
   <div class="research-lede__copy">
     <p class="research-kicker">Research themes</p>
-    <h2>Polymer order, from equations to structures</h2>
+    <h2>Ordered structures in polymer materials</h2>
     <p>We connect polymer field theory, numerical algorithms, and experiment to
     understand how molecular architecture and processing conditions select
     ordered, aperiodic, and crystalline states.</p>
@@ -34,12 +34,12 @@ content_width: wide
   <a href="#interfaces"><span>Interfaces</span><small>Confinement and DSA</small></a>
   <a href="#fluctuations"><span>Fluctuations</span><small>Aperiodic matter</small></a>
   <a href="#crystallization"><span>Crystallization</span><small>Thin films and chain folding</small></a>
-  <a href="#software"><span>Software</span><small>Open computational workflows</small></a>
+  <a href="#software"><span>Software</span><small>Open computational tools</small></a>
 </nav>
 
 <section class="research-topic" id="algorithms" aria-labelledby="algorithms-heading">
   <header class="research-topic__heading">
-    <p class="research-topic__domain">Theory and computation</p>
+    <p class="research-topic__domain">Theory and simulation</p>
     <h2 id="algorithms-heading">Field theory and numerical algorithms</h2>
   </header>
   <div class="research-topic__body">
@@ -73,15 +73,11 @@ content_width: wide
   </header>
   <div class="research-topic__body">
     <div class="research-topic__copy">
-      <p>Chain connectivity is a design variable. We study how topology,
-      composition, conformational asymmetry, blending, and segregation compete
-      to select mesostructures and reorganize phase diagrams.</p>
-      <p>Systematic studies of miktoarm stars revealed recurring phase-diagram
-      topologies. More recent graph-enhanced SCFT turns architecture itself into
-      a searchable space and predicts stability windows for complex phases,
-      including the PtS structure.</p>
+      <p>Our graph-enchand SCFT model enables treating polymer chain architectures as a design variable. We study how this architecture together with composition, conformational asymmetry, blending, and segregation compete
+      to select structures and reorganize phase diagrams.</p>
+      <p>In our recent work, we show how to design a novel stable PtS structure by exploring the chain architecture parameter space.</p>
       <p class="research-direction"><strong>Current direction</strong> Moving
-      from prescribed architectures toward screening highly branched chains,
+      from prescribed architectures toward screening arbitrary architectures,
       multicomponent blends, and structures selected by target properties.</p>
     </div>
     <figure class="research-topic__figure">
@@ -96,7 +92,7 @@ content_width: wide
 <section class="research-topic" id="interfaces" aria-labelledby="interfaces-heading">
   <header class="research-topic__heading">
     <p class="research-topic__domain">Films and surfaces</p>
-    <h2 id="interfaces-heading">Confinement, interfaces, and directed self-assembly</h2>
+    <h2 id="interfaces-heading">Confinement, interfaces, and DSA</h2>
   </header>
   <div class="research-topic__body">
     <div class="research-topic__copy">
@@ -116,7 +112,7 @@ content_width: wide
     <figure class="research-topic__figure">
       <img src="{{ site.url }}/images/research/inverse_dsa.png" alt="Graphical abstract for machine-learning-assisted inverse design of directed self-assembly templates">
       <figcaption>TOC graphic: a learned inverse map proposes directing
-      templates, which are then checked by SCFT or experiment.</figcaption>
+      templates, which are then checked by SCFT.</figcaption>
     </figure>
   </div>
   {% include research-paper-list.html files="acsami202301.pdf,afm202301.pdf,ma201801.pdf,gfzxb201802.pdf,cjps201802.pdf,jcp201601.pdf" %}
@@ -129,8 +125,7 @@ content_width: wide
   </header>
   <div class="research-topic__body">
     <div class="research-topic__copy">
-      <p>Not every soft-matter state can be understood from a single mean-field
-      minimum. Complex-Langevin field simulations show how thermal fluctuations
+      <p>Not every soft-matter state can be understood by mean-field theory. Complex-Langevin field simulations show how thermal fluctuations
       qualitatively reshape the phase diagram of miktoarm-star
       copolymer–homopolymer blends.</p>
       <p>These simulations recover a fluctuation-stabilized bricks-and-mortar
@@ -155,14 +150,10 @@ content_width: wide
   <div class="research-topic__body">
     <div class="research-topic__copy">
       <p>Ultrathin polymer films provide a real-space view of nucleation,
-      metastability, chain folding, and lamellar reorganization. In situ AFM,
+      metastability, chain folding, and lamellar crystal reorganization. In situ AFM,
       nucleation theory, and phase-field modeling resolved competing
       crystallization pathways in low-molecular-weight PEO and the
       nucleation-and-growth mechanism of lamellar thickening.</p>
-      <p>Related studies of liquid-crystalline and dynamic helical polymers show
-      how confinement, chain architecture, and folding generate hierarchical
-      order across several length scales. Together, this work forms an
-      important experimental and theoretical foundation of the group.</p>
     </div>
     <figure class="research-topic__figure">
       <img src="{{ site.url }}/images/research/peo-thickening-toc.jpg" alt="TOC graphic contrasting uniform and nucleation-and-growth pathways for PEO crystal thickening">
@@ -176,18 +167,17 @@ content_width: wide
 <section class="research-topic research-topic--software" id="software" aria-labelledby="software-heading">
   <header class="research-topic__heading">
     <p class="research-topic__domain">Research infrastructure</p>
-    <h2 id="software-heading">Scientific software and open workflows</h2>
+    <h2 id="software-heading">Scientific software</h2>
   </header>
   <div class="research-topic__body">
     <div class="research-topic__copy">
       <p>We turn models and algorithms into open, inspectable computational
-      workflows. Graph-based model construction, automated phase recognition,
+      software/packages. Graph-based model construction, automated phase recognition,
       distributed architecture screening, and reusable Julia packages connect
       physical questions to calculations that can be repeated and extended.</p>
       <p>Polyorder.jl is the central SCFT platform. Polymer.jl and
       PolymerArchitecture.jl describe chain topology; PhaseDiagram.jl handles
-      coexistence calculations; and specialized numerical libraries accelerate
-      transforms, symmetry-aware calculations, and publication workflows.</p>
+      coexistence calculations.</p>
       <p class="research-direction"><strong>Current direction</strong>
       Integrating model definition, solvers, phase recognition, and provenance
       into one coherent computational environment.</p>
